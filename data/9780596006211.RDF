@@ -1,0 +1,1118 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596006211.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596006211.BOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2002-11-21</dc:created>
+    
+    <om:binding xml:lang="en">RepKover</om:binding>
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596006217_cat.gif"/>
+    
+    
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:customerTitle xml:lang="en">Oracle Application Server 10g Essentials</om:customerTitle>
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;The new Oracle Application Server offers a wide range of functionality, including Java runtime and development tools, portal development tools, business intelligence, single sign-on identify management, and much more.  It's so powerful and complex, in fact, that many people who use the product (or are considering using it) are familiar with only a portion of the entire range of its capabilities. The choices can be overwhelming. Few people grasp how the larger issues--such as the interplay between components or the various architectural choices in the product--play out in the Oracle Application Server.&lt;/p&gt;
+&lt;p&gt;This new guide provides the perfect introduction to the Oracle Application Server for users of any level.   Regardless of which of the server's capabilities you use, you'll benefit from this tightly focused, all-in-one technical overview. It's written for anyone who is concerned with using and managing web servers, doing Java development and deployment, using Oracle's own tools--like Forms and Reports, using or developing for Oracle Portal, or those who use and administer business intelligence, mobile or integration software. &lt;/p&gt;
+&lt;p&gt;Divided into three concise sections, the book covers server basics, core components, and server functionality. The book leads with the history of Oracle Application Server, its architecture, management, standards, and third-party support for languages and tools such as Java, Perl, and HTTP.  The next section covers Oracle's web server, containers for Java web caching, and the server's security features. And finally, the book discusses HTML development, Java development, and Oracle development.  Although the book refers mainly to Oracle Application Server 10g, the authors also describe features in earlier product releases where necessary, particularly Oracle9i Application Server.&lt;/p&gt;
+&lt;p&gt;More comprehensible than a large reference and more detailed than a primer, the book provides a foundation for understanding and using Oracle Application Server effectively and efficiently. Readers concentrate on the most important issues and components of the server, focusing primarily on principles rather than syntax. Designed to be the ideal first OracleAS book, &lt;i&gt;Oracle Application Server 10g Essentials&lt;/i&gt; offers Oracle application developers and administrators everything they need to know about this powerful server.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:byline xml:lang="en">By Rick Greenwald, Robert Stackowiak, Donald Bales</om:byline>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-08-16</dc:issued>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596006211" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000621" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle Application Server 10g Essentials</dc:title>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-11-01T00:00:00</om:endNewStatus>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1212" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle%20Application%20Server">
+        <rdf:value xml:lang="en">Oracle Application Server</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle%20Application%20Server%2010g">
+        <rdf:value xml:lang="en">Oracle Application Server 10g</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/oracle%20portal">
+        <rdf:value xml:lang="en">oracle portal</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM005000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Enterprise Applications / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle9i%2C">
+        <rdf:value xml:lang="en">Oracle9i,</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Oracle Application Server 10g Essentials</om:asciiTitle>
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:111"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:399"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:211"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Oracle Application Server 10g Essentials</om:editorTitle>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-01</om:estimatedIssue>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This new guide provides the perfect introduction to the Oracle Application Server for users of any level. Divided into three concise sections, the book covers server basics, core components, and server functionality. Designed to be the ideal first OracleAS book, &lt;i&gt;Oracle Application Server 10g Essentials&lt;/i&gt; offers Oracle application developers and administrators everything they need to know to use this powerful server effectively and efficiently. &lt;/p&gt;</dc:description>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1213"/>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">288 pages</dc:extent>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM005000"/>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:43:30.113532+00:00</dc:modified>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Normal</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle&lt;/p&gt;</om:shelving>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#price-GBR-01">
+        
+        <rdf:value xml:lang="en">26.99</rdf:value>
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#price-GBE-01">
+        
+        <rdf:value xml:lang="en">28.00</rdf:value>
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#price-CAN-01">
+        
+        <rdf:value xml:lang="en">50.95</rdf:value>
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#price-USA-01">
+        
+        <rdf:value xml:lang="en">34.95</rdf:value>
+        
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">oracle application server 10g essentials</om:sortableTitle>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1233" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#printings">
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#WO-2522">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-06</om:estimatedIssue>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle Application Server 10g Essentials</dc:title>
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.BOOK#WO-1561">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-19</om:estimatedIssue>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle Application Server 10g Essentials</dc:title>
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-11-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-08-16</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    
+    
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1218" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596006217.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:byline xml:lang="en">By Rick Greenwald, Robert Stackowiak, Donald Bales</om:byline>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596006217.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596006217"/>
+      </om:Subscription>
+    </om:price>
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1233" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle Application Server 10g Essentials</dc:title>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-08-16</dc:issued>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596006217.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:asciiTitle xml:lang="en">Oracle Application Server 10g Essentials</om:asciiTitle>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM005000"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;para&gt;
+The new Oracle Application Server offers a wide range of
+functionality, including Java runtime and development tools, portal
+development tools, business intelligence, single sign-on identify
+management, and much more. It's so powerful and complex, in fact,
+that many people who use the product (or are considering using it)
+are familiar with only a portion of the entire range of its
+capabilities. The choices can be overwhelming. Few people grasp how
+the larger issues--such as the interplay between components or the
+various architectural choices in the product--play out in the
+Oracle Application Server. This new guide provides the perfect
+introduction to the Oracle Application Server for users of any
+level. Regardless of which of the server's capabilities you use,
+you'll benefit from this tightly focused, all-in-one technical
+overview. It's written for anyone who is concerned with using and
+managing web servers, doing Java development and deployment, using
+Oracle's own tools--like Forms and Reports, using or developing for
+Oracle Portal, or those who use and administer business
+intelligence, mobile or integration software. Divided into three
+concise sections, the book covers server basics, core components,
+and server functionality. The book leads with the history of Oracle
+Application Server, its architecture, management, standards, and
+third-party support for languages and tools such as Java, Perl, and
+HTTP. The next section covers Oracle's web server, containers for
+Java web caching, and the server's security features. And finally,
+the book discusses HTML development, Java development, and Oracle
+development. Although the book refers mainly to Oracle Application
+Server 10g, the authors also describe features in earlier product
+releases where necessary, particularly Oracle9i Application Server.
+More comprehensible than a large reference and more detailed than a
+primer, the book provides a foundation for understanding and using
+Oracle Application Server effectively and efficiently. Readers
+concentrate on the most important issues and components of the
+server, focusing primarily on principles rather than syntax.
+Designed to be the ideal first OracleAS book, &lt;emphasis&gt;Oracle Application
+Server 10g Essentials&lt;/emphasis&gt; offers Oracle application developers and
+administrators everything they need to know about this powerful
+server.
+&lt;/para&gt;</dc:description>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-11-01T00:00:00</om:endNewStatus>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Oracle%20Application%20Server%2010g" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Oracle9i%2C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/oracle%20portal" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM005000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Oracle%20Application%20Server" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:43:12.311095+00:00</dc:modified>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1213"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">oracle application server 10g essentials</om:sortableTitle>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</om:beginUpcomingStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;The new Oracle Application Server offers a wide range of functionality, including Java runtime and development tools, portal development tools, business intelligence, single sign-on identify management, and much more.  It's so powerful and complex, in fact, that many people who use the product (or are considering using it) are familiar with only a portion of the entire range of its capabilities. The choices can be overwhelming. Few people grasp how the larger issues--such as the interplay between components or the various architectural choices in the product--play out in the Oracle Application Server.&lt;/p&gt;
+&lt;p&gt;This new guide provides the perfect introduction to the Oracle Application Server for users of any level.   Regardless of which of the server's capabilities you use, you'll benefit from this tightly focused, all-in-one technical overview. It's written for anyone who is concerned with using and managing web servers, doing Java development and deployment, using Oracle's own tools--like Forms and Reports, using or developing for Oracle Portal, or those who use and administer business intelligence, mobile or integration software. &lt;/p&gt;
+&lt;p&gt;Divided into three concise sections, the book covers server basics, core components, and server functionality. The book leads with the history of Oracle Application Server, its architecture, management, standards, and third-party support for languages and tools such as Java, Perl, and HTTP.  The next section covers Oracle's web server, containers for Java web caching, and the server's security features. And finally, the book discusses HTML development, Java development, and Oracle development.  Although the book refers mainly to Oracle Application Server 10g, the authors also describe features in earlier product releases where necessary, particularly Oracle9i Application Server.&lt;/p&gt;
+&lt;p&gt;More comprehensible than a large reference and more detailed than a primer, the book provides a foundation for understanding and using Oracle Application Server effectively and efficiently. Readers concentrate on the most important issues and components of the server, focusing primarily on principles rather than syntax. Designed to be the ideal first OracleAS book, &lt;i&gt;Oracle Application Server 10g Essentials&lt;/i&gt; offers Oracle application developers and administrators everything they need to know about this powerful server.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596006217</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596006211" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:customerTitle xml:lang="en">Oracle Application Server 10g Essentials</om:customerTitle>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <om:editionLabel xml:lang="en"/>
+    
+    
+    <om:editorTitle xml:lang="en">Oracle Application Server 10g Essentials</om:editorTitle>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1212" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596006211.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:customerTitle xml:lang="en">Oracle Application Server 10g Essentials</om:customerTitle>
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;The new Oracle Application Server offers a wide range of functionality, including Java runtime and development tools, portal development tools, business intelligence, single sign-on identify management, and much more.  It's so powerful and complex, in fact, that many people who use the product (or are considering using it) are familiar with only a portion of the entire range of its capabilities. The choices can be overwhelming. Few people grasp how the larger issues--such as the interplay between components or the various architectural choices in the product--play out in the Oracle Application Server.&lt;/p&gt;
+&lt;p&gt;This new guide provides the perfect introduction to the Oracle Application Server for users of any level.   Regardless of which of the server's capabilities you use, you'll benefit from this tightly focused, all-in-one technical overview. It's written for anyone who is concerned with using and managing web servers, doing Java development and deployment, using Oracle's own tools--like Forms and Reports, using or developing for Oracle Portal, or those who use and administer business intelligence, mobile or integration software. &lt;/p&gt;
+&lt;p&gt;Divided into three concise sections, the book covers server basics, core components, and server functionality. The book leads with the history of Oracle Application Server, its architecture, management, standards, and third-party support for languages and tools such as Java, Perl, and HTTP.  The next section covers Oracle's web server, containers for Java web caching, and the server's security features. And finally, the book discusses HTML development, Java development, and Oracle development.  Although the book refers mainly to Oracle Application Server 10g, the authors also describe features in earlier product releases where necessary, particularly Oracle9i Application Server.&lt;/p&gt;
+&lt;p&gt;More comprehensible than a large reference and more detailed than a primer, the book provides a foundation for understanding and using Oracle Application Server effectively and efficiently. Readers concentrate on the most important issues and components of the server, focusing primarily on principles rather than syntax. Designed to be the ideal first OracleAS book, &lt;i&gt;Oracle Application Server 10g Essentials&lt;/i&gt; offers Oracle application developers and administrators everything they need to know about this powerful server.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM005000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Enterprise Applications / General</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    <dc:relation rdf:resource="urn:isbn:9780596003364" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005856" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:43:16.326875+00:00</dc:modified>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">288 pages</dc:extent>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This new guide provides the perfect introduction to the Oracle Application Server for users of any level. Divided into three concise sections, the book covers server basics, core components, and server functionality. Designed to be the ideal first OracleAS book, &lt;i&gt;Oracle Application Server 10g Essentials&lt;/i&gt; offers Oracle application developers and administrators everything they need to know to use this powerful server effectively and efficiently. &lt;/p&gt;</dc:description>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006211.IP#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:111"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:211"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:399"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2002-11-21</dc:created>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1212" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596006211">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-07-07</dc:issued>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-10-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:byline xml:lang="en">By Rick Greenwald, Robert Stackowiak, Donald Bales</om:byline>
+    <om:editorTitle xml:lang="en">Oracle Application Server 10g Essentials</om:editorTitle>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM005000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle9i%2C">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Oracle9i,</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle%20Application%20Server">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Oracle Application Server</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle%20Application%20Server%2010g">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Oracle Application Server 10g</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/oracle%20portal">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">oracle portal</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:identifier rdf:resource="urn:isbn:9780596006211" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596006217_cat.gif"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1233" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle Application Server 10g Essentials</dc:title>
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle&lt;/p&gt;</om:shelving>
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-08-16</dc:issued>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596006211.IP#om_displayableContributorList">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:111"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:211"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:399"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Oracle Application Server 10g Essentials</om:asciiTitle>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1213"/>
+    
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596006217.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1218" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:sortableTitle xml:lang="en">oracle application server 10g essentials</om:sortableTitle>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596006211.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:111/product-bio/urn:x-domain:oreilly.com:product:9780596006211.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:111"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Donald Bales is a Computer Applications Consultant specializing in the analysis, design, and programming of distributed systems; systems integration; and data warehousing. Don has over sixteen years experience with Oracle as both a developer and a database administrator, and six years experiance with Java. He is currently working on the migration of medical and industrial hygiene systems to a web environment for a major Oil company. When he is not developing applications, Donald can often be found working with horses, playing the piano, or playing the bagpipes. Donald has had several careers, and has at various times been a mechanic, a general contractor, Mr. Mom, a developer, and currently a consultant. He has a bachelor of science degree in Business from Elmhurst College in Elmhurst, Illinois. Don currently resides in Downers Grove, Illinois with his wife Diane and his daughter Kristyn. He can be contacted by email at don@donaldbales.com&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:28.751059+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.IP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:399/product-bio/urn:x-domain:oreilly.com:product:9780596006211.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:399"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle Power Objects Developer's Guide, principal author with Kasu Sista and Richard Finklestein (Oracle Press, 1995) Mastering Oracle Power Objects, principal author with Robert Hoskins (O'Reilly &amp;amp; Associates, 1996) Special Edition: Using Oracle Web Server, principal author with many others (Que Publishing, 1997) The Oracle WebDB Bible, principal author with Jim Milbery (IDG Books Worldwide, 1999) Administering Exchange Server, principal author with Walter Glenn (1999) Robert Stackowiak has worked for 20 years in IT industry related roles that have included software development, management of software development, systems engineering, sales and sales consulting, and business development. He currently is recognized worldwide as a field sales expert in data warehousing at Oracle, and previously was well recognized for his work at IBM's RISC System/6000 Division, Harris Computer Systems, and the U.S. Army Corps of Engineers. Bob has spoken at numerous computer related conferences and has conducted briefings with companies based around the world. His papers regarding data warehousing and computer and software technology have appeared in publications such as The Data Warehousing Institute's Journal of Data Warehousing, Informix Tech Notes, and AIXcellence Magazine.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:30.788965+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.IP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:399/product-bio/urn:x-domain:oreilly.com:product:9780596006211.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle Power Objects Developer's Guide, principal author with Kasu Sista and Richard Finklestein (Oracle Press, 1995) Mastering Oracle Power Objects, principal author with Robert Hoskins (O'Reilly &amp;amp; Associates, 1996) Special Edition: Using Oracle Web Server, principal author with many others (Que Publishing, 1997) The Oracle WebDB Bible, principal author with Jim Milbery (IDG Books Worldwide, 1999) Administering Exchange Server, principal author with Walter Glenn (1999) Robert Stackowiak has worked for 20 years in IT industry related roles that have included software development, management of software development, systems engineering, sales and sales consulting, and business development. He currently is recognized worldwide as a field sales expert in data warehousing at Oracle, and previously was well recognized for his work at IBM's RISC System/6000 Division, Harris Computer Systems, and the U.S. Army Corps of Engineers. Bob has spoken at numerous computer related conferences and has conducted briefings with companies based around the world. His papers regarding data warehousing and computer and software technology have appeared in publications such as The Data Warehousing Institute's Journal of Data Warehousing, Informix Tech Notes, and AIXcellence Magazine.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:399"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:31.942665+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:211/product-bio/urn:x-domain:oreilly.com:product:9780596006211.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;has been active in the world of computer software for nearly two decades, including stints with Data General, Cognos, and Gupta. He is currently an analyst with Oracle Corporation. He has been a principal author of ten books and countless articles on a variety of technical topics, and has spoken at conferences and training sessions across six continents. In addition to Oracle in a Nutshell, Rick's books include Oracle Essentials: Oracle9i, Oracle8i, and Oracle8 (principal author with Robert Stackowiak and Jonathan Stern, O'Reilly &amp;amp; Associates, 2001), Oracle Power Objects Developer's Guide (principal author with Kasu Sista and Richard Finklestein, Oracle Press, 1995); Mastering Oracle Power Objects (principal author with Robert Hoskins, O'Reilly &amp;amp; Associates, 1996); Using Oracle Web Server (principal author with many others, Que Publishing, 1997); The Oracle WebDB Bible (principal author with Jim Milbery, IDG Books Worldwide, 1999); and Administering Exchange Server (principal author with Walter Glenn, Microsoft Press, 1999). &lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:29.582381+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:211"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:111/product-bio/urn:x-domain:oreilly.com:product:9780596006211.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:111"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Donald Bales is a Computer Applications Consultant specializing in the analysis, design, and programming of distributed systems; systems integration; and data warehousing. Don has over sixteen years experience with Oracle as both a developer and a database administrator, and six years experiance with Java. He is currently working on the migration of medical and industrial hygiene systems to a web environment for a major Oil company. When he is not developing applications, Donald can often be found working with horses, playing the piano, or playing the bagpipes. Donald has had several careers, and has at various times been a mechanic, a general contractor, Mr. Mom, a developer, and currently a consultant. He has a bachelor of science degree in Business from Elmhurst College in Elmhurst, Illinois. Don currently resides in Downers Grove, Illinois with his wife Diane and his daughter Kristyn. He can be contacted by email at don@donaldbales.com&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:31.459908+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.BOOK"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:211/product-bio/urn:x-domain:oreilly.com:product:9780596006211.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006211.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:211"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:31.006312+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;has been active in the world of computer software for nearly two decades, including stints with Data General, Cognos, and Gupta. He is currently an analyst with Oracle Corporation. He has been a principal author of ten books and countless articles on a variety of technical topics, and has spoken at conferences and training sessions across six continents. In addition to Oracle in a Nutshell, Rick's books include Oracle Essentials: Oracle9i, Oracle8i, and Oracle8 (principal author with Robert Stackowiak and Jonathan Stern, O'Reilly &amp;amp; Associates, 2001), Oracle Power Objects Developer's Guide (principal author with Kasu Sista and Richard Finklestein, Oracle Press, 1995); Mastering Oracle Power Objects (principal author with Robert Hoskins, O'Reilly &amp;amp; Associates, 1996); Using Oracle Web Server (principal author with many others, Que Publishing, 1997); The Oracle WebDB Bible (principal author with Jim Milbery, IDG Books Worldwide, 1999); and Administering Exchange Server (principal author with Walter Glenn, Microsoft Press, 1999). &lt;/p&gt;</om:longBio>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:211" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Rick Greenwald</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70bad3b2d3cc4128095262c8b1d3733f9f85dbae</foaf:mbox_sha1sum>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/345">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:givenname xml:lang="en">Rick</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Rick Greenwald</om:legalName>
+    
+    
+    
+    <foaf:surname xml:lang="en">Greenwald</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2012-09-13T18:04:18.282734+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1212" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Julie</foaf:givenname>
+    <foaf:surname xml:lang="en">Hawks</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Julie Hawks</om:legalName>
+    
+    <foaf:name xml:lang="en">Julie Hawks</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:03.658040+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1213" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Troutman Zaig</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.836800+00:00</dc:modified>
+    
+    <foaf:givenname xml:lang="en">Ellen</foaf:givenname>
+    
+    <foaf:name xml:lang="en">Ellen Troutman Zaig</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Ellen Troutman Zaig</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1218" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Wang</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:41:21.151721+00:00</dc:modified>
+    
+    
+    <foaf:givenname xml:lang="en">Melanie</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">584717a8e07e793e2907394a4965f529a1097164</foaf:mbox_sha1sum>
+    
+    
+    <foaf:name xml:lang="en">Melanie Wang</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Melanie Wang</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1224" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Volckhausen</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Ellie Volckhausen</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.538117+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34f4fac38b3dee37dfd058b8828e0382fc3839f3</foaf:mbox_sha1sum>
+    
+    
+    <foaf:givenname xml:lang="en">Ellie</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Ellie Volckhausen</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1233" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Audrey</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:51.716015+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Doyle</foaf:surname>
+    
+    <foaf:name xml:lang="en">Audrey Doyle</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Audrey Doyle</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:111" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:30.525121+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bales</foaf:surname>
+    <foaf:name xml:lang="en">Donald Bales</foaf:name>
+    <foaf:givenname xml:lang="en">Donald</foaf:givenname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7bb2db2eef66da21fe2a365520fd93303b3bea85</foaf:mbox_sha1sum>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/720">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Donald Bales</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:378" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40e3e2cc8c7864e88ea5b598d010b0f60db54011</foaf:mbox_sha1sum>
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Debby Russell</om:legalName>
+    <foaf:surname xml:lang="en">Russell</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/275">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:givenname xml:lang="en">Debby</foaf:givenname>
+    
+    
+    <foaf:name xml:lang="en">Debby Russell</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-04-10T01:39:57.200509+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:399" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Robert Stackowiak</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:54:30.655379+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Robert</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e3b6d8457ba47b75986e911fa09f045c7bf97ed2</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Stackowiak</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/462">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    
+    
+    <foaf:name xml:lang="en">Robert Stackowiak</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1084" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">David Chu</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.258570+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">David</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">David Chu</om:legalName>
+    
+    
+    <foaf:surname xml:lang="en">Chu</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1090" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.397279+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bisignani</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Glenn</foaf:givenname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89afa3709f9e629006b39f1ab5320f464e86dcec</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Glenn Bisignani</om:legalName>
+    
+    <foaf:name xml:lang="en">Glenn Bisignani</foaf:name>
+    
+  </foaf:Person></rdf:RDF>

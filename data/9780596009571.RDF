@@ -1,0 +1,2047 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596515256.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596009571_cat.gif"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-06-19</dc:issued>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596515256.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    
+    
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596515256.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596515256.PDF#WO-5959">
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-09-01T00:00:00</om:endNewStatus>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals PDF</dc:title>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-06-19</dc:issued>
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:20:07.097863+00:00</dc:modified>
+    
+    
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">300 pages (est.)</dc:extent>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596515256.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596515256" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051525" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-06-12</dc:created>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-15</om:estimatedIssue>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596515256.PDF#price-GBR-01">
+        
+        
+        <rdf:value xml:lang="en">30.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596515256.PDF#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596515256.PDF#price-CAN-01">
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. This book provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner-workings of this powerful database. You'll learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;</dc:description>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-09-01T00:00:00</om:endNewStatus>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596552800.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596552800.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596552800" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2693" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:20:10.422846+00:00</dc:modified>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. This book provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner-workings of this powerful database. You'll learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;</dc:description>
+    <om:editionLabel xml:lang="en"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596552800.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1235" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051170" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/mysql" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/sql" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/kernel" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/database" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/internals" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051320" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1207"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596552800.EPUB#price-USA-01">
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596108571.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596108571" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:19:59.027826+00:00</dc:modified>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596108571.MOBI#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2693" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051320" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/kernel" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/sql" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/internals" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/database" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051170" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/mysql" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596108571.MOBI#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1235" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. This book provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner-workings of this powerful database. You'll learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;</dc:description>
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1207"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596108571.MOBI">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <om:editionLabel xml:lang="en"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596104818.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.BOOK:9780596104818.EBOOK#bundle-offer"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596104818" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596104818.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. This book provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner-workings of this powerful database. You'll learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;</dc:description>
+    
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596104818.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:19:47.880326+00:00</dc:modified>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-30</dc:created>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596104818.EBOOK#price-USA-01">
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    
+    
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596009571.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:endNewStatus>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    
+    
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-10</dc:issued>
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;MySQL, by Paul DuBois, Sams, ISBN 0-672-32673-6, March 2005, 1320 pages,&lt;/li&gt;&lt;li&gt;$49.99&lt;/li&gt;&lt;li&gt;MySQL Crash Course, by Ben Forta, Sams, ISBN 0-672-32712-0, December 2005, 336 pages, $19.99&lt;/li&gt;&lt;li&gt;The Definitive Guide to MySQL 5, by Michael Kofler, Apress, ISBN 1-59059-535-1,&lt;/li&gt;&lt;li&gt;September 2005, 784 pages, $49.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596009571_cat.gif"/>
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1207"/>
+    
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#printing-status">
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;intermediate to advanced developers and DBAs&lt;/p&gt;</om:audienceDescription>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2003-11-11</dc:created>
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">258 pages</dc:extent>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Like the strong-selling "Understanding the Linux Kernel" from O'Reilly, this book delves into the practical aspects of another leading open source software project: the MySQL database. It provides unprecedented opportunities for IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596009571" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000957" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596009571.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Readers will learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more. &lt;/li&gt;&lt;li&gt;Written by a MySQL insider&lt;/li&gt;&lt;li&gt;Will be promoted at the upcoming O'Reilly MySQL Users conference &lt;/li&gt;&lt;li&gt;Will be announced to over 25,000 newsletter subscribers&lt;/li&gt;&lt;li&gt;MySQL is a small but stable category according to Bookscan, performing in 2006 at almost exactly the same sales level as 2005&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Database&lt;/p&gt;</om:shelving>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:beginUpcomingStatus>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#price-GBE-01">
+        <rdf:value xml:lang="en">40.00</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#price-USA-01">
+        <rdf:value xml:lang="en">49.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#price-CAN-01">
+        <rdf:value xml:lang="en">64.99</rdf:value>
+        
+        
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#price-GBR-01">
+        <rdf:value xml:lang="en">38.50</rdf:value>
+        
+        
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+    <om:tagline xml:lang="en">Discovering and Improving a Great Database</om:tagline>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;MySQL in a Nutshell (0-596-00789-2)&lt;/p&gt;</om:willSellLike>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#WO-5612">
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:endNewStatus>
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-05</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:beginUpcomingStatus>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-10</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.BOOK#WO-13708">
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-01T00:00:00</om:endNewStatus>
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-01T00:00:00</om:beginUpcomingStatus>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-12-16</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1235" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-01</om:estimatedIssue>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/DBA"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. This book provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner-workings of this powerful database. You'll learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;</dc:description>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Database Management / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    
+    
+    
+    
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2693" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    
+    
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021040">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Warehousing</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/mysql">
+        <rdf:value xml:lang="en">mysql</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/kernel">
+        <rdf:value xml:lang="en">kernel</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051170">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / SQL</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/sql">
+        <rdf:value xml:lang="en">sql</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021030">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Mining</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/internals">
+        <rdf:value xml:lang="en">internals</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051320">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / XML</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/database">
+        <rdf:value xml:lang="en">database</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:19:42.202370+00:00</dc:modified>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596009577.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2693" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/database" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/mysql" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/kernel" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/sql" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/internals" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051170" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051320" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:editionLabel xml:lang="en"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para/&gt;&lt;para&gt;Although MySQL's source code is open in the sense of being
+publicly available, it's essentially closed to you if you don't
+understand it. In this book, Sasha Pachev -- a former member of the
+MySQL Development Team -- provides a comprehensive tour of MySQL 5
+that shows you how to figure out the inner workings of this
+powerful database. You'll go right to heart of the database to
+learn how data structures and convenience functions operate, how to
+add new storage engines and configuration options, and much
+more.&lt;/para&gt;&lt;para&gt;The core of &lt;emphasis&gt;Understanding MySQL Internals&lt;/emphasis&gt; begins with
+an Architecture Overview that provides a brief introduction of how
+the different components of MySQL work together. You then learn the
+steps for setting up a working compilable copy of the code that you
+can change and test at your pleasure. Other sections of the book
+cover:
+
+&lt;/para&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para/&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Core server classes, structures, and API&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;The communication protocol between the client and the
+server&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Configuration variables, the controls of the server; includes a
+tutorial on how to add your own&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Thread-based request handling -- understanding threads and how
+they are used in MySQL&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;An overview of MySQL storage engines&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;The storage engine interface for integrating third-party
+storage engines&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;The table lock manager&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;The parser and optimizer for improving MySQL's performance&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Integrating a transactional storage engine into MySQL&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;The internals of replication&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para/&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;&lt;emphasis&gt;Understanding MySQL Internals&lt;/emphasis&gt; provides unprecedented
+opportunities for developers, DBAs, database application
+programmers, IT departments, software vendors, and computer science
+students to learn about the inner workings of this
+enterprise-proven database. With this book, you will soon reach a
+new level of comprehension regarding database development that will
+enable you to accomplish your goals. It's your guide to discovering
+and improving a great database.&lt;/para&gt;&lt;/div&gt;</dc:description>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1235" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596009577.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-10</dc:issued>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1207"/>
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:beginUpcomingStatus>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596009577.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596009577"/>
+      </om:Subscription>
+    </om:price>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596009577.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:19:33.090016+00:00</dc:modified>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596009577</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596009571" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:videoPreview xml:lang="en"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:endNewStatus>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596009571.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2693" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:customerTitle xml:lang="en">Understanding MySQL Internals</om:customerTitle>
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;intermediate to advanced developers and DBAs&lt;/p&gt;</om:audienceDescription>
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596009571">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-10</dc:issued>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;MySQL in a Nutshell (0-596-00789-2)&lt;/p&gt;</om:willSellLike>
+    
+    
+    
+    
+    
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1235" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Understanding MySQL Internals</dc:title>
+    
+    <om:sellslike rdf:resource="urn:isbn:9780596007898"/>
+    <om:sortableTitle xml:lang="en">understanding mysql internals</om:sortableTitle>
+    
+    <om:tagline xml:lang="en">Discovering and Improving a Great Database</om:tagline>
+    <dc:identifier rdf:resource="urn:isbn:9780596009571" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Readers will learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more. &lt;/li&gt;&lt;li&gt;Written by a MySQL insider&lt;/li&gt;&lt;li&gt;Will be promoted at the upcoming O'Reilly MySQL Users conference &lt;/li&gt;&lt;li&gt;Will be announced to over 25,000 newsletter subscribers&lt;/li&gt;&lt;li&gt;MySQL is a small but stable category according to Bookscan, performing in 2006 at almost exactly the same sales level as 2005&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596552800.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596104818.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596108571.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596515256.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596009577.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/DBA"/>
+    
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Like the strong-selling "Understanding the Linux Kernel" from O'Reilly, this book delves into the practical aspects of another leading open source software project: the MySQL database. It provides unprecedented opportunities for IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:relation rdf:resource="urn:isbn:9780596009571" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596100896" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596008642" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596003067" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005436" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596101107" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007898" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596527082" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:19:40.386691+00:00</dc:modified>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596009571.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596009571.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. This book provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner-workings of this powerful database. You'll learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2003-11-11</dc:created>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Understanding MySQL Internals</om:editorTitle>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596009571.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Database&lt;/p&gt;</om:shelving>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/internals">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">internals</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021030">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Mining</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051320">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / XML</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/kernel">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">kernel</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021040">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Warehousing</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/database">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">database</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/sql">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">sql</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/mysql">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">mysql</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051170">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / SQL</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1207"/>
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;MySQL, by Paul DuBois, Sams, ISBN 0-672-32673-6, March 2005, 1320 pages,&lt;/li&gt;&lt;li&gt;$49.99&lt;/li&gt;&lt;li&gt;MySQL Crash Course, by Ben Forta, Sams, ISBN 0-672-32712-0, December 2005, 336 pages, $19.99&lt;/li&gt;&lt;li&gt;The Definitive Guide to MySQL 5, by Michael Kofler, Apress, ISBN 1-59059-535-1,&lt;/li&gt;&lt;li&gt;September 2005, 784 pages, $49.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-10</dc:issued>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Although MySQL's source code is open in the sense of being publicly available, it's essentially closed to you if you don't understand it. In this book, Sasha Pachev -- a former member of the MySQL Development Team -- provides a comprehensive tour of MySQL 5 that shows you how to figure out the inner workings of this powerful database. You'll go right to heart of the database to learn how data structures and convenience functions operate, how to add new storage engines and configuration options, and much more.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;The core of &lt;em&gt;Understanding MySQL Internals&lt;/em&gt; begins with an Architecture Overview that provides a brief introduction of how the different components of MySQL work together. You then learn the steps for setting up a working compilable copy of the code that you can change and test at your pleasure. Other sections of the book cover:&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;Core server classes, structures, and API&lt;/li&gt;
+&lt;li&gt;The communication protocol between the client and the server&lt;/li&gt;
+&lt;li&gt;Configuration variables, the controls of the server; includes a tutorial on how to add your own&lt;/li&gt; 
+&lt;li&gt;Thread-based request handling -- understanding threads and how they are used in MySQL&lt;/li&gt;
+&lt;li&gt;An overview of MySQL storage engines&lt;/li&gt;
+&lt;li&gt;The storage engine interface for integrating third-party storage engines&lt;/li&gt;
+&lt;li&gt;The table lock manager&lt;/li&gt;
+&lt;li&gt;The parser and optimizer for improving MySQL's performance&lt;/li&gt;
+&lt;li&gt;Integrating a transactional storage engine into MySQL&lt;/li&gt;
+&lt;li&gt;The internals of replication&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;&lt;em&gt;Understanding MySQL Internals&lt;/em&gt; provides unprecedented opportunities for developers, DBAs, database application programmers, IT departments, software vendors, and computer science students to learn about the inner workings of this enterprise-proven database. With this book, you will soon reach a new level of comprehension regarding database development that will enable you to accomplish your goals. It's your guide to discovering and improving a great database.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:byline xml:lang="en">By Sasha Pachev</om:byline>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:asciiTitle xml:lang="en">Understanding MySQL Internals</om:asciiTitle>
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">256 pages</dc:extent>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596009571.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:13:01.096459+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.IP"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596009571.LIC" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:13:02.080016+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.LIC"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596009571.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:13:03.024438+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.BOOK"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596104818.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:13:00.234918+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596104818.EBOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596528072.RCUT" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596528072.RCUT"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:13:01.457148+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:0596009577.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/"><om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/><om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:0596009577.SAF"/><om:longBio>Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br /&gt;
+&lt;br /&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;http://FastRunningBlog.Com&lt;/em&gt; dedicated to that purpose.</om:longBio><om:bio>Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on</om:bio><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-10-21T21:38:49.342571+00:00</dc:modified></om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596009571.RIGHT" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596009571.RIGHT"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:12:53.245621+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1456/product-bio/urn:x-domain:oreilly.com:product:9780596515256.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise SolutionsMySQL Enterprise SolutionsMySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596515256.PDF"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Sasha Pachev graduated from the Brigham Young University in 1998 with a degree in Computer Science, worked on the MySQL development team in 2000-2002, and was the original developer of replication in MySQL. In 2003 he wrote his first book &lt;em&gt;MySQL Enterprise Solutions&lt;/em&gt;. He currently lives in Provo, Utah with his wife Sarah and his five children working as an independent consultant with the emphasis on
+MySQL.&lt;br/&gt;&lt;br/&gt;
+In spite of his great interest in computers, Sasha is equally
+passionate about distance running. He has won a number of marathons, has a personal best of 2:24:47, and is attempting to qualify for the US Olympic Trials. He feels it is important to help other runners reach their potential, and operates a web site &lt;em&gt;&lt;a href="http://FastRunningBlog.Com"&gt;http://FastRunningBlog.Com&lt;/a&gt;&lt;/em&gt; dedicated to that purpose.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T01:12:53.469354+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1456"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1207" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Johnna VanHoose Dinse</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Johnna VanHoose Dinse</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:19:42.031509+00:00</dc:modified>
+    <foaf:surname xml:lang="en">VanHoose Dinse</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Johnna</foaf:givenname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1219" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:20:24.991939+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Jessamyn</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jessamyn Read</om:legalName>
+    <foaf:surname xml:lang="en">Read</foaf:surname>
+    
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7e9ad52319edcb866c221df1e4c9879079206e6</foaf:mbox_sha1sum>
+    
+    <foaf:name xml:lang="en">Jessamyn Read</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1230" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Marlowe Shaeffer</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.516794+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Marlowe</foaf:givenname>
+    <foaf:surname xml:lang="en">Shaeffer</foaf:surname>
+    
+    <foaf:name xml:lang="en">Marlowe Shaeffer</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1235" xml:base="urn:x-domain:oreilly.com:agent:pdb:1235" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Derek Di Matteo</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Derek Di Matteo</om:legalName><foaf:givenname>Derek</foaf:givenname><foaf:surname>Di Matteo</foaf:surname><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-05-27T17:17:33.868326+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2693" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Lakshmi</foaf:givenname>
+    <foaf:surname xml:lang="en">Sadasiv</foaf:surname>
+    <foaf:name xml:lang="en">Lakshmi Sadasiv</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:20:24.989045+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Lakshmi Sadasiv</om:legalName>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1456" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2761">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8632bed579933220b4052d51d88a0d279a57f695</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2184904dd5881abd5d831175f66934b15cbbf18c</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8ff4a3134e95ddf3da0e3ec2aacbede828c35633</foaf:mbox_sha1sum>
+    
+    <foaf:surname xml:lang="en">Pachev</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-04-28T00:52:24.406485+00:00</dc:modified>
+    
+    <foaf:givenname xml:lang="en">Sasha</foaf:givenname>
+    
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Sasha Pachev</om:legalName>
+    <foaf:name xml:lang="en">Sasha Pachev</foaf:name>
+    
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2113" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:givenname xml:lang="en">Mary</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mary Treseler</om:legalName>
+    <foaf:name xml:lang="en">Mary Treseler</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1a4614208913feeef6c73c275319ec58d3ee1fde</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-26T19:00:04.902558+00:00</dc:modified>
+    
+    
+    <foaf:surname xml:lang="en">Treseler</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2352" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Rachel Monaghan</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Rachel Monaghan</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.453919+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Rachel</foaf:givenname>
+    <foaf:surname xml:lang="en">Monaghan</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3017" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Caldwell</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Kyley Caldwell</om:legalName>
+    <foaf:name xml:lang="en">Kyley Caldwell</foaf:name>
+    <foaf:givenname xml:lang="en">Kyley</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:00.350722+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:337" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:48.019055+00:00</dc:modified>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/36">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Andy Oram</om:legalName>
+    <foaf:givenname xml:lang="en">Andy</foaf:givenname>
+    
+    
+    <foaf:name xml:lang="en">Andy Oram</foaf:name>
+    <foaf:surname xml:lang="en">Oram</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400047f81bb9491c4ec647a054dbbfd257c9d0b3</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person></rdf:RDF>

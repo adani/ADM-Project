@@ -1,0 +1,2052 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596522407.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-05-08</dc:created>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:byline xml:lang="en">By David Pogue, Adam Goldstein</om:byline>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T20:43:27.479591+00:00</dc:modified>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:becauseOf xml:lang="en">Product must not be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have an Availability Date before now.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596522407.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:editionLabel xml:lang="en">Tiger Edition</om:editionLabel>
+    
+    <om:customerTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:customerTitle>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:sortableTitle xml:lang="en">switching to the mac: the missing manual, tiger edition</om:sortableTitle>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">David Pogue and Adam Goldstein</dc:rightsHolder>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596522407.PDF#price-GBR-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <rdf:value xml:lang="en">15.50</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596522407.PDF#price-CAN-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596522407.PDF#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1477" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-05-08</om:estimatedIssue>
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596522407.PDF#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596522407.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596522407.PDF#WO-7092">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052240" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596522407" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;It's little wonder that longtime Windows users are migrating in droves to the new Mac. They're fed up with the virus-prone Windows way of life, and they're lured by Apple's well-deserved reputation for producing great all-around computers that are reliable, user-friendly, well designed, and now--with the $500 Mac mini--extremely affordable, too.&lt;br/&gt;&lt;br/&gt;
+Whether you're drawn to the Mac's stability, its stunning digital media suite, or the fact that a whole computer can look and feel as slick as your iPod, you can quickly and easily become a Mac convert. But consider yourself warned: a Mac isn't just a Windows machine in a prettier box; it's a whole different animal and a whole new computing experience.&lt;br/&gt;&lt;br/&gt;
+If you're contemplating--or have already made--the switch from a Windows PC to a Mac, you need &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;. This incomparable guide delivers what Apple doesn't: everything you need to know to successfully and painlessly move to a Mac. &lt;br/&gt;&lt;br/&gt;
+The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software.&lt;br/&gt;&lt;br/&gt;
+Missing Manual series creator and bestselling author David Pogue teams up with 17-year-old whiz kid and founder of GoldfishSoft (www.goldfishsoft.com) Adam Goldstein to cover every aspect of switching to a Mac--things like transferring email, files, and addresses from a PC to a Mac; getting acquainted with the Mac's interface; adapting to Mac versions of familiar programs (including Microsoft Office); setting up a network to share files with PCs and Macs; and using the printers, scanners, and other peripherals you already own.&lt;br/&gt;&lt;br/&gt;
+Covering the latest in Mac OS X v.10.4 "Tiger," &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt; explains the hundreds of innovative new features to the Mac OS and how you can understand and make the very most of each.&lt;br/&gt;&lt;br/&gt;
+Whether you're a novice or a power user, &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;, teaches you how to smoothly and seamlessly replace (or supplement) your Windows machine--in a refreshingly funny and down-to-earth style--with a mighty Mac.&lt;/p&gt;</dc:abstract>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596006608_cat.gif"/>
+    
+    <om:asciiTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:asciiTitle>
+    
+    <om:editorTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:editorTitle>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">528 pages (est.)</dc:extent>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software. (Note to people who've already bought the book: this appendix is available as a free PDF download from missingmanuals.com.)&lt;/p&gt;</dc:description>
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596006608.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596006608</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596006600" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;It's little wonder that longtime Windows users are migrating in droves to the new Mac. They're fed up with the virus-prone Windows way of life, and they're lured by Apple's well-deserved reputation for producing great all-around computers that are reliable, user-friendly, well designed, and now--with the $500 Mac mini--extremely affordable, too.&lt;br/&gt;&lt;br/&gt;
+Whether you're drawn to the Mac's stability, its stunning digital media suite, or the fact that a whole computer can look and feel as slick as your iPod, you can quickly and easily become a Mac convert. But consider yourself warned: a Mac isn't just a Windows machine in a prettier box; it's a whole different animal and a whole new computing experience.&lt;br/&gt;&lt;br/&gt;
+If you're contemplating--or have already made--the switch from a Windows PC to a Mac, you need &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;. This incomparable guide delivers what Apple doesn't: everything you need to know to successfully and painlessly move to a Mac. &lt;br/&gt;&lt;br/&gt;
+The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software.&lt;br/&gt;&lt;br/&gt;
+Missing Manual series creator and bestselling author David Pogue teams up with 17-year-old whiz kid and founder of GoldfishSoft (www.goldfishsoft.com) Adam Goldstein to cover every aspect of switching to a Mac--things like transferring email, files, and addresses from a PC to a Mac; getting acquainted with the Mac's interface; adapting to Mac versions of familiar programs (including Microsoft Office); setting up a network to share files with PCs and Macs; and using the printers, scanners, and other peripherals you already own.&lt;br/&gt;&lt;br/&gt;
+Covering the latest in Mac OS X v.10.4 "Tiger," &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt; explains the hundreds of innovative new features to the Mac OS and how you can understand and make the very most of each.&lt;br/&gt;&lt;br/&gt;
+Whether you're a novice or a power user, &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;, teaches you how to smoothly and seamlessly replace (or supplement) your Windows machine--in a refreshingly funny and down-to-earth style--with a mighty Mac.&lt;/p&gt;</dc:abstract>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596006608.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596006608"/>
+      </om:Subscription>
+    </om:price>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-06-01T00:00:00</om:beginUpcomingStatus>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2014"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">David Pogue and Adam Goldstein</dc:rightsHolder>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2573"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1477" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:customerTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-09-08</dc:issued>
+    <om:editorTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:editorTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">switching to the mac: the missing manual, tiger edition</om:sortableTitle>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Switching%20to%20the%20Mac" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Apple" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/switching%20to%20macintosh" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM050010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM050000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/missing%20manual" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/tiger" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/MAC" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/10.4" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/keynote%2C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/David%20Pogue" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T20:43:45.538042+00:00</dc:modified>
+    
+    <om:editionLabel xml:lang="en"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596006608.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-01T00:00:00</om:endNewStatus>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046020"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:byline xml:lang="en">By David Pogue, Adam Goldstein</om:byline>
+    <om:asciiTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:asciiTitle>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+It's little wonder that longtime Windows users are migrating in
+droves to the new Mac. They're fed up with the virus-prone Windows
+way of life, and they're lured by Apple's well-deserved reputation
+for producing great all-around computers that are reliable,
+user-friendly, well designed, and now--with the $500 Mac
+mini--extremely affordable, too.
+&lt;/para&gt;&lt;para&gt;Whether you're drawn to the Mac's stability, its stunning
+digital media suite, or the fact that a whole computer can look and
+feel as slick as your iPod, you can quickly and easily become a Mac
+convert. But consider yourself warned: a Mac isn't just a Windows
+machine in a prettier box; it's a whole different animal and a
+whole new computing experience.&lt;/para&gt;&lt;para&gt;If you're contemplating--or have already made--the switch from a
+Windows PC to a Mac, you need &lt;emphasis&gt;Switching to the Mac: The Missing
+Manual, Tiger Edition&lt;/emphasis&gt;. This incomparable guide delivers what
+Apple doesn't: everything you need to know to successfully and
+painlessly move to a Mac.&lt;/para&gt;&lt;para&gt;The latest reprint of this book has been updated to reflect the
+new generation of Mac models that run on Intel chips. There's even
+a new appendix that guides you through the installation of Windows
+XP on your Macintosh (using adapter software like Boot Camp or
+Parallels), so that you have the best of all worlds: a single,
+beautiful machine that can run 100 percent of the world's desktop
+software. (Note to people who've already bought the book: This
+appendix is available as a free PDF download from
+missingmanuals.com.)&lt;/para&gt;&lt;para&gt;Missing Manual series creator and bestselling author David Pogue
+teams up with 17-year-old whiz kid and founder of GoldfishSoft
+(www.goldfishsoft.com) Adam Goldstein to cover every aspect of
+switching to a Mac--things like transferring email, files, and
+addresses from a PC to a Mac; getting acquainted with the Mac's
+interface; adapting to Mac versions of familiar programs (including
+Microsoft Office); setting up a network to share files with PCs and
+Macs; and using the printers, scanners, and other peripherals you
+already own.&lt;/para&gt;&lt;para&gt;Covering the latest in Mac OS X v.10.4 "Tiger," &lt;emphasis&gt;Switching to
+the Mac: The Missing Manual, Tiger Edition&lt;/emphasis&gt; explains the
+hundreds of innovative new features to the Mac OS and how you can
+understand and make the very most of each.&lt;/para&gt;&lt;para&gt;Whether you're a novice or a power user, &lt;emphasis&gt;Switching to the
+Mac: The Missing Manual, Tiger Edition&lt;/emphasis&gt;, teaches you how to
+smoothly and seamlessly replace (or supplement) your Windows
+machine--in a refreshingly funny and down-to-earth style--with a
+mighty Mac.&lt;/para&gt;&lt;/div&gt;</dc:description>
+    
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596556471.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.BOOK:9780596556471.EBOOK#bundle-offer"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1088"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596556471.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1477" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596556471" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software. (Note to people who've already bought the book: this appendix is available as a free PDF download from missingmanuals.com.)&lt;/p&gt;</dc:description>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556471.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-06-24</dc:created>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;It's little wonder that longtime Windows users are migrating in droves to the new Mac. They're fed up with the virus-prone Windows way of life, and they're lured by Apple's well-deserved reputation for producing great all-around computers that are reliable, user-friendly, well designed, and now--with the $500 Mac mini--extremely affordable, too.&lt;br/&gt;&lt;br/&gt;
+Whether you're drawn to the Mac's stability, its stunning digital media suite, or the fact that a whole computer can look and feel as slick as your iPod, you can quickly and easily become a Mac convert. But consider yourself warned: a Mac isn't just a Windows machine in a prettier box; it's a whole different animal and a whole new computing experience.&lt;br/&gt;&lt;br/&gt;
+If you're contemplating--or have already made--the switch from a Windows PC to a Mac, you need &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;. This incomparable guide delivers what Apple doesn't: everything you need to know to successfully and painlessly move to a Mac. &lt;br/&gt;&lt;br/&gt;
+The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software.&lt;br/&gt;&lt;br/&gt;
+Missing Manual series creator and bestselling author David Pogue teams up with 17-year-old whiz kid and founder of GoldfishSoft (www.goldfishsoft.com) Adam Goldstein to cover every aspect of switching to a Mac--things like transferring email, files, and addresses from a PC to a Mac; getting acquainted with the Mac's interface; adapting to Mac versions of familiar programs (including Microsoft Office); setting up a network to share files with PCs and Macs; and using the printers, scanners, and other peripherals you already own.&lt;br/&gt;&lt;br/&gt;
+Covering the latest in Mac OS X v.10.4 "Tiger," &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt; explains the hundreds of innovative new features to the Mac OS and how you can understand and make the very most of each.&lt;br/&gt;&lt;br/&gt;
+Whether you're a novice or a power user, &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;, teaches you how to smoothly and seamlessly replace (or supplement) your Windows machine--in a refreshingly funny and down-to-earth style--with a mighty Mac.&lt;/p&gt;</dc:abstract>
+    <om:editorTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:editorTitle>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">David Pogue and Adam Goldstein</dc:rightsHolder>
+    
+    
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    
+    <om:byline xml:lang="en">By David Pogue, Adam Goldstein</om:byline>
+    <om:customerTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:customerTitle>
+    
+    
+    <om:editionLabel xml:lang="en">Tiger Edition</om:editionLabel>
+    <om:sortableTitle xml:lang="en">switching to the mac: the missing manual, tiger edition</om:sortableTitle>
+    <om:asciiTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:asciiTitle>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T20:43:30.625825+00:00</dc:modified>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-30</dc:issued>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556471.EBOOK#price-GBR-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        <rdf:value xml:lang="en">15.50</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556471.EBOOK#price-USA-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556471.EBOOK#price-CAN-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2014"/>
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596006600.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#price-USA-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <rdf:value xml:lang="en">24.95</rdf:value>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#price-GBE-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <rdf:value xml:lang="en">20.00</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#price-GBR-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <rdf:value xml:lang="en">18.99</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#price-CAN-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <rdf:value xml:lang="en">34.95</rdf:value>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:sortableTitle xml:lang="en">switching to the mac: the missing manual, tiger edition</om:sortableTitle>
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">People replacing or supplementing their Windows PCs with Macs</dc:audience>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/NTU"/>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#printings">
+        <rdf:_11>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-6106">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-08-16</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-08-16</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_11>
+        <rdf:_5>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5276">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-25</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-10-20</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_5>
+        <rdf:_9>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5820">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-10</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-05-08</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-08-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_9>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-4826">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-03-02</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-03-01</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-06-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5117">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-15</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-10</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_8>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5528">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-02-02</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-02-01</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_8>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-1445">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-08</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-06-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Panther Edition</dc:title>
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-09-08</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_12>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-6247">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-10-03</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-03</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_12>
+        <rdf:_6>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5372">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-12-07</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_6>
+        <rdf:_10>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-6010">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-24</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-07-25</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_10>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5030">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-06</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-07-06</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_13>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-13886">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-07-08</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_13>
+        <rdf:_7>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#WO-5418">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-12-28</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-12-08</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_7>
+      </rdf:Seq>
+    </om:printings>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-01</om:estimatedIssue>
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">Tiger Edition</om:editionLabel>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1089"/>
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/missing%20manual">
+        <rdf:value xml:lang="en">missing manual</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/switching%20to%20macintosh">
+        <rdf:value xml:lang="en">switching to macintosh</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046030">
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / UNIX</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Apple">
+        <rdf:value xml:lang="en">Apple</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/tiger">
+        <rdf:value xml:lang="en">tiger</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Switching%20to%20the%20Mac">
+        <rdf:value xml:lang="en">Switching to the Mac</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/David%20Pogue">
+        <rdf:value xml:lang="en">David Pogue</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM050000">
+        <dc:title xml:lang="en">COMPUTERS / Hardware / Personal Computers / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/10.4">
+        <rdf:value xml:lang="en">10.4</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/keynote%2C">
+        <rdf:value xml:lang="en">keynote,</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM050010">
+        <dc:title xml:lang="en">COMPUTERS / Hardware / Personal Computers / PCs</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    
+    
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Update of the best selling switcher book&lt;/li&gt;&lt;li&gt;Covers Mac OS X Tiger&lt;/li&gt;&lt;li&gt;We're entering a computer buying cycle again and there are compelling reasons to switch to Tiger&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Updated for Mac OS X Tiger, Switching to the Mac: The Missing Manual, Tiger Edition, is everything an active or prospective switcher needs to get up and running with gusto.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000660" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596006600" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:editorTitle>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046020">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Macintosh</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-09-08</dc:issued>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596006608_cat.gif"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Macintosh&lt;/p&gt;</om:shelving>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software.&lt;/p&gt;</dc:description>
+    
+    
+    
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2003-11-06</dc:created>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    <om:customerTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:customerTitle>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;It's little wonder that longtime Windows users are migrating in droves to the new Mac. They're fed up with the virus-prone Windows way of life, and they're lured by Apple's well-deserved reputation for producing great all-around computers that are reliable, user-friendly, well designed, and now--with the $500 Mac mini--extremely affordable, too.&lt;br/&gt;&lt;br/&gt;
+Whether you're drawn to the Mac's stability, its stunning digital media suite, or the fact that a whole computer can look and feel as slick as your iPod, you can quickly and easily become a Mac convert. But consider yourself warned: a Mac isn't just a Windows machine in a prettier box; it's a whole different animal and a whole new computing experience.&lt;br/&gt;&lt;br/&gt;
+If you're contemplating--or have already made--the switch from a Windows PC to a Mac, you need &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;. This incomparable guide delivers what Apple doesn't: everything you need to know to successfully and painlessly move to a Mac. &lt;br/&gt;&lt;br/&gt;
+The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software.&lt;br/&gt;&lt;br/&gt;
+Missing Manual series creator and bestselling author David Pogue teams up with 17-year-old whiz kid and founder of GoldfishSoft (www.goldfishsoft.com) Adam Goldstein to cover every aspect of switching to a Mac--things like transferring email, files, and addresses from a PC to a Mac; getting acquainted with the Mac's interface; adapting to Mac versions of familiar programs (including Microsoft Office); setting up a network to share files with PCs and Macs; and using the printers, scanners, and other peripherals you already own.&lt;br/&gt;&lt;br/&gt;
+Covering the latest in Mac OS X v.10.4 "Tiger," &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt; explains the hundreds of innovative new features to the Mac OS and how you can understand and make the very most of each.&lt;br/&gt;&lt;br/&gt;
+Whether you're a novice or a power user, &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;, teaches you how to smoothly and seamlessly replace (or supplement) your Windows machine--in a refreshingly funny and down-to-earth style--with a mighty Mac.&lt;/p&gt;</dc:abstract>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">528 pages</dc:extent>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596006600.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    <om:asciiTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:asciiTitle>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1477" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.BOOK#printing-status">
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-06-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T20:43:41.218019+00:00</dc:modified>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    
+    
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By David Pogue, Adam Goldstein</om:byline>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">David Pogue and Adam Goldstein</dc:rightsHolder>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-01T00:00:00</om:endNewStatus>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596006600.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596006608.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596556471.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596522407.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">switching to the mac: the missing manual, tiger edition</om:sortableTitle>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Macintosh&lt;/p&gt;</om:shelving>
+    <om:videoPreview xml:lang="en"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Apple">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Apple</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/keynote%2C">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">keynote,</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/David%20Pogue">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">David Pogue</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/10.4">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">10.4</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM050000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Hardware / Personal Computers / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/missing%20manual">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">missing manual</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Switching%20to%20the%20Mac">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Switching to the Mac</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM050010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Hardware / Personal Computers / PCs</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/switching%20to%20macintosh">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">switching to macintosh</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/tiger">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">tiger</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046030">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / UNIX</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">David Pogue and Adam Goldstein</dc:rightsHolder>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-09-08</dc:issued>
+    
+    
+    
+    
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1088"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Updated for Mac OS X Tiger, Switching to the Mac: The Missing Manual, Tiger Edition, is everything an active or prospective switcher needs to get up and running with gusto.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Update of the best selling switcher book&lt;/li&gt;&lt;li&gt;Covers Mac OS X Tiger&lt;/li&gt;&lt;li&gt;We're entering a computer buying cycle again and there are compelling reasons to switch to Tiger&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596006600" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;It's little wonder that longtime Windows users are migrating in droves to the new Mac. They're fed up with the virus-prone Windows way of life, and they're lured by Apple's well-deserved reputation for producing great all-around computers that are reliable, user-friendly, well designed, and now--with the $500 Mac mini--extremely affordable, too.&lt;br/&gt;&lt;br/&gt;
+Whether you're drawn to the Mac's stability, its stunning digital media suite, or the fact that a whole computer can look and feel as slick as your iPod, you can quickly and easily become a Mac convert. But consider yourself warned: a Mac isn't just a Windows machine in a prettier box; it's a whole different animal and a whole new computing experience.&lt;br/&gt;&lt;br/&gt;
+If you're contemplating--or have already made--the switch from a Windows PC to a Mac, you need &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;. This incomparable guide delivers what Apple doesn't: everything you need to know to successfully and painlessly move to a Mac. &lt;br/&gt;&lt;br/&gt;
+The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software.&lt;br/&gt;&lt;br/&gt;
+Missing Manual series creator and bestselling author David Pogue teams up with 17-year-old whiz kid and founder of GoldfishSoft (www.goldfishsoft.com) Adam Goldstein to cover every aspect of switching to a Mac--things like transferring email, files, and addresses from a PC to a Mac; getting acquainted with the Mac's interface; adapting to Mac versions of familiar programs (including Microsoft Office); setting up a network to share files with PCs and Macs; and using the printers, scanners, and other peripherals you already own.&lt;br/&gt;&lt;br/&gt;
+Covering the latest in Mac OS X v.10.4 "Tiger," &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt; explains the hundreds of innovative new features to the Mac OS and how you can understand and make the very most of each.&lt;br/&gt;&lt;br/&gt;
+Whether you're a novice or a power user, &lt;i&gt;Switching to the Mac: The Missing Manual, Tiger Edition&lt;/i&gt;, teaches you how to smoothly and seamlessly replace (or supplement) your Windows machine--in a refreshingly funny and down-to-earth style--with a mighty Mac.&lt;/p&gt;</dc:abstract>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1477" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/NTU"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596006600.IP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:editionLabel xml:lang="en">Tiger Edition</om:editionLabel>
+    <dc:relation rdf:resource="urn:isbn:9780596008772" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596006938" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596100339" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596009410" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596006150" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005078" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005061" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596008208" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596100346" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596100353" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:asciiTitle>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046020">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Macintosh</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <om:byline xml:lang="en">By David Pogue, Adam Goldstein</om:byline>
+    
+    
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T20:43:22.177253+00:00</dc:modified>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;The latest reprint of this book has been updated to reflect the new generation of Mac models that run on Intel chips. There's even a new appendix that guides you through the installation of Windows XP on your Macintosh (using adapter software like Boot Camp or Parallels), so that you have the best of all worlds: a single, beautiful machine that can run 100 percent of the world's desktop software. (Note to people who've already bought the book: this appendix is available as a free PDF download from missingmanuals.com.)&lt;/p&gt;</dc:description>
+    <om:customerTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:customerTitle>
+    
+    <om:editorTitle xml:lang="en">Switching to the Mac: The Missing Manual, Tiger Edition</om:editorTitle>
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596006608_cat.gif"/>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596006600.IP#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596006600">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-03-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-09-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-06-28</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">528 pages</dc:extent>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2003-11-06</dc:created>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596006600.IP#om_displayableContributorList">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">People replacing or supplementing their Windows PCs with Macs</dc:audience>
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:sellslike rdf:resource="urn:isbn:9780596004521"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Switching to the Mac: The Missing Manual, Tiger Edition</dc:title>
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2014"/>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:350/product-bio/urn:x-domain:oreilly.com:product:9780596006600.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:51:24.394293+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;David Pogue is the weekly computer columnist for the New York Times and the creator of the Missing Manual series. He's the author or co-author of 30 books, including thirteen in this series and six in the ``For Dummies'' line (including Macs, Magic, Opera&lt;/p&gt;</om:webBio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;David Pogue, Yale '85, is the personal-technology columnist for the New York Times. With nearly 3 million books in print, he is also one of the world's bestselling how-to authors, having written or co-written seven books in the "for Dummies" series (including Macs, Magic, Opera, and Classical Music), along with several computer-humor books and a technothriller, "Hard Drive" (a New York Times "notable book of the year"). Pogue is also the creator and primary author of the Missing Manual series of complete, funny computer books, a joint venture with O'Reilly &amp;amp; Associates. Titles in the series include Mac OS X, Windows XP, iPod, Microsoft Office, iPhoto, Dreamweaver, iMovie 2, and many others. His Web page is www.davidpogue.com, and his email address is david@pogueman.com.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.BOOK"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1401/product-bio/urn:x-domain:oreilly.com:product:9780596006600.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:51:21.695402+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Adam Goldstein runs GoldfishSoft, a shareware company that makes games and utilities for Mac OS X. Adam is the author of AppleScript: The Missing Manual and was a technical editor for O'Reilly's best-selling Mac OS X: The Missing Manual, and an editor for Mac OS X Panther Power User. When he's not writing books or code, Adam attends high school in New Jersey, where he is captain of the Debate and Quizbowl teams and an editor of the school paper.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Adam Goldstein runs GoldfishSoft, a shareware company that makes games and utilities for Mac OS X. Adam is the author of AppleScript: The Missing Manual and was a technical editor for O'Reilly's best-selling Mac OS X: The Missing Manual, and an editor for Mac OS X Panther Power User. When he's not writing books or code, Adam attends high school in New Jersey, where he is captain of the Debate and Quizbowl teams and an editor of the school paper.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Adam Goldstein runs GoldfishSoft, a shareware company that makes games and utilities for Mac OS X. Adam is the author of AppleScript: The Missing Manual and was a technical editor for O'Reilly's best-selling Mac OS X: The Missing Manual, and an editor for Mac OS X Panther Power User. When he's not writing books or code, Adam attends high school in New Jersey, where he is captain of the Debate and Quizbowl teams and an editor of the school paper.&lt;/p&gt;</om:bio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1401/product-bio/urn:x-domain:oreilly.com:product:9780596006600.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Adam Goldstein runs GoldfishSoft, a shareware company that makes games and utilities for Mac OS X. Adam is the author of AppleScript: The Missing Manual and was a technical editor for O'Reilly's best-selling Mac OS X: The Missing Manual, and an editor for Mac OS X Panther Power User. When he's not writing books or code, Adam attends high school in New Jersey, where he is captain of the Debate and Quizbowl teams and an editor of the school paper.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Adam Goldstein runs GoldfishSoft, a shareware company that makes games and utilities for Mac OS X. Adam is the author of AppleScript: The Missing Manual and was a technical editor for O'Reilly's best-selling Mac OS X: The Missing Manual, and an editor for Mac OS X Panther Power User. When he's not writing books or code, Adam attends high school in New Jersey, where he is captain of the Debate and Quizbowl teams and an editor of the school paper.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.BOOK"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Adam Goldstein runs GoldfishSoft, a shareware company that makes games and utilities for Mac OS X. Adam is the author of AppleScript: The Missing Manual and was a technical editor for O'Reilly's best-selling Mac OS X: The Missing Manual, and an editor for Mac OS X Panther Power User. When he's not writing books or code, Adam attends high school in New Jersey, where he is captain of the Debate and Quizbowl teams and an editor of the school paper.&lt;/p&gt;</om:webBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:51:19.970534+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1401"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:350/product-bio/urn:x-domain:oreilly.com:product:9780596006600.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;David Pogue is the weekly computer columnist for the New York Times and the creator of the Missing Manual series. He's the author or co-author of 30 books, including thirteen in this series and six in the ``For Dummies'' line (including Macs, Magic, Opera&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596006600.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:350"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;David Pogue, Yale '85, is the personal-technology columnist for the New York Times. With nearly 3 million books in print, he is also one of the world's bestselling how-to authors, having written or co-written seven books in the "for Dummies" series (including Macs, Magic, Opera, and Classical Music), along with several computer-humor books and a technothriller, "Hard Drive" (a New York Times "notable book of the year"). Pogue is also the creator and primary author of the Missing Manual series of complete, funny computer books, a joint venture with O'Reilly &amp;amp; Associates. Titles in the series include Mac OS X, Windows XP, iPod, Microsoft Office, iPhoto, Dreamweaver, iMovie 2, and many others. His Web page is www.davidpogue.com, and his email address is david@pogueman.com.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:51:21.130096+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;David Pogue, Yale '85, is the personal-technology columnist for the New York Times. With nearly 3 million books in print, he is also one of the world's bestselling how-to authors, having written or co-written seven books in the "for Dummies" series (including Macs, Magic, Opera, and Classical Music), along with several computer-humor books and a technothriller, "Hard Drive" (a New York Times "notable book of the year"). Pogue is also the creator and primary author of the Missing Manual series of complete, funny computer books, a joint venture with O'Reilly &amp;amp; Associates.&lt;/p&gt;</om:bio>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1947" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16037f575f7ac80bb6a02e14b49386889d5df776</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Dawn Mann</om:legalName>
+    
+    <foaf:name xml:lang="en">Dawn Mann</foaf:name>
+    <foaf:givenname xml:lang="en">Dawn</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:15:16.741363+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Mann</foaf:surname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1401" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:homepage rdf:resource="http://www.goldfishsoft.com"/>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/1988">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3ffda129d471b67d83647d5903d5f2fd9f98004c</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Adam Goldstein</om:legalName>
+    <foaf:surname xml:lang="en">Goldstein</foaf:surname>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:51:24.233108+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Adam</foaf:givenname>
+    
+    <foaf:name xml:lang="en">Adam Goldstein</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1477" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Mark Brokering</foaf:name>
+    <foaf:givenname xml:lang="en">Mark</foaf:givenname>
+    <foaf:surname xml:lang="en">Brokering</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mark Brokering</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:15:31.760785+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:350" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">David</foaf:givenname>
+    <foaf:surname xml:lang="en">Pogue</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">David Pogue</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1255938157fd7727a29516f02504a0805f4f00ea</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:15:31.622586+00:00</dc:modified>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/347">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <foaf:name xml:lang="en">David Pogue</foaf:name>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2573" xml:base="urn:x-domain:oreilly.com:agent:pdb:2573" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Peter Meyers</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Peter Meyers</om:legalName><foaf:givenname>Peter</foaf:givenname><foaf:surname>Meyers</foaf:surname><foaf:homepage><foaf:Document rdf:about="http://www.oreillynet.com/pub/au/1933"><dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/></foaf:Document></foaf:homepage><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-05-27T17:43:39.153992+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2014" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Jason</foaf:givenname>
+    <foaf:surname xml:lang="en">Armenta</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Jason Armenta</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d7dbedb4846c617a9077c5d4f67cf05ad7b8e0f3</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jason Armenta</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:15:31.377992+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1088" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:surname xml:lang="en">Sawyer</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.263161+00:00</dc:modified>
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Brian Sawyer</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1238e003fe7438d9ea4f59d364f14d4b297dd5c0</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Brian</foaf:givenname>
+    <foaf:name xml:lang="en">Brian Sawyer</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1089" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Betsy</foaf:givenname>
+    <foaf:name xml:lang="en">Betsy Waliszewski</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbebb1cc903cf4c5d34cc2e8719aba8411a9d5fa</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:05.143059+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Waliszewski</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Betsy Waliszewski</om:legalName>
+    
+  </foaf:Person></rdf:RDF>

@@ -1,0 +1,2766 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449375003.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=330040332&amp;mt=8</dc:identifier>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9781449375003</dc:identifier>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</om:endNewStatus>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/categories/Book">
+        <rdf:value xml:lang="en">Book</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/categories/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:beginUpcomingStatus>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375003.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-09-08</dc:issued>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:16:18.586758+00:00</dc:modified>
+    <om:applicationShortName xml:lang="en">B Practices</om:applicationShortName>
+    <om:purchasableUsing rdf:resource="http://click.linksynergy.com/fs-bin/click?id=FZoWnz2mljA&amp;subid=&amp;offerid=146261.1&amp;type=10&amp;tmpid=3909&amp;RD_PARM1=http%3A%2F%2Fitunes.apple.com%2FWebObjects%2FMZStore.woa%2Fwa%2FviewSoftware%3Fid%3D330040332%2526mt%3D8"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375003.APP#price-USA">
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/controlstructures">
+        <rdf:value xml:lang="en">control structures</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/Perl">
+        <rdf:value xml:lang="en">Perl</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/DamianConway">
+        <rdf:value xml:lang="en">Damian Conway</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/categories/Reference">
+        <rdf:value xml:lang="en">Reference</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/categories/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/codelayout">
+        <rdf:value xml:lang="en">code layout</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/6">
+        <rdf:value xml:lang="en">6</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/programdecomposition">
+        <rdf:value xml:lang="en">program decomposition</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/O%27Reilly">
+        <rdf:value xml:lang="en">O'Reilly</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/datastructures">
+        <rdf:value xml:lang="en">data structures</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/modules">
+        <rdf:value xml:lang="en">modules</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/PBP">
+        <rdf:value xml:lang="en">PBP</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/interfacedesign">
+        <rdf:value xml:lang="en">interface design</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/parrot">
+        <rdf:value xml:lang="en">parrot</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/keywords/namingconventions">
+        <rdf:value xml:lang="en">naming conventions</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">By Damian Conway
+
+Published by O'Reilly Media (http://oreilly.com/catalog/9780596001735/)
+
+Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+
+But if you're serious about your profession, intuition isn't enough. Perl Best Practices author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, Perl Best Practices offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+
+Most of all, Perl Best Practices offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+
+Superb Reading Features
+
+Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone phenomenon with over a million downloads:
+* Full book text search
+* Several fonts and themes to choose from
+* Built-in dictionary
+* The ability to add annotations
+* Landscape view
+* Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots
+
+About O'Reilly Media
+
+O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.
+
+About Lexcycle
+
+Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.</dc:description>
+    <marcrel:PRG rdf:resource="http://purl.oreilly.com/publishers/Lexcycle" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596516369.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-01T00:00:00</om:beginUpcomingStatus>
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-08-16</dc:created>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596516369.PDF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1440" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:16:13.275695+00:00</dc:modified>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596001738_cat.gif"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596516369.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">400 pages (est.)</dc:extent>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051636" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596516369" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596516369.PDF#price-CAN">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596516369.PDF#price-GBR">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">22.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596516369.PDF#price-USA">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;Perl Best Practices&lt;/i&gt; offers a collection of 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.&lt;/p&gt;</dc:description>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596516369.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596516369.PDF#WO-6192">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices PDF</dc:title>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-08-29</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-08-29</dc:issued>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:endNewStatus>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596555023.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">&lt;i&gt;Perl Best Practices&lt;/i&gt; offers a collection of 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.</dc:description>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596555023</dc:identifier>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596555023.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-18</dc:issued>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:16:23.031174+00:00</dc:modified>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051260"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596555023.EPUB#price-USA">
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/naming%20conventions" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/6" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/program%20decomposition" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Damian%20Conway" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051100" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/control%20structures" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/modules" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/interface%20design" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/code%20layout" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/PRL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/parrot" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/data%20structures" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Perl" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM042000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PBP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046030" xmlns:dc="http://purl.org/dc/terms/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596001738.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1211"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596001738.SAF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+Many programmers code by instinct, relying on convenient habits or
+a "style" they picked up early on. They aren't conscious of all the
+choices they make, like how they format their source, the names
+they use for variables, or the kinds of loops they use. They're
+focused entirely on problems they're solving, solutions they're
+creating, and algorithms they're implementing. So they write code
+in the way that seems natural, that happens intuitively, and that
+feels good.
+&lt;/para&gt;&lt;para&gt;But if you're serious about your profession, intuition isn't
+enough. &lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; author Damian Conway explains
+that rules, conventions, standards, and practices not only help
+programmers communicate and coordinate with one another, they also
+provide a reliable framework for thinking about problems, and a
+common language for expressing solutions. This is especially
+critical in Perl, because the language is designed to offer many
+ways to accomplish the same task, and consequently it supports many
+incompatible dialects.&lt;/para&gt;&lt;para&gt;With a good dose of Aussie humor, Dr. Conway (familiar to many
+in the Perl community) offers 256 guidelines on the art of coding
+to help you write better Perl code--in fact, the best Perl code you
+possibly can. The guidelines cover code layout, naming conventions,
+choice of data and control structures, program decomposition,
+interface design and implementation, modularity, object
+orientation, error handling, testing, and debugging.&lt;/para&gt;&lt;para&gt;They're designed to work together to produce code that is clear,
+robust, efficient, maintainable, and concise, but Dr. Conway
+doesn't pretend that this is the one true universal and unequivocal
+set of best practices. Instead, &lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; offers
+coherent and widely applicable suggestions based on real-world
+experience of how code is actually written, rather than on
+someone's ivory-tower theories on how software ought to be
+created.&lt;/para&gt;&lt;para&gt;Most of all, &lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; offers guidelines that
+actually work, and that many developers around the world are
+already using. Much like Perl itself, these guidelines are about
+helping you to get your job done, without getting in the way.&lt;/para&gt;&lt;para&gt;Praise for &lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; from Perl community
+members:&lt;/para&gt;&lt;para&gt;"As a manager of a large Perl project, I'd ensure that every
+member of my team has a copy of &lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; on their
+desk, and use it as the basis for an in-house style guide." --
+Randal Schwartz&lt;/para&gt;&lt;para&gt;"There are no more excuses for writing bad Perl programs. All
+levels of Perl programmer will be more productive after reading
+this book." -- Peter Scott&lt;/para&gt;&lt;para&gt;"&lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; will be the next big important book
+in the evolution of Perl. The ideas and practices Damian lays down
+will help bring Perl out from under the embarrassing heading of
+"scripting languages". Many of us have known Perl is a real
+programming language, worthy of all the tasks normally delegated to
+Java and C++. With Perl Best Practices, Damian shows specifically
+how and why, so everyone else can see, too." -- Andy Lester&lt;/para&gt;&lt;para&gt;"Damian's done what many thought impossible: show how to build
+large, maintainable Perl applications, while still letting Perl be
+the powerful, expressive language that programmers have loved for
+years." -- Bill Odom&lt;/para&gt;&lt;para&gt;"Finally, a means to bring lasting order to the process and
+product of real Perl development teams." -- Andrew Sundstrom&lt;/para&gt;&lt;para&gt;
+
+"&lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt; provides a valuable education in how to
+write robust, maintainable Perl, and is a definitive citation
+source when coaching other programmers." -- Bennett Todd "I've been
+teaching Perl for years, and find the same question keeps being
+asked: Where can I find a reference for writing reusable,
+maintainable Perl code? Finally I have a decent answer." -- Paul
+Fenwick "At last a well researched, well thought-out, comprehensive
+guide to Perl style. Instead of each of us developing our own, we
+can learn good practices from one of Perl's most prolific and
+experienced authors. I recommend this book to anyone who prefers
+getting on with the job rather than going back and fixing errors
+caused by syntax and poor style issues." -- Jacinta Richardson "If
+you care about programming in any language read this book. Even if
+you don't intend to follow all of the practices, thinking through
+your style will improve it." -- Steven Lembark "The Perl
+community's best author is back with another outstanding book.
+There has never been a comprehensive reference on high quality Perl
+coding and style until &lt;emphasis&gt;Perl Best Practices&lt;/emphasis&gt;. This book fills
+a large gap in every Perl bookshelf." -- Uri Guttman
+&lt;/para&gt;&lt;/div&gt;</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-07-12</dc:issued>
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596001738.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596001738"/>
+      </om:Subscription>
+    </om:price>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596001738</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596001735" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:modified xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-12-01T19:27:57.573707+00:00</dc:modified>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:762" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596001738.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051260"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-04-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1231"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:primarySafariCategory rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.inet.perl"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.prog.perl.ref" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1440" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-01T00:00:00</om:endNewStatus>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596159009.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1211"/>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159009.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+      </rdf:Seq>
+    </dc:creator>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:762" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1440" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596159009.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1231"/>
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    <dc:identifier rdf:resource="urn:isbn:9780596159009" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-18</dc:issued>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.BOOK:9780596159009.EBOOK#bundle-offer"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-12-09</dc:created>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;Perl Best Practices&lt;/i&gt; offers a collection of 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.&lt;/p&gt;</dc:description>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:15:59.313863+00:00</dc:modified>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159009.EBOOK#price-GBR">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <rdf:value xml:lang="en">22.99</rdf:value>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159009.EBOOK#price-CAN">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <rdf:value xml:lang="en">40.95</rdf:value>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159009.EBOOK#price-USA">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596001735.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-04-01T00:00:00</om:beginUpcomingStatus>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    
+    
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:16:16.081556+00:00</dc:modified>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;Perl Best Practices&lt;/i&gt; offers a collection of 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.&lt;/p&gt;</dc:description>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Perl">
+        <rdf:value xml:lang="en">Perl</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/PBP">
+        <rdf:value xml:lang="en">PBP</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/control%20structures">
+        <rdf:value xml:lang="en">control structures</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Damian%20Conway">
+        <rdf:value xml:lang="en">Damian Conway</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/interface%20design">
+        <rdf:value xml:lang="en">interface design</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046030">
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / UNIX</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/parrot">
+        <rdf:value xml:lang="en">parrot</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051100">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / LISP</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/modules">
+        <rdf:value xml:lang="en">modules</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/program%20decomposition">
+        <rdf:value xml:lang="en">program decomposition</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/naming%20conventions">
+        <rdf:value xml:lang="en">naming conventions</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051230">
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM042000">
+        <dc:title xml:lang="en">COMPUTERS / Natural Language Processing</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/code%20layout">
+        <rdf:value xml:lang="en">code layout</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/data%20structures">
+        <rdf:value xml:lang="en">data structures</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046070">
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Linux</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/6">
+        <rdf:value xml:lang="en">6</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    
+    
+    
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    
+    
+    
+    
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#price-GBR">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">28.50</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#price-USA">
+        
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#price-GBE">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">32.00</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#price-CAN">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">45.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">544 pages</dc:extent>
+    <om:tagline xml:lang="en">Standards and Styles for Developing Maintainable Code</om:tagline>
+    
+    
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This is the first book on Perl modules, written by a well-known and well-respected member of the Perl community. It's complete with case studies from the author's vast repertoire of working modules.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596001735" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000173" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1211"/>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:762" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-07-12</dc:issued>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596001735.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#printings">
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-4512">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-08-31</dc:issued>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-08-31</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-5009">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-07-06</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-05</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-1477">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-07-12</dc:issued>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-12</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_7>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-8012">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-08</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-06-10</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_7>
+        <rdf:_5>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-5332">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-14</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-11-15</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_5>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-4685">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-11-28</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-11-30</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_8>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-14025">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-04-08</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_8>
+        <rdf:_6>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.BOOK#WO-6566">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-01-07</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-08</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_6>
+      </rdf:Seq>
+    </om:printings>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1231"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Written by one of the world's most respected Perl developers and trainers, winner of&lt;/li&gt;&lt;li&gt;the Larry Wall Award for Practical Utility two years in a row&lt;/li&gt;&lt;li&gt;First book on the market that covers Module design, a topic that is central to current&lt;/li&gt;&lt;li&gt;Perl programming practices&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Perl&lt;/p&gt;</om:shelving>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-01</om:estimatedIssue>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1440" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596001738_cat.gif"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596807429.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Damian%20Conway" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/data%20structures" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/parrot" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/code%20layout" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/control%20structures" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM042000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/modules" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Perl" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/PRL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/interface%20design" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/naming%20conventions" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/6" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/program%20decomposition" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051100" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PBP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:16:12.056321+00:00</dc:modified>
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-18</dc:issued>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051260"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596807429</dc:identifier>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596807429.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596807429.MOBI#price-USA">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">31.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">&lt;i&gt;Perl Best Practices&lt;/i&gt; offers a collection of 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.</dc:description>
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596001735.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    
+    <om:editorTitle xml:lang="en">Perl Best Practices</om:editorTitle>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1211"/>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596001735.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596001738_cat.gif"/>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Perl&lt;/p&gt;</om:shelving>
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449375003.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596807429.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596159009.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596516369.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596001738.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596555023.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;Perl Best Practices&lt;/i&gt; offers a collection of 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.&lt;/p&gt;</dc:description>
+    
+    
+    <om:customerTitle xml:lang="en">Perl Best Practices</om:customerTitle>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">544 pages</dc:extent>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/interface%20design">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">interface design</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/parrot">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">parrot</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046030">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / UNIX</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046070">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Linux</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051230">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/PBP">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">PBP</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/code%20layout">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">code layout</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051100">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / LISP</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/program%20decomposition">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">program decomposition</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Damian%20Conway">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Damian Conway</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/data%20structures">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">data structures</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/6">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">6</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM042000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Natural Language Processing</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/naming%20conventions">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">naming conventions</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/modules">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">modules</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Perl">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Perl</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/control%20structures">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">control structures</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <om:sortableTitle xml:lang="en">perl best practices</om:sortableTitle>
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:16:17.165146+00:00</dc:modified>
+    
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:762" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596001735" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Perl Best Practices</om:asciiTitle>
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596001735.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Many programmers code by instinct, relying on convenient habits or a "style" they picked up early on. They aren't conscious of all the choices they make, like how they format their source, the names they use for variables, or the kinds of loops they use. They're focused entirely on problems they're solving, solutions they're creating, and algorithms they're implementing. So they write code in the way that seems natural, that happens intuitively, and that feels good.
+&lt;/p&gt;&lt;p&gt;
+But if you're serious about your profession, intuition isn't enough. &lt;i&gt;Perl Best Practices&lt;/i&gt; author Damian Conway explains that rules, conventions, standards, and practices not only help programmers communicate and coordinate with one another, they also provide a reliable framework for thinking about problems, and a common language for expressing solutions. This is especially critical in Perl, because the language is designed to offer many ways to accomplish the same task, and consequently it supports many incompatible dialects.
+&lt;/p&gt;&lt;p&gt;
+With a good dose of Aussie humor, Dr. Conway (familiar to many in the Perl community) offers 256 guidelines on the art of coding to help you write better Perl code--in fact, the best Perl code you possibly can. The guidelines cover code layout, naming conventions, choice of data and control structures, program decomposition, interface design and implementation, modularity, object orientation, error handling, testing, and debugging.
+&lt;/p&gt;&lt;p&gt;
+They're designed to work together to produce code that is clear, robust, efficient, maintainable, and concise, but Dr. Conway doesn't pretend that this is the one true universal and unequivocal set of best practices. Instead, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers coherent and widely applicable suggestions based on real-world experience of how code is actually written, rather than on someone's ivory-tower theories on how
+software ought to be created.
+&lt;/p&gt;&lt;p&gt;
+Most of all, &lt;i&gt;Perl Best Practices&lt;/i&gt; offers guidelines that actually work, and that many developers around the world are already using. Much like Perl itself, these guidelines are about helping you to get your job done, without getting in the way.
+&lt;/p&gt;&lt;p&gt;
+Praise for &lt;i&gt;Perl Best Practices&lt;/i&gt; from Perl community members:&lt;/p&gt;
+&lt;p&gt;
+"As a manager of a large Perl project, I'd ensure that every member of my team has a copy of &lt;i&gt;Perl Best Practices&lt;/i&gt; on their desk, and use it as the basis for an in-house style guide." 
+-- Randal Schwartz&lt;/p&gt;
+&lt;p&gt;
+"There are no more excuses for writing bad Perl programs. All levels of Perl programmer will be more productive after reading this book." 
+-- Peter Scott&lt;/p&gt;
+&lt;p&gt;
+"&lt;i&gt;Perl Best Practices&lt;/i&gt; will be the next big important book in the evolution of Perl. The ideas and practices Damian lays down will help bring Perl out from under the embarrassing heading of "scripting languages". Many of us have known Perl is a real programming language, worthy of all the tasks normally delegated to Java and C++. With Perl Best Practices, Damian shows specifically how and why, so everyone else can see, too." 
+-- Andy Lester&lt;/p&gt;
+&lt;p&gt;
+"Damian's done what many thought impossible: show how to build large, maintainable Perl applications, while still letting Perl be the powerful, expressive language that programmers have loved for years." 
+-- Bill Odom&lt;/p&gt;
+&lt;p&gt;
+"Finally, a means to bring lasting order to the process and product of real Perl development teams." 
+-- Andrew Sundstrom&lt;/p&gt;
+&lt;p&gt;"&lt;i&gt;Perl Best Practices&lt;/i&gt; provides a valuable education in how to write robust, maintainable Perl, and is a definitive citation source when coaching other programmers." 
+-- Bennett Todd&lt;/p&gt;
+&lt;p&gt;"I've been teaching Perl for years, and find the same question keeps being asked: Where can I find a reference for writing reusable, maintainable Perl code? Finally I have a decent answer." 
+-- Paul Fenwick&lt;/p&gt;
+&lt;p&gt;"At last a well researched, well thought-out, comprehensive guide to Perl style. Instead of each of us developing our own, we can learn good practices from one of Perl's most prolific and experienced authors. I recommend this book to anyone who prefers getting on with the job rather than going back and fixing errors caused by syntax and poor style issues." 
+-- Jacinta Richardson&lt;/p&gt;
+&lt;p&gt;"If you care about programming in any language read this book. Even if you don't intend to follow all of the practices, thinking through your style will improve it."
+-- Steven Lembark&lt;/p&gt;
+&lt;p&gt;"The Perl community's best author is back with another outstanding book. There has never been a comprehensive reference on high quality Perl coding and style until &lt;i&gt;Perl Best Practices&lt;/i&gt;. This book fills a large gap in every Perl bookshelf." 
+-- Uri Guttman&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:relation rdf:resource="urn:isbn:9780596001735" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596004781" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002893" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sellslike rdf:resource="urn:isbn:9780596001322"/>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596001735.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Perl Best Practices</dc:title>
+    
+    <om:byline xml:lang="en">By Damian Conway</om:byline>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-07-12</dc:issued>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2005-07-12</dc:created>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596001735">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-03-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-09-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-06-01</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1231"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This is the first book on Perl modules, written by a well-known and well-respected member of the Perl community. It's complete with case studies from the author's vast repertoire of working modules.&lt;/p&gt;</om:sellsheetHighlight>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Written by one of the world's most respected Perl developers and trainers, winner of&lt;/li&gt;&lt;li&gt;the Larry Wall Award for Practical Utility two years in a row&lt;/li&gt;&lt;li&gt;First book on the market that covers Module design, a topic that is central to current&lt;/li&gt;&lt;li&gt;Perl programming practices&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1440" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:tagline xml:lang="en">Standards and Styles for Developing Maintainable Code</om:tagline>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:491/product-bio/urn:x-domain:oreilly.com:product:9780596001735.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:50:42.894807+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Damian Conway holds a PhD in Computer Science and is an honorary Associate Professor with the School of Computer Science and Software Engineering at Monash University, Melbourne, Australia.&lt;/p&gt;
+&lt;p&gt;Currently he runs an international IT training company--Thoughtstream--which provides programmer development from beginner to masterclass level throughout Europe, North America, and Australasia.&lt;/p&gt;
+&lt;p&gt;Damian was the winner of the 1998, 1999, and 2000 Larry Wall Awards for Practical Utility. The best technical paper at the annual Perl Conference was subsequently named in his honour. He is a member of the technical committee for The Perl Conference, a keynote speaker at many Open Source conferences, a former columnist for The Perl Journal, and author of the book Object Oriented Perl. In 2001 Damian received the first "Perl Foundation Development Grant" and spent 20 months working on projects for the betterment of Perl.&lt;/p&gt;
+&lt;p&gt;A popular speaker and trainer, he is also the author of numerous well-known Perl modules, including Parse::RecDescent (a sophisticated parsing tool), Class::Contract (design-by-contract programming in Perl), Lingua::EN::Inflect (rule-based English transformations for text generation), Class::Multimethods (multiple dispatch polymorphism), Text::Autoformat (intelligent automatic reformatting of plaintext), Switch (Perl's missing case statement), NEXT (resumptive method dispatch), Filter::Simple (Perl-based source code manipulation), Quantum::Superpositions (auto-parallelization of serial code using a quantum mechanical metaphor), and Lingua::Romana::Perligata (programming in Latin).&lt;/p&gt;
+&lt;p&gt;Most of his time is now spent working with Larry Wall on the design of the new Perl 6 programming language.&lt;/p&gt;&lt;/div&gt;</om:longBio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Damian Conway holds a PhD in Computer Science and is an honorary Associate Professor with the School of Computer Science and Software Engineering at Monash University, Melbourne, Australia.&lt;/p&gt;
+&lt;p&gt;Currently he runs an international IT training company--Thoughtstream--which provides programmer development from beginner to masterclass level throughout Europe, North America, and Australasia.&lt;/p&gt;
+&lt;p&gt;Damian was the winner of the 1998, 1999, and 2000 Larry Wall Awards for Practical Utility. The best technical paper at the annual Perl Conference was subsequently named in his honour. He is a member of the technical committee for The Perl Conference, a keynote speaker at many Open Source conferences, a former columnist for The Perl Journal, and author of the book Object Oriented Perl. In 2001 Damian received the first "Perl Foundation Development Grant" and spent 20 months working on projects for the betterment of Perl.&lt;/p&gt;
+&lt;p&gt;A popular speaker and trainer, he is also the author of numerous well-known Perl modules, including Parse::RecDescent (a sophisticated parsing tool), Class::Contract (design-by-contract programming in Perl), Lingua::EN::Inflect (rule-based English transformations for text generation), Class::Multimethods (multiple dispatch polymorphism), Text::Autoformat (intelligent automatic reformatting of plaintext), Switch (Perl's missing case statement), NEXT (resumptive method dispatch), Filter::Simple (Perl-based source code manipulation), Quantum::Superpositions (auto-parallelization of serial code using a quantum mechanical metaphor), and Lingua::Romana::Perligata (programming in Latin).&lt;/p&gt;
+&lt;p&gt;Most of his time is now spent working with Larry Wall on the design of the new Perl 6 programming language.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:491/product-bio/urn:x-domain:oreilly.com:product:9780596001735.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:50:47.626148+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Damian Conway holds a PhD in Computer Science and is an honorary Associate Professor with the School of Computer Science and Software Engineering at Monash University, Melbourne, Australia.&lt;/p&gt;
+&lt;p&gt;Currently he runs an international IT training company--Thoughtstream--which provides programmer development from beginner to masterclass level throughout Europe, North America, and Australasia.&lt;/p&gt;
+&lt;p&gt;Damian was the winner of the 1998, 1999, and 2000 Larry Wall Awards for Practical Utility. The best technical paper at the annual Perl Conference was subsequently named in his honour. He is a member of the technical committee for The Perl Conference, a keynote speaker at many Open Source conferences, a former columnist for The Perl Journal, and author of the book Object Oriented Perl. In 2001 Damian received the first "Perl Foundation Development Grant" and spent 20 months working on projects for the betterment of Perl.&lt;/p&gt;
+&lt;p&gt;A popular speaker and trainer, he is also the author of numerous well-known Perl modules, including Parse::RecDescent (a sophisticated parsing tool), Class::Contract (design-by-contract programming in Perl), Lingua::EN::Inflect (rule-based English transformations for text generation), Class::Multimethods (multiple dispatch polymorphism), Text::Autoformat (intelligent automatic reformatting of plaintext), Switch (Perl's missing case statement), NEXT (resumptive method dispatch), Filter::Simple (Perl-based source code manipulation), Quantum::Superpositions (auto-parallelization of serial code using a quantum mechanical metaphor), and Lingua::Romana::Perligata (programming in Latin).&lt;/p&gt;
+&lt;p&gt;Most of his time is now spent working with Larry Wall on the design of the new Perl 6 programming language.&lt;/p&gt;&lt;/div&gt;</om:longBio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Damian Conway holds a PhD in Computer Science and is an honorary Associate Professor with the School of Computer Science and Software Engineering at Monash University, Melbourne, Australia.&lt;/p&gt;
+&lt;p&gt;Currently he runs an international IT training company--Thoughtstream--which provides programmer development from beginner to masterclass level throughout Europe, North America, and Australasia.&lt;/p&gt;
+&lt;p&gt;Damian was the winner of the 1998, 1999, and 2000 Larry Wall Awards for Practical Utility. The best technical paper at the annual Perl Conference was subsequently named in his honour. He is a member of the technical committee for The Perl Conference, a keynote speaker at many Open Source conferences, a former columnist for The Perl Journal, and author of the book Object Oriented Perl. In 2001 Damian received the first "Perl Foundation Development Grant" and spent 20 months working on projects for the betterment of Perl.&lt;/p&gt;
+&lt;p&gt;A popular speaker and trainer, he is also the author of numerous well-known Perl modules, including Parse::RecDescent (a sophisticated parsing tool), Class::Contract (design-by-contract programming in Perl), Lingua::EN::Inflect (rule-based English transformations for text generation), Class::Multimethods (multiple dispatch polymorphism), Text::Autoformat (intelligent automatic reformatting of plaintext), Switch (Perl's missing case statement), NEXT (resumptive method dispatch), Filter::Simple (Perl-based source code manipulation), Quantum::Superpositions (auto-parallelization of serial code using a quantum mechanical metaphor), and Lingua::Romana::Perligata (programming in Latin).&lt;/p&gt;
+&lt;p&gt;Most of his time is now spent working with Larry Wall on the design of the new Perl 6 programming language.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596001735.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:491"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:762" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Kotary</foaf:surname>
+    <foaf:givenname xml:lang="en">Nancy</foaf:givenname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:00.284890+00:00</dc:modified>
+    <foaf:name xml:lang="en">Nancy Kotary</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Nancy Kotary</om:legalName>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/677">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1211" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.892102+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Haskins</foaf:surname>
+    
+    <foaf:name xml:lang="en">Lucie Haskins</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Lucie Haskins</om:legalName>
+    <foaf:givenname xml:lang="en">Lucie</foaf:givenname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1224" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Volckhausen</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Ellie Volckhausen</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.538117+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34f4fac38b3dee37dfd058b8828e0382fc3839f3</foaf:mbox_sha1sum>
+    
+    
+    <foaf:givenname xml:lang="en">Ellie</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Ellie Volckhausen</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1231" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Genevieve</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Genevieve d'Entremont</om:legalName>
+    <foaf:name xml:lang="en">Genevieve d'Entremont</foaf:name>
+    <foaf:surname xml:lang="en">d'Entremont</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:52.023736+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:491" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Damian Conway</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:50:39.948516+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Conway</foaf:surname>
+    
+    
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2247">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:givenname xml:lang="en">Damian</foaf:givenname>
+    
+    <foaf:name xml:lang="en">Damian Conway</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">058e1250597358b49ee6a92df058afca02c8893a</foaf:mbox_sha1sum>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1440" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Randal</foaf:surname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Allison Randal</om:legalName>
+    <foaf:name xml:lang="en">Allison Randal</foaf:name>
+    
+    
+    <foaf:givenname xml:lang="en">Allison</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:43:57.496698+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bcb5ce1817c21085dc3f5675abb7f77609ce4a99</foaf:mbox_sha1sum>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1655" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Keith</foaf:givenname>
+    <foaf:surname xml:lang="en">Fahlgren</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.832383+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Keith Fahlgren</om:legalName>
+    <foaf:name xml:lang="en">Keith Fahlgren</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1064" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Tatiana Apandi</foaf:name>
+    <foaf:surname xml:lang="en">Apandi</foaf:surname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Tatiana Apandi</om:legalName>
+    
+    <foaf:givenname xml:lang="en">Tatiana</foaf:givenname>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.402330+00:00</dc:modified>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111b18c0e8633e16ea6d382aff5ce95e13274964</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77593e9bde67e7bd413fa74628ac2ef0dfbf959f</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person></rdf:RDF>

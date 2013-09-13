@@ -1,0 +1,2155 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596152864.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596152864.EBOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:identifier rdf:resource="urn:isbn:9780596152864" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.015286" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">E.A. Moore</dc:rightsHolder>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-06-09</dc:created>
+    
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;/p&gt;</dc:description>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-01T00:00:00</om:endNewStatus>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:12:03.109434+00:00</dc:modified>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596152864.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1380" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:beginUpcomingStatus>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1380" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-07-15</dc:issued>
+    
+    
+    
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596152864.EBOOK#price-GBR">
+        
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">15.50</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596152864.EBOOK#price-CAN">
+        
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596152864.EBOOK#price-USA">
+        
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">15.99</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2971"/>
+    
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596517694_cat.gif"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">268 pages (est.)</dc:extent>
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-06-09</om:estimatedIssue>
+    
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596152864.EBOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596152864.EBOOK#WO-7332">
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-07-14</dc:issued>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-01T00:00:00</om:endNewStatus>
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596553760.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.</dc:description>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596553760.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:beginUpcomingStatus>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-07-14</dc:issued>
+    
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/WBD" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Polling" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Social%20Networking" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Photo%20sharing" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Blogging" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Online%20advertising" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/LinkedIn" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MySpace" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Job%20Search" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Facebook" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-01T00:00:00</om:endNewStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596553760.EPUB#price-USA">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value>15.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:12:00.583870+00:00</dc:modified>
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596553760</dc:identifier>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596517694.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517694.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">E.A. Moore</dc:rightsHolder>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <om:primarySafariCategory rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.inet.commun"/>
+    
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-01-25</dc:issued>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2971"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9780596517694</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596517694" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-11-25T03:32:14.819104+00:00</dc:modified>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2573"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.humcomp.online" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.inet.webauth" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.graphics.webgraphics" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1380" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+Facebook is the wildly popular, free social networking site that
+combines the best of blogs, online forums, photo sharing, clever
+applications, and interaction among friends. The one thing it
+doesn't have is a user's guide to help you truly take advantage of
+it. Until now. &lt;emphasis&gt;Facebook: The Missing Manual&lt;/emphasis&gt; gives you a
+crystal clear and entertaining look at everything this fascinating
+Facebook phenomenon has to offer.
+
+Teeming with high-quality color graphics, each page in this Missing
+Manual is uniquely designed to help you with specific Facebook
+tasks, such as signing up, networking, shopping, joining groups,
+finding or filling a job, and a whole lot more. You'll discover how
+to create your page and make connections with other members in no
+time -- everybody who went to your school, for example, or those
+who work at your company or play on your soccer team. Then, bingo!
+Instant access to the personal and professional details of all the
+folks you're connected with, the people they're connected with, and
+so on, and so on.
+
+With &lt;emphasis&gt;Facebook: The Missing Manual&lt;/emphasis&gt;, you learn to:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Join a network, whether it's where you went to school,
+work-related, or based on other interests&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Look up old friends, find new ones, and decide who you'd like
+to keep track of&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Contact members by virtually poking them, or leaving notes on
+their message boards&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Get automatic updates from Facebook friends and send updates of
+your own&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Participate in groups of particular interest and meet up with
+members face-to-face&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Buy and sell using Facebook's marketplace and classified
+ads&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Find a job or hire employees by combing through the member
+pool&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Use Facebook as a collaboration tool to keep team members,
+co-workers, clients, and projects up to date&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Play it safe by using a multi-pronged approach to ensuring your
+privacy&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on
+steroids! With help from this guide, you'll quickly get into the
+Facebook experience -- without getting in over your head.
+&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1380" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9780596517694"/>
+      </om:Subscription>
+    </om:price>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:endNewStatus>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-09-26</dc:created>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596106447.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596106447.MOBI#price-USA">
+        <rdf:value>15.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-01T00:00:00</om:endNewStatus>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-07-14</dc:issued>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums, photo sharing, clever applications, and interaction among friends. The one thing it doesn't have is a user's guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a crystal clear and entertaining look at everything this fascinating Facebook phenomenon has to offer.</dc:description>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Social%20Networking" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Facebook" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MySpace" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/LinkedIn" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Photo%20sharing" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Polling" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Online%20advertising" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Blogging" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Job%20Search" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/WBD" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:beginUpcomingStatus>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596106447</dc:identifier>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:12:01.484954+00:00</dc:modified>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596106447.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596806880.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596806880</dc:identifier>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=325949491&amp;mt=8</dc:identifier>
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">By E. A. Vander Veer
+Published by O'Reilly Media (http://oreilly.com/catalog/9780596517694/)
+
+PLEASE NOTE that there is a newer edition of this book in the app store.
+
+Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums, photo sharing, clever applications, and interaction among friends. The one thing it doesn't have is a user's guide to help you truly take advantage of it. Until now. Facebook: The Missing Manual gives you a crystal clear and entertaining look at everything this fascinating Facebook phenomenon has to offer.
+
+Teeming with high-quality color graphics, each page in this Missing Manual is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Then, bingo! Instant access to the personal and professional details of all the folks you're connected with, the people they're connected with, and so on, and so on.
+
+With Facebook: The Missing Manual, you learn to:
+
+* Join a network, whether it's where you went to school, work-related, or based on other interests
+* Look up old friends, find new ones, and decide who you'd like to keep track of
+* Contact members by virtually poking them, or leaving notes on their message boards
+* Get automatic updates from Facebook friends and send updates of your own
+* Participate in groups of particular interest and meet up with members face-to-face
+* Buy and sell using Facebook's marketplace and classified ads
+* Find a job or hire employees by combing through the member pool
+* Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date
+* Play it safe by using a multi-pronged approach to ensuring your privacy
+
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this guide, you'll quickly get into the Facebook experience -- without getting in over your head.
+
+About O'Reilly Media
+O’Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences. Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about ebooks from O'Reilly at oreilly.com/ebooks.
+
+About Lexcycle
+Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone eBook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.
+
+</dc:description>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:11:58.417892+00:00</dc:modified>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://purl.oreilly.com/itunes/categories/Books">
+        <rdf:value xml:lang="en">Books</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/itunes/categories/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596806880.APP#price-USA">
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:purchaseableUsing rdf:resource="http://click.linksynergy.com/fs-bin/click?id=FZoWnz2mljA&amp;subid=&amp;offerid=146261.1&amp;type=10&amp;tmpid=3909&amp;RD_PARM1=http%3A%2F%2Fitunes.apple.com%2FWebObjects%2FMZStore.woa%2Fwa%2FviewSoftware%3Fid%3D325949491%2526mt%3D8"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:purchasableUsing rdf:resource="http://itunes.apple.com/app/urn%3Ax-domain%3Aoreilly.com%3Aproduct%3A9780596806880.APP/id325949491"/>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-08-04</dc:issued>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Polling" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/WBD" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Facebook" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Online%20advertising" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Photo%20sharing" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Blogging" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MySpace" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Job%20Search" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Social%20Networking" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/LinkedIn" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:appleAppStoreID xml:lang="en">325949491</om:appleAppStoreID>
+    
+    <marcrel:PRG rdf:resource="http://purl.oreilly.com/publishers/Lexcycle" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:beginUpcomingStatus>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596806880.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-01T00:00:00</om:endNewStatus>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596517694.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums, photo sharing, clever applications, and interaction among friends. The one thing it doesn't have is a user's guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a crystal clear and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this Missing Manual is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Then, bingo! Instant access to the personal and professional details of all the folks you're connected with, the people they're connected with, and so on, and so on.&lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's where you went to school, work-related, or based on other interests&lt;/li&gt;
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by virtually poking them, or leaving notes on their message boards&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates of your own&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and meet up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through the member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this guide, you'll quickly get into the Facebook experience -- without getting in over your head.&lt;/div&gt;</dc:abstract>
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/NTU"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-01-25</dc:issued>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#price-GBR">
+        
+        
+        <rdf:value xml:lang="en">15.50</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#price-GBE">
+        
+        
+        <rdf:value xml:lang="en">16.00</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#price-USA">
+        
+        
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#price-CAN">
+        
+        
+        <rdf:value xml:lang="en">24.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Inside Facebook: Life, Work and Visions of Greatness by Karel Baloun, Trafford Publishing, ISBN-13: 978-1425113001, April 2007, 136 pages, $14.50&lt;/li&gt;&lt;li&gt;Facebook for Dummies by Linda Pearlman and Carolyn Abram, For Dummies, ISBN-13: 978-0470262733, February 2008, 336 pages, $21.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">272 pages</dc:extent>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">E.A. Moore</dc:rightsHolder>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051769" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596517694" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, Kit, PrintBookNonDistributable, Set must be In Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must not be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517694.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums, photo sharing, clever applications, and interaction among friends. The one thing it doesn't have is a user's guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a crystal clear and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;/p&gt;</dc:description>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:11:56.173154+00:00</dc:modified>
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">6 x 9 in</dc:format>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:avaliable xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-01-25/2009-10-01</dc:avaliable>
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Facebook: The Missing Manual is intended for beginner to intermediate-level users who want to really understand how to use all the functionality Facebook has to offer.&lt;/p&gt;</om:audienceDescription>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060000">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Internet / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Social%20Networking">
+        <rdf:value xml:lang="en">Social Networking</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM079000">
+        <dc:title xml:lang="en">COMPUTERS / Social Aspects / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Polling">
+        <rdf:value xml:lang="en">Polling</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Web%202.0">
+        <rdf:value xml:lang="en">Web 2.0</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/MySpace">
+        <rdf:value xml:lang="en">MySpace</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM034000">
+        <dc:title xml:lang="en">COMPUTERS / Interactive &amp; Multimedia</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Photo%20sharing">
+        <rdf:value xml:lang="en">Photo sharing</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060080">
+        <dc:title xml:lang="en">COMPUTERS / Web / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Blogging">
+        <rdf:value xml:lang="en">Blogging</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Online%20advertising">
+        <rdf:value xml:lang="en">Online advertising</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/LinkedIn">
+        <rdf:value xml:lang="en">LinkedIn</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM056000">
+        <dc:title xml:lang="en">COMPUTERS / Utilities</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Job%20Search">
+        <rdf:value xml:lang="en">Job Search</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Facebook">
+        <rdf:value xml:lang="en">Facebook</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    
+    
+    
+    
+    <om:endOfAvailability rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-01</om:endOfAvailability>
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#printing-status">
+        <rdf:value xml:lang="en">Normal</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    
+    
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:endNewStatus>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    
+    <om:binding xml:lang="en">Lay-flat</om:binding>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#printings">
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#WO-8191">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-01T00:00:00</om:endNewStatus>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-10-15</dc:issued>
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-14</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#WO-7039">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-09-01T00:00:00</om:endNewStatus>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-03-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-06-02</dc:issued>
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-05-30</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#WO-8104">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-08-25</dc:issued>
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-08-21</om:estimatedIssue>
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.BOOK#WO-6586">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-23</om:estimatedIssue>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-01-25</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1089"/>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-15</om:estimatedIssue>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;With over 22 million users worldwide and growing, Facebook is a dynamo -- but it's also a complex platform with no documentation.&lt;/li&gt;&lt;li&gt;This will be the first comprehensive guide to the wildly popular site and its ever-growing lineup of applications and functionality.&lt;/li&gt;&lt;li&gt;Written with the clarity, sanity and humor that make Missing Manuals so popular.&lt;/li&gt;&lt;li&gt;Topics covered include both personal and professional uses of Facebook, privacy and security, customization, groups and events,  and Facebook mobile.&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596517694_cat.gif"/>
+    
+    
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2971"/>
+    <om:whyToBuy rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Find out how to navigate and experience Facebook the Missing Manual way from finding a school friend to protecting your personal information to using the service to get the word out about yourself or your business.&lt;/p&gt;</om:whyToBuy>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    
+    
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;World Wide Web / Internet Applications&lt;/p&gt;</om:shelving>
+    
+    
+    
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Teeming with high-quality color graphics, each custom designed page of this cutting-edge book helps readers enhance their experience with Facebook, the wildly popular, free-to-use social networking site that combines the best of blogs, online forums and groups, photo-sharing, clever applications, and interaction among friends.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-09-26</dc:created>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Switching to the Mac: The Missing Manual, Tiger Ed. (ISBN-13: 978-0596006600)&lt;/p&gt;</om:willSellLike>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596808785.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-09-15</dc:issued>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</om:endNewStatus>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:11:54.866602+00:00</dc:modified>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596808785</dc:identifier>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:applicationShortName xml:lang="en">Facebook MM</om:applicationShortName>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/WBD" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Job%20Search" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Online%20advertising" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Facebook" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MySpace" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Polling" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Blogging" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Social%20Networking" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Photo%20sharing" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/LinkedIn" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:androidPackage xml:lang="en">com.aldiko.android.oreilly.facebook</om:androidPackage>
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <om:exportFilename xml:lang="en">Facebook_The_Missing_Manual</om:exportFilename>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596808785.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <marcrel:PRG rdf:resource="http://purl.oreilly.com/publishers/Aldiko" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    
+    
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook is the wildly popular, free social networking site. Facebook: The Missing Manual gives you a crystal clear and entertaining look at everything this fascinating Facebook phenomenon has to offer.
+
+Published by O'Reilly Media. App powered by Aldiko (aldiko.com).</dc:description>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596808785.APP#price-USA">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">4.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/android"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/AndroidApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://purl.oreilly.com/androidmarket/categories/Reference">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/androidmarket/categories/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Reference</rdf:value>
+      </rdf:Description>
+    </om:primarySubject>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596520175.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;/p&gt;</dc:description>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596520175.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-02-27</dc:issued>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052017" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596520175" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">E.A. Moore</dc:rightsHolder>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-02-11</dc:created>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-02-28</om:estimatedIssue>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596517694_cat.gif"/>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:endNewStatus>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520175.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">286 pages (est.)</dc:extent>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520175.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520175.PDF#WO-6862">
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-02-27</dc:issued>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:beginUpcomingStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:endNewStatus>
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520175.PDF#price-USA">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">15.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520175.PDF#price-GBR">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">10.50</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520175.PDF#price-CAN">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">16.95</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:11:52.214899+00:00</dc:modified>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2971"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596517694.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    <om:imprint xml:lang="en">Pogue Press</om:imprint>
+    
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:relation rdf:resource="urn:isbn:9780596008574" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596527426" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596100193" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">POG</om:imprint_short_name>
+    <om:customerTitle xml:lang="en">Facebook: The Missing Manual</om:customerTitle>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.IP#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;With over 22 million users worldwide and growing, Facebook is a dynamo -- but it's also a complex platform with no documentation.&lt;/li&gt;&lt;li&gt;This will be the first comprehensive guide to the wildly popular site and its ever-growing lineup of applications and functionality.&lt;/li&gt;&lt;li&gt;Written with the clarity, sanity and humor that make Missing Manuals so popular.&lt;/li&gt;&lt;li&gt;Topics covered include both personal and professional uses of Facebook, privacy and security, customization, groups and events,  and Facebook mobile.&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596808785.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596806880.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596106447.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596553760.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596152864.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596520175.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeAreaID xml:lang="en">7</om:inPracticeAreaID>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596517694.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/MissingManuals"/>
+    <om:asciiTitle xml:lang="en">Facebook: The Missing Manual</om:asciiTitle>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;br/&gt;&lt;br/&gt;
+Teeming with high-quality color graphics, each page in this guide is uniquely designed to help you with specific Facebook tasks, such as signing up, networking, shopping, joining groups, finding or filling a job, and a whole lot more. You'll discover how to create your page and make connections with other members in no time -- everybody who went to your school, for example, or those who work at your company or play on your soccer team. Bingo: instant access to the personal and professional details of all the folks you're connected with, the folks they're connected with, and so on, and so on. &lt;br/&gt;&lt;br/&gt;
+With &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt;, you learn to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Join a network, whether it's in your area, or work-related, or based on other interests&lt;/li&gt; 
+&lt;li&gt;Look up old friends, find new ones, and decide who you'd like to keep track of&lt;/li&gt;
+&lt;li&gt;Contact members by poking them, writing on their walls, and sending them gifts&lt;/li&gt;
+&lt;li&gt;Get automatic updates from Facebook friends and send updates to them&lt;/li&gt;
+&lt;li&gt;Participate in groups of particular interest and hook up with members face-to-face&lt;/li&gt;
+&lt;li&gt;Buy and sell using Facebook's uniquely targeted marketplace and classified ads&lt;/li&gt;
+&lt;li&gt;Find a job or hire employees by combing through Facebook's member pool&lt;/li&gt;
+&lt;li&gt;Use Facebook as a collaboration tool to keep team members, co-workers, clients, and projects up to date&lt;/li&gt;
+&lt;li&gt;Play it safe by using a multi-pronged approach to ensuring your privacy&lt;/li&gt;
+&lt;/ul&gt;
+Think of Facebook as a 30-million-plus-entry searchable Rolodex on steroids! With help from this Missing Manual, you'll quickly get in the swim of the Facebook experience -- without getting in over your head.&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Missing Manuals</om:inPracticeAreaName>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/NTU"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">E.A. Moore</dc:rightsHolder>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">304 pages (est.)</dc:extent>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/MySpace">
+        <rdf:value xml:lang="en">MySpace</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Photo%20sharing">
+        <rdf:value xml:lang="en">Photo sharing</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/LinkedIn">
+        <rdf:value xml:lang="en">LinkedIn</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Social%20Networking">
+        <rdf:value xml:lang="en">Social Networking</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Online%20advertising">
+        <rdf:value xml:lang="en">Online advertising</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Web%202.0">
+        <rdf:value xml:lang="en">Web 2.0</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Blogging">
+        <rdf:value xml:lang="en">Blogging</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Job%20Search">
+        <rdf:value xml:lang="en">Job Search</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Facebook">
+        <rdf:value xml:lang="en">Facebook</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Polling">
+        <rdf:value xml:lang="en">Polling</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-01-25</dc:issued>
+    <om:byline xml:lang="en">By E. A. Vander Veer</om:byline>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Facebook is the wildly popular, free social networking site that combines the best of blogs, online forums and groups, photosharing, clever applications, and interaction among friends. The one thing it doesn't have is a users guide to help you truly take advantage of it. Until now. &lt;em&gt;Facebook: The Missing Manual&lt;/em&gt; gives you a very objective and entertaining look at everything this fascinating Facebook phenomenon has to offer.&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1088"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Facebook: The Missing Manual</dc:title>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/web-and-mobile-apps"/>
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Facebook: The Missing Manual is intended for beginner to intermediate-level users who want to really understand how to use all the functionality Facebook has to offer.&lt;/p&gt;</om:audienceDescription>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2971"/>
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-09-26</dc:created>
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Inside Facebook: Life, Work and Visions of Greatness by Karel Baloun, Trafford Publishing, ISBN-13: 978-1425113001, April 2007, 136 pages, $14.50&lt;/li&gt;&lt;li&gt;Facebook for Dummies by Linda Pearlman and Carolyn Abram, For Dummies, ISBN-13: 978-0470262733, February 2008, 336 pages, $21.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <dc:identifier rdf:resource="urn:isbn:9780596517694" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Switching to the Mac: The Missing Manual, Tiger Ed. (ISBN-13: 978-0596006600)&lt;/p&gt;</om:willSellLike>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:sortableTitle xml:lang="en">facebook: the missing manual</om:sortableTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;World Wide Web / Internet Applications&lt;/p&gt;</om:shelving>
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596517694">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-08-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-11-12</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Teeming with high-quality color graphics, each custom designed page of this cutting-edge book helps readers enhance their experience with Facebook, the wildly popular, free-to-use social networking site that combines the best of blogs, online forums and groups, photo-sharing, clever applications, and interaction among friends.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T21:12:04.683570+00:00</dc:modified>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596517694.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <om:editorTitle xml:lang="en">Facebook: The Missing Manual</om:editorTitle>
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/MSM"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517694.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:whyToBuy rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Find out how to navigate and experience Facebook the Missing Manual way from finding a school friend to protecting your personal information to using the service to get the word out about yourself or your business.&lt;/p&gt;</om:whyToBuy>
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2320/product-bio/urn:x-domain:oreilly.com:product:9780596517694.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;E. A. Vander Veer has authored or edited more than a dozen books to date, including "PowerPoint 2007: The Missing Manual" and "PowerPoint 2007 for Starters: The Missing Manual." Her work has appeared in dozens of on and offline publications, including "Byte," "The Writer," "Salon.com," and "CNN.com."&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:44:12.907135+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;E. A. Vander Veer has authored or edited more than a dozen books to date, including "PowerPoint 2007: The Missing Manual" and "PowerPoint 2007 for Starters: The Missing Manual." Her work has appeared in dozens of on and offline publications, including "Byte", "The Writer", "Salon.com", and "CNN.com".&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2320/product-bio/urn:x-domain:oreilly.com:product:9780596806880.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;E. A. Vander Veer has authored or edited more than a dozen books to date, including "PowerPoint 2007: The Missing Manual" and "PowerPoint 2007 for Starters: The Missing Manual." Her work has appeared in dozens of on and offline publications, including "Byte", "The Writer", "Salon.com", and "CNN.com".&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:44:10.692841+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;E. A. Vander Veer has authored or edited more than a dozen books to date, including "PowerPoint 2007: The Missing Manual" and "PowerPoint 2007 for Starters: The Missing Manual." Her work has appeared in dozens of on and offline publications, including "Byte," "The Writer," "Salon.com," and "CNN.com."&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596806880.APP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2320/product-bio/urn:x-domain:oreilly.com:product:9780596517694.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2320"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:44:13.591460+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;E. A. Vander Veer has authored or edited more than a dozen books to date, including "PowerPoint 2007: The Missing Manual" and "PowerPoint 2007 for Starters: The Missing Manual." Her work has appeared in dozens of on and offline publications, including "Byte", "The Writer", "Salon.com", and "CNN.com".&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;E. A. Vander Veer has authored or edited more than a dozen books to date, including "PowerPoint 2007: The Missing Manual" and "PowerPoint 2007 for Starters: The Missing Manual." Her work has appeared in dozens of on and offline publications, including "Byte," "The Writer," "Salon.com," and "CNN.com."&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596517694.IP"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2971" xml:base="urn:x-domain:oreilly.com:agent:pdb:2971" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Keith McNamara</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Keith McNamara</om:legalName><foaf:givenname>Keith</foaf:givenname><foaf:surname>McNamara</foaf:surname><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-05-27T17:26:51.606117+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1947" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16037f575f7ac80bb6a02e14b49386889d5df776</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Dawn Mann</om:legalName>
+    
+    <foaf:name xml:lang="en">Dawn Mann</foaf:name>
+    <foaf:givenname xml:lang="en">Dawn</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:15:16.741363+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Mann</foaf:surname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2320" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">E.</foaf:givenname>
+    
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2483">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T14:17:06.542872+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Vander Veer</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452fbbe2c864b2cb2446042f9c7dfc4ebc50b7d4</foaf:mbox_sha1sum>
+    
+    <foaf:name xml:lang="en">E. A. Vander Veer</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">E. A. Vander Veer</om:legalName>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2573" xml:base="urn:x-domain:oreilly.com:agent:pdb:2573" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Peter Meyers</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Peter Meyers</om:legalName><foaf:givenname>Peter</foaf:givenname><foaf:surname>Meyers</foaf:surname><foaf:homepage><foaf:Document rdf:about="http://www.oreillynet.com/pub/au/1933"><dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/></foaf:Document></foaf:homepage><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-05-27T17:43:39.153992+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1380" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:19:50.078795+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Peter Meyers</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c7908f94562ff02f686bf118ed490512219eefb4</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Peter</foaf:givenname>
+    
+    <foaf:name xml:lang="en">Peter Meyers</foaf:name>
+    
+    <foaf:surname xml:lang="en">Meyers</foaf:surname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1089" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Betsy</foaf:givenname>
+    <foaf:name xml:lang="en">Betsy Waliszewski</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbebb1cc903cf4c5d34cc2e8719aba8411a9d5fa</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:05.143059+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Waliszewski</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Betsy Waliszewski</om:legalName>
+    
+  </foaf:Person></rdf:RDF>

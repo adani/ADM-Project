@@ -1,0 +1,2381 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449366650.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. &lt;/p&gt;</dc:description>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2013-02-20</dc:issued>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2013-02-20</dc:created>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-01T00:00:00</om:endNewStatus>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:57.123060+00:00</dc:modified>
+    
+    
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-01T00:00:00</om:beginUpcomingStatus>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1059" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449366650" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449366650.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366650.MOBI#price-USA-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366650.MOBI#price-GBR-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <rdf:value xml:lang="en">20.50</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366650.MOBI#price-CAN-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366650.MOBI#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366650.MOBI#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366650.MOBI#WO-14268">
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449366667.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:40.927137+00:00</dc:modified>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366667.EPUB#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2013-02-20</dc:created>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. &lt;/p&gt;</dc:description>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366667.EPUB#price-CAN-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366667.EPUB#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366667.EPUB#price-GBR-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <rdf:value xml:lang="en">20.50</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-01T00:00:00</om:endNewStatus>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449366667.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    <dc:identifier rdf:resource="urn:isbn:9781449366667" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1059" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-01T00:00:00</om:beginUpcomingStatus>
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2013-02-20</dc:issued>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366667.EPUB#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449366667.EPUB#WO-14267">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596007829.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-06-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-01</om:estimatedIssue>
+    <om:videoPreview xml:lang="en"/>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Java&lt;/p&gt;</om:shelving>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#price-GBR-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">30.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#price-CAN-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">57.95</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#price-USA-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">39.95</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#price-GBE-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">32.00</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Henry%20Wong">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Henry Wong</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Threads">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Threads</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051210">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / Object Oriented</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/J2SE">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">J2SE</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Scott%20Oaks">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Scott Oaks</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / Java</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/concurrent%20programming">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">concurrent programming</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java%201.5">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java 1.5</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;The previous edition of Java Threads sold over 34 thousand units, and earned over half a million dollars.  &lt;/li&gt;&lt;li&gt;Threads may not be sexy, but they are an essential element of programming in Java, and developers will need to know about the changes in the new version of Java, now in beta and expected to be in final release in August 2004&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1420" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1067" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">362 pages</dc:extent>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java developers</dc:audience>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Threads are an essential element in Java programming, and the new 1.5 version of Java makes significant changes to how threads are written and how they function.  This new edition thoroughly documents using threads in Java, with special emphasis on the new features in 1.5.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596007825_cat.gif"/>
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#printing-status">
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596007829" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000782" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596007829.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. &lt;/p&gt;</dc:description>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:38.270031+00:00</dc:modified>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1105"/>
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2004-03-30</dc:created>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#printings">
+        <rdf:_5>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#WO-14136">
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-01T00:00:00</om:endNewStatus>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-11-03</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_5>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#WO-2347">
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-06-01T00:00:00</om:beginUpcomingStatus>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-13</om:estimatedIssue>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-09-10</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#WO-7884">
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-01</om:estimatedIssue>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-26</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#WO-5571">
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-07</om:estimatedIssue>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-02</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.BOOK#WO-5226">
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:endNewStatus>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-16</om:estimatedIssue>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-10-04</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-09-10</dc:issued>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1059" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596007825.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-01T00:00:00</om:endNewStatus>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596007825.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1059" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-09-10</dc:issued>
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596007825.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596007825"/>
+      </om:Subscription>
+    </om:price>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    <om:editionLabel xml:lang="en"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1420" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1105"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Henry%20Wong" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051210" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/concurrent%20programming" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/J2SE" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Scott%20Oaks" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/JAV" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java%201.5" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Threads" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:videoPreview xml:lang="en"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-06-01T00:00:00</om:beginUpcomingStatus>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+Threads are essential to Java programming, but learning to use them
+effectively is a nontrivial task. This new edition of the classic
+&lt;emphasis&gt;Java Threads&lt;/emphasis&gt; shows you how to take full advantage of Java's
+threading facilities and brings you up-to-date with the watershed
+changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It
+provides a thorough, step-by-step approach to threads programming.
+Java's threading system is simple relative to other threading
+systems. In earlier versions of Java, this simplicity came with
+tradeoffs: some of the advanced features in other threading systems
+were not available in Java. J2SE 5.0 changes all that: it provides
+a large number of new thread-related classes that make the task of
+writing multithreaded programs that much easier. You'll learn where
+to use threads to increase efficiency, how to use them effectively,
+and how to avoid common mistakes. This book discusses problems like
+deadlock, race conditions, and starvation in detail, helping you to
+write code without hidden bugs. &lt;emphasis&gt;Java Threads&lt;/emphasis&gt;, Third Edition,
+has been thoroughly expanded and revised. It incorporates the
+concurrency utilities from java.util.concurrent throughout. New
+chapters cover thread performance, using threads with Swing,
+threads and Collection classes, thread pools, and threads and I/O
+(traditional, new, and interrupted). Developers who cannot yet
+deploy J2SE 5.0 can use thread utilities provided in the Appendix
+to achieve similar functionality with earlier versions of Java.
+Topics include:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Lock starvation and deadlock detection&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Atomic classes and minimal synchronization (J2SE 5.0)&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Interaction of Java threads with Swing, I/O, and Collection
+classes&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Programmatically controlled locks and condition variables (J2SE
+5.0)&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Thread performance and security&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Thread pools (J2SE 5.0)&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Thread groups&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Platform-specific thread scheduling&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Task schedulers (J2SE 5.0)&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Parallelizing loops for multiprocessor machines&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;
+In short, this new edition of &lt;emphasis&gt;Java Threads&lt;/emphasis&gt; covers everything
+you need to know about threads, from the simplest animation program
+to the most complex applications. If you plan to do any serious
+work in Java, you will find this book invaluable. Scott Oaks is a
+senior software engineer for the Java Performance Engineering group
+at Sun Microsystems and the author of four books in the O'Reilly
+Java series. Formerly a senior systems engineer at Sun
+Microsystems, Henry Wong is an independent consultant working on
+various Java related projects.
+&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596007825</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596007829" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:50.191470+00:00</dc:modified>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596556662.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. &lt;/p&gt;</dc:description>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596556662.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-06-24</dc:created>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:identifier rdf:resource="urn:isbn:9780596556662" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:27.782629+00:00</dc:modified>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.BOOK:9780596556662.EBOOK#bundle-offer"/>
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556662.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556662.EBOOK#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556662.EBOOK#price-CAN-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596556662.EBOOK#price-GBR-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">24.50</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-30</dc:issued>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596518271.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051827" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596518271" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:videoPreview xml:lang="en"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-11-06</dc:created>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596518271.PDF#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. &lt;/p&gt;</dc:description>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-21</om:estimatedIssue>
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-08-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596518271.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596518271.PDF#WO-6547">
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-11-21</dc:issued>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads PDF</dc:title>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-08-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-11-21</dc:issued>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-01T00:00:00</om:endNewStatus>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596518271.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:34.635902+00:00</dc:modified>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596007825_cat.gif"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">352 pages (est.)</dc:extent>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1059" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596518271.PDF#price-USA-01">
+        
+        
+        
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596518271.PDF#price-GBR-01">
+        
+        
+        
+        
+        <rdf:value xml:lang="en">24.50</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596518271.PDF#price-CAN-01">
+        
+        
+        
+        
+        <rdf:value xml:lang="en">31.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596007829.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596007829" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">java threads</om:sortableTitle>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-09-10</dc:issued>
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java Threads</dc:title>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;The previous edition of Java Threads sold over 34 thousand units, and earned over half a million dollars.  &lt;/li&gt;&lt;li&gt;Threads may not be sexy, but they are an essential element of programming in Java, and developers will need to know about the changes in the new version of Java, now in beta and expected to be in final release in August 2004&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596007825_cat.gif"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:customerTitle xml:lang="en">Java Threads, 3rd Edition</om:customerTitle>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming.&lt;/p&gt;
+&lt;p&gt;Java's threading system is simple relative to other threading systems. In earlier versions of Java, this simplicity came with tradeoffs: some of the advanced features in other threading systems were not available in Java. J2SE 5.0 changes all that: it provides a large number of new thread-related classes that make the task of writing multithreaded programs that much easier.&lt;/p&gt;
+&lt;p&gt;You'll learn where to use threads to increase efficiency, how to use them effectively, and how to avoid common mistakes. This book discusses problems like deadlock, race conditions, and starvation in detail, helping you to write code without hidden bugs.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Java Threads&lt;/i&gt;, Third Edition, has been thoroughly expanded and revised. It incorporates the concurrency utilities from java.util.concurrent throughout. New chapters cover thread performance, using threads with Swing, threads and Collection classes, thread pools, and threads and I/O (traditional, new, and interrupted). Developers who cannot yet deploy J2SE 5.0 can use thread utilities provided in the Appendix to achieve similar functionality with earlier versions of Java.&lt;/p&gt;
+&lt;p&gt;Topics include:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lock starvation and deadlock detection
+&lt;/li&gt;&lt;li&gt;Atomic classes and minimal synchronization (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Interaction of Java threads with Swing, I/O, and Collection classes
+&lt;/li&gt;&lt;li&gt;Programmatically controlled locks and condition variables (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread performance and security
+&lt;/li&gt;&lt;li&gt;Thread pools (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Thread groups
+&lt;/li&gt;&lt;li&gt;Platform-specific thread scheduling
+&lt;/li&gt;&lt;li&gt;Task schedulers (J2SE 5.0)
+&lt;/li&gt;&lt;li&gt;Parallelizing loops for multiprocessor machines&lt;/li&gt;&lt;/ul&gt;
+In short, this new edition of &lt;i&gt;Java Threads&lt;/i&gt; covers everything you need to know about threads, from the simplest animation program to the most complex applications. If you plan to do any serious work in Java, you will find this book invaluable.
+&lt;p&gt;Scott Oaks is a senior software engineer for the Java Performance Engineering group at Sun Microsystems and the author of four books in the O'Reilly Java series.
+Formerly a senior systems engineer at Sun Microsystems, Henry Wong is an independent consultant working on various Java related projects. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:byline xml:lang="en">By Scott Oaks, Henry Wong</om:byline>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596007829.IP#om_displayableContributorList">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1059" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596007829">
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-08-10</dc:issued>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-11-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-05-01T00:00:00</om:beginUpcomingStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1105"/>
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Java&lt;/p&gt;</om:shelving>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Threads are an essential element in Java programming, and the new 1.5 version of Java makes significant changes to how threads are written and how they function.  This new edition thoroughly documents using threads in Java, with special emphasis on the new features in 1.5.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:42.664350+00:00</dc:modified>
+    
+    
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1067" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    <om:editorTitle xml:lang="en">Java Threads, 3E</om:editorTitle>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596007829.IP#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java developers</dc:audience>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Threads are essential to Java programming, but learning to use them effectively is a nontrivial task. This new edition of the classic &lt;i&gt;Java Threads&lt;/i&gt; shows you how to take full advantage of Java's threading facilities and brings you up-to-date with the watershed changes in Java 2 Standard Edition version 5.0 (J2SE 5.0). It provides a thorough, step-by-step approach to threads programming. &lt;/p&gt;</dc:description>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2004-03-30</dc:created>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:asciiTitle xml:lang="en">Java Threads</om:asciiTitle>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">360 pages</dc:extent>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051210">
+        <dc:title xml:lang="en">COMPUTERS / Programming / Object Oriented</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <rdf:value xml:lang="en">Java</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / Java</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java%201.5">
+        <rdf:value xml:lang="en">Java 1.5</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Threads">
+        <rdf:value xml:lang="en">Threads</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051010">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Henry%20Wong">
+        <rdf:value xml:lang="en">Henry Wong</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/concurrent%20programming">
+        <rdf:value xml:lang="en">concurrent programming</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/J2SE">
+        <rdf:value xml:lang="en">J2SE</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Scott%20Oaks">
+        <rdf:value xml:lang="en">Scott Oaks</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449366667.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449366650.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596007825.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596518271.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596556662.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596007829.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1420" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002855" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596004651" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007218" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596009205" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007386" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007829" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007737" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9781449366650.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:35.038055+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781449366650.MOBI"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9780596007829.LIC" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.LIC"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:27.812080+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9781449366667.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:31.596705+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781449366667.EPUB"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9780596556662.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:32.671314+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596556662.EBOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9780596007829.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:06:50.440364+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9780596007829.RIGHT" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.RIGHT"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:26.395462+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9780596518271.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:32.203388+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596518271.PDF"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9780596556662.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:28.474080+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596556662.EBOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9780596518271.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596518271.PDF"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:37.132243+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9781449366650.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781449366650.MOBI"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:25.713247+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9781449366667.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:34.251560+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781449366667.EPUB"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9780596007829.RIGHT" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.RIGHT"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:37.737180+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9780596007829.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:06:53.320943+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9780596007829.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:34.697382+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.BOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:435/product-bio/urn:x-domain:oreilly.com:product:9780596007829.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;/p&gt;
+&lt;p&gt;Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;/p&gt;&lt;/div&gt;</om:webBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:06:50.831767+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked
+as a computer engineer at Sun Microsystems from 1989
+to 2003. Originally hired as a consultant to help customers with special device drivers, kernel modifications, and DOS interoperability products, Henry has also worked on Solaris ports, performance tuning projects, and multithreaded design and implementations for benchmarks and demos. Since early 1995, Henry has been involved in developing Java prototypes and supporting customers who are using
+Java.&lt;br/&gt;&lt;br/&gt;
+Prior to working at Sun, Henry earned a Bachelor of Science degree in chemical engineering from The Cooper Union in 1987. He joined a small software company in 1986 working on SCSI device drivers, image and audio data compression, and graphics tools used for a medical information system.&lt;br/&gt;&lt;br/&gt;
+When not in front of a computer, Henry is an instrument rated private pilot, who also likes to dabble in archery, cooking, and traveling to different places with his wife, Nini.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Henry Wong is an independent consultant, involved in various Java related projects. Henry previously worked as a computer engineer at Sun Microsystems from 1989 to 2003.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:435"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:333/product-bio/urn:x-domain:oreilly.com:product:9780596007829.LIC" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-02-20T18:50:36.827626+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:333"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Scott Oaks is a Java Technologist at Sun Microsystems, where he has worked since 1987. While at Sun, he has specialized in many disparate technologies, from the SunOS kernel to network programming and RPCs. Since 1995, he's focused primarily on Java and bringing Java technology to end-users. Scott also authored O'Reilly's Java Security, Java Threads and Jini in a Nutshell titles.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596007829.LIC"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:283" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Loukides</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Mike Loukides</foaf:name>
+    
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/29">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:09:22.367220+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9f2de47dba2d38a858c9427143145873feb37980</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Loukides</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:435" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Henry</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">941543ddcd9af6d46e9cb3ca25c13974ebb61fe5</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Henry Wong</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-04-12T14:44:03.922936+00:00</dc:modified>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/332">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <foaf:surname xml:lang="en">Wong</foaf:surname>
+    
+    <foaf:name xml:lang="en">Henry Wong</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1420" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Fernald</foaf:surname>
+    <foaf:givenname xml:lang="en">Clay</foaf:givenname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:41:25.519126+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Clay Fernald</om:legalName>
+    <foaf:name xml:lang="en">Clay Fernald</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99669c7ab08f5988511aea2d3ac947b409624a33</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1105" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Matt Hutchinson</foaf:name>
+    <foaf:givenname xml:lang="en">Matt</foaf:givenname>
+    <foaf:surname xml:lang="en">Hutchinson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:14:48.783871+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Matt Hutchinson</om:legalName>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:333" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Scott</foaf:givenname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">598c682c0f3478b26d75dea616b4f81228bf6533</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Scott Oaks</om:legalName>
+    <foaf:surname xml:lang="en">Oaks</foaf:surname>
+    
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/193">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:05:21.446988+00:00</dc:modified>
+    
+    <foaf:name xml:lang="en">Scott Oaks</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1059" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:39:57.011290+00:00</dc:modified>
+    
+    
+    <foaf:name xml:lang="en">Deb Cameron</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feea360891485a23d5d2f5700eafdac450d1272a</foaf:mbox_sha1sum>
+    
+    
+    <foaf:surname xml:lang="en">Cameron</foaf:surname>
+    <foaf:givenname xml:lang="en">Deb</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Deb Cameron</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1067" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Futato</foaf:surname>
+    
+    <foaf:name xml:lang="en">David Futato</foaf:name>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:14:48.658125+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0bc23d21223a81ac015e222a3c7f1b8b3d7fc60e</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">David Futato</om:legalName>
+    <foaf:givenname xml:lang="en">David</foaf:givenname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person></rdf:RDF>
