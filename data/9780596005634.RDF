@@ -1,0 +1,2438 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449375225.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449375225.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1286" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375225.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280"/>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9781449375225" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;By Hans Bergsten&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media (&lt;a href="http://oreilly.com/catalog/9780596005634/"&gt;http://oreilly.com/catalog/9780596005634&amp;#8203;/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;JavaServer Pages, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part: how to integrate servlets and JavaBeans components with JSP using the Apache Struts, and how to develop custom tag libraries using the JSP API.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Superb Reading Features&lt;/p&gt;
+&lt;p&gt;Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone phenomenon with over a million downloads:
+&lt;em&gt; Full book text search
+&lt;/em&gt; Several fonts and themes to choose from
+&lt;em&gt; Built-in dictionary
+&lt;/em&gt; The ability to add annotations
+&lt;em&gt; Landscape view
+&lt;/em&gt; Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots&lt;/p&gt;
+&lt;p&gt;About O'Reilly Media&lt;/p&gt;
+&lt;p&gt;O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.&lt;/p&gt;
+&lt;p&gt;About Lexcycle&lt;/p&gt;
+&lt;p&gt;Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-09-08</dc:issued>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</om:endNewStatus>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:beginUpcomingStatus>
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375225.APP#price-USA-01">
+        
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:04.437013+00:00</dc:modified>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaBeans" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/JAV" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/web%20development" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MVC" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Struts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Tomcat" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/EJB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaServer%20Pages" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Jakarta%20Stuts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java%20Standard%20Tag%20Library" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JSTL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/servlets" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596005634.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Java&lt;/p&gt;</om:shelving>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    
+    
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-12-01</om:estimatedIssue>
+    
+    
+    
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#printings">
+        <rdf:_9>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-6914">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-04-04</dc:issued>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-08</om:estimatedIssue>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+          </om:Printing>
+        </rdf:_9>
+        <rdf:_6>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-4977">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-05-17</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-23</om:estimatedIssue>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+          </om:Printing>
+        </rdf:_6>
+        <rdf:_8>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-5503">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-02-20</dc:issued>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-02-21</om:estimatedIssue>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+          </om:Printing>
+        </rdf:_8>
+        <rdf:_5>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-4186">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-08-06</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-08-08</om:estimatedIssue>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages, 3E</dc:title>
+          </om:Printing>
+        </rdf:_5>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-2227">
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-04-21</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-04-29</om:estimatedIssue>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages, 3E</dc:title>
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_7>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-5218">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-10-02</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-02</om:estimatedIssue>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+          </om:Printing>
+        </rdf:_7>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-2462">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-21</om:estimatedIssue>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages, 3E</dc:title>
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-230">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-03-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-09-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2003-12-11</dc:issued>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#WO-2092">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-24</om:estimatedIssue>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages, 3E</dc:title>
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:14.820282+00:00</dc:modified>
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java developers working with JavaServer Pages</dc:audience>
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#price-CAN-01">
+        
+        
+        <rdf:value xml:lang="en">69.95</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">44.95</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#price-GBE-01">
+        
+        
+        <rdf:value xml:lang="en">36.00</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#price-GBR-01">
+        
+        
+        <rdf:value xml:lang="en">34.50</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-09-01T00:00:00</om:beginUpcomingStatus>
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <rdf:value xml:lang="en">Java</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/web%20development">
+        <rdf:value xml:lang="en">web development</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Jakarta%20Stuts">
+        <rdf:value xml:lang="en">Jakarta Stuts</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/MVC">
+        <rdf:value xml:lang="en">MVC</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Struts">
+        <rdf:value xml:lang="en">Struts</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaServer%20Pages">
+        <rdf:value xml:lang="en">JavaServer Pages</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Tomcat">
+        <rdf:value xml:lang="en">Tomcat</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaBeans">
+        <rdf:value xml:lang="en">JavaBeans</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JSTL">
+        <rdf:value xml:lang="en">JSTL</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/servlets">
+        <rdf:value xml:lang="en">servlets</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java%20Standard%20Tag%20Library">
+        <rdf:value xml:lang="en">Java Standard Tag Library</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/EJB">
+        <rdf:value xml:lang="en">EJB</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2003-01-30</dc:created>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / Java</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000563" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596005634" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-03-01T00:00:00</om:endNewStatus>
+    
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596005634.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2003-12-11</dc:issued>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.BOOK#printing-status">
+        <rdf:value xml:lang="en">Normal</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. It also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining plenty of practical advice with detailed coverage of JSP syntax and features and clear, useful examples, &lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition demonstrates how to embed server-side Java into Web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. &lt;/p&gt;</dc:description>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596005636_cat.gif"/>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">768 pages</dc:extent>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1286" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    
+    
+    
+    
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449301156.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:07.613573+00:00</dc:modified>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449301156.MOBI">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. It also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining plenty of practical advice with detailed coverage of JSP syntax and features and clear, useful examples, &lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition demonstrates how to embed server-side Java into Web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. &lt;/p&gt;</dc:description>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaServer%20Pages" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaBeans" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/EJB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/JAV" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java%20Standard%20Tag%20Library" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Struts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JSTL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MVC" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Tomcat" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Jakarta%20Stuts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/servlets" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/web%20development" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301156.MOBI#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    
+    <om:editionLabel xml:lang="en"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301156.MOBI#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449301156" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-30</dc:issued>
+    
+    
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1286" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596517373.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-09-24</dc:created>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596517373.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">764 pages (est.)</dc:extent>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. It also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining plenty of practical advice with detailed coverage of JSP syntax and features and clear, useful examples, &lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition demonstrates how to embed server-side Java into Web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. &lt;/p&gt;</dc:description>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596005636_cat.gif"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517373.PDF#price-CAN-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517373.PDF#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517373.PDF#price-GBR-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        <rdf:value xml:lang="en">27.50</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:31.602006+00:00</dc:modified>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051737" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596517373" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-16</dc:issued>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    
+    
+    
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517373.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517373.PDF#WO-6424">
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:endNewStatus>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-16</dc:issued>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages PDF</dc:title>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596517373.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449378974.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449378974.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-07-01T00:00:00</om:beginUpcomingStatus>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449378974.EPUB#price-USA-01">
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:videoPreview xml:lang="en"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:17.229807+00:00</dc:modified>
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    
+    
+    
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449378974.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    <om:editionLabel xml:lang="en"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-10-06</dc:issued>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-01T00:00:00</om:endNewStatus>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. It also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining plenty of practical advice with detailed coverage of JSP syntax and features and clear, useful examples, &lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition demonstrates how to embed server-side Java into Web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. &lt;/p&gt;</dc:description>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1286" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MVC" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/EJB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Tomcat" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Jakarta%20Stuts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/web%20development" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/servlets" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaServer%20Pages" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Struts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/JAV" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JSTL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaBeans" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java%20Standard%20Tag%20Library" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:identifier rdf:resource="urn:isbn:9781449378974" xmlns:dc="http://purl.org/dc/terms/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596104214.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-30</dc:issued>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596104214.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596104214.EBOOK#price-GBR-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">27.50</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596104214.EBOOK#price-CAN-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596104214.EBOOK#price-USA-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:26.540846+00:00</dc:modified>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. It also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining plenty of practical advice with detailed coverage of JSP syntax and features and clear, useful examples, &lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition demonstrates how to embed server-side Java into Web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. &lt;/p&gt;</dc:description>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:identifier rdf:resource="urn:isbn:9780596104214" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-30</dc:created>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596104214.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.BOOK:9780596104214.EBOOK#bundle-offer"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596005636.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:33.992681+00:00</dc:modified>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596005634" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596005636</dc:identifier>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2003-12-11</dc:issued>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596005636.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596005636"/>
+      </om:Subscription>
+    </om:price>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MVC" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaBeans" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/web%20development" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaServer%20Pages" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Struts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/JAV" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/EJB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JSTL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java%20Standard%20Tag%20Library" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Tomcat" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Jakarta%20Stuts" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/servlets" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;para&gt;
+JavaServer Pages (JSP) has built a huge following since the release
+of JSP 1.0 in 1999, providing Enterprise Java developers with a
+flexible tool for the development of dynamic web sites and web
+applications. While new point releases over the years, along with
+the introduction of the JSP Standard Tag Library (JSTL), have
+incrementally improved the rough areas of the first version of the
+JSP specification, JSP 2.0 takes this technology to new heights.
+&lt;emphasis&gt;JavaServer Pages&lt;/emphasis&gt;, Third Edition, is completely revised and
+updated to cover the JSP 2.0 and JSTL 1.1 specifications. It
+includes detailed coverage of the Expression Language (EL)
+incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new
+function library, the new tag file format that enables custom tag
+library development without Java code, the simplified Java tag
+library API, improvements in the JSP XML syntax, and more. Further,
+it details setup of the Apache Tomcat server, JSP and JSTL syntax
+and features, error handling and debugging, authentication and
+personalization, database access, XML processing, and
+internationalization. This book recognizes the different needs of
+the two groups of professionals who want to learn JSP: page authors
+interested in using JSP elements in web pages, and programmers
+concerned with learning the JSP API and using JSP effectively as a
+part of an enterprise application. If you're in the first group,
+you'll learn from the practical web application examples in the
+second part of the book. If you're in the latter group, you'll
+appreciate the detailed coverage of advanced topics in the third
+part, such as how to integrate servlets and JavaBeans components
+with JSP using the popular Apache Struts MVC framework, and how to
+develop custom tag libraries using the JSP API, with realistic
+examples that you can use as a springboard for your own libraries.
+"Hans Bergsten, a JSP expert group veteran and one of our most
+active contributors, has thoroughly and accurately captured the new
+features of JSP 2.0 and JSTL 1.1 in a way that is well-organized
+and easy to understand. With excellent, to-the-point examples, this
+book is a 'must have' for any serious JSP 2.0 developer." --Mark
+Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc. Hans
+Bergsten is the founder of Gefion Software, a company focused on
+Java services and products based on J2EE technologies. Hans has
+been an active participant in the working groups for both the
+servlet and JSP specifications since their inception and
+contributes to other related JCP specifications, such as JSP
+Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one
+of the initial members of the Apache Jakarta Project Management
+Committee, helped develop the Apache Tomcat reference
+implementation for the servlet and JSP specifications.
+&lt;/para&gt;</dc:description>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1286" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    
+    <om:editionLabel xml:lang="en"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-03-01T00:00:00</om:endNewStatus>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596005636.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    <om:videoPreview xml:lang="en"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-09-01T00:00:00</om:beginUpcomingStatus>
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596005634.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <om:customerTitle xml:lang="en">JavaServer Pages, 3rd Edition</om:customerTitle>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaServer Pages (JSP) has built a huge following since the release of JSP 1.0 in 1999, providing Enterprise Java developers with a flexible tool for the development of dynamic web sites and web applications. While new point releases over the years, along with the introduction of the JSP Standard Tag Library (JSTL), have incrementally improved the rough areas of the first version of the JSP specification, JSP 2.0 takes this technology to new heights.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition, is completely revised and updated to cover the JSP 2.0 and JSTL 1.1 specifications. It includes detailed coverage of the Expression Language (EL) incorporated into JSP 2.0, the JSTL 1.1 tag libraries and the new function library, the new tag file format that enables custom tag library development without Java code, the simplified Java tag library API, improvements in the JSP XML syntax, and more. Further, it details setup of the Apache Tomcat server, JSP and JSTL syntax and features, error handling and debugging, authentication and personalization, database access, XML processing, and internationalization.&lt;/p&gt;
+&lt;p&gt;This book recognizes the different needs of the two groups of professionals who want to learn JSP: page authors interested in using JSP elements in web pages, and programmers concerned with learning the JSP API and using JSP effectively as a part of an enterprise application. If you're in the first group, you'll learn from the practical web application examples in the second part of the book. If you're in the latter group, you'll appreciate the detailed coverage of advanced topics in the third part, such as how to integrate servlets and JavaBeans components with JSP using the popular Apache Struts MVC framework, and how to develop custom tag libraries using the JSP API, with realistic examples that you can use as a springboard for your own libraries.&lt;/p&gt;
+&lt;p&gt;"Hans Bergsten, a JSP expert group veteran and one of our most active contributors, has thoroughly and accurately captured the new features of JSP 2.0 and JSTL 1.1 in a way that is well-organized and easy to understand. With excellent, to-the-point examples, this book is a 'must have' for any serious JSP 2.0 developer."
+--Mark Roth, JSP 2.0 Specification Lead, Sun Microsystems, Inc.&lt;/p&gt;
+&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on J2EE technologies. Hans has been an active participant in the working groups for both the servlet and JSP specifications since their inception and contributes to other related JCP specifications, such as JSP Standard Tag Library (JSTL) and JavaServer Faces (JSF), and, as one of the initial members of the Apache Jakarta Project Management Committee, helped develop the Apache Tomcat reference implementation for the servlet and JSP specifications.&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596005636.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449378974.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596517373.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449375225.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596104214.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449301156.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Java&lt;/p&gt;</om:shelving>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596005636_cat.gif"/>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596005634" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T00:06:36.625379+00:00</dc:modified>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. It also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining plenty of practical advice with detailed coverage of JSP syntax and features and clear, useful examples, &lt;i&gt;JavaServer Pages&lt;/i&gt;, Third Edition demonstrates how to embed server-side Java into Web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. &lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596005634.IP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596005634">
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2003-10-23</dc:issued>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-07-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2003-12-11</dc:issued>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/web%20development">
+        <rdf:value xml:lang="en">web development</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java%20Standard%20Tag%20Library">
+        <rdf:value xml:lang="en">Java Standard Tag Library</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Struts">
+        <rdf:value xml:lang="en">Struts</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Jakarta%20Stuts">
+        <rdf:value xml:lang="en">Jakarta Stuts</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JSTL">
+        <rdf:value xml:lang="en">JSTL</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/MVC">
+        <rdf:value xml:lang="en">MVC</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Tomcat">
+        <rdf:value xml:lang="en">Tomcat</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/servlets">
+        <rdf:value xml:lang="en">servlets</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/EJB">
+        <rdf:value xml:lang="en">EJB</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaServer%20Pages">
+        <rdf:value xml:lang="en">JavaServer Pages</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaBeans">
+        <rdf:value xml:lang="en">JavaBeans</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <rdf:value xml:lang="en">Java</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    
+    <om:sortableTitle xml:lang="en">javaserver pages</om:sortableTitle>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596005634.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:asciiTitle xml:lang="en">JavaServer Pages</om:asciiTitle>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:relation rdf:resource="urn:isbn:9780596006518" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005191" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596000400" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005634" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596003180" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005726" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:editionLabel xml:lang="en">3rd Edition</om:editionLabel>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2003-01-30</dc:created>
+    
+    
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">768 pages</dc:extent>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">JavaServer Pages</dc:title>
+    <om:editorTitle xml:lang="en">JavaServer Pages, 3E</om:editorTitle>
+    
+    <om:byline xml:lang="en">By Hans Bergsten</om:byline>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / Java</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1286" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">3</mods:edition>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java developers working with JavaServer Pages</dc:audience>
+    
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596005634.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:117/product-bio/urn:x-domain:oreilly.com:product:9780596005634.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on the J2EE technlogies. Hans has been an active participant in the working groups for both the servlet and JSP specifications from the time they were formed. He also contributes to other related JCP specifications, such as JSP Standard Tag Libraries (JSTL), and helped get the development of the Apache Tomcat reference implementation for servlet and JSP started as one of the initial members of the Apache Jakarta Project Management Committee.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:09:19.909749+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:117/product-bio/urn:x-domain:oreilly.com:product:9780596005634.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:117"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Hans Bergsten is the founder of Gefion Software, a company focused on Java services and products based on the J2EE technlogies. Hans has been an active participant in the working groups for both the servlet and JSP specifications from the time they were formed. He also contributes to other related JCP specifications, such as JSP Standard Tag Libraries (JSTL), and helped get the development of the Apache Tomcat reference implementation for servlet and JSP started as one of the initial members of the Apache Jakarta Project Management Committee.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:09:18.593069+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596005634.BOOK"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:283" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Loukides</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Mike Loukides</foaf:name>
+    
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/29">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:09:22.367220+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9f2de47dba2d38a858c9427143145873feb37980</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Loukides</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1214" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">John</foaf:givenname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.896173+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bickelhaupt</foaf:surname>
+    <foaf:name xml:lang="en">John Bickelhaupt</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">John Bickelhaupt</om:legalName>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1286" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Pam Spremulli</om:legalName>
+    <foaf:givenname xml:lang="en">Pam</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Spremulli</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.399516+00:00</dc:modified>
+    
+    <foaf:name xml:lang="en">Pam Spremulli</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:117" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/138">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:givenname xml:lang="en">Hans</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7d9cbcabffe8be4520bb2e35e3d212875d9edd99</foaf:mbox_sha1sum>
+    <foaf:name xml:lang="en">Hans Bergsten</foaf:name>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:09:20.246747+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bergsten</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Hans Bergsten</om:legalName>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:303" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">McLaughlin</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Brett</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/152">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:name xml:lang="en">Brett McLaughlin</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49bfc71168c693da3066cb5f3faecb6981c4161d</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-14T07:52:02.801221+00:00</dc:modified>
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Brett McLaughlin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1084" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">David Chu</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.258570+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">David</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">David Chu</om:legalName>
+    
+    
+    <foaf:surname xml:lang="en">Chu</foaf:surname>
+  </foaf:Person></rdf:RDF>

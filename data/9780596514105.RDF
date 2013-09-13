@@ -1,0 +1,1991 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596550301.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596550301.MOBI">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/database" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/best%20practices" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/software%20engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/code" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM018000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/optimization" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/developer" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Oracle" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;/p&gt;</dc:description>
+    <om:editionLabel xml:lang="en"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <dc:identifier rdf:resource="urn:isbn:9780596550301" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1210"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:20:51.267147+00:00</dc:modified>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051170"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596550301.MOBI#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596550301.MOBI#price-USA-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <rdf:value xml:lang="en">23.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596551520.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/software%20engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Oracle" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/best%20practices" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/optimization" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/code" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM018000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/database" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/developer" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:21:05.519567+00:00</dc:modified>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596551520" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596551520.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1210"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551520.EPUB#price-USA-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        <rdf:value xml:lang="en">23.99</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051170"/>
+    
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551520.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;/p&gt;</dc:description>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596514105.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:beginUpcomingStatus>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:20:57.111742+00:00</dc:modified>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051170"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596514105" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9780596514105</dc:identifier>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1210"/>
+    
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:endNewStatus>
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9780596514105"/>
+      </om:Subscription>
+    </om:price>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    <om:editionLabel xml:lang="en"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+In this compact book, Steven Feuerstein, widely recognized as one
+of the world's leading experts on the Oracle PL/SQL language,
+distills his many years of programming, teaching, and writing about
+PL/SQL into a set of best practices-recommendations for developing
+successful applications. Covering the latest Oracle release, Oracle
+Database 11gR2, Feuerstein has rewritten this new edition in the
+style of his bestselling &lt;emphasis&gt;Oracle PL/SQL Programming&lt;/emphasis&gt;. The
+text is organized in a problem/solution format, and chronicles the
+programming exploits of developers at a mythical company called My
+Flimsy Excuse, Inc., as they write code, make mistakes, and learn
+from those mistakes-and each other.
+
+This book offers practical answers to some of the hardest questions
+faced by PL/SQL developers, including:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;What is the best way to write the SQL logic in my application
+code?&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para/&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;How should I write my packages so they can be leveraged by my
+entire team of developers?&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para/&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;How can I make sure that all my team's programs handle and
+record errors consistently?&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;&lt;emphasis&gt;Oracle PL/SQL Best Practices&lt;/emphasis&gt; summarizes PL/SQL best
+practices in nine major categories: overall PL/SQL application
+development; programming standards; program testing, tracing, and
+debugging; variables and data structures; control logic; error
+handling; the use of SQL in PL/SQL; building procedures, functions,
+packages, and triggers; and overall program performance.&lt;/para&gt;&lt;/p&gt;
+&lt;p&gt;This book is a concise and entertaining guide that PL/SQL
+developers will turn to again and again as they seek out ways to
+write higher quality code and more successful applications.&lt;/p&gt;
+&lt;p&gt;"This book presents ideas that make the difference between a
+successful project and one that never gets off the ground. It goes
+beyond just listing a set of rules, and provides realistic
+scenarios that help the reader understand where the rules come
+from. This book should be required reading for any team of Oracle
+database professionals."&lt;/p&gt;
+&lt;p&gt;--Dwayne King, President, KRIDAN Consulting
+&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514105.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/best%20practices" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/code" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/optimization" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/software%20engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/database" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM018000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/developer" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Oracle" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-22</dc:issued>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596514105.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">294 pages</dc:extent>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-10-15</om:estimatedIssue>
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596514105" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051410" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:20:55.195976+00:00</dc:modified>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596514105.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1210"/>
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#price-CAN-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#price-GBE-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        <rdf:value xml:lang="en">24.00</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#price-GBR-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <rdf:value xml:lang="en">22.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#price-USA-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">29.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596514105_cat.gif"/>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-06-15</dc:created>
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle PL/SQL Best Practices (9780596001216)&lt;/p&gt;</om:willSellLike>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051170">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / SQL</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-22</dc:issued>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle/Databases&lt;/p&gt;</om:shelving>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#printings">
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#WO-7534">
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</om:estimatedIssue>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-10-30</dc:issued>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#WO-8697">
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-07-15</om:estimatedIssue>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-10-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2010-07-14</dc:issued>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#WO-14375">
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-02-01</dc:issued>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#WO-6202">
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-10-23</om:estimatedIssue>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-22</dc:issued>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    <om:tagline xml:lang="en">Write the Best PL/SQL Code of Your Life</om:tagline>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/code">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">code</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/best%20practices">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">best practices</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/software%20engineering">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">software engineering</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/developer">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">developer</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021030">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Mining</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/database">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">database</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM018000">
+        <dc:title xml:lang="en">COMPUTERS / Data Processing</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Oracle</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/optimization">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">optimization</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Covers Oracle Database 11gR2, the latest release&lt;/li&gt;&lt;li&gt;Timed to release with Oracle's new database in October 2007&lt;/li&gt;&lt;li&gt;Author Steve Feuerstein is widely recognized as one of the world's experts on the Oracle PL/SQL language&lt;/li&gt;&lt;li&gt;This book is the focus of separate seminars sponsored by Quest Software and Oracle Corporation&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Beginning to advanced Oracle developers and DBAs&lt;/p&gt;</om:audienceDescription>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:endNewStatus>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </dc:creator>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">6 x 9 in</dc:format>
+    
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    
+    
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;/p&gt;</dc:description>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This compact book distills Steven Feuerstein's many years of programming, teaching, and writing about Oracle PL/SQL into more than 100 "best practices" -- rules for writing code that is readable, maintainable, and efficient. Written in Feuerstein's entertaining style, it presents development problems and solutions in all of the major categories of PL/SQL development, and contains checklists, numerous code examples, and recommendations for further resources.&lt;/p&gt;</om:sellsheetHighlight>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    
+    
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Oracle Database 10g PL/SQL Programming, By Scott Urman, Ron Hardman, Michael McLaughlin, McGraw-Hill Osborne Media, April 2004, ISBN-10: 0072230665, ISBN-13: 978-0072230666, 896 pages, $54.99&lt;/li&gt;&lt;li&gt;Oracle PL/SQL For Dummies, By Michael Rosenblum, Paul Dorsey, For Dummies, June 2006, ISBN-10: 0764599577, ISBN-13: 978-0764599576, 414 pages, $29.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    
+    
+    
+    
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596102739.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102739.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;/p&gt;</dc:description>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-30</dc:created>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:21:03.539139+00:00</dc:modified>
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596102739.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.BOOK:9780596102739.EBOOK#bundle-offer"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102739.EBOOK#price-USA-01">
+        <rdf:value xml:lang="en">23.99</rdf:value>
+        
+        
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:identifier rdf:resource="urn:isbn:9780596102739" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596155292.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596155292" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.015529" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-08-29</dc:created>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:endNewStatus>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">292 pages (est.)</dc:extent>
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-29</om:estimatedIssue>
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596155292.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596155292.PDF#WO-7523">
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:beginUpcomingStatus>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-08-29</dc:issued>
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596155292.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-09-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-12-01</dc:issued>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;/p&gt;</dc:description>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:20:48.404332+00:00</dc:modified>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596155292.PDF#price-CAN-01">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        <rdf:value xml:lang="en">28.95</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596155292.PDF#price-GBR-01">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        <rdf:value xml:lang="en">18.50</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596155292.PDF#price-USA-01">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <rdf:value xml:lang="en">23.99</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    
+    
+    
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596155292.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596514105.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Oracle PL/SQL Best Practices</dc:title>
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Oracle">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Oracle</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM018000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Data Processing</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/code">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">code</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/best%20practices">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">best practices</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/optimization">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">optimization</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/database">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">database</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/developer">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">developer</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021030">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Mining</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/software%20engineering">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">software engineering</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this compact book, Steven Feuerstein, widely recognized as one of the world's leading experts on the Oracle PL/SQL language, distills his many years of programming, teaching, and writing about PL/SQL into a set of best practices-recommendations for developing successful applications. Covering the latest Oracle release, Oracle Database 11gR2, Feuerstein has rewritten this new edition in the style of his bestselling &lt;em&gt;Oracle PL/SQL Programming&lt;/em&gt;. The text is organized in a problem/solution format, and chronicles the programming exploits of developers at a mythical company called My Flimsy Excuse, Inc., as they write code, make mistakes, and learn from those mistakes-and each other.&lt;br/&gt;&lt;br/&gt;
+This book offers practical answers to some of the hardest questions faced by PL/SQL developers, including:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;What is the best way to write the SQL logic in my application code?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How should I write my packages so they can be leveraged by my entire team of developers?&lt;/li&gt;&lt;br/&gt;&lt;br/&gt;&lt;li&gt;How can I make sure that all my team's programs handle and record errors consistently?&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;br/&gt;&lt;br/&gt;
+This book is a concise and entertaining guide that PL/SQL developers will turn to again and again as they seek out ways to write higher quality code and more successful applications.&lt;br/&gt;&lt;br/&gt;
+"This book presents ideas that make the difference between a successful project and one that never gets off the ground. It goes beyond just listing a set of rules, and provides realistic scenarios that help the reader understand where the rules come from. This book should be required reading for any team of Oracle database professionals."&lt;br/&gt;&lt;br/&gt;
+--Dwayne King, President, KRIDAN Consulting&lt;/div&gt;</dc:abstract>
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Oracle PL/SQL Best Practices, 2E</om:editorTitle>
+    
+    
+    
+    
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Beginning to advanced Oracle developers and DBAs&lt;/p&gt;</om:audienceDescription>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This compact book distills Steven Feuerstein's many years of programming, teaching, and writing about Oracle PL/SQL into more than 100 "best practices" -- rules for writing code that is readable, maintainable, and efficient. Written in Feuerstein's entertaining style, it presents development problems and solutions in all of the major categories of PL/SQL development, and contains checklists, numerous code examples, and recommendations for further resources.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Covers Oracle Database 11g, the latest release&lt;/li&gt;&lt;li&gt;Timed to release with Oracle's new database in October 2007&lt;/li&gt;&lt;li&gt;Author Steve Feuerstein is widely recognized as one of the world's experts on the Oracle PL/SQL language&lt;/li&gt;&lt;li&gt;This book is the focus of separate seminars sponsored by Quest Software and Oracle Corporation&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Oracle PL/SQL Best Practices&lt;/em&gt; summarizes PL/SQL best practices in nine major categories: overall PL/SQL application development; programming standards; program testing, tracing, and debugging; variables and data structures; control logic; error handling; the use of SQL in PL/SQL; building procedures, functions, packages, and triggers; and overall program performance.&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2352"/>
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">304 pages</dc:extent>
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle/Databases&lt;/p&gt;</om:shelving>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596550301.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596551520.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596155292.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596102739.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    <om:sortableTitle xml:lang="en">oracle pl/sql best practices</om:sortableTitle>
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Oracle PL/SQL Best Practices</om:asciiTitle>
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1210"/>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:378" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:customerTitle xml:lang="en">Oracle PL/SQL Best Practices, 2nd Edition</om:customerTitle>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596514105.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514105.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:relation rdf:resource="urn:isbn:9781565926745" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596001803" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596009779" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:21:00.631255+00:00</dc:modified>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596514105">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-08-22</dc:issued>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-01T00:00:00</om:beginUpcomingStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    
+    <om:byline xml:lang="en">By Steven Feuerstein</om:byline>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Oracle PL/SQL Best Practices (9780596001216)&lt;/p&gt;</om:willSellLike>
+    
+    
+    
+    
+    <dc:replaces rdf:resource="urn:isbn:9780596001216" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Oracle Database 10g PL/SQL Programming, By Scott Urman, Ron Hardman, Michael McLaughlin, McGraw-Hill Osborne Media, April 2004, ISBN-10: 0072230665, ISBN-13: 978-0072230666, 896 pages, $54.99&lt;/li&gt;&lt;li&gt;Oracle PL/SQL For Dummies, By Michael Rosenblum, Paul Dorsey, For Dummies, June 2006, ISBN-10: 0764599577, ISBN-13: 978-0764599576, 414 pages, $29.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-10-22</dc:issued>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-06-15</dc:created>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Steven Feuerstein</dc:rightsHolder>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051170">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / SQL</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/oracle"/>
+    
+    <marcrel:SPN rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596514105.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:tagline xml:lang="en">Write the Best PL/SQL Code of Your Life</om:tagline>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596514105" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:183/product-bio/urn:x-domain:oreilly.com:product:9780596514105.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:50:00.317432+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Steven Feuerstein is considered one of the world's leading experts on the Oracle PL/SQL language, having written ten books on the subject.  Steven is a Senior Technology Advisor with Quest Software and has been developing software since 1980.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.BOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Steven Feuerstein is considered one of the world's leading experts on the Oracle PL/SQL language. He is the author or coauthor of Oracle PL/SQL Programming, Oracle PL/SQL Best Practices, Oracle PL/SQL Programming: Guide to Oracle8i Features, Oracle PL/SQL Developer's Workbook, Oracle Built-in Packages, Advanced Oracle PL/SQL Programming with Packages, and several pocket reference books (all from O'Reilly &amp;amp; Associates). Steven is a Senior Technology Advisor with Quest Software, has been developing software since 1980, and worked for Oracle Corporation from 1987 to 1992.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:183/product-bio/urn:x-domain:oreilly.com:product:9780596514105.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:49:55.805138+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596514105.IP"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Steven Feuerstein is considered one of the world's leading experts on the Oracle PL/SQL language, having written ten books on the subject.  Steven is a Senior Technology Advisor with Quest Software and has been developing software since 1980.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Steven Feuerstein is considered one of the world's leading experts on the Oracle PL/SQL language. He is the author or coauthor of Oracle PL/SQL Programming, Oracle PL/SQL Best Practices, Oracle PL/SQL Programming: Guide to Oracle8i Features, Oracle PL/SQL Developer's Workbook, Oracle Built-in Packages, Advanced Oracle PL/SQL Programming with Packages, and several pocket reference books (all from O'Reilly &amp;amp; Associates). Steven is a Senior Technology Advisor with Quest Software, has been developing software since 1980, and worked for Oracle Corporation from 1987 to 1992.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:183"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1210" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Howard</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:19:49.580310+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Angela</foaf:givenname>
+    <foaf:name xml:lang="en">Angela Howard</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Angela Howard</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1230" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Marlowe Shaeffer</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.516794+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Marlowe</foaf:givenname>
+    <foaf:surname xml:lang="en">Shaeffer</foaf:surname>
+    
+    <foaf:name xml:lang="en">Marlowe Shaeffer</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2113" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:givenname xml:lang="en">Mary</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mary Treseler</om:legalName>
+    <foaf:name xml:lang="en">Mary Treseler</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1a4614208913feeef6c73c275319ec58d3ee1fde</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-26T19:00:04.902558+00:00</dc:modified>
+    
+    
+    <foaf:surname xml:lang="en">Treseler</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2160" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Abby</foaf:givenname>
+    
+    
+    <foaf:surname xml:lang="en">Fox</foaf:surname>
+    <foaf:name xml:lang="en">Abby Fox</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Abby Fox</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.830374+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e0a3c259eab73d83a6144019c9f2a97d39596536</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:183" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Steven Feuerstein</om:legalName>
+    <foaf:surname xml:lang="en">Feuerstein</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0077cffa4a1acc241b5f9b655cbb31805fbcf2ed</foaf:mbox_sha1sum>
+    
+    
+    
+    <foaf:givenname xml:lang="en">Steven</foaf:givenname>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/344">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T05:17:20.440786+00:00</dc:modified>
+    
+    <foaf:name xml:lang="en">Steven Feuerstein</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2352" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Rachel Monaghan</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Rachel Monaghan</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.453919+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Rachel</foaf:givenname>
+    <foaf:surname xml:lang="en">Monaghan</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:378" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40e3e2cc8c7864e88ea5b598d010b0f60db54011</foaf:mbox_sha1sum>
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Debby Russell</om:legalName>
+    <foaf:surname xml:lang="en">Russell</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/275">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:givenname xml:lang="en">Debby</foaf:givenname>
+    
+    
+    <foaf:name xml:lang="en">Debby Russell</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-04-10T01:39:57.200509+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person></rdf:RDF>

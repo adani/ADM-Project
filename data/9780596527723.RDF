@@ -1,0 +1,857 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596527721.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596527721.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:asciiTitle xml:lang="en">Running Boot Camp</om:asciiTitle>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:sortableTitle xml:lang="en">running boot camp</om:sortableTitle>
+    
+    <om:primarySafariCategory rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.opsys.macos"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046020"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:modified xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-11-25T03:36:28.695868+00:00</dc:modified>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596527723.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:byline xml:lang="en">By Chuck Toporek</om:byline>
+    <om:subtitle xml:lang="en">A Step-by-Step Guide to a Pitfall-Free Installation of Windows XP on a Mac</om:subtitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Running Boot Camp</dc:title>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+When Steve Jobs jumped on stage at Macworld San Francisco 2006 and
+announced the new Intel-based Macs, the question wasn't if, but
+when someone would figure out a hack to get Windows XP running on
+these new "Mactels."
+&lt;/para&gt;&lt;para&gt;Enter Boot Camp, a new system utility that helps you partition
+and install Windows XP on your Intel Mac. Boot Camp does all the
+heavy lifting for you. You won't need to open the Terminal and hack
+on system files or wave a chicken bone over your iMac to get XP
+running. This free program makes it easy for anyone to turn their
+Mac into a dual-boot Windows/OS X machine.&lt;/para&gt;&lt;para&gt;&lt;emphasis&gt;Running Boot Camp&lt;/emphasis&gt; guides you step-by-step through the
+entire installation process, including upgrading your Mac's
+Firmware, creating the Macintosh Drivers CD to make XP work
+properly with your Mac's hardware, and using the Boot Camp
+Assistant to partition your hard drive and install Windows XP.
+You'll also learn how to avoid common pitfalls (such as previously
+partitioned drives and wrong disk permissions). And finally, you'll
+find out which Mac functions don't work in XP and which XP features
+backfire on a Mac. With this invaluable guide at your side, you'll
+finish configuring your dual-boot Mac in as little as two hours,
+avoiding numerous hazards and annoyances along the way.&lt;/para&gt;&lt;/div&gt;</dc:description>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-04-11</dc:created>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596527721.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596527721.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596527721"/>
+      </om:Subscription>
+    </om:price>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-01T00:00:00</om:endNewStatus>
+    
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596527723" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596527721</dc:identifier>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-05-28</dc:issued>
+    
+    <om:editorTitle xml:lang="en">Running Boot Camp</om:editorTitle>
+    <om:customerTitle xml:lang="en">Running Boot Camp</om:customerTitle>
+    
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/MAC" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596527723.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:endNewStatus>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-12-01</dc:issued>
+    
+    <om:sortableTitle xml:lang="en">running boot camp</om:sortableTitle>
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596527721_cat.gif"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596527723.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:editorTitle xml:lang="en">Running Boot Camp</om:editorTitle>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-04-11</dc:created>
+    
+    <dc:avaliable xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-12-01/2004-06-02</dc:avaliable>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-04-01</om:estimatedIssue>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Running Boot Camp</dc:title>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-10T09:36:10.181000+00:00</dc:modified>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596527723" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052772" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:endOfAvailability rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-02</om:endOfAvailability>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596527723.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <om:subtitle xml:lang="en">A Step-by-Step Guide to a Pitfall-Free Installation of Windows XP on a Mac</om:subtitle>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-09-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:asciiTitle xml:lang="en">Running Boot Camp</om:asciiTitle>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596527723.PDF#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:byline xml:lang="en">By Chuck Toporek</om:byline>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596527723.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:customerTitle xml:lang="en">Running Boot Camp</om:customerTitle>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046020">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Macintosh</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">32 pages (est.)</dc:extent>
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596527723.PDF#price-USA">
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596527723.PDF#price-GBR">
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        <rdf:value xml:lang="en">5.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596527723.PDF#price-CAN">
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        <rdf:value xml:lang="en">9.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596558758.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596558758.EBOOK#price-GBR">
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">5.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596558758.EBOOK#price-CAN">
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">9.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596558758.EBOOK#price-USA">
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:subtitle xml:lang="en">A Step-by-Step Guide to a Pitfall-Free Installation of Windows XP on a Mac</om:subtitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-06-24</dc:created>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596558758.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046020">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Macintosh</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Running Boot Camp</om:asciiTitle>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:sortableTitle xml:lang="en">running boot camp</om:sortableTitle>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:identifier rdf:resource="urn:isbn:9780596558758" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:byline xml:lang="en">By Chuck Toporek</om:byline>
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596558758.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:editorTitle xml:lang="en">Running Boot Camp</om:editorTitle>
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-04-12</dc:issued>
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-10T09:36:04.321392+00:00</dc:modified>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596527723.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <om:customerTitle xml:lang="en">Running Boot Camp</om:customerTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:endNewStatus>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Running Boot Camp</dc:title>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596527723.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-10T09:36:07.997510+00:00</dc:modified>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596527723.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596527721.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596527723.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596558758.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1947"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">running boot camp</om:sortableTitle>
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596527723">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-04-12</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596527723.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:customerTitle xml:lang="en">Running Boot Camp</om:customerTitle>
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596527723.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596527721_cat.gif"/>
+    
+    <om:endOfAvailability rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-02</om:endOfAvailability>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-04-11</dc:created>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-04-12</dc:issued>
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    <om:asciiTitle xml:lang="en">Running Boot Camp</om:asciiTitle>
+    <om:subtitle xml:lang="en">A Step-by-Step Guide to a Pitfall-Free Installation of Windows XP on a Mac</om:subtitle>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/mac"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046020">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Macintosh</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596527723" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">32 pages (est.)</dc:extent>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;When Steve Jobs jumped on stage at Macworld San Francisco 2006 and announced the new Intel-based Macs, the question wasn't if, but when someone would figure out a hack to get Windows XP running on these new "Mactels." 
+&lt;/p&gt;&lt;p&gt;
+Enter Boot Camp, a new system utility that helps you partition and install Windows XP on your Intel Mac. Boot Camp does all the heavy lifting for you. You won't need to open the Terminal and hack on system files or wave a chicken bone over your iMac to get XP running. This free program makes it easy for anyone to turn their Mac into a dual-boot Windows/OS X machine.&lt;/p&gt;
+&lt;p&gt;
+&lt;i&gt;Running Boot Camp&lt;/i&gt; guides you step-by-step through the entire installation process, including upgrading your Mac's Firmware, creating the Macintosh Drivers CD to make XP work properly with your Mac's hardware, and using the Boot Camp Assistant to partition your hard drive and install Windows XP. You'll also learn how to avoid common pitfalls (such as previously partitioned drives and wrong disk permissions). And finally, you'll find out which Mac functions don't work in XP and which XP features backfire on a Mac. With this invaluable guide at your side, you'll finish configuring your dual-boot Mac in as little as two hours, avoiding numerous hazards and annoyances along the way.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Running Boot Camp</dc:title>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:editorTitle xml:lang="en">Running Boot Camp</om:editorTitle>
+    <om:byline xml:lang="en">By Chuck Toporek</om:byline>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:418/product-bio/urn:x-domain:oreilly.com:product:9780596527723.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:17:46.290215+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Chuck Toporek cut his teeth on a Mac II system when he got his first job in publishing in 1988, and has been using them ever since. Chuck is a senior editor in charge of the Mac OS X/Apple Developer Connection (ADC) series for O'Reilly Media, Inc. He is also the author/editor of Inside .Mac, the Mac OS X Panther Pocket Guide, and co-author of Mac OS X Panther in a Nutshell.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596527723.PDF"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:418/product-bio/urn:x-domain:oreilly.com:product:9780596527723.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Chuck Toporek cut his teeth on a Mac II system when he got his first job in publishing in 1988, and has been using them ever since. Chuck is a senior editor in charge of the Mac OS X/Apple Developer Connection (ADC) series for O'Reilly Media, Inc. He is also the author/editor of Inside .Mac, the Mac OS X Panther Pocket Guide, and co-author of Mac OS X Panther in a Nutshell.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596527723.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:418"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:17:48.376157+00:00</dc:modified>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:418" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:givenname xml:lang="en">Chuck</foaf:givenname>
+    <foaf:name xml:lang="en">Chuck Toporek</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T19:11:28.732961+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Chuck Toporek</om:legalName>
+    
+    <foaf:surname xml:lang="en">Toporek</foaf:surname>
+    <foaf:homepage rdf:resource="http://homepage.mac.com/chuckdude"/>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/45">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1947" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16037f575f7ac80bb6a02e14b49386889d5df776</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Dawn Mann</om:legalName>
+    
+    <foaf:name xml:lang="en">Dawn Mann</foaf:name>
+    <foaf:givenname xml:lang="en">Dawn</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:15:16.741363+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Mann</foaf:surname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1447" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Steven Weiss</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75ce103b85fbb64e46d9d52f1890e2e6720e8bf6</foaf:mbox_sha1sum>
+    
+    <foaf:givenname xml:lang="en">Steven</foaf:givenname>
+    <foaf:surname xml:lang="en">Weiss</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.843477+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Steven Weiss</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1093" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Hart</foaf:surname>
+    <foaf:givenname xml:lang="en">Kyle</foaf:givenname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:18:50.123645+00:00</dc:modified>
+    <foaf:name xml:lang="en">Kyle Hart</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e8fc30b86153217effd5dbd0b4a79619714cc763</foaf:mbox_sha1sum>
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Kyle Hart</om:legalName>
+  </foaf:Person></rdf:RDF>

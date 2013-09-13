@@ -1,0 +1,2461 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449376666.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449376666" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:18.495174+00:00</dc:modified>
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449376666.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449376666.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editionLabel xml:lang="en"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-10-01</dc:issued>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-01T00:00:00</om:endNewStatus>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;By Omar AL Zabir&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media (&lt;a href="http://oreilly.com/catalog/9780596510503/"&gt;http://oreilly.com/catalog/9780596510503&amp;#8203;/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;/p&gt;
+&lt;p&gt;Written by Omar AL Zabir, co-founder and CTO of Pageflakes, Building a Web 2.0 Portal with ASP.NET 3.5 demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at www.dropthings.com), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;/p&gt;
+&lt;p&gt;You learn how to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Building a Web 2.0 Portal with ASP.NET 3.5 also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/p&gt;
+&lt;p&gt;Superb Reading Features&lt;/p&gt;
+&lt;p&gt;Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone phenomenon with over a million downloads:
+&lt;em&gt; Full book text search
+&lt;/em&gt; Several fonts and themes to choose from
+&lt;em&gt; Built-in dictionary
+&lt;/em&gt; The ability to add annotations
+&lt;em&gt; Landscape view
+&lt;/em&gt; Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots&lt;/p&gt;
+&lt;p&gt;About O'Reilly Media&lt;/p&gt;
+&lt;p&gt;O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.&lt;/p&gt;
+&lt;p&gt;About Lexcycle&lt;/p&gt;
+&lt;p&gt;Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449376666.APP#price-USA-01">
+        
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DNT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Silverlight" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/AJAX" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+    
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-07-01T00:00:00</om:beginUpcomingStatus>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060080"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596519643.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-01-29</dc:created>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-02-01</dc:issued>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this exciting era of Web 2.0 development,
+Dojo pushes the boundaries of the
+possible with snazzy user interfaces that
+can be quickly implemented and easily
+maintained.
+&lt;/p&gt;&lt;p&gt;This comprehensive overview to creating
+object-oriented widgets with Dojo 0.9+
+tackles the most foundational Dojo design
+concepts-leaving you poised for
+productivity and efficiency, and ready to
+achieve superior results. Read on to explore
+the depths of inheritance and encapsulation,
+learn the most common
+pitfalls (before you fall prey to them),
+and begin your Dojo journey on rocksolid
+footing.
+&lt;/p&gt;&lt;p&gt;You've been developing with Dojo for a
+while? No problem; you'll still benefit
+from a thorough review of the fundamentals
+now that 0.9 has landed.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596519643.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596519643.PDF#price-CAN-01">
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596519643.PDF#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596519643.PDF#price-GBR-01">
+        
+        
+        <rdf:value xml:lang="en">27.50</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051964" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596519643" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building an ASP.NET Web 2.0 Portal</dc:title>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-29</om:estimatedIssue>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596519643.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:05.842705+00:00</dc:modified>
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596510503_cat.gif"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596519643.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596519643.PDF#WO-6755">
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building an ASP.NET Web 2.0 Portal</dc:title>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-02-01</dc:issued>
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:endNewStatus>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-11-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">308 pages (est.)</dc:extent>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596510503.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building an ASP.NET Web 2.0 Portal</dc:title>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    <om:editionLabel xml:lang="en"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596510503" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9780596510503</dc:identifier>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:31.924332+00:00</dc:modified>
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+If you think you're well versed in ASP.NET, think again. This
+exceptional guide gives you a master class in site building with
+ASP.NET 3.5 and other cutting-edge Microsoft technologies. You
+learn how to develop rock-solid web portal applications that can
+withstand millions of hits every day while surviving scalability
+and security pressures -- not just for mass-consumer homepages, but
+also for dashboards that deliver powerful content aggregation for
+enterprises.
+
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes,
+&lt;emphasis&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/emphasis&gt; demonstrates
+how to develop portals similar to My Yahoo!, iGoogle, and
+Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow
+Foundation, LINQ and .NET 3.5. Through the course of the book, AL
+Zabir builds an open source Ajax-enabled portal prototype
+(available online at &lt;emphasis&gt;www.dropthings.com&lt;/emphasis&gt;), and walks you
+though the design and architectural challenges, advanced Ajax
+concepts, performance optimization techniques, and server-side
+scalability problems involved.
+
+You learn how to:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Implement a highly decoupled architecture following the popular
+n-tier, widget-based application model&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to
+build the server-side part of the web layer&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Use LINQ to build the data access layer, and Windows Workflow
+Foundation to build the business layer as a collection of
+workflows&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Build client-side widgets using JavaScript for faster
+performance and better caching&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Get maximum performance out of the ASP.NET AJAX Framework for
+faster, more dynamic, and scalable sites&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Build a custom web service call handler to overcome
+shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional,
+cache-friendly web services&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Overcome JavaScript performance problems, and help the user
+interface load faster and be more responsive&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Solve scalability and security problems as your site grows from
+hundreds to millions of users&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Deploy and run a high-volume production site while solving
+software, hardware, hosting, and Internet infrastructure
+problems&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;&lt;emphasis&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/emphasis&gt; also presents
+real-world ASP.NET challenges that the author has solved in
+building educational and enterprise portals, plus thirteen
+production disasters common to web applications serving millions of
+users. If you're ready to build state-of-the art, high-volume web
+applications, this book has exactly what you need.
+&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060080"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596510503.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DNT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/AJAX" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Silverlight" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9780596510503"/>
+      </om:Subscription>
+    </om:price>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-12-21</dc:issued>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-03-01T00:00:00</om:endNewStatus>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-09-01T00:00:00</om:beginUpcomingStatus>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596102845.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102845.EBOOK#price-USA-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102845.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-30</dc:created>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596102845" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.BOOK:9780596102845.EBOOK#bundle-offer"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:33.809554+00:00</dc:modified>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    
+    
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596102845.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    
+    
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this exciting era of Web 2.0 development,
+Dojo pushes the boundaries of the
+possible with snazzy user interfaces that
+can be quickly implemented and easily
+maintained.
+&lt;/p&gt;&lt;p&gt;This comprehensive overview to creating
+object-oriented widgets with Dojo 0.9+
+tackles the most foundational Dojo design
+concepts-leaving you poised for
+productivity and efficiency, and ready to
+achieve superior results. Read on to explore
+the depths of inheritance and encapsulation,
+learn the most common
+pitfalls (before you fall prey to them),
+and begin your Dojo journey on rocksolid
+footing.
+&lt;/p&gt;&lt;p&gt;You've been developing with Dojo for a
+while? No problem; you'll still benefit
+from a thorough review of the fundamentals
+now that 0.9 has landed.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449395155.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/AndroidApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/AJAX" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DNT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Silverlight" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Building a Web 2.0 Portal with ASP.NET 3.5, published by O'Reilly Media&lt;/p&gt;
+&lt;p&gt;Buy this DRM-free ebook today! Powered by Aldiko.&lt;/p&gt;
+&lt;p&gt;In this exciting era of Web 2.0 development, Dojo pushes the boundaries of the possible with snazzy user interfaces that can be quickly implemented and easily maintained.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:13.241331+00:00</dc:modified>
+    
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:becauseOf xml:lang="en">Product must have an Availability Date before now.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449395155.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449395155" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal</dc:title>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/android"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060080"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449395155.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449395155.APP#price-USA-01">
+        
+        
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">4.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596551636.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:videoPreview xml:lang="en"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596551636.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596551636" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:22.452840+00:00</dc:modified>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this exciting era of Web 2.0 development,
+Dojo pushes the boundaries of the
+possible with snazzy user interfaces that
+can be quickly implemented and easily
+maintained.
+&lt;/p&gt;&lt;p&gt;This comprehensive overview to creating
+object-oriented widgets with Dojo 0.9+
+tackles the most foundational Dojo design
+concepts-leaving you poised for
+productivity and efficiency, and ready to
+achieve superior results. Read on to explore
+the depths of inheritance and encapsulation,
+learn the most common
+pitfalls (before you fall prey to them),
+and begin your Dojo journey on rocksolid
+footing.
+&lt;/p&gt;&lt;p&gt;You've been developing with Dojo for a
+while? No problem; you'll still benefit
+from a thorough review of the fundamentals
+now that 0.9 has landed.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/AJAX" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Silverlight" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DNT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551636.EPUB#price-USA-01">
+        
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551636.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060080"/>
+    <om:editionLabel xml:lang="en"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596510503.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-12-21</dc:issued>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596510503.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This hands-on book teaches web developers all they need to know to build cutting-edge web portals using ASP.NET 2.0, the ASP.NET AJAX Framework, .NET 3.5, and Silverlight, Microsoft's new runtime for Rich Internet Applications. Many experienced ASP.NET developers are under pressure from customers and clients to provide them with the functionality and user experience found at Ajax-enabled sites such as Google Start, PageFlakes, and others. This book demonstrates how it's done.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-03-01T00:00:00</om:endNewStatus>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">44.99</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#price-GBE-01">
+        
+        
+        <rdf:value xml:lang="en">36.00</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#price-CAN-01">
+        
+        
+        <rdf:value xml:lang="en">44.99</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#price-GBR-01">
+        
+        
+        <rdf:value xml:lang="en">34.50</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <dc:identifier rdf:resource="urn:isbn:9780596510503" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051050" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    
+    
+    <om:tagline xml:lang="en">Learn How to Build a State-of-the-Art Ajax Start Page Using ASP.NET, .NET 3.5, LINQ, Windows WF, and More</om:tagline>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Normal</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Head Rush Ajax (9780596102258)&lt;/p&gt;</om:willSellLike>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;.NET&lt;/p&gt;</om:shelving>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596510503_cat.gif"/>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060080">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Web / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;ASP.NET 2.0 Website Programming: Problem-Design-Solution, By Marco Bellinoso, Wrox, ISBN-10: 0764584642, ISBN-13: 978-0764584640, May 2006, 600 pages, $39.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-12-11</dc:created>
+    
+    
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-09-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#WO-6469">
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building an ASP.NET Web 2.0 Portal</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-12-21</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-09-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-03-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-21</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#WO-6812">
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-04-01</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-02</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#WO-8003">
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-23</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-06-24</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:29.059277+00:00</dc:modified>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">320 pages</dc:extent>
+    
+    
+    
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Web developers who use ASP.NET 2.0, currently Microsoft's largest developer market.&lt;/p&gt;</om:audienceDescription>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with this framework. You learn how to develop rock-solid web portal applications similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET AJAX, Windows Workflow Foundation, LINQ, and .NET 3.5, along with ASP.NET 3.5 -- sites that can withstand millions of hits every day while surviving scalability and security pressures.&lt;/p&gt;</dc:description>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1214"/>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051010">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/AJAX">
+        <rdf:value xml:lang="en">AJAX</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/ASP.NET%202.0">
+        <rdf:value xml:lang="en">ASP.NET 2.0</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060060">
+        <dc:title xml:lang="en">COMPUTERS / Web / Page Design</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Web%202.0">
+        <rdf:value xml:lang="en">Web 2.0</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE">
+        <rdf:value xml:lang="en">XAML,JavaScript,ASP.NET,.NET 3.5,WPF/E</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/LINQ">
+        <rdf:value xml:lang="en">LINQ</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046040">
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Windows Workstation</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes%2CWindows%20WF%2COmar%20AL%20Zabir%2CASP.NET%20AJAX">
+        <rdf:value xml:lang="en">Start Page,Pageflakes,Windows WF,Omar AL Zabir,ASP.NET AJAX</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/ASP.NET%203.5">
+        <rdf:value xml:lang="en">ASP.NET 3.5</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-15</om:estimatedIssue>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Shows ASP.NET 2.0 developers how to combine the latest Microsoft web technologies to build a state of the art Web 2.0 style customer-facing or intranet portal site&lt;/li&gt;&lt;li&gt;Focuses on post-ASP.NET 2.0 innovations that became available for the first time in 2007, including ASP.NET AJAX, LINQ, Silverlight and .NET 3.5&lt;/li&gt;&lt;li&gt;Publication timed to coincide with the release of .NET 3.5 -- the latest release of the .NET Framework -- and Silverlight 1.0, a new cross-browser plug-in for delivering streaming video to web browsers&lt;/li&gt;&lt;li&gt;Written by co-founder of PageFlakes (http://www.pageflakes.com/ ), an award-winning Web 2.0 site&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3176" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596108151.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596108151.MOBI#price-USA-01">
+        
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">35.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060080"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596108151.MOBI">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:08.281098+00:00</dc:modified>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/AJAX" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DNT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Silverlight" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Web%202.0" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with this framework. You learn how to develop rock-solid web portal applications similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET AJAX, Windows Workflow Foundation, LINQ, and .NET 3.5, along with ASP.NET 3.5 -- sites that can withstand millions of hits every day while surviving scalability and security pressures.&lt;/p&gt;</dc:description>
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596108151" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596108151.MOBI#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:editionLabel xml:lang="en"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    
+    
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596510503.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building a Web 2.0 Portal with ASP.NET 3.5</dc:title>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596108151.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449376666.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596551636.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596102845.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596519643.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449395155.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596510503.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;.NET&lt;/p&gt;</om:shelving>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-12-21</dc:issued>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Web%202.0">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Web 2.0</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060060">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Web / Page Design</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Silverlight">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Silverlight</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/XAML%2CJavaScript%2CASP.NET%2C.NET%203.5%2CWPF%2FE">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">XAML,JavaScript,ASP.NET,.NET 3.5,WPF/E</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/AJAX">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">AJAX</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046040">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Windows Workstation</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Start%20Page%2CPageflakes">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Start Page,Pageflakes</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596510503">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-04-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-10-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-01-04</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Shows ASP.NET 2.0 developers how to combine the latest Microsoft web technologies to build a state of the art Web 2.0 style customer-facing or intranet portal site&lt;/li&gt;&lt;li&gt;Focuses on post-ASP.NET 2.0 innovations that became available for the first time in 2007, including ASP.NET AJAX, LINQ, Silverlight and .NET 3.5&lt;/li&gt;&lt;li&gt;Publication timed to coincide with the release of .NET 3.5 -- the latest release of the .NET Framework -- and Silverlight 1.0, a new cross-browser plug-in for delivering streaming video to web browsers&lt;/li&gt;&lt;li&gt;Written by co-founder of PageFlakes (http://www.pageflakes.com/ ), an award-winning Web 2.0 site&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This hands-on book teaches web developers all they need to know to build cutting-edge web portals using ASP.NET 2.0, the ASP.NET AJAX Framework, .NET 3.5, and Silverlight, Microsoft's new runtime for Rich Internet Applications. Many experienced ASP.NET developers are under pressure from customers and clients to provide them with the functionality and user experience found at Ajax-enabled sites such as Google Start, PageFlakes, and others. This book demonstrates how it's done.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    <om:prodmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1230"/>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596510503.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">352 pages</dc:extent>
+    
+    <om:sortableTitle xml:lang="en">building a web 2.0 portal with asp.net 3.5</om:sortableTitle>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Omar AL Zabir</dc:rightsHolder>
+    
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Web developers who use ASP.NET 2.0, currently Microsoft's largest developer market.&lt;/p&gt;</om:audienceDescription>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-12-11</dc:created>
+    
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this exciting era of Web 2.0 development,
+Dojo pushes the boundaries of the
+possible with snazzy user interfaces that
+can be quickly implemented and easily
+maintained.
+&lt;/p&gt;&lt;p&gt;This comprehensive overview to creating
+object-oriented widgets with Dojo 0.9+
+tackles the most foundational Dojo design
+concepts-leaving you poised for
+productivity and efficiency, and ready to
+achieve superior results. Read on to explore
+the depths of inheritance and encapsulation,
+learn the most common
+pitfalls (before you fall prey to them),
+and begin your Dojo journey on rocksolid
+footing.
+&lt;/p&gt;&lt;p&gt;You've been developing with Dojo for a
+while? No problem; you'll still benefit
+from a thorough review of the fundamentals
+now that 0.9 has landed.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/dotnet"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060080">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Web / General</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    
+    
+    
+    
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2351" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you think you're well versed in ASP.NET, think again. This exceptional guide gives you a master class in site building with ASP.NET 3.5 and other cutting-edge Microsoft technologies. You learn how to develop rock-solid web portal applications that can withstand millions of hits every day while surviving scalability and security pressures -- not just for mass-consumer homepages, but also for dashboards that deliver powerful content aggregation for enterprises.&lt;br/&gt;&lt;br/&gt;
+Written by Omar AL Zabir, co-founder and CTO of Pageflakes, &lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; demonstrates how to develop portals similar to My Yahoo!, iGoogle, and Pageflakes using ASP.NET 3.5, ASP.NET AJAX, Windows Workflow Foundation, LINQ and .NET 3.5.   Through the course of the book, AL Zabir builds an open source Ajax-enabled portal prototype (available online at &lt;i&gt;www.dropthings.com&lt;/i&gt;), and walks you though the design and architectural challenges, advanced Ajax concepts, performance optimization techniques, and server-side scalability problems involved.&lt;br/&gt;&lt;br/&gt;
+You learn how to:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Implement a highly decoupled architecture following the popular n-tier, widget-based application model&lt;/li&gt; 
+&lt;li&gt;Provide drag-and-drop functionality, and use ASP.NET 3.5 to build the server-side part of the web layer&lt;/li&gt; 
+&lt;li&gt;Use LINQ to build the data access layer, and Windows Workflow Foundation to build the business layer as a collection of workflows&lt;/li&gt;
+&lt;li&gt;Build client-side widgets using JavaScript for faster performance and better caching&lt;/li&gt;
+&lt;li&gt;Get maximum performance out of the ASP.NET AJAX Framework for faster, more dynamic, and scalable sites&lt;/li&gt;
+&lt;li&gt;Build a custom web service call handler to overcome shortcomings in ASP.NET AJAX 1.0 for asynchronous, transactional, cache-friendly web services&lt;/li&gt;
+&lt;li&gt;Overcome JavaScript performance problems, and help the user interface load faster and be more responsive&lt;/li&gt;
+&lt;li&gt;Solve scalability and security problems as your site grows from hundreds to millions of users&lt;/li&gt;
+&lt;li&gt;Deploy and run a high-volume production site while solving software, hardware, hosting, and Internet infrastructure problems&lt;/li&gt;
+&lt;/ul&gt;&lt;em&gt;Building a Web 2.0 Portal with ASP.NET 3.5&lt;/em&gt; also presents real-world ASP.NET challenges that the author has solved in building educational and enterprise portals, plus thirteen production disasters common to web applications serving millions of users. If you're ready to build state-of-the art, high-volume web applications, this book has exactly what you need.&lt;/div&gt;</dc:abstract>
+    
+    
+    <om:byline xml:lang="en">By Omar AL Zabir</om:byline>
+    
+    
+    
+    <om:tagline xml:lang="en">Learn How to Build a State-of-the-Art Ajax Start Page Using ASP.NET, .NET 3.5, LINQ, Windows WF, and More</om:tagline>
+    
+    <dc:relation rdf:resource="urn:isbn:9780596100643" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596510374" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596527570" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Head Rush Ajax (9780596102258)&lt;/p&gt;</om:willSellLike>
+    
+    <om:customerTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:customerTitle>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596510503" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1093"/>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596510503.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:36:30.596799+00:00</dc:modified>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:editorTitle>
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;ASP.NET 2.0 Website Programming: Problem-Design-Solution, By Marco Bellinoso, Wrox, ISBN-10: 0764584642, ISBN-13: 978-0764584640, May 2006, 600 pages, $39.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3017"/>
+    
+    <om:asciiTitle xml:lang="en">Building a Web 2.0 Portal with ASP.NET 3.5</om:asciiTitle>
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2828/product-bio/urn:x-domain:oreilly.com:product:9780596510503.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:45.057786+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Omar AL Zabir is the CTO and co-founder of Pageflakes, a Microsoft MVP, the author of a popular .NET blog (&lt;a href="http://msmvps.com/omar"&gt;http://msmvps.com/omar&lt;/a&gt;), and a frequent contributor to Code Project. In 2006, Page flakes out-ranked iGoogle, Live.com, Netvibes, and Protopage in a review conducted by Seattle-based SEOmoz.org.&lt;/p&gt;</om:webBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Omar AL Zabir is the CTO and co-founder of Pageflakes, a Microsoft MVP, the author of a popular .NET blog (&lt;a href="http://msmvps.com/omar"&gt;http://msmvps.com/omar&lt;/a&gt;), and a frequent contributor to Code Project. In 2006, Page flakes out-ranked iGoogle, Live.com, Netvibes, and Protopage in a review conducted by Seattle-based SEOmoz.org.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Omar AL Zabir is the CTO and co-founder of Pageflakes, a Microsoft MVP, the author of a popular .NET blog (&lt;a href="http://msmvps.com/omar"&gt;http://msmvps.com/omar&lt;/a&gt;), and a frequent contributor to Code Project. In 2006, Page flakes out-ranked iGoogle, Live.com, Netvibes, and Protopage in a review conducted by Seattle-based SEOmoz.org.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2828/product-bio/urn:x-domain:oreilly.com:product:9780596510503.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:44.616337+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Omar AL Zabir is the CTO and co-founder of Pageflakes, a Microsoft MVP, the author of a popular .NET blog (&lt;a href="http://msmvps.com/omar"&gt;http://msmvps.com/omar&lt;/a&gt;), and a frequent contributor to Code Project. In 2006, Page flakes out-ranked iGoogle, Live.com, Netvibes, and Protopage in a review conducted by Seattle-based SEOmoz.org.&lt;/p&gt;</om:bio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Omar AL Zabir is the CTO and co-founder of Pageflakes, a Microsoft MVP, the author of a popular .NET blog (&lt;a href="http://msmvps.com/omar"&gt;http://msmvps.com/omar&lt;/a&gt;), and a frequent contributor to Code Project. In 2006, Page flakes out-ranked iGoogle, Live.com, Netvibes, and Protopage in a review conducted by Seattle-based SEOmoz.org.&lt;/p&gt;</om:webBio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Omar AL Zabir is the CTO and co-founder of Pageflakes, a Microsoft MVP, the author of a popular .NET blog (&lt;a href="http://msmvps.com/omar"&gt;http://msmvps.com/omar&lt;/a&gt;), and a frequent contributor to Code Project. In 2006, Page flakes out-ranked iGoogle, Live.com, Netvibes, and Protopage in a review conducted by Seattle-based SEOmoz.org.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596510503.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2828"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1214" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">John</foaf:givenname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.896173+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bickelhaupt</foaf:surname>
+    <foaf:name xml:lang="en">John Bickelhaupt</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">John Bickelhaupt</om:legalName>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1230" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Marlowe Shaeffer</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.516794+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Marlowe</foaf:givenname>
+    <foaf:surname xml:lang="en">Shaeffer</foaf:surname>
+    
+    <foaf:name xml:lang="en">Marlowe Shaeffer</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3176" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Geoff</foaf:givenname>
+    
+    <foaf:name xml:lang="en">Geoff Pahl</foaf:name>
+    <foaf:surname xml:lang="en">Pahl</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Geoff Pahl</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:00.361649+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2828" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Omar AL Zabir</foaf:name>
+    
+    
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2970">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Omar AL Zabir</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:39.575533+00:00</dc:modified>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7e77863c4a9be02c5a99d3b02068b5d2625e6382</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3423d0a39e6da41a5f737f72708826fde8db96d9</foaf:mbox_sha1sum>
+    
+    <foaf:givenname xml:lang="en">Omar</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">AL Zabir</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2351" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Laurel Ruma</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2bb52cce65d1f41351aea1e3bae0d215d8d092a2</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.573839+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Ruma</foaf:surname>
+    <foaf:givenname xml:lang="en">Laurel</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurel Ruma</om:legalName>
+    
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3017" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Caldwell</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Kyley Caldwell</om:legalName>
+    <foaf:name xml:lang="en">Kyley Caldwell</foaf:name>
+    <foaf:givenname xml:lang="en">Kyley</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:00.350722+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1065" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">John Osborn</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6e6f47d4ed9d3c00d8216251e7e8fa1c99f827fd</foaf:mbox_sha1sum>
+    
+    <foaf:givenname xml:lang="en">John</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">John Osborn</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.405033+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Osborn</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1093" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Hart</foaf:surname>
+    <foaf:givenname xml:lang="en">Kyle</foaf:givenname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:18:50.123645+00:00</dc:modified>
+    <foaf:name xml:lang="en">Kyle Hart</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e8fc30b86153217effd5dbd0b4a79619714cc763</foaf:mbox_sha1sum>
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Kyle Hart</om:legalName>
+  </foaf:Person></rdf:RDF>

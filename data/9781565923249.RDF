@@ -1,0 +1,897 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:1565923243.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:1565923243.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/1565923243"/>
+      </om:Subscription>
+    </om:price>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:editionLabel xml:lang="en"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1063" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046050" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/PRL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:customerTitle xml:lang="en">Learning Perl on Win32 Systems</om:customerTitle>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:sortableTitle xml:lang="en">learning perl on win32 systems</om:sortableTitle>
+    
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:16:26.636402+00:00</dc:modified>
+    
+    <om:asciiTitle xml:lang="en">Learning Perl on Win32 Systems</om:asciiTitle>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:1565923243.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051260"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this smooth, carefully paced course, leading Perl trainers and a  Windows NT practitioner teach you to program in the language that promises  to emerge as the scripting language of choice on NT.  With a foreword by  Larry Wall, the creator of Perl, this book is the "official" guide for  both formal (classroom) and informal learning.  Based on the "llama book,"
+&lt;i&gt;Learning Perl on Win32 Systems&lt;/i&gt; features tips for PC users and new NT-specific examples.&lt;/p&gt;
+&lt;p&gt;Perl for Win32 is a language for easily manipulating text, files, user  and group profiles, performance and event logs, and registry entries, and  a distribution is available on the Windows NT Resource Kit.  Peer-to-peer  technical support is now available on the perl.win32.users mailing list.&lt;/p&gt;
+&lt;p&gt;The contents include:&lt;/p&gt;
+&lt;ul&gt;&lt;li type="disc"&gt;An introduction to "the Perl way" for Windows users&lt;/li&gt;
+&lt;li type="disc"&gt;A quick tutorial stroll through Perl in one lesson&lt;/li&gt;
+&lt;li type="disc"&gt;Systematic, topic-by-topic coverage of Perl's broad capabilities&lt;/li&gt;
+&lt;li type="disc"&gt;Innumerable, brief code examples&lt;/li&gt;
+&lt;li type="disc"&gt;Programming exercises for each topic, with fully worked-out answers&lt;/li&gt;
+&lt;li type="disc"&gt;Access to NT system functions through Perl
+&lt;/li&gt;&lt;li type="disc"&gt;Database access with Perl&lt;/li&gt;
+&lt;li type="disc"&gt;CGI programming with Perl&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Erik Olson is director of advanced technologies for Axiom Technologies, LC,  where he specializes in providing Win32 development solutions.  Randal L.  Schwartz and Tom Christiansen have also written &lt;i&gt;Programming Perl&lt;/i&gt;,  co-authored with Larry Wall and published by O'Reilly &amp;amp; Associates.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">1997-08-01</dc:issued>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-05-01T00:00:00</om:beginUpcomingStatus>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:editorTitle xml:lang="en">Learning Perl on Win32 Systems</om:editorTitle>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Randal L. Schwartz, Erik Olson, Tom Christiansen</om:byline>
+    <dc:identifier rdf:resource="urn:isbn:9781565923249" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/1565923243</dc:identifier>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-11-01T00:00:00</om:endNewStatus>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning Perl on Win32 Systems</dc:title>
+    
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+In this smooth, carefully paced course, leading Perl trainers and a
+Windows NT practitioner teach you to program in the language that
+promises to emerge as the scripting language of choice on NT. With
+a foreword by Larry Wall, the creator of Perl, this book is the
+"official" guide for both formal (classroom) and informal learning.
+Based on the "llama book," &lt;emphasis&gt;Learning Perl on Win32 Systems&lt;/emphasis&gt;
+features tips for PC users and new NT-specific examples. Perl for
+Win32 is a language for easily manipulating text, files, user and
+group profiles, performance and event logs, and registry entries,
+and a distribution is available on the Windows NT Resource Kit.
+Peer-to-peer technical support is now available on the
+perl.win32.users mailing list. The contents include:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;An introduction to "the Perl way" for Windows
+users&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;A quick tutorial stroll through Perl in one
+lesson&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Systematic, topic-by-topic coverage of Perl's broad
+capabilities&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Innumerable, brief code examples&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Programming exercises for each topic, with fully
+worked-out answers&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Access to NT system functions through Perl&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Database access with Perl&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;CGI programming with Perl&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;
+Erik Olson is director of advanced technologies for Axiom
+Technologies, LC, where he specializes in providing Win32
+development solutions. Randal L. Schwartz and Tom Christiansen have
+also written &lt;emphasis&gt;Programming Perl&lt;/emphasis&gt;, co-authored with Larry Wall
+and published by O'Reilly &amp;amp; Associates.
+&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781565923249.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Perl, web programming, Windows NT&lt;/p&gt;</om:shelving>
+    
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046050">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Windows Server &amp; NT</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046070">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Linux</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046040">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Windows Workstation</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Windows NT system administrators</dc:audience>
+    
+    
+    <om:sortableTitle xml:lang="en">learning perl on win32 systems</om:sortableTitle>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1063" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Learning Perl on Win32 Systems</om:asciiTitle>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning Perl on Win32 Systems</dc:title>
+    <om:editorTitle xml:lang="en">Learning Perl on Win32 Systems</om:editorTitle>
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:byline xml:lang="en">By Randal L. Schwartz, Erik Olson, Tom Christiansen</om:byline>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Normal</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">312 pages</dc:extent>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/1565923243_cat.gif"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this smooth, carefully paced course, leading Perl trainers and a  Windows NT practitioner teach you to program in the language that promises  to emerge as the scripting language of choice on NT.  With a foreword by  Larry Wall, the creator of Perl, this book is the "official" guide for  both formal (classroom) and informal learning.  Based on the "llama book,"
+&lt;i&gt;Learning Perl on Win32 Systems&lt;/i&gt; features tips for PC users and new NT-specific examples.&lt;/p&gt;
+&lt;p&gt;Perl for Win32 is a language for easily manipulating text, files, user  and group profiles, performance and event logs, and registry entries, and  a distribution is available on the Windows NT Resource Kit.  Peer-to-peer  technical support is now available on the perl.win32.users mailing list.&lt;/p&gt;
+&lt;p&gt;The contents include:&lt;/p&gt;
+&lt;ul&gt;&lt;li type="disc"&gt;An introduction to "the Perl way" for Windows users&lt;/li&gt;
+&lt;li type="disc"&gt;A quick tutorial stroll through Perl in one lesson&lt;/li&gt;
+&lt;li type="disc"&gt;Systematic, topic-by-topic coverage of Perl's broad capabilities&lt;/li&gt;
+&lt;li type="disc"&gt;Innumerable, brief code examples&lt;/li&gt;
+&lt;li type="disc"&gt;Programming exercises for each topic, with fully worked-out answers&lt;/li&gt;
+&lt;li type="disc"&gt;Access to NT system functions through Perl
+&lt;/li&gt;&lt;li type="disc"&gt;Database access with Perl&lt;/li&gt;
+&lt;li type="disc"&gt;CGI programming with Perl&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Erik Olson is director of advanced technologies for Axiom Technologies, LC,  where he specializes in providing Win32 development solutions.  Randal L.  Schwartz and Tom Christiansen have also written &lt;i&gt;Programming Perl&lt;/i&gt;,  co-authored with Larry Wall and published by O'Reilly &amp;amp; Associates.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:16:10.813890+00:00</dc:modified>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:384"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:336"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:143"/>
+      </rdf:Seq>
+    </dc:creator>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781565923249.BOOK">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;In this carefully paced course, leading Perl trainers and a Windows NT practitioner teach you to program in the language that promises to emerge as the scripting language of choice on NT. Based on the "llama" book, this book features tips for PC users and new NT-specific examples, along with a foreword by Larry Wall, the creator of Perl, and Dick Hardt, the creator of Perl for Win32.&lt;/p&gt;</dc:description>
+    <om:customerTitle xml:lang="en">Learning Perl on Win32 Systems</om:customerTitle>
+    
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.092324" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9781565923249" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">1997-08-01</dc:issued>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-08-01</om:estimatedIssue>
+    
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#WO-1731">
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">1997-08-01</dc:issued>
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning Perl on Win32 Systems</dc:title>
+            <om:binding xml:lang="en"/>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-05-01T00:00:00</om:beginUpcomingStatus>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-11-01T00:00:00</om:endNewStatus>
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#WO-4428">
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-07-27</dc:issued>
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning Perl on Win32 Systems</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-07-26</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-04-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-05-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-11-01T00:00:00</om:endNewStatus>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#price-GBE-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">28.00</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#price-USA-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">34.95</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#price-CAN-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">51.95</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.BOOK#price-GBR-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">26.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781565923249.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9781565923249">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-06-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-12-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">1997-03-28</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Windows NT system administrators</dc:audience>
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Learning Perl on Win32 Systems</om:editorTitle>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Learning Perl on Win32 Systems</om:asciiTitle>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning Perl on Win32 Systems</dc:title>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781565923249.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <dc:identifier rdf:resource="urn:isbn:9781565923249" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/perl"/>
+    <om:customerTitle xml:lang="en">Learning Perl on Win32 Systems</om:customerTitle>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1063" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:1565923243.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">1997-08-01</dc:issued>
+    <om:videoPreview xml:lang="en"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002305" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596000271" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565922204" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565925113" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596001322" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:16:30.898624+00:00</dc:modified>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9781565923249.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:384"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:143"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:336"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/1565923243_cat.gif"/>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046040">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Windows Workstation</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046050">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Windows Server &amp; NT</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046070">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Operating Systems / Linux</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:byline xml:lang="en">By Randal L. Schwartz, Erik Olson, Tom Christiansen</om:byline>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565923249.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:384"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:143"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:336"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;In this smooth, carefully paced course, leading Perl trainers and a  Windows NT practitioner teach you to program in the language that promises  to emerge as the scripting language of choice on NT.  With a foreword by  Larry Wall, the creator of Perl, this book is the "official" guide for  both formal (classroom) and informal learning.  Based on the "llama book,"
+&lt;i&gt;Learning Perl on Win32 Systems&lt;/i&gt; features tips for PC users and new NT-specific examples.&lt;/p&gt;
+&lt;p&gt;Perl for Win32 is a language for easily manipulating text, files, user  and group profiles, performance and event logs, and registry entries, and  a distribution is available on the Windows NT Resource Kit.  Peer-to-peer  technical support is now available on the perl.win32.users mailing list.&lt;/p&gt;
+&lt;p&gt;The contents include:&lt;/p&gt;
+&lt;ul&gt;&lt;li type="disc"&gt;An introduction to "the Perl way" for Windows users&lt;/li&gt;
+&lt;li type="disc"&gt;A quick tutorial stroll through Perl in one lesson&lt;/li&gt;
+&lt;li type="disc"&gt;Systematic, topic-by-topic coverage of Perl's broad capabilities&lt;/li&gt;
+&lt;li type="disc"&gt;Innumerable, brief code examples&lt;/li&gt;
+&lt;li type="disc"&gt;Programming exercises for each topic, with fully worked-out answers&lt;/li&gt;
+&lt;li type="disc"&gt;Access to NT system functions through Perl
+&lt;/li&gt;&lt;li type="disc"&gt;Database access with Perl&lt;/li&gt;
+&lt;li type="disc"&gt;CGI programming with Perl&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Erik Olson is director of advanced technologies for Axiom Technologies, LC,  where he specializes in providing Win32 development solutions.  Randal L.  Schwartz and Tom Christiansen have also written &lt;i&gt;Programming Perl&lt;/i&gt;,  co-authored with Larry Wall and published by O'Reilly &amp;amp; Associates.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">1997-08-01</dc:created>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;In this carefully paced course, leading Perl trainers and a Windows NT practitioner teach you to program in the language that promises to emerge as the scripting language of choice on NT. Based on the "llama" book, this book features tips for PC users and new NT-specific examples, along with a foreword by Larry Wall, the creator of Perl, and Dick Hardt, the creator of Perl for Win32.&lt;/p&gt;</dc:description>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Perl, web programming, Windows NT&lt;/p&gt;</om:shelving>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">312 pages</dc:extent>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:sortableTitle xml:lang="en">learning perl on win32 systems</om:sortableTitle>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:336/product-bio/urn:x-domain:oreilly.com:product:9781565923249.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:336"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:44:39.245921+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Erik Olson is a renegade linguist who makes a living developing software for Win32 platforms. Erik is currently the chief technical officer at Axiom Technologies, LC, a software outsourcing shop. Erik delivers developer training, system administration, and program/concept development for a number of large-scale horizontal and vertical applications. Working as a program developer since 1986, Erik has implemented a variety of systems ranging from point-of-sales systems to horizontal PIM products to real-time financial market applications. Although much of his work is done in C++, he has particular interests in Web development and scripting languages. Erik coauthored Learning Perl on Win32 Systems with Tom Christiansen and Randal Schwartz.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:143/product-bio/urn:x-domain:oreilly.com:product:9781565923249.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:44:40.794874+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Tom Christiansen is a freelance consultant specializing in Perl training and writing. After working for several years for TSR Hobbies (of Dungeons and Dragons fame), he set off for college where he spent a year in Spain and five in America, dabbling in music, linguistics, programming, and some half-dozen different spoken languages. Tom finally escaped UW-Madison with B.A.s in Spanish and computer science and an M.S. in computer science. He then spent five years at Convex as a jack-of-all-trades working on everything from system administration to utility and kernel development, with customer support and training thrown in for good measure. Tom also served two terms on the USENIX Association Board of directors. With over fifteen years' experience in UNIX system administration and programming, Tom presents seminars internationally. Living in the foothills above Boulder, Colorado, surrounded by mule deer, skunks, and the occasional mountain lion and black bear, Tom takes summers off for hiking, hacking, birding, music making, and gaming.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:143"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:336/product-bio/urn:x-domain:oreilly.com:product:9781565923249.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:44:38.939697+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Erik Olson is a renegade linguist who makes a living developing software for Win32 platforms. Erik is currently the chief technical officer at Axiom Technologies, LC, a software outsourcing shop. Erik delivers developer training, system administration, and program/concept development for a number of large-scale horizontal and vertical applications. Working as a program developer since 1986, Erik has implemented a variety of systems ranging from point-of-sales systems to horizontal PIM products to real-time financial market applications. Although much of his work is done in C++, he has particular interests in Web development and scripting languages. Erik coauthored Learning Perl on Win32 Systems with Tom Christiansen and Randal Schwartz.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:336"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:143/product-bio/urn:x-domain:oreilly.com:product:9781565923249.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:143"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:44:41.245894+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565923249.BOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Tom Christiansen is a freelance consultant specializing in Perl training and writing. After working for several years for TSR Hobbies (of Dungeons and Dragons fame), he set off for college where he spent a year in Spain and five in America, dabbling in music, linguistics, programming, and some half-dozen different spoken languages. Tom finally escaped UW-Madison with B.A.s in Spanish and computer science and an M.S. in computer science. He then spent five years at Convex as a jack-of-all-trades working on everything from system administration to utility and kernel development, with customer support and training thrown in for good measure. Tom also served two terms on the USENIX Association Board of directors. With over fifteen years' experience in UNIX system administration and programming, Tom presents seminars internationally. Living in the foothills above Boulder, Colorado, surrounded by mule deer, skunks, and the occasional mountain lion and black bear, Tom takes summers off for hiking, hacking, birding, music making, and gaming.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:143" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">225720d7a70561231dabdd3f9922470c68dd4697</foaf:mbox_sha1sum>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/407">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:surname xml:lang="en">Christiansen</foaf:surname>
+    <foaf:givenname xml:lang="en">Tom</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Tom Christiansen</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T02:43:25.143813+00:00</dc:modified>
+    
+    <foaf:name xml:lang="en">Tom Christiansen</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:336" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/458">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <foaf:surname xml:lang="en">Olson</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Erik Olson</om:legalName>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">675e4a37cdf1f875209246535b853198c723d84e</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Erik</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:44:41.061092+00:00</dc:modified>
+    <foaf:name xml:lang="en">Erik Olson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:384" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T03:59:49.242138+00:00</dc:modified>
+    <foaf:name xml:lang="en">Randal L. Schwartz</foaf:name>
+    
+    
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Randal L. Schwartz</om:legalName>
+    
+    
+    <foaf:givenname xml:lang="en">Randal</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ac1e6110801de9a3322121e79f450361fbe8abfb</foaf:mbox_sha1sum>
+    
+    
+    <foaf:surname xml:lang="en">Schwartz</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/335">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1063" xml:base="urn:x-domain:oreilly.com:agent:pdb:1063" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Robert Denn</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Robert Denn</om:legalName><foaf:givenname>Robert</foaf:givenname><foaf:surname>Denn</foaf:surname><dc:modified xmlns:dc="http://purl.org/dc/terms/">2010-01-21T19:38:32.068245+00:00</dc:modified></foaf:Person></rdf:RDF>

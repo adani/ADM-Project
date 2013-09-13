@@ -1,0 +1,950 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596002785.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596002785</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596002787" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1223" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java &amp; XML Data Binding</dc:title>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596002785.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596002785.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596002785"/>
+      </om:Subscription>
+    </om:price>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    <om:sortableTitle xml:lang="en">java &amp; xml data binding</om:sortableTitle>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;More Java developers today want to work with XML, the technology that enables data to be transported intact over the Internet, but they don't have time to become XML experts. If this describes you, then you'll appreciate data binding, the new way of converting XML documents into Java objects, so those documents can be worked on and manipulated like any other Java object, then converted back to XML
+&lt;/p&gt;&lt;p&gt;
+This new title provides an in-depth technical look at XML Data Binding.  The book offers complete documentation of all features in both the Sun Microsystems JAXB API and popular open source alternative implementations (Enhydra Zeus, Exolabs Castor and Quick). It also gets into significant detail about when data binding is appropriate to use, and provides numerous practical examples of using data binding in applications.&lt;/p&gt;
+&lt;p&gt;
+As Author Brett McLaughlin says "Too many books are written about technologies by people who barely understand them.  I've already written two data binding implementations (Zeus, and a previous one for IBM DeveloperWorks.)  I've actually used data binding for longer than the official specification has been in existence, and I've really been able to dig into what it takes to code an effective data biding implementation, as well as use one correctly.  This book is part user guide, part under-the-hood manual, and part use-case.  It's a powerful combination, and one I think people need."&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:editorTitle xml:lang="en">Java &amp; XML Data Binding</om:editorTitle>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596002787.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Enhydra%20Zeus" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java%20Data%20Objects" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051320" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/JAV" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Java" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Data%20Binding" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JAXB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051210" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Exolabs%20Castor" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JDO" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00</om:endNewStatus>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-05-28</dc:issued>
+    <om:editionLabel xml:lang="en"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:25:24.209937+00:00</dc:modified>
+    <om:byline xml:lang="en">By Brett McLaughlin</om:byline>
+    
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:asciiTitle xml:lang="en">Java &amp; XML Data Binding</om:asciiTitle>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1063" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+More Java developers today want to work with XML, the technology
+that enables data to be transported intact over the Internet, but
+they don't have time to become XML experts. If this describes you,
+then you'll appreciate data binding, the new way of converting XML
+documents into Java objects, so those documents can be worked on
+and manipulated like any other Java object, then converted back to
+XML
+&lt;/para&gt;&lt;para&gt;This new title provides an in-depth technical look at XML Data
+Binding. The book offers complete documentation of all features in
+both the Sun Microsystems JAXB API and popular open source
+alternative implementations (Enhydra Zeus, Exolabs Castor and
+Quick). It also gets into significant detail about when data
+binding is appropriate to use, and provides numerous practical
+examples of using data binding in applications.&lt;/para&gt;&lt;para&gt;As Author Brett McLaughlin says "Too many books are written
+about technologies by people who barely understand them. I've
+already written two data binding implementations (Zeus, and a
+previous one for IBM DeveloperWorks.) I've actually used data
+binding for longer than the official specification has been in
+existence, and I've really been able to dig into what it takes to
+code an effective data biding implementation, as well as use one
+correctly. This book is part user guide, part under-the-hood
+manual, and part use-case. It's a powerful combination, and one I
+think people need."&lt;/para&gt;&lt;/div&gt;</dc:description>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    
+    <om:customerTitle xml:lang="en">Java &amp; XML Data Binding</om:customerTitle>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-02-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596002787.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596002787.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-05-28</dc:issued>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This new title provides an in-depth technical look at XML Data Binding.  The book offers complete documentation of all features in both the Sun Microsystems JAXB API and popular open source alternative implementations (Enhydra Zeus, Exolabs Castor and Quick). It also gets into significant detail about when data binding is appropriate to use, and provides numerous practical examples of using data binding in applications.&lt;/p&gt;</dc:description>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303"/>
+      </rdf:Seq>
+    </dc:creator>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:binding xml:lang="en">Lay-flat</om:binding>
+    
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">34.95</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#price-CAN-01">
+        
+        
+        <rdf:value xml:lang="en">54.95</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#price-GBE-01">
+        
+        
+        <rdf:value xml:lang="en">28.00</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#price-GBR-01">
+        
+        
+        <rdf:value xml:lang="en">26.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00</om:endNewStatus>
+    
+    
+    <om:customerTitle xml:lang="en">Java &amp; XML Data Binding</om:customerTitle>
+    
+    <om:editorTitle xml:lang="en">Java &amp; XML Data Binding</om:editorTitle>
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596002785_cat.gif"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-02-01T00:00:00</om:beginUpcomingStatus>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java &amp; XML Data Binding</dc:title>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:asciiTitle xml:lang="en">Java &amp; XML Data Binding</om:asciiTitle>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596002787.BOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">218 pages</dc:extent>
+    
+    
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1223" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;More Java developers today want to work with XML, the technology that enables data to be transported intact over the Internet, but they don't have time to become XML experts. If this describes you, then you'll appreciate data binding, the new way of converting XML documents into Java objects, so those documents can be worked on and manipulated like any other Java object, then converted back to XML
+&lt;/p&gt;&lt;p&gt;
+This new title provides an in-depth technical look at XML Data Binding.  The book offers complete documentation of all features in both the Sun Microsystems JAXB API and popular open source alternative implementations (Enhydra Zeus, Exolabs Castor and Quick). It also gets into significant detail about when data binding is appropriate to use, and provides numerous practical examples of using data binding in applications.&lt;/p&gt;
+&lt;p&gt;
+As Author Brett McLaughlin says "Too many books are written about technologies by people who barely understand them.  I've already written two data binding implementations (Zeus, and a previous one for IBM DeveloperWorks.)  I've actually used data binding for longer than the official specification has been in existence, and I've really been able to dig into what it takes to code an effective data biding implementation, as well as use one correctly.  This book is part user guide, part under-the-hood manual, and part use-case.  It's a powerful combination, and one I think people need."&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java developers working with XML</dc:audience>
+    <om:sortableTitle xml:lang="en">java &amp; xml data binding</om:sortableTitle>
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-05-25</om:estimatedIssue>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:25:21.556820+00:00</dc:modified>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Java&lt;/p&gt;</om:shelving>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#printing-status">
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596002787" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000278" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <om:byline xml:lang="en">By Brett McLaughlin</om:byline>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.BOOK#WO-1687">
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java &amp; XML Data Binding</dc:title>
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00</om:endNewStatus>
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-05-28</dc:issued>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-02-01T00:00:00</om:beginUpcomingStatus>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / Java</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051230">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Exolabs%20Castor">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Exolabs Castor</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Data%20Binding">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Data Binding</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java%20Data%20Objects">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java Data Objects</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JDO">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JDO</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Enhydra%20Zeus">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Enhydra Zeus</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051320">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / XML</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051210">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / Object Oriented</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JAXB">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JAXB</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/XML">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">XML</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596002787.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:sortableTitle xml:lang="en">java &amp; xml data binding</om:sortableTitle>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Brett McLaughlin</om:byline>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Exolabs%20Castor">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Exolabs Castor</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java%20Data%20Objects">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java Data Objects</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/XML">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">XML</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Enhydra%20Zeus">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Enhydra Zeus</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Data%20Binding">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Data Binding</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051210">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / Object Oriented</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051320">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / XML</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JAXB">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JAXB</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JDO">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JDO</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051230">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Java&lt;/p&gt;</om:shelving>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:25:29.361504+00:00</dc:modified>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This new title provides an in-depth technical look at XML Data Binding.  The book offers complete documentation of all features in both the Sun Microsystems JAXB API and popular open source alternative implementations (Enhydra Zeus, Exolabs Castor and Quick). It also gets into significant detail about when data binding is appropriate to use, and provides numerous practical examples of using data binding in applications.&lt;/p&gt;</dc:description>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596002787" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596002787.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1063" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596002787.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <om:asciiTitle xml:lang="en">Java &amp; XML Data Binding</om:asciiTitle>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java &amp; XML Data Binding</dc:title>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-05-28</dc:issued>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java developers working with XML</dc:audience>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596002787">
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-04-01</dc:issued>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-01-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-07-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <dc:relation rdf:resource="urn:isbn:9780596001971" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002831" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007737" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002923" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007645" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:editorTitle xml:lang="en">Java &amp; XML Data Binding</om:editorTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2002-05-28</dc:created>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">216 pages</dc:extent>
+    
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596002785.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596002787.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / Java</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596002787.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596002785_cat.gif"/>
+    <om:customerTitle xml:lang="en">Java &amp; XML Data Binding</om:customerTitle>
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1223" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;More Java developers today want to work with XML, the technology that enables data to be transported intact over the Internet, but they don't have time to become XML experts. If this describes you, then you'll appreciate data binding, the new way of converting XML documents into Java objects, so those documents can be worked on and manipulated like any other Java object, then converted back to XML
+&lt;/p&gt;&lt;p&gt;
+This new title provides an in-depth technical look at XML Data Binding.  The book offers complete documentation of all features in both the Sun Microsystems JAXB API and popular open source alternative implementations (Enhydra Zeus, Exolabs Castor and Quick). It also gets into significant detail about when data binding is appropriate to use, and provides numerous practical examples of using data binding in applications.&lt;/p&gt;
+&lt;p&gt;
+As Author Brett McLaughlin says "Too many books are written about technologies by people who barely understand them.  I've already written two data binding implementations (Zeus, and a previous one for IBM DeveloperWorks.)  I've actually used data binding for longer than the official specification has been in existence, and I've really been able to dig into what it takes to code an effective data biding implementation, as well as use one correctly.  This book is part user guide, part under-the-hood manual, and part use-case.  It's a powerful combination, and one I think people need."&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:303/product-bio/urn:x-domain:oreilly.com:product:9780596002787.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Brett McLaughlin has been working in computers since the Logo days. (Remember the little triangle?) He currently specializes in building application infrastructure using Java and Java-related technologies. He has spent the last several years implementing these infrastructures at Nextel Communications and Allegiance Telecom, Inc. Brett is one of the co-founders of the Java Apache project Turbine, which builds a reusable component architecture for web application development using Java servlets. He is also a contributor of the EJBoss project, an open source EJB application server, and Cocoon, an open source XML web-publishing engine. He is author of the soon-to-be-released O'Reilly book, Building Java Enterprise Applications. &lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596002787.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:55:18.775407+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:303/product-bio/urn:x-domain:oreilly.com:product:9780596002787.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596002787.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Brett McLaughlin has been working in computers since the Logo days. (Remember the little triangle?) He currently specializes in building application infrastructure using Java and Java-related technologies. He has spent the last several years implementing these infrastructures at Nextel Communications and Allegiance Telecom, Inc. Brett is one of the co-founders of the Java Apache project Turbine, which builds a reusable component architecture for web application development using Java servlets. He is also a contributor of the EJBoss project, an open source EJB application server, and Cocoon, an open source XML web-publishing engine. He is author of the soon-to-be-released O'Reilly book, Building Java Enterprise Applications. &lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:303"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:55:19.436648+00:00</dc:modified>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:283" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Loukides</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Mike Loukides</foaf:name>
+    
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/29">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:09:22.367220+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9f2de47dba2d38a858c9427143145873feb37980</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Loukides</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1223" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:11:58.263465+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Hanna</foaf:givenname>
+    <foaf:name xml:lang="en">Hanna Dyer</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2ad3a8c3e97040d2c732fe6b949a44657ab3f952</foaf:mbox_sha1sum>
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Hanna Dyer</om:legalName>
+    <foaf:surname xml:lang="en">Dyer</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:303" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">McLaughlin</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Brett</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/152">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:name xml:lang="en">Brett McLaughlin</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49bfc71168c693da3066cb5f3faecb6981c4161d</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-14T07:52:02.801221+00:00</dc:modified>
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Brett McLaughlin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1063" xml:base="urn:x-domain:oreilly.com:agent:pdb:1063" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Robert Denn</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Robert Denn</om:legalName><foaf:givenname>Robert</foaf:givenname><foaf:surname>Denn</foaf:surname><dc:modified xmlns:dc="http://purl.org/dc/terms/">2010-01-21T19:38:32.068245+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1085" xml:base="urn:x-domain:oreilly.com:agent:pdb:1085" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Julie Flanagan</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Julie Flanagan</om:legalName><foaf:givenname>Julie</foaf:givenname><foaf:surname>Flanagan</foaf:surname><dc:modified xmlns:dc="http://purl.org/dc/terms/">2010-01-21T19:31:43.487789+00:00</dc:modified></foaf:Person></rdf:RDF>

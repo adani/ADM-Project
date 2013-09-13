@@ -1,0 +1,985 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596529198.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+JavaScript is carrying more and more programming load lately as
+Ajax has become popular. Scripting Ajax from scratch isn't much
+fun, but fortunately there are libraries to help. Prototype and
+Scriptaculous will let you get much more work done in much less
+time, automating tasks from processing XMLHTTP requests to creating
+animations that draw attention to your interfaces.
+&lt;/para&gt;&lt;para&gt;This Short Cut demonstrates how to use Prototype for a wide
+range of tasks, including event handling, DOM processing, string
+and form process, and Ajax communications. It explores
+Scriptaculous' visual effects library, from pulsate to squish to
+fold and beyond. Need interface components? You'll find form
+autocompletion as well as drag and drop support.&lt;/para&gt;&lt;para&gt;In addition to sample code and explanation, the Short Cut
+includes member references for both Prototype and
+Scriptaculous.&lt;/para&gt;&lt;/div&gt;</dc:description>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051260"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaScript is carrying more and more programming load lately as Ajax has become popular. Scripting Ajax from scratch isn't much fun, but fortunately there are libraries to help. Prototype and Scriptaculous will let you get much more work done in much less time, automating tasks from processing XMLHTTP requests to creating animations that draw attention to your interfaces.
+&lt;/p&gt;&lt;p&gt;
+This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;
+&lt;p&gt;
+In addition to sample code and explanation, the Short Cut includes member references for both Prototype and Scriptaculous.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596529198.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596529198.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596529198"/>
+      </om:Subscription>
+    </om:price>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:byline xml:lang="en">By Chris Angus</om:byline>
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editorTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:editorTitle>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596529198</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596529192" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:endNewStatus>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-30</dc:issued>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <om:videoPreview xml:lang="en"/>
+    <om:customerTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:customerTitle>
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Ajax" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/CSS" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JSON" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/JavaScript" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Scriptaculous" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/effects" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/library" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Prototype" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/WBD" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    
+    <om:sortableTitle xml:lang="en">prototype and scriptaculous: taking the pain out of javascript</om:sortableTitle>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:asciiTitle>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529192.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editionLabel xml:lang="en"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:beginUpcomingStatus>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Prototype and Scriptaculous: Taking the Pain out of JavaScript</dc:title>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T03:54:52.052570+00:00</dc:modified>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596529192.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;</dc:description>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T03:54:50.413448+00:00</dc:modified>
+    
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:beginUpcomingStatus>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2671"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:byline xml:lang="en">By Chris Angus</om:byline>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:asciiTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-30</dc:issued>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Prototype and Scriptaculous: Taking the Pain out of JavaScript</dc:title>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-07-25</dc:created>
+    <dc:identifier rdf:resource="urn:isbn:9780596529192" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052919" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#price-GBR-01">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <rdf:value xml:lang="en">7.50</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#price-CAN-01">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <rdf:value xml:lang="en">12.95</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#price-USA-01">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">9.99</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-11-01</om:estimatedIssue>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:sortableTitle xml:lang="en">prototype and scriptaculous: taking the pain out of javascript</om:sortableTitle>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <om:customerTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:customerTitle>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596529198_cat.gif"/>
+    <om:editorTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:editorTitle>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.PDF#WO-5412">
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-30</dc:issued>
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Prototype and Scriptaculous: Taking the Pain out of JavaScript</dc:title>
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:endNewStatus>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596529192.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529192.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaScript is carrying more and more programming load lately as Ajax has become popular. Scripting Ajax from scratch isn't much fun, but fortunately there are libraries to help. Prototype and Scriptaculous will let you get much more work done in much less time, automating tasks from processing XMLHTTP requests to creating animations that draw attention to your interfaces.
+&lt;/p&gt;&lt;p&gt;
+This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;
+&lt;p&gt;
+In addition to sample code and explanation, the Short Cut includes member references for both Prototype and Scriptaculous.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">54 pages</dc:extent>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Ajax">
+        <rdf:value xml:lang="en">Ajax</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JSON">
+        <rdf:value xml:lang="en">JSON</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Prototype">
+        <rdf:value xml:lang="en">Prototype</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/XML">
+        <rdf:value xml:lang="en">XML</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaScript">
+        <rdf:value xml:lang="en">JavaScript</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/CSS">
+        <rdf:value xml:lang="en">CSS</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/library">
+        <rdf:value xml:lang="en">library</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Scriptaculous">
+        <rdf:value xml:lang="en">Scriptaculous</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/effects">
+        <rdf:value xml:lang="en">effects</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596559236.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596559236.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559236.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2671"/>
+      </rdf:Seq>
+    </dc:creator>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559236.EBOOK#price-CAN-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        <rdf:value xml:lang="en">12.95</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559236.EBOOK#price-GBR-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        <rdf:value xml:lang="en">7.50</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559236.EBOOK#price-USA-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <rdf:value xml:lang="en">9.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-30</dc:issued>
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T03:54:37.445163+00:00</dc:modified>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    <om:byline xml:lang="en">By Chris Angus</om:byline>
+    
+    <om:customerTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:customerTitle>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaScript is carrying more and more programming load lately as Ajax has become popular. Scripting Ajax from scratch isn't much fun, but fortunately there are libraries to help. Prototype and Scriptaculous will let you get much more work done in much less time, automating tasks from processing XMLHTTP requests to creating animations that draw attention to your interfaces.
+&lt;/p&gt;&lt;p&gt;
+This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;
+&lt;p&gt;
+In addition to sample code and explanation, the Short Cut includes member references for both Prototype and Scriptaculous.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:asciiTitle>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596559236" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:editorTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:editorTitle>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-06-24</dc:created>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;</dc:description>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529192.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Prototype and Scriptaculous: Taking the Pain out of JavaScript</dc:title>
+    <om:sortableTitle xml:lang="en">prototype and scriptaculous: taking the pain out of javascript</om:sortableTitle>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596529192.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Prototype and Scriptaculous: Taking the Pain out of JavaScript</dc:title>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529192.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2671"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    <om:byline xml:lang="en">By Chris Angus</om:byline>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;</dc:description>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Scriptaculous">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Scriptaculous</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/CSS">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">CSS</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/XML">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">XML</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Prototype">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Prototype</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Ajax">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Ajax</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/effects">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">effects</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JSON">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JSON</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaScript">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JavaScript</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/library">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">library</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <om:asciiTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:asciiTitle>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596529198.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596529192.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596559236.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596529192">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-30</dc:issued>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-01T00:00:00</om:beginUpcomingStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:videoPreview xml:lang="en"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596529192.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-11-30</dc:issued>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;JavaScript is carrying more and more programming load lately as Ajax has become popular. Scripting Ajax from scratch isn't much fun, but fortunately there are libraries to help. Prototype and Scriptaculous will let you get much more work done in much less time, automating tasks from processing XMLHTTP requests to creating animations that draw attention to your interfaces.
+&lt;/p&gt;&lt;p&gt;
+This Short Cut demonstrates how to use Prototype for a wide range of tasks, including event handling, DOM processing, string and form process, and Ajax communications. It explores Scriptaculous' visual effects library, from pulsate to squish to fold and beyond.  Need interface components?  You'll find form autocompletion as well as drag and drop support.&lt;/p&gt;
+&lt;p&gt;
+In addition to sample code and explanation, the Short Cut includes member references for both Prototype and Scriptaculous.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-07-25</dc:created>
+    <om:sortableTitle xml:lang="en">prototype and scriptaculous: taking the pain out of javascript</om:sortableTitle>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T03:54:41.758272+00:00</dc:modified>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596529192.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2671"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:customerTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:customerTitle>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596529192" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">54 pages</dc:extent>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596529198_cat.gif"/>
+    
+    <om:editorTitle xml:lang="en">Prototype and Scriptaculous: Taking the Pain out of JavaScript</om:editorTitle>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2671/product-bio/urn:x-domain:oreilly.com:product:9780596529192.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529192.IP"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;As the Principal Software Architect for Lawson Software's Retail Operations product set, Chris Angus employs multiple techologies to develop enterprise systems for the retail sector. Prior to this he was awarded a PhD on pure functional programming, language design and numerical analysis and worked in various areas including industrial real-time systems and language translation tools.  Since the 1990s  he has concentrated solely in the area of enterprise applications.&lt;/p&gt;</om:webBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2671"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:36:06.399333+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;As the Principal Software Architect for Lawson Software's Retail Operations product set, Chris Angus employs multiple techologies to develop enterprise systems for the retail sector. Prior to this he was awarded a PhD on pure functional programming, language design and numerical analysis and worked in various areas including industrial real-time systems and language translation tools.  Since the 1990s  he has concentrated solely in the area of enterprise applications.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2671/product-bio/urn:x-domain:oreilly.com:product:9780596529192.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;As the Principal Software Architect for Lawson Software's Retail Operations product set, Chris Angus employs multiple techologies to develop enterprise systems for the retail sector. Prior to this he was awarded a PhD on pure functional programming, language design and numerical analysis and worked in various areas including industrial real-time systems and language translation tools.  Since the 1990s  he has concentrated solely in the area of enterprise applications.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529192.PDF"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:36:05.163479+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;As the Principal Software Architect for Lawson Software's Retail Operations product set, Chris Angus employs multiple techologies to develop enterprise systems for the retail sector. Prior to this he was awarded a PhD on pure functional programming, language design and numerical analysis and worked in various areas including industrial real-time systems and language translation tools.  Since the 1990s  he has concentrated solely in the area of enterprise applications.&lt;/p&gt;</om:webBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2671"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2671" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:36:05.764573+00:00</dc:modified>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2824">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:givenname xml:lang="en">Chris</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Chris Angus</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26960cd41e8856a38328d2b52a2e3899a1a729e0</foaf:mbox_sha1sum>
+    
+    <foaf:name xml:lang="en">Chris Angus</foaf:name>
+    <foaf:surname xml:lang="en">Angus</foaf:surname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2113" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:givenname xml:lang="en">Mary</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mary Treseler</om:legalName>
+    <foaf:name xml:lang="en">Mary Treseler</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1a4614208913feeef6c73c275319ec58d3ee1fde</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-26T19:00:04.902558+00:00</dc:modified>
+    
+    
+    <foaf:surname xml:lang="en">Treseler</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:398" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Simon</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T21:57:29.661765+00:00</dc:modified>
+    <foaf:surname xml:lang="en">St. Laurent</foaf:surname>
+    <foaf:name xml:lang="en">Simon St. Laurent</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Simon St. Laurent</om:legalName>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/166">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65d7213063e1836b1581de81793bfcb9ad596974</foaf:mbox_sha1sum>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person></rdf:RDF>

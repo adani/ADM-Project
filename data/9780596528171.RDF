@@ -1,0 +1,967 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596528175.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.dpub.indesign" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596528171.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:asciiTitle xml:lang="en">Scripting InDesign with JavaScript</om:asciiTitle>
+    
+    <om:byline xml:lang="en">By Peter Kahrel</om:byline>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051260"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596528175.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596528175"/>
+      </om:Subscription>
+    </om:price>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596528175</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596528171" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:primarySafariCategory rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.inet.javascript"/>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Scripting InDesign with JavaScript</om:editorTitle>
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Scripting InDesign with JavaScript</dc:title>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596528175.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-05-31</dc:created>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features. (This version covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.)&lt;/p&gt;</dc:abstract>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:modified xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-11-25T03:37:07.546455+00:00</dc:modified>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:customerTitle xml:lang="en">Scripting InDesign with JavaScript</om:customerTitle>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596528175.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sortableTitle xml:lang="en">scripting indesign with javascript</om:sortableTitle>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;para&gt;
+InDesign provides a powerful set of tools for producing beautiful
+documents. While you can certainly do all your work by hand through
+InDesign's graphical interface, there are many times when it's much
+easier to write a script. Once you've automated a task, you can run
+it over the whole document, ensuring consistency, or just when you
+need it, simplifying and speeding your layout process. All it takes
+is a bit of JavaScript knowledge and a willingness to explore
+InDesign's programming features. (This version covers only InDesign
+CS2. For coverage of InDesign CS3 and CS4, see the version at
+&lt;ulink url="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523/&lt;/ulink&gt;.)
+&lt;/para&gt;</dc:description>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-28</dc:issued>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596528171.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features. (This version covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.)&lt;/p&gt;</dc:abstract>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">56 pages (est.)</dc:extent>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/desktop">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">desktop</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/text">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">text</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/InDesign">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">InDesign</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/ESTK">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">ESTK</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/automate">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">automate</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/replace">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">replace</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/tables">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">tables</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/design-apps" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/publishing">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">publishing</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaScript">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">JavaScript</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/search">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">search</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-01</om:estimatedIssue>
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#WO-5178">
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Scripting InDesign with JavaScript</dc:title>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-28</dc:issued>
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-05-31</dc:created>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    <om:byline xml:lang="en">By Peter Kahrel</om:byline>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Scripting InDesign with JavaScript</dc:title>
+    
+    <om:asciiTitle xml:lang="en">Scripting InDesign with JavaScript</om:asciiTitle>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#price-USA">
+        
+        
+        <rdf:value xml:lang="en">9.99</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#price-CAN">
+        
+        
+        <rdf:value xml:lang="en">12.95</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#price-GBR">
+        
+        
+        <rdf:value xml:lang="en">7.50</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-28</dc:issued>
+    
+    
+    <om:editorTitle xml:lang="en">Scripting InDesign with JavaScript</om:editorTitle>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:sortableTitle xml:lang="en">scripting indesign with javascript</om:sortableTitle>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">Scripting InDesign with JavaScript</om:customerTitle>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596528171.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-21T22:06:02.638449+00:00</dc:modified>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596528171.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features.&lt;/p&gt;</dc:description>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.PDF#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596528171" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052817" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596528175_cat.gif"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596559038.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <om:sortableTitle xml:lang="en">scripting indesign with javascript</om:sortableTitle>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features.&lt;/p&gt;</dc:description>
+    <om:byline xml:lang="en">By Peter Kahrel</om:byline>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596559038" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Scripting InDesign with JavaScript</om:asciiTitle>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559038.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:customerTitle xml:lang="en">Scripting InDesign with JavaScript</om:customerTitle>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-06-24</dc:created>
+    
+    
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features. (This version covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.)&lt;/p&gt;</dc:abstract>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596528171.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Scripting InDesign with JavaScript</dc:title>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596559038.EBOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-21T22:05:51.690764+00:00</dc:modified>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559038.EBOOK#price-GBR">
+        
+        <rdf:value xml:lang="en">7.50</rdf:value>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559038.EBOOK#price-USA">
+        
+        <rdf:value xml:lang="en">9.99</rdf:value>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596559038.EBOOK#price-CAN">
+        
+        <rdf:value xml:lang="en">12.95</rdf:value>
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    <om:editorTitle xml:lang="en">Scripting InDesign with JavaScript</om:editorTitle>
+    
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/design-apps" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-25</dc:issued>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596528171.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Scripting InDesign with JavaScript</om:asciiTitle>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528171.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-25</dc:issued>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596528171" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596528175.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596528171.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596559038.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features.&lt;/p&gt;</dc:description>
+    <om:byline xml:lang="en">By Peter Kahrel</om:byline>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:editorTitle xml:lang="en">Scripting InDesign with JavaScript</om:editorTitle>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-21T22:05:57.252818+00:00</dc:modified>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596528171.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596528171.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    <om:sortableTitle xml:lang="en">scripting indesign with javascript</om:sortableTitle>
+    
+    
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051260">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / JavaScript</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/javascript"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-05-31</dc:created>
+    
+    
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596528175_cat.gif"/>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Scripting InDesign with JavaScript</dc:title>
+    
+    <om:customerTitle xml:lang="en">Scripting InDesign with JavaScript</om:customerTitle>
+    
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/replace">
+        <rdf:value xml:lang="en">replace</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/JavaScript">
+        <rdf:value xml:lang="en">JavaScript</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/InDesign">
+        <rdf:value xml:lang="en">InDesign</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/ESTK">
+        <rdf:value xml:lang="en">ESTK</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/publishing">
+        <rdf:value xml:lang="en">publishing</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/text">
+        <rdf:value xml:lang="en">text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/search">
+        <rdf:value xml:lang="en">search</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/tables">
+        <rdf:value xml:lang="en">tables</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/desktop">
+        <rdf:value xml:lang="en">desktop</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/automate">
+        <rdf:value xml:lang="en">automate</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/design-apps" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">charles</om:approvedToAnnounceBy>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;b&gt;This Short Cut covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+InDesign provides a powerful set of tools for producing beautiful documents. While you can certainly do all your work by hand through InDesign's graphical interface, there are many times when it's much easier to write a script. Once you've automated a task, you can run it over the whole document, ensuring consistency, or just when you need it, simplifying and speeding your layout process. All it takes is a bit of JavaScript knowledge and a willingness to explore InDesign's programming features. (This version covers only InDesign CS2.  For coverage of InDesign CS3 and CS4, see the version at &lt;a href="http://oreilly.com/catalog/9780596802523/"&gt;http://oreilly.com/catalog/9780596802523&amp;#8203;/&lt;/a&gt;.)&lt;/p&gt;</dc:abstract>
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596528171">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-25</dc:issued>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">56 pages (est.)</dc:extent>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2593/product-bio/urn:x-domain:oreilly.com:product:9780596528171.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Peter Kahrel, born 1 May 1953 in Amsterdam, the Netherlands. Trained as a linguist (MA and PhD) at the University of Amsterdam. I've lived in the UK since 1994. I work as a typesetter and copy-editor for publishers in the UK, the Netherlands, and Germany. Until recently, I taught part-time at the Linguistics Dept. at Lancaster University.  Kahrel has been programming InDesign with JavaScript since 2003.&lt;/p&gt;</om:webBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:59:31.051562+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596528171.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Peter Kahrel, born 1 May 1953 in Amsterdam, the Netherlands. Trained as a linguist (MA and PhD) at the University of Amsterdam. I've lived in the UK since 1994. I work as a typesetter and copy-editor for publishers in the UK, the Netherlands, and Germany. Until recently, I taught part-time at the Linguistics Dept. at Lancaster University.  Kahrel has been programming InDesign with JavaScript since 2003.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2593/product-bio/urn:x-domain:oreilly.com:product:9780596528171.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Peter Kahrel, born 1 May 1953 in Amsterdam, the Netherlands. Trained as a linguist (MA and PhD) at the University of Amsterdam. I've lived in the UK since 1994. I work as a typesetter and copy-editor for publishers in the UK, the Netherlands, and Germany. Until recently, I taught part-time at the Linguistics Dept. at Lancaster University.  Kahrel has been programming InDesign with JavaScript since 2003.&lt;/p&gt;</om:webBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2593"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596528171.PDF"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:59:33.440463+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Peter Kahrel, born 1 May 1953 in Amsterdam, the Netherlands. Trained as a linguist (MA and PhD) at the University of Amsterdam. I've lived in the UK since 1994. I work as a typesetter and copy-editor for publishers in the UK, the Netherlands, and Germany. Until recently, I taught part-time at the Linguistics Dept. at Lancaster University.  Kahrel has been programming InDesign with JavaScript since 2003.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:398" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Simon</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T21:57:29.661765+00:00</dc:modified>
+    <foaf:surname xml:lang="en">St. Laurent</foaf:surname>
+    <foaf:name xml:lang="en">Simon St. Laurent</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Simon St. Laurent</om:legalName>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/166">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65d7213063e1836b1581de81793bfcb9ad596974</foaf:mbox_sha1sum>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2593" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2758">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Peter Kahrel</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2b5c99ad2b7a2b878f35e8ef33510068daa26212</foaf:mbox_sha1sum>
+    
+    <foaf:surname xml:lang="en">Kahrel</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T04:55:37.491631+00:00</dc:modified>
+    
+    <foaf:givenname xml:lang="en">Peter</foaf:givenname>
+    
+    <foaf:name xml:lang="en">Peter Kahrel</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person></rdf:RDF>

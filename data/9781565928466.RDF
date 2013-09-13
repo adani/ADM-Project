@@ -1,0 +1,1971 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449309787.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2011-05-20</dc:created>
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:endNewStatus>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.BOOK:9781449309787.EBOOK#bundle-offer"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309787.EBOOK#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-01T00:00:00</om:beginUpcomingStatus>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309787.EBOOK#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">35.95</rdf:value>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309787.EBOOK#price-CAN-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <rdf:value xml:lang="en">41.99</rdf:value>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309787.EBOOK#price-GBR-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <rdf:value xml:lang="en">25.50</rdf:value>
+        
+      </om:PerUnit>
+    </om:price>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;</dc:description>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449309787.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:23:05.005297+00:00</dc:modified>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-05-23</dc:issued>
+    <dc:identifier rdf:resource="urn:isbn:9781449309787" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309787.EBOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309787.EBOOK#WO-9681">
+            <om:binding xml:lang="en">Lay-flat</om:binding>
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449310967.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310967.APP#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    
+    
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449310967" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/AndroidApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/object-relational" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/open%20source%20databases" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020050" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020020" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PostgreSQL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/DBAs" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    
+    <om:editionLabel xml:lang="en"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/android"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310967.APP#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:23:03.121738+00:00</dc:modified>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Practical PostgreSQL, published by O'Reilly Media&lt;/p&gt;
+&lt;p&gt;Buy this DRM-free ebook today! Powered by Aldiko.&lt;/p&gt;
+&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. Practical PostgreSQL is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:becauseOf xml:lang="en">Product must have an Availability Date before now.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449310967.APP">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781565928466.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#price-USA-01">
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">44.95</rdf:value>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#price-GBR-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <rdf:value xml:lang="en">34.50</rdf:value>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#price-CAN-01">
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <rdf:value xml:lang="en">67.95</rdf:value>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#price-GBE-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        <rdf:value xml:lang="en">36.00</rdf:value>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">The book is targeted at developers who need a relational  database product, and who wish to use an open-source  database such as PostgreSQLalternative. Readers should  be familiar with Unix, and should have a basic  understanding of relational database concepts.</dc:audience>
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    
+    <om:binding xml:lang="en">RepKover</om:binding>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.092846" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9781565928466" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-10-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+      </rdf:Seq>
+    </dc:creator>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781565928466.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Database/Open Source&lt;/p&gt;</om:shelving>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/1565928466_cat.gif"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021030">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Database Management / Data Mining</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">1999-11-03</dc:created>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-25</om:estimatedIssue>
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#printing-status">
+        <rdf:value xml:lang="en">Do Not Reprint</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Data Transmission Systems / Electronic Data Interchange</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/object-relational">
+        <rdf:value xml:lang="en">object-relational</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/PostgreSQL">
+        <rdf:value xml:lang="en">PostgreSQL</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/DBAs">
+        <rdf:value xml:lang="en">DBAs</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021040">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Warehousing</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/open%20source%20databases">
+        <rdf:value xml:lang="en">open source databases</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Data Transmission Systems / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020020">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / System Administration / Email Administration</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020050">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Data Transmission Systems / Broadband</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-01-07</dc:issued>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#WO-1839">
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-10-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-04-01T00:00:00</om:endNewStatus>
+            <om:binding xml:lang="en"/>
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-01-07</dc:issued>
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#WO-2929">
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-28</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.BOOK#WO-2081">
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-03-23</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">640 pages</dc:extent>
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;</dc:description>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:23:02.070300+00:00</dc:modified>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-04-01T00:00:00</om:endNewStatus>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449310189.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-05-23</dc:issued>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PostgreSQL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/open%20source%20databases" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/DBAs" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020050" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020020" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/object-relational" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310189.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310189.MOBI#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">35.95</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449310189" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:22:59.133421+00:00</dc:modified>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310189.MOBI#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;</dc:description>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:endNewStatus>
+    <om:editionLabel xml:lang="en"/>
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449310288.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449310288.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/open%20source%20databases" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020050" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/DBAs" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PostgreSQL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020020" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/object-relational" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:23:17.830673+00:00</dc:modified>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-05-23</dc:issued>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310288.PDF#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <rdf:value xml:lang="en">35.95</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310288.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:editionLabel xml:lang="en"/>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:identifier rdf:resource="urn:isbn:9781449310288" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449310103.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/object-relational" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PostgreSQL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/open%20source%20databases" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020050" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020020" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/DBAs" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:editionLabel xml:lang="en"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:endNewStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-05-23</dc:issued>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310103.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449310103.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:identifier rdf:resource="urn:isbn:9781449310103" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;</dc:description>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:23:12.651677+00:00</dc:modified>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449310103.EPUB#price-USA-01">
+        
+        
+        
+        <rdf:value xml:lang="en">35.95</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    
+    <om:videoPreview xml:lang="en"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449309770.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:endNewStatus>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-01T00:00:00</om:beginUpcomingStatus>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/DBAs" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021040" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/PostgreSQL" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/open%20source%20databases" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020020" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/object-relational" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM020050" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:22:49.707137+00:00</dc:modified>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;para&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;emphasis&gt;Practical PostgreSQL&lt;/emphasis&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/para&gt;</dc:description>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309770.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9781449309770"/>
+      </om:Subscription>
+    </om:price>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449309770.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449309770.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:editionLabel xml:lang="en"/>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    <om:videoPreview xml:lang="en"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449309770" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9781449309770</dc:identifier>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-05-31</dc:issued>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    
+    
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781565928466.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:identifier rdf:resource="urn:isbn:9781565928466" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:22:43.392748+00:00</dc:modified>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:asciiTitle xml:lang="en">Practical PostgreSQL</om:asciiTitle>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781565928466.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">1999-11-03</dc:created>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Command Prompt, Inc.</dc:rightsHolder>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781565928466.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">640 pages</dc:extent>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Practical PostgreSQL</dc:title>
+    
+    
+    
+    <om:customerTitle xml:lang="en">Practical PostgreSQL</om:customerTitle>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449310967.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449310288.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449310189.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449309770.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449310103.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449309787.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-01-07</dc:issued>
+    
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">practical postgresql</om:sortableTitle>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021040">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Warehousing</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/open%20source%20databases">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">open source databases</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020050">
+        <dc:title xml:lang="en">COMPUTERS / Data Transmission Systems / Broadband</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021000">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM021030">
+        <dc:title xml:lang="en">COMPUTERS / Database Management / Data Mining</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/object-relational">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">object-relational</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/PostgreSQL">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">PostgreSQL</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020000">
+        <dc:title xml:lang="en">COMPUTERS / Data Transmission Systems / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020010">
+        <dc:title xml:lang="en">COMPUTERS / Data Transmission Systems / Electronic Data Interchange</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/DBAs">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">DBAs</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM020020">
+        <dc:title xml:lang="en">COMPUTERS / System Administration / Email Administration</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Arguably the most capable of all the open source databases,  PostgreSQL is an object-relational database management  system first developed in 1977 by the University of  California at Berkeley. In spite of its long history,  this robust database suffers from a lack of  easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt;  fills that void with a fast-paced guide to installation,  configuration, and usage. &lt;/p&gt;
+&lt;p&gt;This comprehensive new volume shows you how to compile PostgreSQL from source,  create a database, and configure PostgreSQL to accept client-server  connections. It also covers the many advanced features, such as  transactions, versioning, replication, and referential integrity  that enable developers and DBAs to use PostgreSQL for serious business  applications. The thorough introduction to PostgreSQL's PL/pgSQL  programming language explains how you can use this very useful but  under-documented feature to develop stored procedures and triggers.  The book includes a complete command reference, and database administrators  will appreciate the chapters on user management, database maintenance,  and backup &amp;amp; recovery. With Practical PostgreSQL, you will discover  quickly why this open source database is such a great open source  alternative to proprietary products from Oracle, IBM, and Microsoft.
+Also included is a CD-ROM with Command Prompt's PostgreSQL Application
+Server, LXP. The CD covers LXP version 0.8.0 and PostgreSQL version 7.1.3.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">The book is targeted at developers who need a relational  database product, and who wish to use an open-source  database such as PostgreSQLalternative. Readers should  be familiar with Unix, and should have a basic  understanding of relational database concepts.</dc:audience>
+    <om:byline xml:lang="en">By Joshua D. Drake, John C. Worsley</om:byline>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1084"/>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:editorTitle xml:lang="en">Practical PostgreSQL</om:editorTitle>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM021030"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/relational-databases"/>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9781565928466">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-10-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2001-07-31</dc:issued>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-04-01T00:00:00</om:beginUpcomingStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Arguably the most capable of all the open source databases, PostgreSQL is an object-relational database management system that--until now--lacked comprehensive, easy-to-use documentation. &lt;i&gt;Practical PostgreSQL&lt;/i&gt; is a fast-paced guide that shows you how to get PostgreSQL installed, configured, and running. This comprehensive book delves into the many advanced features of the PostgreSQL Application Server, LXP, including the the use of SQL within PostgreSQL, and covers basic PostgreSQL database administration.&lt;/p&gt;</dc:description>
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/1565928466_cat.gif"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9781565928466.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <dc:relation rdf:resource="urn:isbn:9780596004811" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565927445" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565924345" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002114" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Database/Open Source&lt;/p&gt;</om:shelving>
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:438/product-bio/urn:x-domain:oreilly.com:product:9781565928466.LIC" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.LIC"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:40.377222+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:165/product-bio/urn:x-domain:oreilly.com:product:9781565928466.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:43.918131+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:165/product-bio/urn:x-domain:oreilly.com:product:9781449309787.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781449309787.EBOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:39.836291+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:165/product-bio/urn:x-domain:oreilly.com:product:9781565928466.RIGHT" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:39.323083+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.RIGHT"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:438/product-bio/urn:x-domain:oreilly.com:product:9781449309787.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781449309787.EBOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:39.586200+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:438/product-bio/urn:x-domain:oreilly.com:product:9781565928466.RIGHT" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.RIGHT"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:41.378766+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:165/product-bio/urn:x-domain:oreilly.com:product:9781565928466.LIC" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:165"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:44.353160+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.LIC"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:438/product-bio/urn:x-domain:oreilly.com:product:9781565928466.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:438"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9781565928466.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:43.391846+00:00</dc:modified>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:205" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Jonathan Gennick</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-07T17:26:51.596329+00:00</dc:modified>
+    
+    
+    <foaf:givenname xml:lang="en">Jonathan</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230cdc92af94cf1ef9c6584a27f1aaef23be454b</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jonathan Gennick</om:legalName>
+    <foaf:surname xml:lang="en">Gennick</foaf:surname>
+    
+    
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/548">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1224" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Volckhausen</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Ellie Volckhausen</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.538117+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34f4fac38b3dee37dfd058b8828e0382fc3839f3</foaf:mbox_sha1sum>
+    
+    
+    <foaf:givenname xml:lang="en">Ellie</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Ellie Volckhausen</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:438" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:surname xml:lang="en">Worsley</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2220ec8b3cebf8c9928c2cd60cb3776e7c016c39</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">John C. Worsley</om:legalName>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2011-05-20T19:25:46.163995+00:00</dc:modified>
+    
+    
+    <foaf:name xml:lang="en">John C. Worsley</foaf:name>
+    <foaf:givenname xml:lang="en">John</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/712">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:165" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    
+    
+    <foaf:name xml:lang="en">Joshua D. Drake</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Joshua D. Drake</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T07:23:11.589426+00:00</dc:modified>
+    
+    <foaf:givenname xml:lang="en">Joshua</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">163c16431b095e70805f51839e3010abe94432f7</foaf:mbox_sha1sum>
+    
+    <foaf:surname xml:lang="en">Drake</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/713">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1084" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">David Chu</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.258570+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">David</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">David Chu</om:legalName>
+    
+    
+    <foaf:surname xml:lang="en">Chu</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1090" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.397279+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bisignani</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Glenn</foaf:givenname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89afa3709f9e629006b39f1ab5320f464e86dcec</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Glenn Bisignani</om:legalName>
+    
+    <foaf:name xml:lang="en">Glenn Bisignani</foaf:name>
+    
+  </foaf:Person></rdf:RDF>

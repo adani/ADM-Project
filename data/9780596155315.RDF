@@ -1,0 +1,2155 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596801649.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596801649.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596801649.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:29.128516+00:00</dc:modified>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-17</dc:issued>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. Full of Java and XML code you can insert directly into your applications, &lt;em&gt;Java SOA Cookbook&lt;/em&gt; focuses primarily on the use of free and open source Java Web Services technologies.&lt;/p&gt;</dc:description>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596520724.BOOK:9780596801649.EBOOK#bundle-offer"/>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-23</dc:created>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596801649.EBOOK#price-USA-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596801649.EBOOK#price-GBR-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">28.50</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596801649.EBOOK#price-CAN-01">
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:identifier rdf:resource="urn:isbn:9780596801649" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.080164" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449301644.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301644.MOBI#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. Full of Java and XML code you can insert directly into your applications, &lt;em&gt;Java SOA Cookbook&lt;/em&gt; focuses primarily on the use of free and open source Java Web Services technologies.&lt;/p&gt;</dc:description>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449301644" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301644.MOBI#price-USA-01">
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:34.474691+00:00</dc:modified>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM061000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM011000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM069010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051240" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-17</dc:issued>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:editionLabel xml:lang="en"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449301644.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596520724.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:identifier rdf:resource="urn:isbn:9780596520724" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052072" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;div&gt;&lt;p&gt;Why to Buy: Different than most SOA titles, this cookbook provides practical how-to advice for developers charged with implementing SOA in their organizations.&lt;/p&gt;
+&lt;p&gt;Most books about service-oriented architecture (SOA) are written at a high level for managers as an introduction to SOA concepts for web services. This book provides specifics for the developer on the ground who has to get SOA to work. Written in a clear, professional style, it contains concise, focused, and code-rich tips on how to implement an SOA using free and open-source Java Web Services technologies, as well as some tools commercially available.&lt;/p&gt;&lt;/div&gt;</om:sellsheetHighlight>
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;The target audience consists of technical architects or programmer/architects -- readers charged with implementing SOA in their organizations.&lt;/p&gt;</om:audienceDescription>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. Full of Java and XML code you can insert directly into your applications, &lt;em&gt;Java SOA Cookbook&lt;/em&gt; focuses primarily on the use of free and open source Java Web Services technologies.&lt;/p&gt;</dc:description>
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:26.955321+00:00</dc:modified>
+    
+    
+    
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;SOA Principles of Service Design (Hardcover) by Thomas Erl, Prentice Hall PTR, ISBN: 9780132344821, July 2007, 608 pages, $49.99&lt;/li&gt;&lt;li&gt;Service Oriented Architecture For Dummies by by Judith Hurwitz, Robin Bloor, Carol Baroudi and Marcia Kaufman, For Dummies, ISBN: 9780470054352, November 2006, 384 pages, $29.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    
+    
+    
+    
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3104"/>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-26</dc:issued>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-02-26</dc:created>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-15</om:estimatedIssue>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming / General</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1098" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    
+    
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">742 pages</dc:extent>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596520724_cat.gif"/>
+    <om:tagline xml:lang="en">SOA Implementation Recipes, Tips, and Techniques</om:tagline>
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#printings">
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#WO-14134">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-03-22</dc:issued>
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#WO-7851">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-26</dc:issued>
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-26</om:estimatedIssue>
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#WO-8340">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-10-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2010-01-08</dc:issued>
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-12</om:estimatedIssue>
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-04-01T00:00:00</om:endNewStatus>
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Web%20Services">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Web Services</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/SOA">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">SOA</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060060">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Web / Page Design</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / Java</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Java">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Java</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM069010">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Online Services / Resource Directories</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051240">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / Systems Analysis &amp; Design</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/SOAP">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">SOAP</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/WSDL">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">WSDL</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/J2EE">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">J2EE</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM011000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Systems Architecture / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM061000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Client-Server Computing</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/WS">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">WS</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;SOA in Practice (0596529554 / 9780596529550)&lt;/p&gt;</om:willSellLike>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Aimed at programmers tired of books introducing grand SOA visions and spec explorations that don't include real implementation&lt;/li&gt;&lt;li&gt;Cookbook approach demonstrates how to solve specific implementation problems in an SOA framework&lt;/li&gt;&lt;li&gt;Uses Java, the most common language for SOA integration, to reach the largest possible implementer base&lt;/li&gt;&lt;li&gt;Covers the practical use of the new Java SE 6 and Java EE 5 tools, and includes a chapter on REST&lt;/li&gt;&lt;li&gt;Walks developers through the Web Services Business Process Execution Language&lt;/li&gt;&lt;li&gt;A comprehensive guide to implementing SOA at the concrete level of code written by an experienced author on the subject&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#price-GBE-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">40.00</rdf:value>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#price-USA-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">49.99</rdf:value>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#price-GBR-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">38.50</rdf:value>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#price-CAN-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        
+        <rdf:value xml:lang="en">49.99</rdf:value>
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1211"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596520724.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Web Programming&lt;/p&gt;</om:shelving>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    
+    
+    <om:whyToBuy rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;SOA COOKBOOK will sell because it has a different audience: the programmer designing and building the SOA infrastructure with free and open-source Java tools. That is, my book shows you how to do it. If you've already read the existing books, and got religion as it were about SOA, then you can use my book to learn one way to put the newfound ideas to work for you.&lt;br/&gt;&lt;br/&gt;
+One difficulty with SOA books that attempt to bridge the gap from "what" to "how" is that SOA is largely about integration, and everyone really does have a heterogeneous environment that really does differ from everyone else's. So to get concrete you are going to limit your audience to an extent. If my book uses JBI in examples, developers whose CTOs gave them AquaLogic aren't going to have much use for certain chapters in my book. That's why my ToC tries to be concrete about a wide variety of standard-issue SOA concerns that everyone can benefit from. For example, knowing that Canonical Schemas seem like a great idea but will bite you in the end is good to know up front, and it's useful knowledge regardless of vendor. Illustrating different paradigms for writing schemas, such as Russian Doll and Venetian Blind, is useful stuff regardless of platform. Understanding what the actual concrete ramifications of choosing document/literal and bare or wrapped style (and why you might want to specify either) is really important. Now once you know your concrete options-what to say in concrete terms-here's how to say it using the newest Java APIs.&lt;br/&gt;&lt;br/&gt;
+People are tired of hearing 3 page summaries of specs. Every one of these "manager" level books has them. It's like getting another introduction to XML. I am going to assume you've read all these manager books already or been to those Gartner conferences or done some research yourself to get your foot in the SOA door, or you wouldn't be reading my book. Let's talk about how to implement WS-Policies in your actual WSDLs. They are already dying to get their SOA going. I answer the question "what do I type". Now I understand that SOAs really are different. I aim to stay as general and concrete as possible (they are not opposed), and then talk specifically about tools that have worked for me, like JBI.&lt;/p&gt;</om:whyToBuy>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520724.BOOK#printing-status">
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596555498.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. Full of Java and XML code you can insert directly into your applications, &lt;em&gt;Java SOA Cookbook&lt;/em&gt; focuses primarily on the use of free and open source Java Web Services technologies.&lt;/p&gt;</dc:description>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000"/>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596555498.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:identifier rdf:resource="urn:isbn:9780596555498" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596555498.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596555498.EPUB#price-USA-01">
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:editionLabel xml:lang="en"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:12.528260+00:00</dc:modified>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051240" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM069010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM011000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM061000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-17</dc:issued>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596156091.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:39.229625+00:00</dc:modified>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596156091.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9780596156091"/>
+      </om:Subscription>
+    </om:price>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596156091.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596156091" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9780596156091</dc:identifier>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;&lt;emphasis&gt;Java SOA Cookbook&lt;/emphasis&gt; offers practical solutions and advice to
+programmers charged with implementing a service-oriented
+architecture (SOA) in their organization. Instead of providing
+another conceptual, high-level view of SOA, this cookbook shows you
+how to make SOA work. It's full of Java and XML code you can insert
+directly into your applications and recipes you can apply right
+away.
+
+The book focuses primarily on the use of free and open source Java
+Web Services technologies -- including Java SE 6 and Java EE 5
+tools -- but you'll find tips for using commercially available
+tools as well.
+
+&lt;emphasis&gt;Java SOA Cookbook&lt;/emphasis&gt; will help you:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Construct XML vocabularies and data models appropriate to SOA
+applications&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Build real-world web services using the latest Java standards,
+including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Integrate applications from popular service providers using
+SOAP, POX, and Atom&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Create service orchestrations with complete coverage of the
+WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Improve the reliability of SOAP-based services with
+specifications such as WS-Reliable Messaging&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Deal with governance, interoperability, and quality-of-service
+issues&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;The recipes in &lt;emphasis&gt;Java SOA Cookbook&lt;/emphasis&gt; will equip you with
+the knowledge you need to approach SOA as an integration challenge,
+not an obstacle.&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    
+    <om:editionLabel xml:lang="en"/>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-10-01</dc:issued>
+    
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449375621.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449375621.APP">
+        <trons:becauseOf xml:lang="en">Product must have an Availability Date before now.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375621.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051240" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM011000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM069010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM061000" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:09.801520+00:00</dc:modified>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375621.APP#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449375621" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editionLabel xml:lang="en"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;By Eben Hewitt&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media (&lt;a href="http://oreilly.com/catalog/9780596520724/"&gt;http://oreilly.com/catalog/9780596520724&amp;#8203;/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Java SOA Cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;/p&gt;
+&lt;p&gt;The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;/p&gt;
+&lt;p&gt;Java SOA Cookbook will help you:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The recipes in Java SOA Cookbook will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;
+&lt;p&gt;Superb Reading Features&lt;/p&gt;
+&lt;p&gt;Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone phenomenon with over a million downloads:
+&lt;em&gt; Full book text search
+&lt;/em&gt; Several fonts and themes to choose from
+&lt;em&gt; Built-in dictionary
+&lt;/em&gt; The ability to add annotations
+&lt;em&gt; Landscape view
+&lt;/em&gt; Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots&lt;/p&gt;
+&lt;p&gt;About O'Reilly Media&lt;/p&gt;
+&lt;p&gt;O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.&lt;/p&gt;
+&lt;p&gt;About Lexcycle&lt;/p&gt;
+&lt;p&gt;Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596808174.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-01T00:00:00</om:endNewStatus>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:beginUpcomingStatus>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000"/>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-08-21</dc:issued>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;By Eben Hewitt&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media (&lt;a href="http://oreilly.com/catalog/9780596520724/"&gt;http://oreilly.com/catalog/9780596520724&amp;#8203;/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Java SOA Cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;/p&gt;
+&lt;p&gt;The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;/p&gt;
+&lt;p&gt;Java SOA Cookbook will help you:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The recipes in Java SOA Cookbook will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;
+&lt;p&gt;Superb Reading Features&lt;/p&gt;
+&lt;p&gt;Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone 
+phenomenon with over a million downloads:
+&lt;em&gt; Full book text search
+&lt;/em&gt; Several fonts and themes to choose from
+&lt;em&gt; Built-in dictionary
+&lt;/em&gt; The ability to add annotations
+&lt;em&gt; Landscape view
+&lt;/em&gt; Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots&lt;/p&gt;
+&lt;p&gt;About O'Reilly Media&lt;/p&gt;
+&lt;p&gt;O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences. 
+Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in 
+the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.&lt;/p&gt;
+&lt;p&gt;About Lexcycle&lt;/p&gt;
+&lt;p&gt;Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder
+is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596808174.APP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596808174.APP#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM069010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM011000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM061000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051240" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596808174" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    
+    
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:22.763581+00:00</dc:modified>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:editionLabel xml:lang="en"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596808174.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596551063.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551063.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. Full of Java and XML code you can insert directly into your applications, &lt;em&gt;Java SOA Cookbook&lt;/em&gt; focuses primarily on the use of free and open source Java Web Services technologies.&lt;/p&gt;</dc:description>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-17</dc:issued>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051240" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM069010" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM061000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/XML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM060060" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051280" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM011000" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596551063" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:editionLabel xml:lang="en"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551063.PDF#price-USA-01">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+      </om:PerUnit>
+    </om:price>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596551063.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:35.899329+00:00</dc:modified>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596520731.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596520731.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449301644.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596156091.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596551063.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596801649.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596520724.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596555498.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449375621.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596808174.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:398" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM069010">
+        <dc:title xml:lang="en">COMPUTERS / Online Services / Resource Directories</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM061000">
+        <dc:title xml:lang="en">COMPUTERS / Client-Server Computing</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051280">
+        <dc:title xml:lang="en">COMPUTERS / Programming Languages / Java</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060060">
+        <dc:title xml:lang="en">COMPUTERS / Web / Page Design</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM011000">
+        <dc:title xml:lang="en">COMPUTERS / Systems Architecture / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051240">
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / Systems Analysis &amp; Design</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <om:asciiTitle xml:lang="en">Java SOA Cookbook</om:asciiTitle>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052073" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596520731" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-02T21:52:17.809062+00:00</dc:modified>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-02-26</dc:created>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-17</dc:issued>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. It's full of Java and XML code you can insert directly into your applications and recipes you can apply right away.&lt;br/&gt;&lt;br/&gt;
+The book focuses primarily on the use of free and open source Java Web Services technologies -- including Java SE 6 and Java EE 5 tools -- but you'll find tips for using commercially available tools as well. &lt;br/&gt;&lt;br/&gt;&lt;em&gt;Java SOA Cookbook&lt;/em&gt; will help you:&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Construct XML vocabularies and data models appropriate to SOA applications&lt;/li&gt; 
+&lt;li&gt;Build real-world web services using the latest Java standards, including JAX-WS 2.1 and JAX-RS 1.0 for RESTful web services&lt;/li&gt;
+&lt;li&gt;Integrate applications from popular service providers using SOAP, POX, and Atom&lt;/li&gt;
+&lt;li&gt;Create service orchestrations with complete coverage of the WS-BPEL (Business Process Execution Language) 2.0 standard&lt;/li&gt; 
+&lt;li&gt;Improve the reliability of SOAP-based services with specifications such as WS-Reliable Messaging&lt;/li&gt;
+&lt;li&gt;Deal with governance, interoperability, and quality-of-service issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+The recipes in &lt;em&gt;Java SOA Cookbook&lt;/em&gt; will equip you with the knowledge you need to approach SOA as an integration challenge, not an obstacle.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:byline xml:lang="en">By Eben Hewitt</om:byline>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596520731">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-12-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-03-18</dc:issued>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596520731.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <om:customerTitle xml:lang="en">Java SOA Cookbook</om:customerTitle>
+    
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Eben Hewitt</dc:rightsHolder>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;This cookbook offers practical solutions and advice to programmers charged with implementing a service-oriented architecture (SOA) in their organization. Instead of providing another conceptual, high-level view of SOA, this cookbook shows you how to make SOA work. Full of Java and XML code you can insert directly into your applications, &lt;em&gt;Java SOA Cookbook&lt;/em&gt; focuses primarily on the use of free and open source Java Web Services technologies.&lt;/p&gt;</dc:description>
+    <om:sortableTitle xml:lang="en">java soa cookbook</om:sortableTitle>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520731.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596520731.IP#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Java SOA Cookbook</dc:title>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:relation rdf:resource="urn:isbn:9780596529260" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596529550" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781932394597" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002244" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/java"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    
+    <om:tagline xml:lang="en">SOA Implementation Recipes, Tips, and Techniques</om:tagline>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:editorTitle xml:lang="en">Java SOA Cookbook</om:editorTitle>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:3304/product-bio/urn:x-domain:oreilly.com:product:9780596801649.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596801649.EBOOK"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Eben Hewitt is a Principal on the architecture team at a multi-billion dollar national retail company, where he has been focused on designing and building their Service Oriented Architecture. He is the author of four previous programming books, several industry articles, and is a contributor to the O'Reilly book 97 Things Every Software Architect Should Know.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:20:52.526185+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Eben Hewitt is a Principal on the architecture team at a multi-billion dollar national retail company, where he has been focused on designing and building their Service Oriented Architecture. He has worked in IT for ten years, working on large-scale web and SOA integration projects, distributed software, and messaging systems. Hewitt is the author of four previous programming books, several industry articles, and is a contributor to the O'Reilly book 97 Things Every Software Architect Should Know, edited by Richard Monson-Haefel. He is a popular speaker at industry conferences and local user groups.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:3304/product-bio/urn:x-domain:oreilly.com:product:9780596520724.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:20:55.825470+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596520724.BOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Eben Hewitt is a Principal on the architecture team at a multi-billion dollar national retail company, where he has been focused on designing and building their Service Oriented Architecture. He has worked in IT for ten years, working on large-scale web and SOA integration projects, distributed software, and messaging systems. Hewitt is the author of four previous programming books, several industry articles, and is a contributor to the O'Reilly book 97 Things Every Software Architect Should Know, edited by Richard Monson-Haefel. He is a popular speaker at industry conferences and local user groups.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Eben Hewitt is a Principal on the architecture team at a multi-billion dollar national retail company, where he has been focused on designing and building their Service Oriented Architecture. He is the author of four previous programming books, several industry articles, and is a contributor to the O'Reilly book 97 Things Every Software Architect Should Know.&lt;/p&gt;</om:bio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:3304/product-bio/urn:x-domain:oreilly.com:product:9780596520731.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3304"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T23:20:54.143599+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Eben Hewitt is a Principal on the architecture team at a multi-billion dollar national retail company, where he has been focused on designing and building their Service Oriented Architecture. He has worked in IT for ten years, working on large-scale web and SOA integration projects, distributed software, and messaging systems. Hewitt is the author of four previous programming books, several industry articles, and is a contributor to the O'Reilly book 97 Things Every Software Architect Should Know, edited by Richard Monson-Haefel. He is a popular speaker at industry conferences and local user groups.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Eben Hewitt is a Principal on the architecture team at a multi-billion dollar national retail company, where he has been focused on designing and building their Service Oriented Architecture. He is the author of four previous programming books, several industry articles, and is a contributor to the O'Reilly book 97 Things Every Software Architect Should Know.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596520731.IP"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3304" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Eben Hewitt</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3780a1e666d4f1ffbe25242e813b8bb6204da668</foaf:mbox_sha1sum>
+    
+    
+    <foaf:givenname xml:lang="en">Eben</foaf:givenname>
+    <foaf:name xml:lang="en">Eben Hewitt</foaf:name>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-04-12T07:03:45.010976+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Hewitt</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/3352">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2113" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:givenname xml:lang="en">Mary</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mary Treseler</om:legalName>
+    <foaf:name xml:lang="en">Mary Treseler</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1a4614208913feeef6c73c275319ec58d3ee1fde</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-26T19:00:04.902558+00:00</dc:modified>
+    
+    
+    <foaf:surname xml:lang="en">Treseler</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:398" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Simon</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T21:57:29.661765+00:00</dc:modified>
+    <foaf:surname xml:lang="en">St. Laurent</foaf:surname>
+    <foaf:name xml:lang="en">Simon St. Laurent</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Simon St. Laurent</om:legalName>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/166">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65d7213063e1836b1581de81793bfcb9ad596974</foaf:mbox_sha1sum>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person></rdf:RDF>

@@ -1,0 +1,1466 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596102097.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596102097.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    <om:byline xml:lang="en">By Jesse Liberty, Brian MacDonald</om:byline>
+    <om:editorTitle xml:lang="en">Learning C# 2005, 2E</om:editorTitle>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:endNewStatus>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:sortableTitle xml:lang="en">learning c# 2005</om:sortableTitle>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596102097.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596102097"/>
+      </om:Subscription>
+    </om:price>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:videoPreview xml:lang="en"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para/&gt;&lt;para&gt; If you're a novice programmer and you want to learn C#, there
+    aren't many books that will guide you. Most C# books are written for
+    experienced C++ and Java programmers. That's why Jesse Liberty, author of
+    the best-selling books &lt;emphasis&gt;Programming C#&lt;/emphasis&gt; and
+    &lt;emphasis&gt;Programming ASP.NET&lt;/emphasis&gt; , has written an entry-level
+    guide to C#. &lt;/para&gt;&lt;para&gt; Written in a warm and friendly manner, &lt;emphasis&gt;Learning
+    C#&lt;/emphasis&gt; assumes no prior programming experience, and provides a
+    thorough introduction to Microsoft's premier .NET language. The book helps
+    you build a solid foundation in .NET, and shows you how to apply your
+    skills through the use of dozens of tested examples. You'll learn about
+    the syntax and structure of the C# language, including operators, classes
+    and interfaces, structs, arrays, and strings. &lt;/para&gt;&lt;para&gt; Better yet, this updated edition of &lt;emphasis&gt;Learning
+    C#&lt;/emphasis&gt; has been completely revised to include the latest additions
+    to the C# language plus a variety of learning aids to help lock-in new
+    knowledge and skills. Here's what's new: &lt;/para&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt; Extensive revisions to the text and examples to reflect C# 2005
+        and .NET 2.0 changes &lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt; An introduction to Visual Studio 2005, the most popular tool
+        for building Windows and web applications &lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt; More than 200 questions and fully debugged programming
+        exercises with solutions &lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;A greater emphasis on event handling&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt; New coverage of generics, generic collections, partial classes,
+        anonymous methods and more. &lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt; By the time you've finished &lt;emphasis&gt;Learning C#&lt;/emphasis&gt; ,
+    you'll be ready to move on to a more advanced programming guide that will
+    help you create large-scale web and Windows applications. &lt;/para&gt;&lt;para&gt; Whether you have a little object-oriented programming experience or
+    you are new to programming altogether, &lt;emphasis&gt;Learning C#&lt;/emphasis&gt;
+    will set you firmly on your way to mastering the essentials of the C#
+    language. &lt;/para&gt;&lt;/div&gt;</dc:description>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-02-21</dc:issued>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:48:09.901079+00:00</dc:modified>
+    <om:editionLabel xml:lang="en"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/web%20development" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051210" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Windows%20development" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/.NET" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/DNT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/C%23" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/generics" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Express%20Edition" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Visual%20Studio%202005" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051310"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/csharp"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    <om:customerTitle xml:lang="en">Learning C# 2005, 2nd Edition</om:customerTitle>
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1105"/>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:asciiTitle xml:lang="en">Learning C# 2005</om:asciiTitle>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you're a novice programmer and you want to learn C#, there aren't many books that will guide you. Most C# books are written for experienced C++ and Java programmers.
+That's why Jesse Liberty, author of the best-selling books &lt;i&gt;Programming C#&lt;/i&gt; and &lt;i&gt;Programming ASP.NET&lt;/i&gt;, has written an entry-level guide to C#. 
+&lt;/p&gt;&lt;p&gt;
+Written in a warm and friendly manner, &lt;i&gt;Learning C#&lt;/i&gt; assumes no prior programming experience, and provides a thorough introduction to Microsoft's premier .NET language. The book helps you build a solid foundation in .NET, and shows you how to apply your skills through the use of dozens of tested examples. You'll learn about the syntax and structure of the C# language, including operators, classes and interfaces, structs, arrays, and strings. &lt;/p&gt;
+&lt;p&gt;
+Better yet, this updated edition of &lt;i&gt;Learning C#&lt;/i&gt; has been completely revised to include the latest additions to the C# language plus a variety of learning aids to help lock-in new knowledge and skills. Here's what's new:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Extensive revisions to the text and examples to reflect C# 2005 and .NET 2.0 changes
+&lt;/li&gt;&lt;li&gt;An introduction to Visual Studio 2005, the most popular tool for building Windows and web applications
+&lt;/li&gt;&lt;li&gt;More than 200 questions and fully debugged programming exercises with solutions&lt;br/&gt;&lt;/li&gt;&lt;li&gt;A greater emphasis on event handling
+&lt;/li&gt;&lt;li&gt;New coverage of generics, generic collections, partial classes, anonymous methods and more.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+By the time you've finished &lt;i&gt;Learning C#&lt;/i&gt;, you'll be ready to move on to a more advanced programming guide that will help you create large-scale web and Windows applications. &lt;/p&gt;
+&lt;p&gt;
+Whether you have a little object-oriented programming experience or you are new to programming altogether, &lt;i&gt;Learning C#&lt;/i&gt; will set you firmly on your way to mastering the essentials of the C# language.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:subtitle xml:lang="en">Get Started with C# 2.0 and .NET Programming</om:subtitle>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596102097</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596102098" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596102098.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/generics">
+        <rdf:value xml:lang="en">generics</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Express%20Edition">
+        <rdf:value xml:lang="en">Express Edition</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Windows%20development">
+        <rdf:value xml:lang="en">Windows development</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/.NET">
+        <rdf:value xml:lang="en">.NET</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/web%20development">
+        <rdf:value xml:lang="en">web development</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/C%23">
+        <rdf:value xml:lang="en">C#</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Visual%20Studio%202005">
+        <rdf:value xml:lang="en">Visual Studio 2005</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051210">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / Object Oriented</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;C# / .NET&lt;/p&gt;</om:shelving>
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    <om:customerTitle xml:lang="en">Learning C# 2005, 2nd Edition</om:customerTitle>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-01T00:00:00</om:beginUpcomingStatus>
+    <om:tagline xml:lang="en">Get Started with C# 2005 and .NET Programming</om:tagline>
+    
+    
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-02-21</dc:issued>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    
+    
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#printing-status">
+        <rdf:value xml:lang="en">Normal</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/csharp"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051310">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / C#</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you're a novice programmer and you want to learn C#, there aren't many books that will guide you. Most C# books are written for experienced C++ and Java programmers.
+That's why Jesse Liberty, author of the best-selling books &lt;i&gt;Programming C#&lt;/i&gt; and &lt;i&gt;Programming ASP.NET&lt;/i&gt;, has written an entry-level guide to C#. 
+&lt;/p&gt;&lt;p&gt;
+Written in a warm and friendly manner, &lt;i&gt;Learning C#&lt;/i&gt; assumes no prior programming experience, and provides a thorough introduction to Microsoft's premier .NET language. The book helps you build a solid foundation in .NET, and shows you how to apply your skills through the use of dozens of tested examples. You'll learn about the syntax and structure of the C# language, including operators, classes and interfaces, structs, arrays, and strings. &lt;/p&gt;
+&lt;p&gt;
+Better yet, this updated edition of &lt;i&gt;Learning C#&lt;/i&gt; has been completely revised to include the latest additions to the C# language plus a variety of learning aids to help lock-in new knowledge and skills. Here's what's new:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Extensive revisions to the text and examples to reflect C# 2005 and .NET 2.0 changes
+&lt;/li&gt;&lt;li&gt;An introduction to Visual Studio 2005, the most popular tool for building Windows and web applications
+&lt;/li&gt;&lt;li&gt;More than 200 questions and fully debugged programming exercises with solutions&lt;br/&gt;&lt;/li&gt;&lt;li&gt;A greater emphasis on event handling
+&lt;/li&gt;&lt;li&gt;New coverage of generics, generic collections, partial classes, anonymous methods and more.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+By the time you've finished &lt;i&gt;Learning C#&lt;/i&gt;, you'll be ready to move on to a more advanced programming guide that will help you create large-scale web and Windows applications. &lt;/p&gt;
+&lt;p&gt;
+Whether you have a little object-oriented programming experience or you are new to programming altogether, &lt;i&gt;Learning C#&lt;/i&gt; will set you firmly on your way to mastering the essentials of the C# language.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596102098" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.010209" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596102098.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:47:54.054328+00:00</dc:modified>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596102097_cat.gif"/>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:endNewStatus>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;  Completely revised for C# 2.0 with three chapters rewritten to reflect changes to Visual Studio, and the addition of generics, anonymous methods, and other new features&lt;/li&gt;&lt;li&gt;  More than 200 questions and exercises (with answers) to help readers judge their mastery and to increase the utility of the book for classrooms&lt;/li&gt;&lt;li&gt;  Two brand new chapters show readers how to put their C# skills to work to quickly build simple web and Windows applications&lt;/li&gt;&lt;li&gt;  Timed for the release of C# 2.0 and Visual Studio 2005&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2005-07-08</dc:created>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#price-CAN-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        <rdf:value xml:lang="en">55.99</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#price-GBE-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        <rdf:value xml:lang="en">32.00</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#price-USA-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#price-GBR-01">
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        <rdf:value xml:lang="en">30.99</rdf:value>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+    <om:byline xml:lang="en">By Jesse Liberty, Brian MacDonald</om:byline>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:275"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2337"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <om:subtitle xml:lang="en">Get Started with C# 2.0 and .NET Programming</om:subtitle>
+    
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#printings">
+        <rdf:_6>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-5826">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-31</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-08-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-05-30</dc:issued>
+          </om:Printing>
+        </rdf:_6>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-4910">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-04-17</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-04-17</dc:issued>
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_8>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-6967">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-29</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-04-23</dc:issued>
+          </om:Printing>
+        </rdf:_8>
+        <rdf:_7>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-6216">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-09-26</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-09-24</dc:issued>
+          </om:Printing>
+        </rdf:_7>
+        <rdf:_5>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-5391">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-12-27</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-12-22</dc:issued>
+          </om:Printing>
+        </rdf:_5>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-5025">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-06-20</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-06-20</dc:issued>
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-4731">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C#</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-02-23</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-02-21</dc:issued>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.BOOK#WO-5219">
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-02</om:estimatedIssue>
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-10-02</dc:issued>
+          </om:Printing>
+        </rdf:_4>
+      </rdf:Seq>
+    </om:printings>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1105"/>
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">560 pages</dc:extent>
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Learning C# 2005, 2E</om:editorTitle>
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Completely revised to cover C# 2.0 and Visual Basic 2005, this introductory guide offers a thorough introduction to Microsoft's premier .NET language. Discover how to develop various kinds of web services and applications--including those that work with databases. More than 200 questions and programming exercises make mastering the essentials of the C# language easy and fun.&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Now with more than 200 questions, programming exercises and their solutions, this completely revised second edition is a thorough introduction to the C# 2.0 language and .NET programming, including ways to build web and desktop applications.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">Learning C# 2005</om:asciiTitle>
+    <om:sortableTitle xml:lang="en">learning c# 2005</om:sortableTitle>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-02-01</om:estimatedIssue>
+    
+    
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596102098.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051310">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / C#</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/csharp"/>
+    
+    
+    
+    
+    
+    <om:subtitle xml:lang="en">Get Started with C# 2.0 and .NET Programming</om:subtitle>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    <om:editorTitle xml:lang="en">Learning C# 2005, 2E</om:editorTitle>
+    
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;If you're a novice programmer and you want to learn C#, there aren't many books that will guide you. Most C# books are written for experienced C++ and Java programmers.
+That's why Jesse Liberty, author of the best-selling books &lt;i&gt;Programming C#&lt;/i&gt; and &lt;i&gt;Programming ASP.NET&lt;/i&gt;, has written an entry-level guide to C#. 
+&lt;/p&gt;&lt;p&gt;
+Written in a warm and friendly manner, &lt;i&gt;Learning C#&lt;/i&gt; assumes no prior programming experience, and provides a thorough introduction to Microsoft's premier .NET language. The book helps you build a solid foundation in .NET, and shows you how to apply your skills through the use of dozens of tested examples. You'll learn about the syntax and structure of the C# language, including operators, classes and interfaces, structs, arrays, and strings. &lt;/p&gt;
+&lt;p&gt;
+Better yet, this updated edition of &lt;i&gt;Learning C#&lt;/i&gt; has been completely revised to include the latest additions to the C# language plus a variety of learning aids to help lock-in new knowledge and skills. Here's what's new:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Extensive revisions to the text and examples to reflect C# 2005 and .NET 2.0 changes
+&lt;/li&gt;&lt;li&gt;An introduction to Visual Studio 2005, the most popular tool for building Windows and web applications
+&lt;/li&gt;&lt;li&gt;More than 200 questions and fully debugged programming exercises with solutions&lt;br/&gt;&lt;/li&gt;&lt;li&gt;A greater emphasis on event handling
+&lt;/li&gt;&lt;li&gt;New coverage of generics, generic collections, partial classes, anonymous methods and more.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+By the time you've finished &lt;i&gt;Learning C#&lt;/i&gt;, you'll be ready to move on to a more advanced programming guide that will help you create large-scale web and Windows applications. &lt;/p&gt;
+&lt;p&gt;
+Whether you have a little object-oriented programming experience or you are new to programming altogether, &lt;i&gt;Learning C#&lt;/i&gt; will set you firmly on your way to mastering the essentials of the C# language.&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596102097_cat.gif"/>
+    <dc:relation rdf:resource="urn:isbn:9780596006990" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596100636" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596007997" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596102098" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102098.IP#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2337"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:275"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-02-21</dc:issued>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;  Completely revised for C# 2.0 with three chapters rewritten to reflect changes to Visual Studio, and the addition of generics, anonymous methods, and other new features&lt;/li&gt;&lt;li&gt;  More than 200 questions and exercises (with answers) to help readers judge their mastery and to increase the utility of the book for classrooms&lt;/li&gt;&lt;li&gt;  Two brand new chapters show readers how to put their C# skills to work to quickly build simple web and Windows applications&lt;/li&gt;&lt;li&gt;  Timed for the release of C# 2.0 and Visual Studio 2005&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596102098.IP#om_displayableContributorList">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2337"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:275"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Now with more than 200 questions, programming exercises and their solutions, this completely revised second edition is a thorough introduction to the C# 2.0 language and .NET programming, including ways to build web and desktop applications.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1065" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Completely revised to cover C# 2.0 and Visual Basic 2005, this introductory guide offers a thorough introduction to Microsoft's premier .NET language. Discover how to develop various kinds of web services and applications--including those that work with databases. More than 200 questions and programming exercises make mastering the essentials of the C# language easy and fun.&lt;/p&gt;</dc:description>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:sortableTitle xml:lang="en">learning c# 2005</om:sortableTitle>
+    
+    
+    
+    
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/web%20development">
+        <rdf:value xml:lang="en">web development</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/generics">
+        <rdf:value xml:lang="en">generics</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Windows%20development">
+        <rdf:value xml:lang="en">Windows development</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Express%20Edition">
+        <rdf:value xml:lang="en">Express Edition</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/C%23">
+        <rdf:value xml:lang="en">C#</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Visual%20Studio%202005">
+        <rdf:value xml:lang="en">Visual Studio 2005</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/.NET">
+        <rdf:value xml:lang="en">.NET</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051210">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / Object Oriented</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Learning C# 2005</dc:title>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596102097.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Jesse Liberty, Brian MacDonald</om:byline>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-24T22:48:21.464079+00:00</dc:modified>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">560 pages</dc:extent>
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Learning C# 2005</om:asciiTitle>
+    
+    
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:sellslike rdf:resource="urn:isbn:9780596003760"/>
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;C# / .NET&lt;/p&gt;</om:shelving>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1105"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596102098.IP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">Learning C# 2005, 2nd Edition</om:customerTitle>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2005-07-08</dc:created>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596102098">
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2005-11-28</dc:issued>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-08-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-02-01T00:00:00</om:endNewStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/PRO"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:tagline xml:lang="en">Get Started with C# 2005 and .NET Programming</om:tagline>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2337/product-bio/urn:x-domain:oreilly.com:product:9780596102098.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2337"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Brian MacDonald is an editor of programming and networking books. He has edited books for several major publishers on topics from securing Windows servers to PHP web programming to running an eBay business. His work for O'Reilly includes Programming ASP.NET and Programming .NET Components. He lives in southeastern Pennsylvania with his wife and son.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.IP"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:16:05.519053+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2337/product-bio/urn:x-domain:oreilly.com:product:9780596102098.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2337"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Brian MacDonald is an editor of programming and networking books. He has edited books for several major publishers on topics from securing Windows servers to PHP web programming to running an eBay business. His work for O'Reilly includes Programming ASP.NET and Programming .NET Components. He lives in southeastern Pennsylvania with his wife and son.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:16:05.578633+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.BOOK"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:275/product-bio/urn:x-domain:oreilly.com:product:9780596102098.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jesse Liberty is the bestselling author of "Programming ASP.NET", "Programming C#", and a dozen other books on web and object oriented programming. He is president of Liberty Associates, Inc., for which he provides contract programming, consulting and on-site training in ASP.NET, C#, C++ and related topics. Jesse was a Distinguished Software Engineer at AT&amp;amp;T, and Vice President for technology development at Citibank.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:275"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jesse Liberty is the bestselling author of "Programming ASP.NET", "Programming C#", and a dozen other books on web and object oriented programming. He is president of Liberty Associates, Inc., for which he provides contract programming, consulting and on-site training in ASP.NET, C#, C++ and related topics. Jesse was a Distinguished Software Engineer at AT&amp;amp;T, and Vice President for technology development at Citibank.&lt;/p&gt;</om:webBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:16:05.523917+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:275/product-bio/urn:x-domain:oreilly.com:product:9780596102098.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jesse Liberty is the bestselling author of "Programming ASP.NET", "Programming C#", and a dozen other books on web and object oriented programming. He is president of Liberty Associates, Inc., for which he provides contract programming, consulting and on-site training in ASP.NET, C#, C++ and related topics. Jesse was a Distinguished Software Engineer at AT&amp;amp;T, and Vice President for technology development at Citibank.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596102098.BOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jesse Liberty is the bestselling author of "Programming ASP.NET", "Programming C#", and a dozen other books on web and object oriented programming. He is president of Liberty Associates, Inc., for which he provides contract programming, consulting and on-site training in ASP.NET, C#, C++ and related topics. Jesse was a Distinguished Software Engineer at AT&amp;amp;T, and Vice President for technology development at Citibank.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:16:05.583687+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:275"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:275" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jesse Liberty</om:legalName>
+    <foaf:name xml:lang="en">Jesse Liberty</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eab891ff05b407ce1fcd8069e99254b1c9b92fb4</foaf:mbox_sha1sum>
+    <foaf:homepage rdf:resource="http://www.LibertyAssociates.com"/>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/239">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T03:28:58.952957+00:00</dc:modified>
+    
+    
+    <foaf:surname xml:lang="en">Liberty</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Jesse</foaf:givenname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1655" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Keith</foaf:givenname>
+    <foaf:surname xml:lang="en">Fahlgren</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.832383+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Keith Fahlgren</om:legalName>
+    <foaf:name xml:lang="en">Keith Fahlgren</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2337" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:16:05.611841+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Brian MacDonald</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e191de5cbaa80eba9349860f52b3c4de14d41466</foaf:mbox_sha1sum>
+    
+    <foaf:givenname xml:lang="en">Brian</foaf:givenname>
+    <foaf:surname xml:lang="en">MacDonald</foaf:surname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2487">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <foaf:name xml:lang="en">Brian MacDonald</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1105" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Matt Hutchinson</foaf:name>
+    <foaf:givenname xml:lang="en">Matt</foaf:givenname>
+    <foaf:surname xml:lang="en">Hutchinson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:14:48.783871+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Matt Hutchinson</om:legalName>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1065" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">John Osborn</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6e6f47d4ed9d3c00d8216251e7e8fa1c99f827fd</foaf:mbox_sha1sum>
+    
+    <foaf:givenname xml:lang="en">John</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">John Osborn</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.405033+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Osborn</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1090" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.397279+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bisignani</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Glenn</foaf:givenname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89afa3709f9e629006b39f1ab5320f464e86dcec</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Glenn Bisignani</om:legalName>
+    
+    <foaf:name xml:lang="en">Glenn Bisignani</foaf:name>
+    
+  </foaf:Person></rdf:RDF>

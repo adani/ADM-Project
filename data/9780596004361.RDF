@@ -1,0 +1,2624 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596103965.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596103965.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596103965.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-29</dc:issued>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.BOOK:9780596103965.EBOOK#bundle-offer"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library.  The representation of the language is based on the ANSI standard and includes extensions introduced in 1999.  An index is included to help you quickly find the information you need.&lt;/p&gt;</dc:description>
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:03.878059+00:00</dc:modified>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-30</dc:created>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    <dc:identifier rdf:resource="urn:isbn:9780596103965" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596103965.EBOOK#price-USA-01">
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596103965.EBOOK#price-CAN-01">
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596103965.EBOOK#price-GBR-01">
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">5.99</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596004362.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:25.827021+00:00</dc:modified>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596004362.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596004362"/>
+      </om:Subscription>
+    </om:price>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-11-20</dc:issued>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00</om:beginUpcomingStatus>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-02-01T00:00:00</om:endNewStatus>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+C is one of the oldest programming languages and still one of the
+most widely used. Whether you're an experienced C programmer or
+you're new to the language, you know how frustrating it can be to
+hunt through hundreds of pages in your reference books to find that
+bit of information on a certain function, type or other syntax
+element. Or even worse, you may not have your books with you. Your
+answer is the &lt;emphasis&gt;C Pocket Reference&lt;/emphasis&gt;. Concise and easy to use,
+this handy pocket guide to C is a must-have quick reference for any
+C programmer. It's the only C reference that fits in your pocket
+and is an excellent companion to O'Reilly's other C books. Ideal as
+an introduction for beginners and a quick reference for advanced
+programmers, the &lt;emphasis&gt;C Pocket Reference&lt;/emphasis&gt; consists of two parts: a
+compact description of the C language and a thematically structured
+reference to the standard library. The representation of the
+language is based on the ANSI standard and includes extensions
+introduced in 1999. An index is included to help you quickly find
+the information you need. This small book covers the following:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;C language fundamentals&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Data types&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Expressions and operators&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;C statements&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Declarations&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Functions&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Preprocessor directives&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;The standard library&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;
+O'Reilly's Pocket References have become a favorite among
+programmers everywhere. By providing a wealth of important details
+in a concise, well-organized format, these handy books deliver just
+what you need to complete the task at hand. When you've reached a
+sticking point in your work and need to get to a solution quickly,
+the new &lt;emphasis&gt;C Pocket Reference&lt;/emphasis&gt; is the book you'll want to have.
+&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596004362.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051060"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596004361" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596004362</dc:identifier>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:editionLabel xml:lang="en"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449301514.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449301514.MOBI">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051060"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    
+    <dc:identifier rdf:resource="urn:isbn:9781449301514" xmlns:dc="http://purl.org/dc/terms/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:endNewStatus>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:beginUpcomingStatus>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-06-29</dc:issued>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301514.MOBI#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library.  The representation of the language is based on the ANSI standard and includes extensions introduced in 1999.  An index is included to help you quickly find the information you need.&lt;/p&gt;</dc:description>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:19.673961+00:00</dc:modified>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301514.MOBI#price-USA-01">
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449301514.MOBI#price-IND-01">
+        
+        <rdf:value xml:lang="en">130.00</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">IND</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449375027.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375027.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:identifier rdf:resource="urn:isbn:9781449375027" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:beginUpcomingStatus>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449375027.APP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-09-08</dc:issued>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051060"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:23.989083+00:00</dc:modified>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    
+    
+    
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</om:endNewStatus>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449375027.APP#price-USA-01">
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <rdf:value xml:lang="en">2.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    <om:videoPreview xml:lang="en"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;By Peter Prinz, Ulla Kirch-Prinz&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media (&lt;a href="http://oreilly.com/catalog/9780596004361/"&gt;http://oreilly.com/catalog/9780596004361&amp;#8203;/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the C Pocket Reference. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the C Pocket Reference consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;C language fundamentals&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data types&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Expressions and operators&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C statements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Declarations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Functions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preprocessor directives&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The standard library&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new C Pocket Reference is the book you'll want to have.&lt;/p&gt;
+&lt;p&gt;Superb Reading Features&lt;/p&gt;
+&lt;p&gt;Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone phenomenon with over a million downloads:
+&lt;em&gt; Full book text search
+&lt;/em&gt; Several fonts and themes to choose from
+&lt;em&gt; Built-in dictionary
+&lt;/em&gt; The ability to add annotations
+&lt;em&gt; Landscape view
+&lt;/em&gt; Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots&lt;/p&gt;
+&lt;p&gt;About O'Reilly Media&lt;/p&gt;
+&lt;p&gt;O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.&lt;/p&gt;
+&lt;p&gt;About Lexcycle&lt;/p&gt;
+&lt;p&gt;Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.&lt;/p&gt;&lt;/div&gt;</dc:description>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449381035.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-09-01</dc:issued>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</om:endNewStatus>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:beginUpcomingStatus>
+    <dc:identifier rdf:resource="urn:isbn:9781449381035" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/android"/>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449381035.APP#price-USA-01">
+        
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <rdf:value xml:lang="en">2.99</rdf:value>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+      </om:PerUnit>
+    </om:price>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449381035.APP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051060"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449381035.APP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <om:videoPreview xml:lang="en"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:29.357764+00:00</dc:modified>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;This guide to C is a must-have for any C programmer. Ideal as an introduction for beginners and a quick reference for advanced programmers, it consists of a description of the C language and a thematically structured reference to the standard library.&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media. App powered by Aldiko (aldiko.com).&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/AndroidApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596528560.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596528560.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/cpr.s.gif"/>
+    
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528560.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528560.PDF#WO-5168">
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-01T00:00:00</om:endNewStatus>
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-01</dc:issued>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-05-01T00:00:00</om:beginUpcomingStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference PDF</dc:title>
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528560.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596528560" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052856" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:16.738088+00:00</dc:modified>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528560.PDF#price-USA-01">
+        
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528560.PDF#price-GBR-01">
+        
+        
+        <rdf:value xml:lang="en">5.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596528560.PDF#price-CAN-01">
+        
+        
+        <rdf:value xml:lang="en">7.99</rdf:value>
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">120 pages (est.)</dc:extent>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-07-17</dc:created>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1430"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-01</om:estimatedIssue>
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library.  The representation of the language is based on the ANSI standard and includes extensions introduced in 1999.  An index is included to help you quickly find the information you need.&lt;/p&gt;</dc:description>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-08-01</dc:issued>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449378899.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/C" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM000000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051230" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449378899.EPUB#price-USA-01">
+        
+        
+        
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <rdf:value xml:lang="en">7.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:videoPreview xml:lang="en"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-10-06</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:14.180665+00:00</dc:modified>
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library.  The representation of the language is based on the ANSI standard and includes extensions introduced in 1999.  An index is included to help you quickly find the information you need.&lt;/p&gt;</dc:description>
+    <om:editionLabel xml:lang="en"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449378899.EPUB#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-01T00:00:00</om:endNewStatus>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:identifier rdf:resource="urn:isbn:9781449378899" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    
+    
+    
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051060"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449378899.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-07-01T00:00:00</om:beginUpcomingStatus>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596004361.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-11-20</dc:issued>
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C programmers</dc:audience>
+    
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051060">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / C</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-11-25</om:estimatedIssue>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    <om:binding xml:lang="en">Perfect</om:binding>
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">4.25 x 7 in</dc:format>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596004362_cat.gif"/>
+    
+    
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#price-GBR-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <rdf:value xml:lang="en">7.50</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#price-CAN-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        <rdf:value xml:lang="en">14.95</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#price-USA-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">9.95</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#price-GBE-01">
+        
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <rdf:value xml:lang="en">8.00</rdf:value>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051230">
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/C">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">C</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Print to Demand</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library.  The representation of the language is based on the ANSI standard and includes extensions introduced in 1999.  An index is included to help you quickly find the information you need.&lt;/p&gt;</dc:description>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596004361.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2002-07-12</dc:created>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-1618">
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-02-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            <om:binding xml:lang="en"/>
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-11-20</dc:issued>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_5>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-5455">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-01-08</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-05</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_5>
+        <rdf:_7>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-6837">
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-03-11</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-06-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-03-11</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_7>
+        <rdf:_11>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-8939">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2010-10-26</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-01-01T00:00:00</om:endNewStatus>
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-10-25</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_11>
+        <rdf:_9>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-8117">
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-06-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-09-04</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-09-02</om:estimatedIssue>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_9>
+        <rdf:_6>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-5701">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-09</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-10</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_6>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-2571">
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-11-17</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-4848">
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2006-06-09</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-01T00:00:00</om:beginUpcomingStatus>
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-09-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-06-15</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_8>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-7633">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-11-05</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-02-01T00:00:00</om:endNewStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-04</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_8>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-2931">
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-06-03</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_10>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-8665">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2010-06-11</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-01T00:00:00</om:endNewStatus>
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-03-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-16</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_10>
+        <rdf:_12>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.BOOK#WO-13595">
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-05-08</dc:issued>
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-01T00:00:00</om:endNewStatus>
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_12>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;C / C++ Programming&lt;/p&gt;</om:shelving>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">144 pages</dc:extent>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:31.738586+00:00</dc:modified>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00</om:beginUpcomingStatus>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-02-01T00:00:00</om:endNewStatus>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    <dc:identifier rdf:resource="urn:isbn:9780596004361" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000436" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596004361.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1090"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:283" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:asciiTitle xml:lang="en">C Pocket Reference</om:asciiTitle>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:audience xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C programmers</dc:audience>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596004361.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2002-07-12</dc:created>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-11-20</dc:issued>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449381035.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449378899.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449301514.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449375027.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596103965.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596528560.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596004362.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">144 pages</dc:extent>
+    
+    <dc:relation rdf:resource="urn:isbn:9780596004361" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565921160" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596006105" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565923065" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9781565923546" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596004361">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-12-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-06-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2002-09-23</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051060">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Programming Languages / C</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/cprog"/>
+    
+    <om:customerTitle xml:lang="en">C Pocket Reference</om:customerTitle>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1224" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM000000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051230">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Software Development &amp; Engineering / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/C">
+        <rdf:value xml:lang="en">C</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    
+    
+    <om:byline xml:lang="en">By Peter Prinz, Ulla Kirch-Prinz</om:byline>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library.  The representation of the language is based on the ANSI standard and includes extensions introduced in 1999.  An index is included to help you quickly find the information you need.&lt;/p&gt;</dc:description>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;C / C++ Programming&lt;/p&gt;</om:shelving>
+    <dc:identifier rdf:resource="urn:isbn:9780596004361" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596004362_cat.gif"/>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;C is one of the oldest programming languages and still one of the most widely used. Whether you're an experienced C programmer or you're new to the language, you know how frustrating it can be to hunt through hundreds of pages in your reference books to find that bit of information on a certain function, type or other syntax element. Or even worse, you may not have your books with you. Your answer is the &lt;i&gt;C Pocket Reference&lt;/i&gt;. Concise and easy to use, this handy pocket guide to C is a must-have quick reference for any C programmer. It's the only C reference that fits in your pocket and is an excellent companion to O'Reilly's other C books.&lt;/p&gt;
+&lt;p&gt;Ideal as an introduction for beginners and a quick reference for advanced programmers, the &lt;i&gt;C Pocket Reference&lt;/i&gt; consists of two parts: a compact description of the C language and a thematically structured reference to the standard library. The representation of the language is based on the ANSI standard and includes extensions introduced in 1999. An index is included to help you quickly find the information you need. &lt;/p&gt;
+&lt;p&gt;This small book covers the following:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;C language fundamentals&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Expressions and operators&lt;/li&gt;
+&lt;li&gt;C statements&lt;/li&gt;
+&lt;li&gt;Declarations&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Preprocessor directives&lt;/li&gt;
+&lt;li&gt;The standard library&lt;/li&gt; 
+&lt;/ul&gt;
+O'Reilly's Pocket References have become a favorite among programmers everywhere. By providing a wealth of important details in a concise, well-organized format, these handy books deliver just what you need to complete the task at hand. When you've reached a sticking point in your work and need to get to a solution quickly, the new &lt;i&gt;C Pocket Reference&lt;/i&gt; is the book you'll want to have.&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:205" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">C Pocket Reference</om:editorTitle>
+    
+    <om:sortableTitle xml:lang="en">c pocket reference</om:sortableTitle>
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596004361.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1085"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596004361.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:752"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">C Pocket Reference</dc:title>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-25T01:59:11.405292+00:00</dc:modified>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:751/product-bio/urn:x-domain:oreilly.com:product:9780596004361.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:26:47.304801+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Peter Prinz specializes in developing software and in teaching Assembler, C/C++/C#, Java, Windows (MFC), and UNIX system programming. As the chief developer and cofounder of an IT company, Peter has gained extensive experience in software development for computer telephony. As a seminar leader and key course developer at a professional consulting and training company he has taught courses to thousands of software developers. Peter is the co-author with his wife Ulla of several other books on software development in C/C++. More recent projects include "A Complete Guide to Programming in C++" (Jones &amp;amp; Bartlett Publishers, 2002). Peter currently resides in Munich, Germany, with Ulla and their two children: Vivi and Jeany. He may be contacted by email at prinz_peter@t-online.de &lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:751/product-bio/urn:x-domain:oreilly.com:product:9780596004361.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:26:40.040515+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596004361.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Peter Prinz specializes in developing software and in teaching Assembler, C/C++/C#, Java, Windows (MFC), and UNIX system programming. As the chief developer and cofounder of an IT company, Peter has gained extensive experience in software development for computer telephony. As a seminar leader and key course developer at a professional consulting and training company he has taught courses to thousands of software developers. Peter is the co-author with his wife Ulla of several other books on software development in C/C++. More recent projects include "A Complete Guide to Programming in C++" (Jones &amp;amp; Bartlett Publishers, 2002). Peter currently resides in Munich, Germany, with Ulla and their two children: Vivi and Jeany. He may be contacted by email at prinz_peter@t-online.de &lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:751"/>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:751" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/1022">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <foaf:name xml:lang="en">Peter Prinz</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Peter Prinz</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-04-16T23:41:00.854129+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Prinz</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b42273457478f4e88b4acc2fbf6c15d1b6f8ca1b</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Peter</foaf:givenname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:752" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f9dfd3f201f7411fd02db49a7ada33030acd234c</foaf:mbox_sha1sum>
+    
+    <foaf:surname xml:lang="en">Kirch-Prinz</foaf:surname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Ulla Kirch-Prinz</om:legalName>
+    
+    <foaf:givenname xml:lang="en">Ulla</foaf:givenname>
+    <foaf:name xml:lang="en">Ulla Kirch-Prinz</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-04-17T00:26:42.131114+00:00</dc:modified>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:205" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Jonathan Gennick</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-07T17:26:51.596329+00:00</dc:modified>
+    
+    
+    <foaf:givenname xml:lang="en">Jonathan</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230cdc92af94cf1ef9c6584a27f1aaef23be454b</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jonathan Gennick</om:legalName>
+    <foaf:surname xml:lang="en">Gennick</foaf:surname>
+    
+    
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/548">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:283" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Loukides</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Mike Loukides</foaf:name>
+    
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/29">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:09:22.367220+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9f2de47dba2d38a858c9427143145873feb37980</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Loukides</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1224" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Volckhausen</foaf:surname>
+    
+    
+    <foaf:name xml:lang="en">Ellie Volckhausen</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:13:12.538117+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34f4fac38b3dee37dfd058b8828e0382fc3839f3</foaf:mbox_sha1sum>
+    
+    
+    <foaf:givenname xml:lang="en">Ellie</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Ellie Volckhausen</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1430" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Caitrin McCullough</foaf:name>
+    <foaf:givenname xml:lang="en">Caitrin</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">McCullough</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.152439+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Caitrin McCullough</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1085" xml:base="urn:x-domain:oreilly.com:agent:pdb:1085" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Julie Flanagan</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Julie Flanagan</om:legalName><foaf:givenname>Julie</foaf:givenname><foaf:surname>Flanagan</foaf:surname><dc:modified xmlns:dc="http://purl.org/dc/terms/">2010-01-21T19:31:43.487789+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1090" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.397279+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Bisignani</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Glenn</foaf:givenname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89afa3709f9e629006b39f1ab5320f464e86dcec</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Glenn Bisignani</om:legalName>
+    
+    <foaf:name xml:lang="en">Glenn Bisignani</foaf:name>
+    
+  </foaf:Person></rdf:RDF>

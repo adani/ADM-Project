@@ -1,0 +1,1796 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596513917.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-09</dc:issued>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:endOfAvailability rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-12</om:endOfAvailability>
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Written by members of the Apollo product team and produced as part of the co-publication partnership between O'Reilly and the Adobe Developer Library, this book is the first official guide to the revolutionary new product from Adobe Labs. "Adobe Apollo Pocket Guide for Flex" explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework -- and why web developers will want to. The book explains concisely how Apollo works, and offers plenty of examples for Flex developers who want to start building RIAs for the desktop.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1414"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Adobe Systems Inc.</dc:rightsHolder>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, Kit, PrintBookNonDistributable, Set must be In Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must not be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596513917.BOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060060">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Web / Page Design</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Normal</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Now you can build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs. Numerous examples illustrate how Apollo works so you can start building RIAs for the desktop right away.&lt;/p&gt;</dc:description>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1232"/>
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    
+    
+    
+    <om:binding xml:lang="en">Perfect</om:binding>
+    
+    
+    
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/MXML">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">MXML</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Flash">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Flash</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/rich%20internet%20application">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">rich internet application</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Ajax">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Ajax</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/ActionScript">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">ActionScript</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/RIA">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">RIA</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Adobe%20Apollo">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Adobe Apollo</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM060080">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Web / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/HTML">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">HTML</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Flex">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Flex</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#printings">
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#WO-5821">
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-08</om:estimatedIssue>
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-05-09</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-08-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-02-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#WO-5582">
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-09</om:estimatedIssue>
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-09</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo Pocket Reference</dc:title>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#WO-5715">
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-12</om:estimatedIssue>
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-04-11</dc:issued>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This book is for developers interested in leveraging the Flex Framework to build and deploy Flash-based applications to the desktop via Apollo. The book assumes that readers have at least a basic familiarity with creating Flash-based applications and content using the Flex Framework and ActionScript 3.0.&lt;/p&gt;</om:audienceDescription>
+    
+    
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;The official book on Apollo, written by Adobe&lt;/li&gt;&lt;li&gt;Part of the O'Reilly/Adobe Developer Library co-publication partnership&lt;/li&gt;&lt;li&gt;A step-by-step guide for building RIAs for the desktop with Flex &lt;/li&gt;&lt;li&gt;Explains why RIAs -- now limited by web browser functionality -- will thrive in a desktop environment&lt;/li&gt;&lt;li&gt;Adobe will be promoting the book and the technology heavily -- priming the pump by giving the book away as a promotional tool to members of the development community&lt;/li&gt;&lt;li&gt;The perfect format for early adopters who don't want to wade through a huge book in order to play with an intriguing new technology&lt;/li&gt;&lt;li&gt;A perfect impulse buy for Flex developers&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    
+    <dc:avaliable xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-03-09/2009-01-12</dc:avaliable>
+    
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">4.25 x 7 in</dc:format>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596513917" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051391" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#price-GBR">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">11.50</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#price-GBE">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">12.00</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#price-CAN">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">19.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.BOOK#price-USA">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+        <rdf:value xml:lang="en">14.99</rdf:value>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:imprint xml:lang="en">Adobe Dev Library</om:imprint>
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T18:24:08.592634+00:00</dc:modified>
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">144 pages</dc:extent>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-12-16</dc:created>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;web development&lt;/p&gt;</om:shelving>
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;ActionScript for Flash MX Pocket Reference (0-596-00514-8)&lt;/p&gt;</om:willSellLike>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/WEB"/>
+    
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-15</om:estimatedIssue>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;No other titles are forthcoming on Adobe Apollo, since it's not even in public beta yet. Several publishers are expected to produce Apollo books later in 2007.&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    <om:imprint_short_name xml:lang="en">ADL</om:imprint_short_name>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    
+    <om:additionalInformation rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;As a cross platform desktop application runtime, Apollo provides services for a running program without being part of the operating system. Apollo is similar in concept to the Java Runtime Environment (JRE) from Sun Microsystems. Once downloaded from Java.com, JRE enables a computer to run a Java application. The JRE includes the Java Virtual Machine and the application and programming interface (API).
+Apollo enables developers to use their skills with Flex and ActionScript 3.0 to build Rich Internet Applications (RIAs) for the computer desktop, and enables computers with the Apollo plug-in to run these applications. Upon publication of this book, Apollo will be in alpha public release. In future releases, developers will be able to use JavaScript, HTML and other web technologies, as well as Flash, to build RIAs for the desktop. Like the Flash Player and the Adobe Reader, Apollo can be downloaded free. The software is supported on Windows and Mac OS X.&lt;/p&gt;</om:additionalInformation>
+    
+    
+    
+    
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596513917_cat.gif"/>
+    
+    
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596102852.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:imprint_short_name xml:lang="en">ADL</om:imprint_short_name>
+    
+    
+    
+    
+    <om:imprint xml:lang="en">Adobe Dev Library</om:imprint>
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596102852.EBOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <dc:identifier rdf:resource="urn:isbn:9780596102852" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T18:24:13.551488+00:00</dc:modified>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Adobe Systems Inc.</dc:rightsHolder>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Now you can build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs. Numerous examples illustrate how Apollo works so you can start building RIAs for the desktop right away.&lt;/p&gt;</dc:description>
+    
+    
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-01-30</dc:created>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102852.EBOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596102852.EBOOK#price-USA">
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        <rdf:value xml:lang="en">11.99</rdf:value>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596551643.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T18:24:14.541332+00:00</dc:modified>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596551643</dc:identifier>
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596551643.EPUB#price-USA">
+        <rdf:value xml:lang="en">11.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596551643.EPUB">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Now you can build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs. Numerous examples illustrate how Apollo works so you can start building RIAs for the desktop right away.</dc:description>
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/RIA" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/HTML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/INT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Flex" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Ajax" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MXML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/ActionScript" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/rich%20internet%20application" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Flash" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Adobe%20Apollo" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596514365.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Adobe Systems Inc.</dc:rightsHolder>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514365.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2007-03-19</dc:created>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514365.PDF#price-GBR">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">8.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514365.PDF#price-USA">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">11.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514365.PDF#price-CAN">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">11.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-19</om:estimatedIssue>
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596514365.PDF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596514365" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.051436" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596513917_cat.gif"/>
+    
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+    
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514365.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596514365.PDF#WO-5707">
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-19</dc:issued>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide PDF</dc:title>
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint_short_name xml:lang="en">ADL</om:imprint_short_name>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T18:24:11.088160+00:00</dc:modified>
+    
+    
+    
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Now you can build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs. Numerous examples illustrate how Apollo works so you can start building RIAs for the desktop right away.&lt;/p&gt;</dc:description>
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    
+    
+    
+    
+    
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    
+    
+    <om:imprint xml:lang="en">Adobe Dev Library</om:imprint>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-19</dc:issued>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596109288.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596109288.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    <dc:description xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Now you can build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs. Numerous examples illustrate how Apollo works so you can start building RIAs for the desktop right away.</dc:description>
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596109288.MOBI#price-USA">
+        <rdf:value xml:lang="en">11.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T18:24:10.384385+00:00</dc:modified>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/RIA" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Flex" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/INT" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/HTML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/rich%20internet%20application" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Ajax" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Adobe%20Apollo" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Flash" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/ActionScript" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/MXML" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">urn:isbn:9780596109288</dc:identifier>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596513917.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596513917.SAF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.SAF#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9780596513917"/>
+      </om:Subscription>
+    </om:price>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1232"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9780596513917</dc:identifier>
+    <dc:identifier rdf:resource="urn:isbn:9780596513917" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+Written by members of the Apollo product team, this is the official
+guide to the Alpha release of Adobe Apollo, the new cross platform
+desktop runtime from Adobe Labs.
+
+&lt;emphasis&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/emphasis&gt; explains how
+to build and deploy Flash-based Rich Internet Applications (RIAs)
+to the desktop using Adobe's Flex framework. This book describes
+concisely how Apollo works, and offers numerous examples for those
+who want to start building RIAs for the desktop right away.
+
+Why put RIAs on the desktop? They're already supposed to offer the
+responsiveness of desktop programs. Unfortunately, web browsers
+were designed to deliver and display HTML-based documents, not
+applications. The conflict between document- and
+application-focused functionality creates several problems when
+deploying applications via the browser.
+
+Adobe Apollo gives you the best of both worlds -- the web
+development model and true desktop functionality. This pocket guide
+explains how to:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Set up your development environment&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Create your first application&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Use the File I/O API&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Use HTML within Flex-based Apollo applications&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Use the included Apollo mini-cookbook for common tasks&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;
+The book also includes a guide to Apollo packages, classes, and
+command-line tools. Once you understand the basics of building a
+Flex-based Apollo application, this pocket guide makes an ideal
+reference for tackling specific problems.&lt;/para&gt;&lt;/p&gt;
+&lt;p&gt;&lt;emphasis role="bold"&gt;Adobe Developer Library&lt;/emphasis&gt; is a co-publishing partnership
+between O'Reilly Media and Adobe Systems, Inc. and is designed to
+produce the number one information resources for developers who use
+Adobe technologies. Created in 2006, the Adobe Developer Library is
+the official source for comprehensive learning solutions to help
+developers create expressive and interactive web applications that
+can reach virtually anyone on any platform. With top-notch books
+and innovative online resources covering the latest in rich
+Internet application development, the Adobe Developer Library
+offers expert training and in-depth resources, straight from the
+source.
+&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1414"/>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:modified xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-11-25T03:18:49.326521+00:00</dc:modified>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.inet" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.graphics.adobe" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.graphics.flash.actscrip" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Adobe Systems Inc.</dc:rightsHolder>
+    
+    <om:imprint xml:lang="en">Adobe Dev Library</om:imprint>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-09</dc:issued>
+    
+    <om:primarySafariCategory rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.prog.actscrpt"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-12-16</dc:created>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596513917.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/MXML">
+        <rdf:value xml:lang="en">MXML</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Flex">
+        <rdf:value xml:lang="en">Flex</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/RIA">
+        <rdf:value xml:lang="en">RIA</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Ajax">
+        <rdf:value xml:lang="en">Ajax</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/ActionScript">
+        <rdf:value xml:lang="en">ActionScript</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/HTML">
+        <rdf:value xml:lang="en">HTML</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Adobe%20Apollo">
+        <rdf:value xml:lang="en">Adobe Apollo</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Flash">
+        <rdf:value xml:lang="en">Flash</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/rich%20internet%20application">
+        <rdf:value xml:lang="en">rich internet application</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2160" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <om:editorTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:editorTitle>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1414"/>
+    <om:additionalInformation rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;As a cross platform desktop application runtime, Apollo provides services for a running program without being part of the operating system. Apollo is similar in concept to the Java Runtime Environment (JRE) from Sun Microsystems. Once downloaded from Java.com, JRE enables a computer to run a Java application. The JRE includes the Java Virtual Machine and the application and programming interface (API).
+Apollo enables developers to use their skills with Flex and ActionScript 3.0 to build Rich Internet Applications (RIAs) for the computer desktop, and enables computers with the Apollo plug-in to run these applications. Upon publication of this book, Apollo will be in alpha public release. In future releases, developers will be able to use JavaScript, HTML and other web technologies, as well as Flash, to build RIAs for the desktop. Like the Flash Player and the Adobe Reader, Apollo can be downloaded free. The software is supported on Windows and Mac OS X.&lt;/p&gt;</om:additionalInformation>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/WEB"/>
+    
+    
+    
+    <dc:relation rdf:resource="urn:isbn:9780596526894" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596513917" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596526955" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596513900" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;No other titles are forthcoming on Adobe Apollo, since it's not even in public beta yet. Several publishers are expected to produce Apollo books later in 2007.&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;ActionScript for Flash MX Pocket Reference (0-596-00514-8)&lt;/p&gt;</om:willSellLike>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Adobe Systems Inc.</dc:rightsHolder>
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:asciiTitle>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596513917.IP">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Now you can build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs. Numerous examples illustrate how Apollo works so you can start building RIAs for the desktop right away.&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596513917">
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-01T00:00:00</om:beginUpcomingStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-15</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    
+    
+    
+    
+    
+    <om:subtitle xml:lang="en">A Developer's Reference for Apollo's Alpha Release</om:subtitle>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;The official book on Apollo, written by Adobe&lt;/li&gt;&lt;li&gt;Part of the O'Reilly/Adobe Developer Library co-publication partnership&lt;/li&gt;&lt;li&gt;A step-by-step guide for building RIAs for the desktop with Flex &lt;/li&gt;&lt;li&gt;Explains why RIAs -- now limited by web browser functionality -- will thrive in a desktop environment&lt;/li&gt;&lt;li&gt;Adobe will be promoting the book and the technology heavily -- priming the pump by giving the book away as a promotional tool to members of the development community&lt;/li&gt;&lt;li&gt;The perfect format for early adopters who don't want to wade through a huge book in order to play with an intriguing new technology&lt;/li&gt;&lt;li&gt;A perfect impulse buy for Flex developers&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:identifier rdf:resource="urn:isbn:9780596513917" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-12-16</dc:created>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Apollo for Adobe Flex Developers Pocket Guide</dc:title>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Mike Chambers, Rob Dixon, Jeff Swartz</om:byline>
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ADL</om:imprint_short_name>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Written by members of the Apollo product team and produced as part of the co-publication partnership between O'Reilly and the Adobe Developer Library, this book is the first official guide to the revolutionary new product from Adobe Labs. "Adobe Apollo Pocket Guide for Flex" explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework -- and why web developers will want to. The book explains concisely how Apollo works, and offers plenty of examples for Flex developers who want to start building RIAs for the desktop.&lt;/p&gt;</om:sellsheetHighlight>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596109288.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596551643.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596514365.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596102852.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-03-09</dc:issued>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:customerTitle xml:lang="en">Apollo for Adobe Flex Developers Pocket Guide</om:customerTitle>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/otherprogramming"/>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;web development&lt;/p&gt;</om:shelving>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1232"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;Written by members of the Apollo product team, this is the official guide to the Alpha release of Adobe Apollo, the new cross platform desktop runtime from Adobe Labs.&lt;br/&gt;&lt;br/&gt;&lt;em&gt;Apollo for Adobe Flex Developers Pocket Guide&lt;/em&gt; explains how to build and deploy Flash-based Rich Internet Applications (RIAs) to the desktop using Adobe's Flex framework. This book describes concisely how Apollo works, and offers numerous examples for those who want to start building RIAs for the desktop right away.&lt;br/&gt;&lt;br/&gt;
+Why put RIAs on the desktop? They're already supposed to offer the responsiveness of desktop programs. Unfortunately, web browsers were designed to deliver and display HTML-based documents, not applications. The conflict between document- and application-focused functionality creates several problems when deploying applications via the browser.&lt;br/&gt;&lt;br/&gt;
+Adobe Apollo gives you the best of both worlds -- the web development model and true desktop functionality. This pocket guide explains how to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Set up your development environment&lt;/li&gt;
+&lt;li&gt;Create your first application&lt;/li&gt;
+&lt;li&gt;Use the File I/O API&lt;/li&gt;
+&lt;li&gt;Use HTML within Flex-based Apollo applications&lt;/li&gt;
+&lt;li&gt;Use the included Apollo mini-cookbook for common tasks&lt;/li&gt;
+&lt;/ul&gt;
+The book also includes a guide to Apollo packages, classes, and command-line tools. Once you understand the basics of building a Flex-based Apollo application, this pocket guide makes an ideal reference for tackling specific problems.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Adobe Developer Library&lt;/b&gt; is a co-publishing partnership between O'Reilly Media and Adobe Systems, Inc. and is designed to produce the number one information resources for developers who use Adobe technologies. Created in 2006, the Adobe Developer Library is the official source for comprehensive learning solutions to help developers create expressive and interactive web applications that can reach virtually anyone on any platform. With top-notch books and innovative online resources covering the latest in rich Internet application development, the Adobe Developer Library offers expert training and in-depth resources, straight from the source.&lt;/div&gt;</dc:abstract>
+    
+    
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-02T18:24:11.501150+00:00</dc:modified>
+    
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">144 pages</dc:extent>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:sortableTitle xml:lang="en">apollo for adobe flex developers pocket guide</om:sortableTitle>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1447" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;This book is for developers interested in leveraging the Flex Framework to build and deploy Flash-based applications to the desktop via Apollo. The book assumes that readers have at least a basic familiarity with creating Flash-based applications and content using the Flex Framework and ActionScript 3.0.&lt;/p&gt;</om:audienceDescription>
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596513917.IP#om_displayableContributorList">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596513917.IP#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">Adobe Dev Library</om:imprint>
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2883/product-bio/urn:x-domain:oreilly.com:product:9780596513917.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:longBio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:webBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:16.129986+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2884/product-bio/urn:x-domain:oreilly.com:product:9780596513917.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:19.084112+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2882/product-bio/urn:x-domain:oreilly.com:product:9780596513917.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:19.602069+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers is Principal Product Manager for Developer Relations at Adobe, and has written extensively on building Rich Internet Applications.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers has spent the last 8 years building applications that target the Flash runtime. During that time, he has worked with numerous technologies including Flash, Generator, .NET, Central, Flex, and Ajax. He is currently the senior product manager for developer relations for Apollo.&lt;/p&gt;</om:longBio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers has spent the last 8 years building applications that target the Flash runtime. During that time, he has worked with numerous technologies including Flash, Generator, .NET, Central, Flex, and Ajax. He is currently the senior product manager for developer relations for Apollo.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2884/product-bio/urn:x-domain:oreilly.com:product:9780596514365.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596514365.PDF"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:17.137531+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2883/product-bio/urn:x-domain:oreilly.com:product:9780596514365.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:21.854937+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596514365.PDF"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2882/product-bio/urn:x-domain:oreilly.com:product:9780596514365.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers has spent the last 8 years building applications that target the Flash runtime. During that time, he has worked with numerous technologies including Flash, Generator, .NET, Central, Flex, and Ajax. He is currently the senior product manager for developer relations for Apollo.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596514365.PDF"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers is Principal Product Manager for Developer Relations at Adobe, and has written extensively on building Rich Internet Applications.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:19.861609+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2883/product-bio/urn:x-domain:oreilly.com:product:9780596513917.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:20.909843+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.BOOK"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2883"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:webBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Rob Dixon began developing Flash applications in 1998, back when Rich Internet Applications weren't nearly as well off. He is presently the Content Architect for the Platform Documentation group at Adobe.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2882/product-bio/urn:x-domain:oreilly.com:product:9780596513917.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:14.361429+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2882"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers has spent the last 8 years building applications that target the Flash runtime. During that time, he has worked with numerous technologies including Flash, Generator, .NET, Central, Flex, and Ajax. He is currently the senior product manager for developer relations for Apollo.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers has spent the last 8 years building applications that target the Flash runtime. During that time, he has worked with numerous technologies including Flash, Generator, .NET, Central, Flex, and Ajax. He is currently the senior product manager for developer relations for Apollo.&lt;/p&gt;</om:longBio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Mike Chambers has spent the last 8 years building applications that target the Flash runtime. During that time, he has worked with numerous technologies including Flash, Generator, .NET, Central, Flex, and Ajax. He is currently the senior product manager for developer relations for Apollo.&lt;/p&gt;</om:webBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2884/product-bio/urn:x-domain:oreilly.com:product:9780596513917.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2884"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:longBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596513917.IP"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:00:21.481685+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jeff Swartz first worked at Macromedia (now Adobe Systems) in 1992 and has participated in a number of multimedia and web software projects. He is currently the lead technical writer for the Apollo project.&lt;/p&gt;</om:webBio>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1232" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Dangler</foaf:surname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Phil Dangler</om:legalName>
+    <foaf:name xml:lang="en">Phil Dangler</foaf:name>
+    <foaf:givenname xml:lang="en">Phil</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-07T17:26:34.730182+00:00</dc:modified>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1414" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Michele Filshie</foaf:name>
+    <foaf:givenname xml:lang="en">Michele</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Filshie</foaf:surname>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:14:48.655788+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michele Filshie</om:legalName>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c405c9c0f47251ac1af12f6b7007e982b3bb8bcd</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1447" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:name xml:lang="en">Steven Weiss</foaf:name>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75ce103b85fbb64e46d9d52f1890e2e6720e8bf6</foaf:mbox_sha1sum>
+    
+    <foaf:givenname xml:lang="en">Steven</foaf:givenname>
+    <foaf:surname xml:lang="en">Weiss</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.843477+00:00</dc:modified>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Steven Weiss</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2160" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Abby</foaf:givenname>
+    
+    
+    <foaf:surname xml:lang="en">Fox</foaf:surname>
+    <foaf:name xml:lang="en">Abby Fox</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Abby Fox</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.830374+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e0a3c259eab73d83a6144019c9f2a97d39596536</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2882" xml:base="urn:x-domain:oreilly.com:agent:pdb:2882" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Mike Chambers</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Chambers</om:legalName><foaf:givenname>Mike</foaf:givenname><foaf:surname>Chambers</foaf:surname><foaf:homepage><foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2983"><dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/></foaf:Document></foaf:homepage><dc:modified xmlns:dc="http://purl.org/dc/terms/">2010-03-01T20:06:11.382569+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2883" xml:base="urn:x-domain:oreilly.com:agent:pdb:2883" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Rob Dixon</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Rob Dixon</om:legalName><foaf:givenname>Rob</foaf:givenname><foaf:surname>Dixon</foaf:surname><foaf:homepage><foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2984"><dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/></foaf:Document></foaf:homepage><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-08-17T21:35:59.958718+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2884" xml:base="urn:x-domain:oreilly.com:agent:pdb:2884" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Jeff Swartz</foaf:name><om:legalName xmlns:om="http://purl.oreilly.com/ns/meta/">Jeff Swartz</om:legalName><foaf:givenname>Jeff</foaf:givenname><foaf:surname>Swartz</foaf:surname><foaf:homepage><foaf:Document rdf:about="http://www.oreillynet.com/pub/au/2985"><dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/></foaf:Document></foaf:homepage><dc:modified xmlns:dc="http://purl.org/dc/terms/">2009-08-17T21:36:01.087846+00:00</dc:modified></foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person></rdf:RDF>

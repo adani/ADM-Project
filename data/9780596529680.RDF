@@ -1,0 +1,2299 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9781449377717.APP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Linux%2Cembedded%20system%2Cembedded%2CuClinux%2Creal-time" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/LIN" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:videoPreview xml:lang="en"/>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <dc:identifier rdf:resource="urn:isbn:9781449377717" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449377717.APP#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">4.99</rdf:value>
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:13:32.963150+00:00</dc:modified>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum&lt;/p&gt;
+&lt;p&gt;Published by O'Reilly Media (&lt;a href="http://oreilly.com/catalog/9780596529680/"&gt;http://oreilly.com/catalog/9780596529680&amp;#8203;/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. Building Embedded Linux Systems offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;/p&gt;
+&lt;p&gt;Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;/p&gt;
+&lt;p&gt;This indispensable book features arcane and previously undocumented procedures for:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt;Building your own GNU development toolchain&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using an efficient embedded development framework&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Creating a complete target root filesystem&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Setting up, manipulating, and using solid-state storage devices&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Installing and configuring a bootloader for the target&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cross-compiling a slew of utilities and packages&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;By presenting how to build the operating system components from pristine sources and how to find more documentation or help, Building Embedded Linux Systems greatly simplifies the task of keeping complete control over your embedded operating system.&lt;/p&gt;
+&lt;p&gt;Superb Reading Features&lt;/p&gt;
+&lt;p&gt;Through a partnership between O'Reilly Media and Lexcycle, this app includes the same features that have made Stanza an iPhone phenomenon with over a million downloads:
+&lt;em&gt; Full book text search
+&lt;/em&gt; Several fonts and themes to choose from
+&lt;em&gt; Built-in dictionary
+&lt;/em&gt; The ability to add annotations
+&lt;em&gt; Landscape view
+&lt;/em&gt; Extensive cross-referencing and working hyperlinks
+* Zoom function for images and screenshots&lt;/p&gt;
+&lt;p&gt;About O'Reilly Media&lt;/p&gt;
+&lt;p&gt;O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Whether it's delivered in print, online, or in person, everything O'Reilly produces reflects the company's unshakeable belief in the power of information to spur innovation. Learn more about Ebooks from O'Reilly at oreilly.com/ebooks.&lt;/p&gt;
+&lt;p&gt;About Lexcycle&lt;/p&gt;
+&lt;p&gt;Lexcycle is the creator of Stanza Bookbinder which was used to create this standalone book application. Stanza Bookbinder is based on the popular iPhone Ebook reading application, Stanza. For more information about Stanza, visit www.lexcycle.com.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:editionLabel xml:lang="en"/>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9781449377717.APP#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have an Availability Date before now.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9781449377717.APP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/itunes"/>
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/iPhoneApp" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596159085.EBOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:becauseOf xml:lang="en">An EBOOK or EarlyReleaseEbook must NOT have a media format.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596159085.EBOOK">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK:9780596159085.EBOOK#bundle-offer"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159085.EBOOK#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages commonly used.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:13:56.780935+00:00</dc:modified>
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-12-09</dc:created>
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596159085" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    
+    
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159085.EBOOK#price-GBR-01">
+        
+        
+        
+        <rdf:value xml:lang="en">28.50</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159085.EBOOK#price-USA-01">
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596159085.EBOOK#price-CAN-01">
+        
+        
+        
+        <rdf:value xml:lang="en">46.95</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596107758.MOBI" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages commonly used.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</dc:description>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596107758.MOBI#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596107758.MOBI#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Linux%2Cembedded%20system%2Cembedded%2CuClinux%2Creal-time" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/LIN" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    <dc:identifier rdf:resource="urn:isbn:9780596107758" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    
+    
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kindle"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:13:38.673465+00:00</dc:modified>
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:videoPreview xml:lang="en"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596107758.MOBI">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596529680.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    <marcrel:MRK rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1655" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Embedded systems developers, and intermediate to advanced Linux programmers looking to move into the embedded systems field.&lt;/p&gt;</om:audienceDescription>
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Linux%2Cembedded%20system%2Cembedded%2CuClinux%2Creal-time">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">Linux,embedded system,embedded,uClinux,real-time</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#price-GBE-01">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">40.00</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#price-GBR-01">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">38.50</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#price-CAN-01">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">49.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#price-USA-01">
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">49.99</rdf:value>
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+      </om:PerUnit>
+    </om:price>
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1619" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:discount rdf:resource="http://purl.oreilly.com/discounts/2008/short"/>
+    
+    
+    
+    
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#printings">
+        <rdf:_2>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#WO-8294">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-03-01T00:00:00</om:endNewStatus>
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-22</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-12-21</dc:issued>
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_2>
+        <rdf:_4>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#WO-14135">
+            
+            
+            
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-01T00:00:00</om:endNewStatus>
+            <om:binding xml:lang="en">Perfect</om:binding>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2011-02-07</dc:issued>
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+            
+            
+            
+          </om:Printing>
+        </rdf:_4>
+        <rdf:_3>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#WO-9207">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-01T00:00:00</om:endNewStatus>
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-12</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2010-12-24</dc:issued>
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_3>
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#WO-7365">
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:endNewStatus>
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-19</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-08-15</dc:issued>
+            
+            
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Building Embedded Linux Systems (ISBN13: 978-0596002220)&lt;/p&gt;</om:willSellLike>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:14:00.517075+00:00</dc:modified>
+    
+    
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    
+    
+    <om:includedIn>
+      
+    </om:includedIn>
+    <om:includedIn>
+      
+    </om:includedIn>
+    
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    
+    
+    
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Linux&lt;/p&gt;</om:shelving>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages commonly used.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</dc:description>
+    
+    
+    
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    
+    
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1226"/>
+    
+    
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.052968" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596529680" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:CRR rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1231" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:binding xml:lang="en">Perfect</om:binding>
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-08-15</dc:issued>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/9780596529680_cat.gif"/>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <marcrel:DRM rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1219" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#creator">
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    
+    
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">7 x 9.1875 in</dc:format>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:endNewStatus>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/ENG"/>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Written by leading members of the embedded Linux community, this updated book explains how to design and build embedded systems using Linux as the kernel and freely available open source tools as the framework. The book is structured to gradually introduce readers to the intricacies of embedded Linux, with detailed information and examples in each chapter that culminate in describing how Linux is actually put on an embedded device.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-15</om:estimatedIssue>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Thoroughly updated edition of a strong-selling title&lt;/li&gt;&lt;li&gt;The roster of authors includes leading figures in the embedded Linux field&lt;/li&gt;&lt;li&gt;Linux is an O'Reilly strength with 11 books among top sellers in the category&lt;/li&gt;&lt;li&gt;Embedded microprocessors continues to be an expanding field&lt;/li&gt;&lt;li&gt;This new edition includes an introduction to "real-time" with a discussion of real-time options for Linux&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">464 pages</dc:extent>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.BOOK#printing-status">
+        
+        <rdf:value xml:lang="en">Print on Demand</rdf:value>
+      </rdf:Description>
+    </om:printingStatus>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046070">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Linux</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    <om:prodeditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3104"/>
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Embedded Linux Primer: A Practical Real-World Approach, By Christopher Hallinan, Prentice Hall, September 2006, ISBN-10: 0131679848, ISBN-13: 978-0131679849, 576 pages, $44.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596529680.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-09-08</dc:created>
+    
+    
+    
+    
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    
+    
+    <om:tagline xml:lang="en">Concepts, techniques, tricks, and traps</om:tagline>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596555054.EPUB" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages commonly used.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</dc:description>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:beginUpcomingStatus>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596555054.EPUB#creator">
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+      </rdf:Seq>
+    </dc:creator>
+    <dc:subject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM051000" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://oreilly.com/pdb/legacy/programSubject/LIN" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject rdf:resource="http://purl.oreilly.com/onix/keywords/Linux%2Cembedded%20system%2Cembedded%2CuClinux%2Creal-time" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-01T00:00:00</om:endNewStatus>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596555054.EPUB#price-USA-01">
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596555054.EPUB">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    
+    <om:editionLabel xml:lang="en"/>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:13:46.542210+00:00</dc:modified>
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2009-02-09</dc:issued>
+    <dc:identifier rdf:resource="urn:isbn:9780596555054" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/books_on_board"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/google"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ecarrel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bookglutton"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/diesel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_aldiko"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/immat%C3%A9riel"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ibookstore"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/woodslane"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/entourage_edge"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/legacy_stanza"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/barnes_and_noble"/>
+    
+    
+    
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    
+    
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596529680.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-08-12</dc:issued>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:endNewStatus>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529680.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/9780596529680</dc:identifier>
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/9780596529680"/>
+      </om:Subscription>
+    </om:price>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:14:19.300167+00:00</dc:modified>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:beginUpcomingStatus>
+    <om:editionLabel xml:lang="en"/>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    
+    
+    
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:videoPreview xml:lang="en"/>
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+There's a great deal of excitement surrounding the use of Linux in
+embedded systems -- for everything from cell phones to car ABS
+systems and water-filtration plants -- but not a lot of practical
+information. &lt;emphasis&gt;Building Embedded Linux Systems&lt;/emphasis&gt; offers an
+in-depth, hard-core guide to putting together embedded systems
+based on Linux.
+
+Updated for the latest version of the Linux kernel, this new
+edition gives you the basics of building embedded Linux systems,
+along with the configuration, setup, and use of more than 40
+different open source and free software packages in common use. The
+book also looks at the strengths and weaknesses of using Linux in
+an embedded system, plus a discussion of licensing issues, and an
+introduction to real-time, with a discussion of real-time options
+for Linux.
+
+This indispensable book features arcane and previously undocumented
+procedures for:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Building your own GNU development toolchain&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Using an efficient embedded development framework&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Selecting, configuring, building, and installing a
+target-specific kernel&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Creating a complete target root filesystem&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Setting up, manipulating, and using solid-state storage
+devices&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Installing and configuring a bootloader for the target&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Cross-compiling a slew of utilities and packages&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Debugging your embedded system using a plethora of tools and
+techniques&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp,
+strace, and gdb packages&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;By presenting how to build the operating system components from
+pristine sources and how to find more documentation or help,
+&lt;emphasis&gt;Building Embedded Linux Systems&lt;/emphasis&gt; greatly simplifies the
+task of keeping complete control over your embedded operating
+system.&lt;/para&gt;&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046070"/>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596154882.PDF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596154882.PDF#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596154882.PDF#WO-7489">
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-08-14</dc:issued>
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-11-01T00:00:00</om:endNewStatus>
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-01T00:00:00</om:beginUpcomingStatus>
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-01T00:00:00</om:endNewStatus>
+    
+    
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-08-11</om:estimatedIssue>
+    
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">464 pages (est.)</dc:extent>
+    
+    
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    
+    
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-12-01</dc:issued>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.015488" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596154882" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-09-01T00:00:00</om:beginUpcomingStatus>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:14:17.308373+00:00</dc:modified>
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596154882.PDF">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">application/pdf</dc:format>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages commonly used.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</dc:description>
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/dawson"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/scribd"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebookpie"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/examville"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/paperc"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ebooks_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/follett"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon_edocs"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/kobo"/>
+    
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596154882.PDF#price-GBR-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">30.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596154882.PDF#price-CAN-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">46.95</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596154882.PDF#price-USA-01">
+        
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+        
+        
+        
+        <rdf:value xml:lang="en">39.99</rdf:value>
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+      </om:PerUnit>
+    </om:price>
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596154882.PDF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+      </rdf:Seq>
+    </dc:creator>
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2008-08-11</dc:created>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596529680.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596529680">
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2007-09-29</dc:issued>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-01T00:00:00</om:endNewStatus>
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-01T00:00:00</om:beginUpcomingStatus>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:337" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596555054.EPUB" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596159085.EBOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596107758.MOBI" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9781449377717.APP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596154882.PDF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/resource-center/hardware-engineering" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/Linux%2Cembedded%20system%2Cembedded%2CuClinux%2Creal-time">
+        <rdf:value xml:lang="en">Linux,embedded system,embedded,uClinux,real-time</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM051000">
+        <dc:title xml:lang="en">COMPUTERS / Programming / General</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <dc:replaces rdf:resource="urn:isbn:9780596002220" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2113" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:tagline xml:lang="en">Concepts, techniques, tricks, and traps</om:tagline>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-07-23T21:14:03.759536+00:00</dc:modified>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.IP#creator">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/linux-and-unix"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046070">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Linux</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:inPracticeAreaName xml:lang="en">Code</om:inPracticeAreaName>
+    
+    
+    
+    
+    <om:byline xml:lang="en">By Karim Yaghmour, Jon Masters, Gilad Ben-Yossef, Philippe Gerum</om:byline>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;&lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages commonly used.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;</dc:description>
+    
+    <om:willSellLike rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Building Embedded Linux Systems (9780596002220)&lt;/p&gt;</om:willSellLike>
+    <om:editionLabel xml:lang="en">2nd Edition</om:editionLabel>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1584"/>
+    <om:sellsheetHighlight rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Written by leading members of the embedded Linux community, this updated book explains how to design and build embedded systems using Linux as the kernel and freely available open source tools as the framework. The book is structured to gradually introduce readers to the intricacies of embedded Linux, with detailed information and examples in each chapter that culminate in describing how Linux is actually put on an embedded device.&lt;/p&gt;</om:sellsheetHighlight>
+    
+    
+    
+    
+    
+    <om:customerTitle xml:lang="en">Building Embedded Linux Systems, 2nd Edition</om:customerTitle>
+    
+    
+    <om:competition rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Embedded Linux Primer: A Practical Real-World Approach, By Christopher Hallinan, Prentice Hall, September 2006, ISBN-10: 0131679848, ISBN-13: 978-0131679849, 576 pages, $44.99&lt;/li&gt;&lt;li&gt;Linux Phrasebook, By Scott Granneman, Sams, June 2006, ISBN-10: 0672328380, ISBN-13: 978-0672328381, 400 pages, $16.99&lt;/li&gt;&lt;/ol&gt;</om:competition>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    
+    
+    <om:sortableTitle xml:lang="en">building embedded linux systems</om:sortableTitle>
+    
+    
+    
+    <om:audienceDescription rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Embedded systems developers, and intermediate to advanced Linux programmers looking to move into the embedded systems field.&lt;/p&gt;</om:audienceDescription>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">2</mods:edition>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2008-08-15</dc:issued>
+    <om:discount rdf:resource="http://purl.oreilly.com/discounts/2008/short"/>
+    <om:sellingPoints rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;ol&gt;&lt;li&gt;Thoroughly updated edition of a strong-selling title&lt;/li&gt;&lt;li&gt;The roster of authors includes leading figures in the embedded Linux field&lt;/li&gt;&lt;li&gt;Linux is an O'Reilly strength with 11 books among top sellers in the category&lt;/li&gt;&lt;li&gt;Embedded microprocessors continues to be an expanding field&lt;/li&gt;&lt;li&gt;This new edition includes an introduction to "real-time" with a discussion of real-time options for Linux&lt;/li&gt;&lt;/ol&gt;</om:sellingPoints>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Linux&lt;/p&gt;</om:shelving>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Building Embedded Linux Systems</dc:title>
+    
+    
+    <om:inPracticeAreaID xml:lang="en">4</om:inPracticeAreaID>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3266"/>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">552 pages (est.)</dc:extent>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Karim Yaghmour and Jon Masters</dc:rightsHolder>
+    
+    
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596529680.IP#om_displayableContributorList">
+        <rdf:_3 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+        <rdf:_2 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+        <rdf:_4 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2006-09-08</dc:created>
+    
+    
+    
+    <om:videoPreview xml:lang="en"/>
+    
+    
+    
+    <om:videoTableOfContents xml:lang="en"/>
+    
+    
+    
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596529680.IP#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <dc:relation rdf:resource="urn:isbn:9780596009304" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005658" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596005900" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:editorTitle xml:lang="en">Building Embedded Linux Systems, 2E</om:editorTitle>
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596529680.IP">
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/ENG"/>
+    
+    
+    
+    <om:asciiTitle xml:lang="en">Building Embedded Linux Systems</om:asciiTitle>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;There's a great deal of excitement surrounding the use of Linux in embedded systems -- for everything from cell phones to car ABS systems and water-filtration plants -- but not a lot of practical information. &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; offers an in-depth, hard-core guide to putting together embedded systems based on Linux. &lt;br/&gt;&lt;br/&gt;
+Updated for the latest version of the Linux kernel, this new edition gives you the basics of building embedded Linux systems, along with the configuration, setup, and use of more than 40 different open source and free software packages in common use. The book also looks at the strengths and weaknesses of using Linux in an embedded system, plus a discussion of licensing issues, and an introduction to real-time, with a discussion of real-time options for Linux.&lt;br/&gt;&lt;br/&gt;
+This indispensable book features arcane and previously undocumented procedures for:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Building your own GNU development toolchain&lt;/li&gt;
+&lt;li&gt;Using an efficient embedded development framework&lt;/li&gt;
+&lt;li&gt;Selecting, configuring, building, and installing a target-specific kernel&lt;/li&gt;
+&lt;li&gt;Creating a complete target root filesystem&lt;/li&gt;
+&lt;li&gt;Setting up, manipulating, and using solid-state storage devices&lt;/li&gt;
+&lt;li&gt;Installing and configuring a bootloader for the target&lt;/li&gt;
+&lt;li&gt;Cross-compiling a slew of utilities and packages&lt;/li&gt;
+&lt;li&gt;Debugging your embedded system using a plethora of tools and techniques&lt;/li&gt;
+&lt;li&gt;Using the uClibc, BusyBox, U-Boot, OpenSSH, thttpd, tftp, strace, and gdb packages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+By presenting how to build the operating system components from pristine sources and how to find more documentation or help, &lt;em&gt;Building Embedded Linux Systems&lt;/em&gt; greatly simplifies the task of keeping complete control over your embedded operating system.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/Code"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596529680" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:559/product-bio/urn:x-domain:oreilly.com:product:9780596529680.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:57.232831+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Karim Yaghmour is the founder and president of Opersys, a company providing expertise and courses on the use of open source and free software in embedded systems.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Karim Yaghmour is the founder and president of Opersys, a company providing expertise and courses on the use of open source and free software in embedded systems, and Kryptiva, a a provider of email  security services. Being himself an active member of the open source and free software community, Karim has firmly established Opersys's services around the core values of knowledge sharing and technical quality promoted by this community. As part of his community involvement, Karim is the maintainer of the Linux Trace Toolkit and the author of a series of white-papers that led to the implementation of the Adeos nanokernel, which allows multiple operating systems to exist side-by-side.&lt;br/&gt;&lt;br/&gt;
+Karim's quest for understanding how things work started at a very
+young age when he took it upon himself to break open all the radios
+and cassette players he could lay his hands on in order to "fix"
+them. Very early, he developed a keen interest in operating system
+internals and embedded systems. He now holds a B.Eng. and an
+M.A.Sc. from the Ecole Polytechnique de Montreal. While everyone
+was hacking away at Linux, Karim even took a detour to write his own
+distributed micro-kernel in order to get to the bottom of operating
+system design and implementation. When not working on software, Karim
+indulges in his passion for history, philosophy, sociology, and
+humanities in general. He's especially addicted to essays and novels
+by Umberto Eco and Gerald Messadie.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2727/product-bio/urn:x-domain:oreilly.com:product:9780596529680.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Philippe Gerum is the founder and maintainer of the Adeos and Xenomai projects.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Philippe Gerum is the founder and maintainer of the Adeos and Xenomai projects.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:57.729292+00:00</dc:modified>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Philippe Gerum is the founder and maintainer of the Adeos and Xenomai projects.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:3004/product-bio/urn:x-domain:oreilly.com:product:9780596529680.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3004"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Michael Opdenacker is the founder of Free Electrons, a company
+supporting individuals and organizations creating embedded systems based on Free Software, and the creator of many training materials on driver development, real-time, and embedded systems.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:56.964839+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Michael Opdenacker is the founder of Free Electrons, and the creator of training materials on driver development, real-time, and embedded systems.&lt;/p&gt;</om:bio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Michael Opdenacker is the founder of Free Electrons, a company
+supporting individuals and organizations creating embedded systems based on Free Software, and the creator of many training materials on driver development, real-time, and embedded systems.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:559/product-bio/urn:x-domain:oreilly.com:product:9780596529680.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:559"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP"/>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Karim Yaghmour is the founder and president of Opersys, a company providing expertise and courses on the use of open source and free software in embedded systems.&lt;/p&gt;</om:bio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:53.683062+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Karim Yaghmour is the founder and president of Opersys, a company providing expertise and courses on the use of open source and free software in embedded systems, and Kryptiva, a a provider of email  security services. Being himself an active member of the open source and free software community, Karim has firmly established Opersys's services around the core values of knowledge sharing and technical quality promoted by this community. As part of his community involvement, Karim is the maintainer of the Linux Trace Toolkit and the author of a series of white-papers that led to the implementation of the Adeos nanokernel, which allows multiple operating systems to exist side-by-side.&lt;br/&gt;&lt;br/&gt;
+Karim's quest for understanding how things work started at a very
+young age when he took it upon himself to break open all the radios
+and cassette players he could lay his hands on in order to "fix"
+them. Very early, he developed a keen interest in operating system
+internals and embedded systems. He now holds a B.Eng. and an
+M.A.Sc. from the Ecole Polytechnique de Montreal. While everyone
+was hacking away at Linux, Karim even took a detour to write his own
+distributed micro-kernel in order to get to the bottom of operating
+system design and implementation. When not working on software, Karim
+indulges in his passion for history, philosophy, sociology, and
+humanities in general. He's especially addicted to essays and novels
+by Umberto Eco and Gerald Messadie.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2727/product-bio/urn:x-domain:oreilly.com:product:9780596529680.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Philippe Gerum is the founder and maintainer of the Adeos and Xenomai projects.&lt;/p&gt;</om:webBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Philippe Gerum is the founder and maintainer of the Adeos and Xenomai projects.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2727"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Philippe Gerum is the founder and maintainer of the Adeos and Xenomai projects.&lt;/p&gt;</om:longBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:52.724200+00:00</dc:modified>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:3005/product-bio/urn:x-domain:oreilly.com:product:9780596529680.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:57.065835+00:00</dc:modified>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Gilad Ben-Yossef is the cofounder and CTO of Codefidence TD. and has been assisting OEMs make use of free and open source software in commercial products and services since 1998. He is also cofounder of Hamakor, an NPO devoted to the promotion of FOSS in Israel, and a founding organizer of "August Penguin," an Israeli community FOSS conference.&lt;br/&gt;&lt;br/&gt;
+Gilad is a member of the Israeli chapter of Mensa, the Israeli Information Technology Association and the Israeli chapter of the Internet Society. He holds a B.A. in Computer Science from Tel-Aviv Jaffa Academic College.&lt;br/&gt;&lt;br/&gt;
+When not trying to make FOSS software do something the authors never intended, Gilad likes to SCUBA dive, read science fiction and spend time with his wife Limor and his and two adorable girls, Almog and Yael.&lt;/p&gt;</om:webBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Gilad Ben-Yossef is the cofounder and CTO of Codefidence TD. and has been assisting OEMs make use of free and open source software in commercial products and services since 1998. He is also cofounder of Hamakor, an NPO devoted to the promotion of FOSS in Israel, and a founding organizer of "August Penguin," an Israeli community FOSS conference.&lt;/p&gt;</om:bio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Gilad Ben-Yossef is the cofounder and CTO of Codefidence TD. and has been assisting OEMs make use of free and open source software in commercial products and services since 1998. He is also cofounder of Hamakor, an NPO devoted to the promotion of FOSS in Israel, and a founding organizer of "August Penguin," an Israeli community FOSS conference.&lt;br/&gt;&lt;br/&gt;
+Gilad is a member of the Israeli chapter of Mensa, the Israeli Information Technology Association and the Israeli chapter of the Internet Society. He holds a B.A. in Computer Science from Tel-Aviv Jaffa Academic College.&lt;br/&gt;&lt;br/&gt;
+When not trying to make FOSS software do something the authors never intended, Gilad likes to SCUBA dive, read science fiction and spend time with his wife Limor and his and two adorable girls, Almog and Yael.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2726/product-bio/urn:x-domain:oreilly.com:product:9780596529680.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:57.153333+00:00</dc:modified>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jonathan Masters works on the Linux kernel for Red Hat.&lt;/p&gt;</om:bio>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jonathan Masters works on the Linux kernel for Red Hat.&lt;/p&gt;</om:webBio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jonathan Masters works on the Linux kernel for Red Hat.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:2726/product-bio/urn:x-domain:oreilly.com:product:9780596529680.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jonathan Masters works on the Linux kernel for Red Hat.&lt;/p&gt;</om:webBio>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:54.718463+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jonathan Masters works on the Linux kernel for Red Hat.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Jonathan Masters works on the Linux kernel for Red Hat.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.IP"/>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:2726"/>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:3005/product-bio/urn:x-domain:oreilly.com:product:9780596529680.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Gilad Ben-Yossef is the cofounder and CTO of Codefidence TD. and has been assisting OEMs make use of free and open source software in commercial products and services since 1998. He is also cofounder of Hamakor, an NPO devoted to the promotion of FOSS in Israel, and a founding organizer of "August Penguin," an Israeli community FOSS conference.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596529680.BOOK"/>
+    <om:webBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Gilad Ben-Yossef is the cofounder and CTO of Codefidence TD. and has been assisting OEMs make use of free and open source software in commercial products and services since 1998. He is also cofounder of Hamakor, an NPO devoted to the promotion of FOSS in Israel, and a founding organizer of "August Penguin," an Israeli community FOSS conference.&lt;br/&gt;&lt;br/&gt;
+Gilad is a member of the Israeli chapter of Mensa, the Israeli Information Technology Association and the Israeli chapter of the Internet Society. He holds a B.A. in Computer Science from Tel-Aviv Jaffa Academic College.&lt;br/&gt;&lt;br/&gt;
+When not trying to make FOSS software do something the authors never intended, Gilad likes to SCUBA dive, read science fiction and spend time with his wife Limor and his and two adorable girls, Almog and Yael.&lt;/p&gt;</om:webBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:3005"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:55.254865+00:00</dc:modified>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Gilad Ben-Yossef is the cofounder and CTO of Codefidence TD. and has been assisting OEMs make use of free and open source software in commercial products and services since 1998. He is also cofounder of Hamakor, an NPO devoted to the promotion of FOSS in Israel, and a founding organizer of "August Penguin," an Israeli community FOSS conference.&lt;br/&gt;&lt;br/&gt;
+Gilad is a member of the Israeli chapter of Mensa, the Israeli Information Technology Association and the Israeli chapter of the Internet Society. He holds a B.A. in Computer Science from Tel-Aviv Jaffa Academic College.&lt;br/&gt;&lt;br/&gt;
+When not trying to make FOSS software do something the authors never intended, Gilad likes to SCUBA dive, read science fiction and spend time with his wife Limor and his and two adorable girls, Almog and Yael.&lt;/p&gt;</om:longBio>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1219" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:20:24.991939+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Jessamyn</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jessamyn Read</om:legalName>
+    <foaf:surname xml:lang="en">Read</foaf:surname>
+    
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b7e9ad52319edcb866c221df1e4c9879079206e6</foaf:mbox_sha1sum>
+    
+    <foaf:name xml:lang="en">Jessamyn Read</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1226" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Joe Wizda</om:legalName>
+    
+    <foaf:surname xml:lang="en">Wizda</foaf:surname>
+    <foaf:name xml:lang="en">Joe Wizda</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:20:11.123891+00:00</dc:modified>
+    
+    <foaf:givenname xml:lang="en">Joe</foaf:givenname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1231" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Genevieve</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Genevieve d'Entremont</om:legalName>
+    <foaf:name xml:lang="en">Genevieve d'Entremont</foaf:name>
+    <foaf:surname xml:lang="en">d'Entremont</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:52.023736+00:00</dc:modified>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3104" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Loranah Dimant</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:54.571499+00:00</dc:modified>
+    
+    <foaf:surname xml:lang="en">Dimant</foaf:surname>
+    
+    <foaf:name xml:lang="en">Loranah Dimant</foaf:name>
+    <foaf:givenname xml:lang="en">Loranah</foaf:givenname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2113" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:givenname xml:lang="en">Mary</foaf:givenname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mary Treseler</om:legalName>
+    <foaf:name xml:lang="en">Mary Treseler</foaf:name>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1a4614208913feeef6c73c275319ec58d3ee1fde</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-26T19:00:04.902558+00:00</dc:modified>
+    
+    
+    <foaf:surname xml:lang="en">Treseler</foaf:surname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1619" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Karen Montgomery</foaf:name>
+    <foaf:surname xml:lang="en">Montgomery</foaf:surname>
+    <foaf:givenname xml:lang="en">Karen</foaf:givenname>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karen Montgomery</om:legalName>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.834810+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">865f2d87b7fb042262f548642ef46f326fa23f44</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1655" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Keith</foaf:givenname>
+    <foaf:surname xml:lang="en">Fahlgren</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.832383+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Keith Fahlgren</om:legalName>
+    <foaf:name xml:lang="en">Keith Fahlgren</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3005" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:57.328726+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Gilad</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/3078">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Gilad Ben-Yossef</om:legalName>
+    <foaf:surname xml:lang="en">Ben-Yossef</foaf:surname>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fd7a6728b4c4b44021550420fb1241d1077c6f8d</foaf:mbox_sha1sum>
+    <foaf:name xml:lang="en">Gilad Ben-Yossef</foaf:name>
+    
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:337" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:48.019055+00:00</dc:modified>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/36">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Andy Oram</om:legalName>
+    <foaf:givenname xml:lang="en">Andy</foaf:givenname>
+    
+    
+    <foaf:name xml:lang="en">Andy Oram</foaf:name>
+    <foaf:surname xml:lang="en">Oram</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400047f81bb9491c4ec647a054dbbfd257c9d0b3</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3266" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Quann</foaf:surname>
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jacque Quann</om:legalName>
+    <foaf:name xml:lang="en">Jacque Quann</foaf:name>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:53.827696+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Jacque</foaf:givenname>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:559" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-06-04T21:40:36.090652+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">97031f4472fb7f5d64f0c3a9befd0df3a56c144e</foaf:mbox_sha1sum>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/1113">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Karim Yaghmour</om:legalName>
+    <foaf:name xml:lang="en">Karim Yaghmour</foaf:name>
+    
+    
+    <foaf:givenname xml:lang="en">Karim</foaf:givenname>
+    <foaf:surname xml:lang="en">Yaghmour</foaf:surname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2726" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Jon Masters</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:57.630550+00:00</dc:modified>
+    <foaf:surname xml:lang="en">Masters</foaf:surname>
+    
+    <foaf:givenname xml:lang="en">Jon</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c5d22ddfd559b553408c352209c26e9e57529373</foaf:mbox_sha1sum>
+    
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/3074">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:name xml:lang="en">Jon Masters</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:2727" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Philippe Gerum</foaf:name>
+    <foaf:surname xml:lang="en">Gerum</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40188956e0b31e6a2c550d69bade00af58e29880</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Philippe Gerum</om:legalName>
+    
+    <foaf:givenname xml:lang="en">Philippe</foaf:givenname>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/3075">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-26T23:39:54.605178+00:00</dc:modified>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1584" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Greg</foaf:givenname>
+    <foaf:name xml:lang="en">Greg Corrin</foaf:name>
+    
+    
+    
+    <foaf:surname xml:lang="en">Corrin</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">817b17b5811b7c341137104079baa5fd68d703c5</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:10:47.894374+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Greg Corrin</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1061" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7c85b6c31909dd077dd14d79191fc08856adc76e</foaf:mbox_sha1sum>
+    <foaf:surname xml:lang="en">Petrycki</foaf:surname>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:12:37.900360+00:00</dc:modified>
+    <foaf:name xml:lang="en">Laurie Petrycki</foaf:name>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Laurie Petrycki</om:legalName>
+    <foaf:givenname xml:lang="en">Laurie</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person></rdf:RDF>

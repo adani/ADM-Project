@@ -1,0 +1,970 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596008628.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-01T00:00:00</om:beginUpcomingStatus>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1415"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1217"/>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-15T22:03:20.603680+00:00</dc:modified>
+    
+    
+    
+    
+    
+    <dc:identifier rdf:resource="urn:isbn:9780596008628" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier rdf:resource="urn:epc:id:gtin:0636920.000862" xmlns:dc="http://purl.org/dc/terms/"/>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596008628.BOOK">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-11-23</dc:issued>
+    
+    
+    
+    
+    
+    <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-11-01</om:estimatedIssue>
+    
+    
+    
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2004-07-19</dc:created>
+    
+    
+    
+    
+    
+    
+    
+    <om:printings>
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#printings">
+        <rdf:_1>
+          <om:Printing rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#WO-2566">
+            
+            <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-01T00:00:00</om:beginUpcomingStatus>
+            
+            
+            
+            <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Windows XP Personal Trainer</dc:title>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <om:binding xml:lang="en">RepKover</om:binding>
+            
+            
+            
+            
+            <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-01T00:00:00</om:endNewStatus>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-11-23</dc:issued>
+            
+            
+            
+            <om:estimatedIssue rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-11-22</om:estimatedIssue>
+            
+            
+            
+            
+            
+            
+            
+            
+          </om:Printing>
+        </rdf:_1>
+      </rdf:Seq>
+    </om:printings>
+    
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Do you find the multitude of features and functionality in Windows XP a little baffling? This fully illustrated book focuses on the key Windows XP muscle groups to help you learn basics like working with programs, managing files and folders, customizing windows, optimizing and maintaining your computer and networking with Windows XP. It's written in a non-technical and engaging style that you will find fun, easy, clear and informative. Includes an interactive CD.&lt;/p&gt;</dc:description>
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">480 pages</dc:extent>
+    
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596008628.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:rights xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#right-1">
+        <dc:spatial xml:lang="en">World</dc:spatial>
+      </rdf:Description>
+    </dc:rights>
+    
+    <om:asciiTitle xml:lang="en">Windows XP Personal Trainer</om:asciiTitle>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:includedIn>
+      
+    </om:includedIn>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    
+    
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    
+    
+    
+    
+    
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1067" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1218" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/windows%20xp%2C">
+        <rdf:value xml:lang="en">windows xp,</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </dc:subject>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1215"/>
+    
+    
+    
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-01T00:00:00</om:endNewStatus>
+    <dc:format xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">8 x 10 in</dc:format>
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Windows XP Personal Trainer</dc:title>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <dc:hasPart xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:hasPart>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    
+    
+    
+    <om:editorTitle xml:lang="en">Windows XP Personal Trainer</om:editorTitle>
+    
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    <om:byline xml:lang="en">By CustomGuide, Inc.</om:byline>
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596008627_cat.gif"/>
+    
+    
+    <om:binding xml:lang="en">RepKover</om:binding>
+    <om:customerTitle xml:lang="en">Windows XP Personal Trainer</om:customerTitle>
+    
+    <om:printingStatus>
+      <rdf:Description rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#printing-status">
+        <rdf:value xml:lang="en">Normal</rdf:value>
+        
+      </rdf:Description>
+    </om:printingStatus>
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Windows Applications&lt;/p&gt;</om:shelving>
+    
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:419" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#price-GBE">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBE</dc:spatial>
+        
+        <rdf:value xml:lang="en">24.00</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#price-USA">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">USA</dc:spatial>
+        
+        <rdf:value xml:lang="en">29.95</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#price-CAN">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">CAN</dc:spatial>
+        
+        <rdf:value xml:lang="en">43.95</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:price>
+      <om:PerUnit rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.BOOK#price-GBR">
+        
+        
+        
+        
+        <dc:spatial xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">GBR</dc:spatial>
+        
+        <rdf:value xml:lang="en">22.99</rdf:value>
+        
+        <om:currency rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</om:currency>
+        
+        
+      </om:PerUnit>
+    </om:price>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/roodveldt"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/ingram"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazon"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/staging"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/genzmag"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/hbfenn"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/amazonuk"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bowker"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/bds"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/open_library"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046040">
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Windows Workstation</dc:title>
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/windows"/>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1414"/>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;The most widely used operating system in the world, XP is certainly the most reliable and best-looking version of Windows. But it comes with a baffling multitude of features and functionality that you'll struggle to understand--despite all of the hours you've logged with Windows 2000, Windows Me, 98 or 95. And if you're a beginner, where do you start?&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; enables beginners and experts alike to become black belts, quickly and easily. This fully illustrated book takes a modular approach to learning, allowing you to start with the fundamentals and work your way to advance topics through dozens of task-oriented lessons--at your own pace. The companion CD tutorial guides you through each lesson interactively.&lt;/p&gt;
+&lt;p&gt;With plenty of detailed diagrams, &lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; includes sections on:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Working with Windows
+&lt;/li&gt;&lt;li&gt;Using the programs included with Windows XP (such as Media Player)
+&lt;/li&gt;&lt;li&gt;Organizing files and folders
+&lt;/li&gt;&lt;li&gt;Modifying the taskbar and desktop
+&lt;/li&gt;&lt;li&gt;Customizing Windows XP
+&lt;/li&gt;&lt;li&gt;Optimizing and maintaining the operating system
+&lt;/li&gt;&lt;li&gt;Exploring the Internet
+&lt;/li&gt;&lt;li&gt;Networking with Windows XP&lt;/li&gt;&lt;/ul&gt;
+If you already have experience with Windows XP, you can dive right into those topics (and only those topics) that you need or want to learn. Unlike many consumer software tutorials that dumb down the material or present it in a confusing fashion, &lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; is written in a non-technical and engaging style that you will find fun, easy, and most of all, clear and informative. You can become proficient without wading through tons of jargon and technical information. 
+&lt;p&gt;Part of our new Personal Trainer Series, this book is based on content from CustomGuide (&lt;a href="http://www.customguide.com"&gt;www.customguide.com&lt;/a&gt;), a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, to software bulletins and e-learning courses that are fun, flexible, and easy to use. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <om:sortableTitle xml:lang="en">windows xp personal trainer</om:sortableTitle>
+    
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:0596008627.SAF" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596008627.SAF#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1415"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2004-07-19</dc:created>
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;para&gt;
+The most widely used operating system in the world, XP is certainly
+the most reliable and best-looking version of Windows. But it comes
+with a baffling multitude of features and functionality that you'll
+struggle to understand--despite all of the hours you've logged with
+Windows 2000, Windows Me, 98 or 95. And if you're a beginner, where
+do you start? &lt;emphasis&gt;Windows XP Personal Trainer&lt;/emphasis&gt; enables beginners
+and experts alike to become black belts, quickly and easily. This
+fully illustrated book takes a modular approach to learning,
+allowing you to start with the fundamentals and work your way to
+advance topics through dozens of task-oriented lessons--at your own
+pace. The companion CD tutorial guides you through each lesson
+interactively. With plenty of detailed diagrams, &lt;emphasis&gt;Windows XP
+Personal Trainer&lt;/emphasis&gt; includes sections on:
+&lt;/para&gt;&lt;p&gt;&lt;itemizedlist&gt;&lt;listitem&gt;&lt;para&gt;Working with Windows&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Using the programs included with Windows XP (such as Media
+Player)&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Organizing files and folders&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Modifying the taskbar and desktop&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Customizing Windows XP&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Optimizing and maintaining the operating system&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Exploring the Internet&lt;/para&gt;&lt;/listitem&gt;&lt;listitem&gt;&lt;para&gt;Networking with Windows XP&lt;/para&gt;&lt;/listitem&gt;&lt;/itemizedlist&gt;&lt;para&gt;
+If you already have experience with Windows XP, you can dive right
+into those topics (and only those topics) that you need or want to
+learn. Unlike many consumer software tutorials that dumb down the
+material or present it in a confusing fashion, &lt;emphasis&gt;Windows XP
+Personal Trainer&lt;/emphasis&gt; is written in a non-technical and engaging
+style that you will find fun, easy, and most of all, clear and
+informative. You can become proficient without wading through tons
+of jargon and technical information. Part of our new Personal
+Trainer Series, this book is based on content from CustomGuide
+(&lt;ulink url="http://www.customguide.com"&gt;www.customguide.com&lt;/ulink&gt;), a
+leading provider of computer training materials. Founded by
+instructors who grew dissatisfied with the industry's dry course
+materials, CustomGuide offers courseware (for instructors and
+students), quick references, to software bulletins and e-learning
+courses that are fun, flexible, and easy to use.
+&lt;/para&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1217"/>
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1067" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1218" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:419" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:sortableTitle xml:lang="en">windows xp personal trainer</om:sortableTitle>
+    
+    
+    
+    
+    <dc:subject rdf:resource="http://purl.oreilly.com/safari/categories/itbooks.opsys.winxp.basics" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:4050"/>
+    <om:byline xml:lang="en">By CustomGuide, Inc.</om:byline>
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Windows XP Personal Trainer</dc:title>
+    <dc:modified xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2009-11-25T02:05:09.672830+00:00</dc:modified>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:identifier rdf:resource="urn:isbn:9780596008628" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:identifier xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">http://purl.oreilly.com/identifiers/safari/fpi/0596008627</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-11-23</dc:issued>
+    <dc:format rdf:datatype="http://purl.org/dc/terms/IMT" xmlns:dc="http://purl.org/dc/terms/">text/html</dc:format>
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;The most widely used operating system in the world, XP is certainly the most reliable and best-looking version of Windows. But it comes with a baffling multitude of features and functionality that you'll struggle to understand--despite all of the hours you've logged with Windows 2000, Windows Me, 98 or 95. And if you're a beginner, where do you start?&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; enables beginners and experts alike to become black belts, quickly and easily. This fully illustrated book takes a modular approach to learning, allowing you to start with the fundamentals and work your way to advance topics through dozens of task-oriented lessons--at your own pace. The companion CD tutorial guides you through each lesson interactively.&lt;/p&gt;
+&lt;p&gt;With plenty of detailed diagrams, &lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; includes sections on:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Working with Windows
+&lt;/li&gt;&lt;li&gt;Using the programs included with Windows XP (such as Media Player)
+&lt;/li&gt;&lt;li&gt;Organizing files and folders
+&lt;/li&gt;&lt;li&gt;Modifying the taskbar and desktop
+&lt;/li&gt;&lt;li&gt;Customizing Windows XP
+&lt;/li&gt;&lt;li&gt;Optimizing and maintaining the operating system
+&lt;/li&gt;&lt;li&gt;Exploring the Internet
+&lt;/li&gt;&lt;li&gt;Networking with Windows XP&lt;/li&gt;&lt;/ul&gt;
+If you already have experience with Windows XP, you can dive right into those topics (and only those topics) that you need or want to learn. Unlike many consumer software tutorials that dumb down the material or present it in a confusing fashion, &lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; is written in a non-technical and engaging style that you will find fun, easy, and most of all, clear and informative. You can become proficient without wading through tons of jargon and technical information. 
+&lt;p&gt;Part of our new Personal Trainer Series, this book is based on content from CustomGuide (&lt;a href="http://www.customguide.com"&gt;www.customguide.com&lt;/a&gt;), a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, to software bulletins and e-learning courses that are fun, flexible, and easy to use. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1414"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    
+    <dc:isFormatOf rdf:resource="urn:x-domain:oreilly.com:product:9780596008628.IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/windows"/>
+    <om:primarySubject rdf:resource="http://www.bisg.org/standards/bisac_subject/COM046040"/>
+    <dc:publisher xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Safari Books Online</dc:publisher>
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    <om:asciiTitle xml:lang="en">Windows XP Personal Trainer</om:asciiTitle>
+    <om:price>
+      <om:Subscription rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:0596008627.SAF#price-subscription">
+        <om:subscribeAt rdf:resource="http://my.safaribooksonline.com/0596008627"/>
+      </om:Subscription>
+    </om:price>
+    
+    <dc:rights xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Access limited to subscribers</dc:rights>
+    <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-02-01T00:00:00</om:endNewStatus>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1215"/>
+    <om:primarySafariCategory rdf:resource="http://purl.oreilly.com/safari/categories/helpdesk.windows"/>
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-01T00:00:00</om:beginUpcomingStatus>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:0596008627.SAF">
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+      </trons:Result>
+    </trons:validation>
+    
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/oreilly_com"/>
+    <om:availableIn rdf:resource="http://purl.oreilly.com/channels/safari"/>
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    <om:editorTitle xml:lang="en">Windows XP Personal Trainer</om:editorTitle>
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    <om:customerTitle xml:lang="en">Windows XP Personal Trainer</om:customerTitle>
+    
+  </om:Product><om:Product rdf:about="urn:x-domain:oreilly.com:product:9780596008628.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    
+    
+    
+    
+    
+    
+    
+    
+    <om:productmanager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1217"/>
+    <dc:rightsHolder xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">O'Reilly Media, Inc.</dc:rightsHolder>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Collection" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/IP" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-11-23</dc:issued>
+    <mods:edition xml:lang="en" xmlns:mods="http://www.loc.gov/mods/">1</mods:edition>
+    
+    
+    
+    
+    <marcrel:BKD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <om:editionLabel xml:lang="en">1st Edition</om:editionLabel>
+    <om:division rdf:resource="http://purl.oreilly.com/divisions/COD"/>
+    
+    <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2013-05-15T22:03:08.146346+00:00</dc:modified>
+    
+    
+    <om:projectManager rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1061"/>
+    
+    <om:asciiTitle xml:lang="en">Windows XP Personal Trainer</om:asciiTitle>
+    
+    
+    
+    
+    <dc:created xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">2004-07-19</dc:created>
+    
+    <om:cover rdf:resource="http://oreilly.com/catalog/covers/0596008627_cat.gif"/>
+    
+    <dc:language xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">en-US</dc:language>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Description rdf:about="http://purl.oreilly.com/onix/keywords/windows%20xp%2C">
+        <dcam:memberOf rdf:resource="http://purl.oreilly.com/onix/keywords/" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <rdf:value xml:lang="en">windows xp,</rdf:value>
+      </rdf:Description>
+    </dc:subject>
+    
+    <dc:subject xmlns:dc="http://purl.org/dc/terms/">
+      
+    </dc:subject>
+    
+    
+    <dc:abstract rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;div&gt;&lt;p&gt;The most widely used operating system in the world, XP is certainly the most reliable and best-looking version of Windows. But it comes with a baffling multitude of features and functionality that you'll struggle to understand--despite all of the hours you've logged with Windows 2000, Windows Me, 98 or 95. And if you're a beginner, where do you start?&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; enables beginners and experts alike to become black belts, quickly and easily. This fully illustrated book takes a modular approach to learning, allowing you to start with the fundamentals and work your way to advance topics through dozens of task-oriented lessons--at your own pace. The companion CD tutorial guides you through each lesson interactively.&lt;/p&gt;
+&lt;p&gt;With plenty of detailed diagrams, &lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; includes sections on:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Working with Windows
+&lt;/li&gt;&lt;li&gt;Using the programs included with Windows XP (such as Media Player)
+&lt;/li&gt;&lt;li&gt;Organizing files and folders
+&lt;/li&gt;&lt;li&gt;Modifying the taskbar and desktop
+&lt;/li&gt;&lt;li&gt;Customizing Windows XP
+&lt;/li&gt;&lt;li&gt;Optimizing and maintaining the operating system
+&lt;/li&gt;&lt;li&gt;Exploring the Internet
+&lt;/li&gt;&lt;li&gt;Networking with Windows XP&lt;/li&gt;&lt;/ul&gt;
+If you already have experience with Windows XP, you can dive right into those topics (and only those topics) that you need or want to learn. Unlike many consumer software tutorials that dumb down the material or present it in a confusing fashion, &lt;i&gt;Windows XP Personal Trainer&lt;/i&gt; is written in a non-technical and engaging style that you will find fun, easy, and most of all, clear and informative. You can become proficient without wading through tons of jargon and technical information. 
+&lt;p&gt;Part of our new Personal Trainer Series, this book is based on content from CustomGuide (&lt;a href="http://www.customguide.com"&gt;www.customguide.com&lt;/a&gt;), a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, to software bulletins and e-learning courses that are fun, flexible, and easy to use. &lt;/p&gt;&lt;/div&gt;</dc:abstract>
+    <foaf:isPrimaryTopicOf xmlns:foaf="http://xmlns.com/foaf/0.1/">
+      <foaf:Document rdf:about="http://oreilly.com/catalog/9780596008628">
+        <om:beginUpcomingStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-06-01T00:00:00</om:beginUpcomingStatus>
+        <om:endNewStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-01T00:00:00</om:endNewStatus>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date" xmlns:dc="http://purl.org/dc/terms/">2004-09-01</dc:issued>
+      </foaf:Document>
+    </foaf:isPrimaryTopicOf>
+    <om:editorTitle xml:lang="en">Windows XP Personal Trainer</om:editorTitle>
+    
+    
+    
+    
+    
+    
+    <om:shelving rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;Windows Applications&lt;/p&gt;</om:shelving>
+    
+    <om:primarySubject rdf:resource="http://purl.oreilly.com/resource-center/windows"/>
+    <om:primarySubject>
+      <rdf:Description rdf:about="http://www.bisg.org/standards/bisac_subject/COM046040">
+        <dcam:memberOf rdf:resource="http://www.bisg.org/standards/bisac_subject" xmlns:dcam="http://purl.org/dc/dcam/"/>
+        <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">COMPUTERS / Operating Systems / Windows Workstation</dc:title>
+      </rdf:Description>
+    </om:primarySubject>
+    <om:indexer rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1215"/>
+    <om:displayableContributorList>
+      <rdf:Seq rdf:about="urn:x-domain:oreilly.com:product:9780596008628.IP#om_displayableContributorList">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1415"/>
+      </rdf:Seq>
+    </om:displayableContributorList>
+    <dc:creator xmlns:dc="http://purl.org/dc/terms/">
+      <rdf:Seq rdf:about="http://deli.oreilly.com/product/urn:x-domain:oreilly.com:product:9780596008628.IP#creator">
+        <rdf:_1 rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1415"/>
+      </rdf:Seq>
+    </dc:creator>
+    
+    <om:byline xml:lang="en">By CustomGuide, Inc.</om:byline>
+    
+    
+    <om:audience rdf:resource="http://purl.oreilly.com/audiences/"/>
+    
+    
+    
+    
+    
+    <dc:title xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">Windows XP Personal Trainer</dc:title>
+    <om:imprint_short_name xml:lang="en">ORM</om:imprint_short_name>
+    
+    
+    
+    
+    
+    
+    
+    
+    <dc:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" xmlns:dc="http://purl.org/dc/terms/">&lt;p&gt;Do you find the multitude of features and functionality in Windows XP a little baffling? This fully illustrated book focuses on the key Windows XP muscle groups to help you learn basics like working with programs, managing files and folders, customizing windows, optimizing and maintaining your computer and networking with Windows XP. It's written in a non-technical and engaging style that you will find fun, easy, clear and informative. Includes an interactive CD.&lt;/p&gt;</dc:description>
+    
+    <om:customerTitle xml:lang="en">Windows XP Personal Trainer</om:customerTitle>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/active" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    <trons:validAccordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial" xmlns:trons="http://purl.oreilly.com/ns/trons/"/>
+    
+    <marcrel:PBD rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1070" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596008536" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596009359" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596002602" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596008987" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596009373" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596006198" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596008550" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:relation rdf:resource="urn:isbn:9780596009366" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1218" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:contributor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1067" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    <marcrel:COV rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1222" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd41215f9346d322a5b4b625fefbfbd522f?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must set as Cancelled in the Product Database.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Product must NOT have been issued (published).</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/cancelled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbdefbfbd516323efbfbd57efbfbdefbfbd677718675ace8d?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have a printing status with the Oracle code Do Not Reprint or Out of Stock Indefinitely.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Only Books can go Out of Stock Indefinitely</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-stock-indefinitely"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd5641efbfbdefbfbdefbfbdefbfbd4b34cefbfbdefbfbdefbfbd66efbfbd?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">                  Product status must be set to one of "Publication Cancelled", "Distribution Cancelled" or "No Longer ORM Publication" in the Product Database.             </trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/discontinued"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/7954efbfbdefbfbd3a4fefbfbdefbfbd1eefbfbdefbfbd582e4b20?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/editorial"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/24efbfbd1662c9b970efbfbd42efbfbd1110efbfbd56a0?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Only Books, Non-distributable print books, DVDs, Videos,  CD Bookshelfs, PDFs, EBOOKs, EarlyReleaseEbook, AndroidApps, and iPhoneApps can go Out Of Print.</trons:becauseOf>
+        <trons:becauseOf xml:lang="en">Book, PrintBookNonDistributable, DVD, Video, CD Bookshelf, PDF, EBOOK, EarlyReleaseEbook, AndroidApp or iPhoneApp must be Out of Print.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/out-of-print"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/3e66eea48a2defbfbdefbfbd4defbfbd3c3275efbfbd65?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product Status must be Pending.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/stalled"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/583d25efbfbd713cefbfbd464befbfbde3c2b6959efbfbd?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</trons:isValid>
+        <trons:becauseOf xml:lang="en">Product must have at least one territory            price or be a subscription based product.</trons:becauseOf>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/publicly-visible"/>
+      </trons:Result>
+    </trons:validation>
+    <trons:validation xmlns:trons="http://purl.oreilly.com/ns/trons/">
+      <trons:Result rdf:about="http://soa.west.ora.com:8080/master-control-program/trons/efbfbd12efbfbd3251627cbefbfbd3845efbfbdefbfbdefbfbd4f?remote=urn:x-domain:oreilly.com:product:9780596008628.IP">
+        <trons:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</trons:isValid>
+        <trons:accordingTo rdf:resource="http://purl.oreilly.com/statuses/active"/>
+      </trons:Result>
+    </trons:validation>
+    
+    
+    
+    <om:inPracticeAreaID xml:lang="en">9</om:inPracticeAreaID>
+    <dc:identifier rdf:resource="urn:isbn:9780596008628" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+    
+    
+    <om:imprint xml:lang="en">O'Reilly Media</om:imprint>
+    <om:inPracticeAreaName xml:lang="en">None</om:inPracticeAreaName>
+    
+    
+    <om:sortableTitle xml:lang="en">windows xp personal trainer</om:sortableTitle>
+    
+    
+    <om:assteditor rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1414"/>
+    
+    
+    
+    <om:inPracticeArea rdf:resource="http://purl.oreilly.com/practice-area/None"/>
+    
+    
+    
+    <dc:extent xml:lang="en" xmlns:dc="http://purl.org/dc/terms/">480 pages</dc:extent>
+    
+    
+    
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:419" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    <marcrel:EDT rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1064" xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"/>
+    
+    
+    
+    <om:approvedToAnnounceBy xml:lang="en">backfill</om:approvedToAnnounceBy>
+    
+    
+    
+    
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:9780596008628.BOOK" xmlns:dc="http://purl.org/dc/terms/"/>
+    <dc:hasFormat rdf:resource="urn:x-domain:oreilly.com:product:0596008627.SAF" xmlns:dc="http://purl.org/dc/terms/"/>
+    
+    
+    
+  </om:Product><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1415/product-bio/urn:x-domain:oreilly.com:product:9780596008628.BOOK" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;CustomGuide, Inc. is a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, software bulletins and e-learning courses that are fun, flexible, and easy to use. They must be onto something, because CustomGuide has quickly become a leading provider of computer training materials. Although CustomGuide has grown, the founders continue to have the same vision, drive, and commitment.&lt;/p&gt;</om:bio>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;CustomGuide, Inc. is a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, software bulletins and e-learning courses that are fun, flexible, and easy to use. They must be onto something, because CustomGuide has quickly become a leading provider of computer training materials. Although CustomGuide has grown, the founders continue to have the same vision, drive, and commitment.&lt;/p&gt;</om:longBio>
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1415"/>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596008628.BOOK"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:17:20.775963+00:00</dc:modified>
+  </om:ProductBiography><om:ProductBiography rdf:about="http://people.oreilly.com/agent/urn:x-domain:oreilly.com:agent:pdb:1415/product-bio/urn:x-domain:oreilly.com:product:9780596008628.IP" xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">
+    <om:biographicalSubject rdf:resource="urn:x-domain:oreilly.com:agent:pdb:1415"/>
+    <om:longBio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;CustomGuide, Inc. is a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, software bulletins and e-learning courses that are fun, flexible, and easy to use. They must be onto something, because CustomGuide has quickly become a leading provider of computer training materials. Although CustomGuide has grown, the founders continue to have the same vision, drive, and commitment.&lt;/p&gt;</om:longBio>
+    <om:bio rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">&lt;p&gt;CustomGuide, Inc. is a leading provider of computer training materials. Founded by instructors who grew dissatisfied with the industry's dry course materials, CustomGuide offers courseware (for instructors and students), quick references, software bulletins and e-learning courses that are fun, flexible, and easy to use. They must be onto something, because CustomGuide has quickly become a leading provider of computer training materials. Although CustomGuide has grown, the founders continue to have the same vision, drive, and commitment.&lt;/p&gt;</om:bio>
+    <om:forProduct rdf:resource="urn:x-domain:oreilly.com:product:9780596008628.IP"/>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:17:21.558970+00:00</dc:modified>
+  </om:ProductBiography><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1215" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:surname xml:lang="en">Hoer</foaf:surname>
+    <foaf:givenname xml:lang="en">Judy</foaf:givenname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:16:05.525826+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Judy Hoer</om:legalName>
+    <foaf:name xml:lang="en">Judy Hoer</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1217" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:givenname xml:lang="en">Bill</foaf:givenname>
+    <foaf:surname xml:lang="en">Takacs</foaf:surname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Bill Takacs</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93bce8ea9f5ca5cf48380b2a6642ecd767a8c5fc</foaf:mbox_sha1sum>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:47:05.412303+00:00</dc:modified>
+    
+    
+    
+    
+    <foaf:name xml:lang="en">Bill Takacs</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1218" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Wang</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:41:21.151721+00:00</dc:modified>
+    
+    
+    <foaf:givenname xml:lang="en">Melanie</foaf:givenname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">584717a8e07e793e2907394a4965f529a1097164</foaf:mbox_sha1sum>
+    
+    
+    <foaf:name xml:lang="en">Melanie Wang</foaf:name>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Melanie Wang</om:legalName>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1222" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Emma Colby</om:legalName>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.411155+00:00</dc:modified>
+    <foaf:name xml:lang="en">Emma Colby</foaf:name>
+    <foaf:surname xml:lang="en">Colby</foaf:surname>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c197c214bb027f1d16d3d8183dc1248ace6beaea</foaf:mbox_sha1sum>
+    <foaf:givenname xml:lang="en">Emma</foaf:givenname>
+    
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:419" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Nathan Torkington</om:legalName>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f47f9adbb04a999df9b37351fcb15266a9cea029</foaf:mbox_sha1sum>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/149">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-24T22:26:51.459418+00:00</dc:modified>
+    <foaf:givenname xml:lang="en">Nathan</foaf:givenname>
+    <foaf:surname xml:lang="en">Torkington</foaf:surname>
+    <foaf:name xml:lang="en">Nathan Torkington</foaf:name>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1414" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">Michele Filshie</foaf:name>
+    <foaf:givenname xml:lang="en">Michele</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Filshie</foaf:surname>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:14:48.655788+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michele Filshie</om:legalName>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c405c9c0f47251ac1af12f6b7007e982b3bb8bcd</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1415" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:name xml:lang="en">CustomGuide, Inc.</foaf:name>
+    <foaf:homepage rdf:resource="http://www.customguide.com"/>
+    <foaf:homepage>
+      <foaf:Document rdf:about="http://www.oreillynet.com/pub/au/1977">
+        <dc:publisher rdf:resource="http://purl.oreilly.com/publishers/ORM" xmlns:dc="http://purl.org/dc/terms/"/>
+      </foaf:Document>
+    </foaf:homepage>
+    <foaf:surname xml:lang="en">Inc.</foaf:surname>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b8d138bb688cc9087d13fcab9f6577604e3d4769</foaf:mbox_sha1sum>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">CustomGuide, Inc.</om:legalName>
+    
+    
+    <foaf:givenname xml:lang="en">CustomGuide,</foaf:givenname>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-03-25T00:17:18.970010+00:00</dc:modified>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:4050" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <foaf:givenname xml:lang="en">Michael</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.394715+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Michael Hendrickson</om:legalName>
+    <foaf:name xml:lang="en">Michael Hendrickson</foaf:name>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1064" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    
+    <foaf:name xml:lang="en">Tatiana Apandi</foaf:name>
+    <foaf:surname xml:lang="en">Apandi</foaf:surname>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Tatiana Apandi</om:legalName>
+    
+    <foaf:givenname xml:lang="en">Tatiana</foaf:givenname>
+    
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:07:35.402330+00:00</dc:modified>
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111b18c0e8633e16ea6d382aff5ce95e13274964</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77593e9bde67e7bd413fa74628ac2ef0dfbf959f</foaf:mbox_sha1sum>
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1067" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <foaf:surname xml:lang="en">Futato</foaf:surname>
+    
+    <foaf:name xml:lang="en">David Futato</foaf:name>
+    
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:14:48.658125+00:00</dc:modified>
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0bc23d21223a81ac015e222a3c7f1b8b3d7fc60e</foaf:mbox_sha1sum>
+    
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">David Futato</om:legalName>
+    <foaf:givenname xml:lang="en">David</foaf:givenname>
+    
+  </foaf:Person><foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:1070" xml:lang="en" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" xmlns:dc="http://purl.org/dc/terms/">2010-07-06T17:08:59.401655+00:00</dc:modified>
+    <om:legalName xml:lang="en" xmlns:om="http://purl.oreilly.com/ns/meta/">Mike Hendrickson</om:legalName>
+    <foaf:givenname xml:lang="en">Mike</foaf:givenname>
+    
+    <foaf:surname xml:lang="en">Hendrickson</foaf:surname>
+    
+    <foaf:name xml:lang="en">Mike Hendrickson</foaf:name>
+    
+    
+    <foaf:mbox_sha1sum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">082a1ace7cc1e23bd6a65cef61670b2aa61a15a3</foaf:mbox_sha1sum>
+    
+  </foaf:Person></rdf:RDF>
