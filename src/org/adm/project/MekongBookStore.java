@@ -143,4 +143,8 @@ public class MekongBookStore {
 		}
 		return books;
 	}
+	
+	public static void printAuthor() {
+		System.out.println("Adani");
+	}
 }
