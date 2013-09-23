@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
+import org.adm.project.dao.BookDao;
 import org.adm.project.model.Book;
 import org.adm.project.rdf.BookProperty;
 import org.adm.project.rdf.BookSelector;
@@ -30,34 +31,19 @@ public class MekongBookStore {
 	public static final String OM_NS = "http://purl.oreilly.com/ns/meta/";
 
 	public static void main(String args[]) {
-		ArrayList<Book> books = readBooks();
 		MongoClient mongoClient = null;
 		try {
 			mongoClient = new MongoClient();
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
-
 		DB db = mongoClient.getDB("bookstore");
 		DBCollection bookCollection = db.getCollection("books");
-		for (Book book : books) {
-			BasicDBList authorList = new BasicDBList();
-			String[] authors = book.getAuthors();
-			if (authors == null) {
-				System.out.println(book.getIsbn());
-			} else {
-				for (String author : authors) {
-					authorList.add(author);	
-				}
-			}
-			BasicDBObject object = new BasicDBObject("isbn", book.getIsbn())
-									.append("title", book.getTitle())
-									.append("cover_url", book.getCoverUrl())
-									.append("authors", authorList)
-									.append("desc", book.getDescription())
-									.append("price", book.getPrice());
-			bookCollection.insert(object);
+
+		if (bookCollection.count() > 1) {
+			populateBooksColl(db);
 		}
+		
 	}
 
 	public static ArrayList<Book> readBooks() {
@@ -142,5 +128,14 @@ public class MekongBookStore {
 			}
 		}
 		return books;
+	}
+
+	public static void populateBooksColl(DB db) {
+		ArrayList<Book> books = readBooks();
+		BookDao bookController = new BookDao(db);
+		
+		for (Book book : books) {
+			bookController.insertBook(book, 100);
+		}
 	}
 }
