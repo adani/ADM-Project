@@ -13,16 +13,18 @@ import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JScrollBar;
 import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JTextPane;
+import javax.swing.JTextArea;
+import java.awt.FlowLayout;
+import javax.swing.BoxLayout;
+import java.awt.GridBagLayout;
 
 public class SearchResultFrame extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
 	private JLabel lblAuthor;
-	private JTextField textField_2;
 	private JLabel lblDescription;
-	private JTextField textField_3;
 	private JLabel lblPossibleRequiredBooks;
 
 	/**
@@ -51,83 +53,109 @@ public class SearchResultFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JLabel lblBookTitle = new JLabel("Book Title");
-		
-		textField = new JTextField();
-		textField.setColumns(10);
-		
-		JLabel lblIsbn = new JLabel("ISBN");
-		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		
-		lblAuthor = new JLabel("Author");
-		
-		textField_2 = new JTextField();
-		textField_2.setColumns(10);
-		
-		lblDescription = new JLabel("Description");
-		
-		textField_3 = new JTextField();
-		textField_3.setColumns(10);
-		
 		JScrollBar scrollBar = new JScrollBar();
 		
-		lblPossibleRequiredBooks = new JLabel("Possible Required Books ");
-		lblPossibleRequiredBooks.setFont(new Font("Times New Roman", Font.PLAIN, 13));
+		lblPossibleRequiredBooks = new JLabel("Recommended Books ");
+		lblPossibleRequiredBooks.setFont(new Font("Times New Roman", Font.PLAIN, 16));
+		
+		JPanel panel = new JPanel();
+		
+		JPanel panel_2 = new JPanel();
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_contentPane.createSequentialGroup()
-					.addContainerGap()
+					.addGap(10)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-						.addComponent(lblAuthor)
-						.addComponent(lblDescription)
-						.addComponent(lblBookTitle)
-						.addComponent(lblIsbn))
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-								.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-								.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 								.addGroup(gl_contentPane.createSequentialGroup()
-									.addGap(75)
-									.addComponent(lblPossibleRequiredBooks)))
-							.addPreferredGap(ComponentPlacement.RELATED, 137, Short.MAX_VALUE)
-							.addComponent(scrollBar, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-					.addContainerGap())
+									.addGap(135)
+									.addComponent(lblPossibleRequiredBooks))
+								.addGroup(gl_contentPane.createSequentialGroup()
+									.addGap(21)
+									.addComponent(panel_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+							.addGap(130)
+							.addComponent(scrollBar, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addComponent(panel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
 		);
 		gl_contentPane.setVerticalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
-				.addGroup(Alignment.TRAILING, gl_contentPane.createSequentialGroup()
-					.addContainerGap(26, Short.MAX_VALUE)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addGap(13)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addComponent(lblPossibleRequiredBooks)
-							.addGap(25)
-							.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblBookTitle)
-								.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblIsbn)
-								.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblAuthor)
-								.addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
-								.addComponent(lblDescription)
-								.addComponent(textField_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-							.addContainerGap(89, Short.MAX_VALUE))
-						.addGroup(Alignment.TRAILING, gl_contentPane.createSequentialGroup()
-							.addComponent(scrollBar, GroupLayout.PREFERRED_SIZE, 215, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap())))
+							.addGap(27)
+							.addComponent(panel_2, GroupLayout.PREFERRED_SIZE, 157, GroupLayout.PREFERRED_SIZE))
+						.addComponent(scrollBar, GroupLayout.PREFERRED_SIZE, 215, GroupLayout.PREFERRED_SIZE))
+					.addGap(122)
+					.addComponent(panel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 		);
+		
+		JLabel lblBookTitle = new JLabel("Book Title");
+		
+		JLabel lblThisIsBook = new JLabel("This is book");
+		
+		JLabel lblIsbn = new JLabel("Price");
+		
+		JLabel lblThisIsIsbn = new JLabel("This is price");
+		
+		lblAuthor = new JLabel("Author");
+		
+		JLabel lblThisIsAuthor = new JLabel("This is author");
+		
+		lblDescription = new JLabel("Description");
+		
+		JTextArea textArea = new JTextArea();
+		
+		JButton btnView = new JButton("View");
+		GroupLayout gl_panel_2 = new GroupLayout(panel_2);
+		gl_panel_2.setHorizontalGroup(
+			gl_panel_2.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel_2.createSequentialGroup()
+					.addGroup(gl_panel_2.createParallelGroup(Alignment.TRAILING, false)
+						.addGroup(Alignment.LEADING, gl_panel_2.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(textArea))
+						.addGroup(Alignment.LEADING, gl_panel_2.createSequentialGroup()
+							.addComponent(lblBookTitle)
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addComponent(lblThisIsBook)
+							.addPreferredGap(ComponentPlacement.UNRELATED)
+							.addComponent(lblIsbn)
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addComponent(lblThisIsIsbn)
+							.addGap(18)
+							.addComponent(lblAuthor)
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addComponent(lblThisIsAuthor))
+						.addComponent(lblDescription, Alignment.LEADING))
+					.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+					.addComponent(btnView)
+					.addContainerGap())
+		);
+		gl_panel_2.setVerticalGroup(
+			gl_panel_2.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_panel_2.createSequentialGroup()
+					.addGroup(gl_panel_2.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblBookTitle)
+						.addComponent(lblThisIsBook)
+						.addComponent(lblIsbn)
+						.addComponent(lblAuthor)
+						.addComponent(lblThisIsAuthor)
+						.addComponent(lblThisIsIsbn))
+					.addGap(18)
+					.addComponent(lblDescription)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 71, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(34, Short.MAX_VALUE))
+				.addGroup(Alignment.TRAILING, gl_panel_2.createSequentialGroup()
+					.addContainerGap(73, Short.MAX_VALUE)
+					.addComponent(btnView)
+					.addGap(61))
+		);
+		panel_2.setLayout(gl_panel_2);
 		contentPane.setLayout(gl_contentPane);
 	}
 }
