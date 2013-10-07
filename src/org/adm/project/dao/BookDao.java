@@ -40,25 +40,28 @@ public class BookDao {
 		
 		if (cursor.hasNext()) {
 			DBObject dbObject = cursor.next();
-			
-			Book book = new Book();
-			book.setCoverUrl((String)dbObject.get("cover_url"));
-			book.setIsbn(isbn);
-			book.setTitle((String)dbObject.get("title"));
-			book.setPrice((float)dbObject.get("price"));
-			book.setDescription((String)dbObject.get("desc"));
-			BasicDBList list = (BasicDBList) dbObject.get("authors");
-			String[] authors = new String[list.size()];
-			int index = 0;
-			for (Object author : list) {
-				authors[index] = (String) author;
-				index++;
-			}
-			book.setAuthors(authors);
-			return book;
+			return createBookFromDBObject(dbObject);
 		}
 		
 		return null;
+	}
+	
+	private Book createBookFromDBObject(DBObject dbObject) {
+		Book book = new Book();
+		book.setCoverUrl((String)dbObject.get("cover_url"));
+		book.setIsbn((String)dbObject.get("isbn"));
+		book.setTitle((String)dbObject.get("title"));
+		book.setPrice((float)dbObject.get("price"));
+		book.setDescription((String)dbObject.get("desc"));
+		BasicDBList list = (BasicDBList) dbObject.get("authors");
+		String[] authors = new String[list.size()];
+		int index = 0;
+		for (Object author : list) {
+			authors[index] = (String) author;
+			index++;
+		}
+		book.setAuthors(authors);
+		return book;
 	}
 	
 	public void insertBook(Book book, int stock) {
@@ -108,5 +111,18 @@ public class BookDao {
 			
 			stockCollection.save(stock);
 		}
+	}
+	
+	public Book[] getBooksTitleContains(String text) {
+		BasicDBObject titleContains = new BasicDBObject("title", "/" + text + "/");
+		DBCursor booksCursor = booksCollection.find(titleContains);
+		
+		Book[] books = new Book[booksCursor.count()];
+		int i = 0;
+		for (DBObject dbObject : booksCursor) {
+			books[i++] = createBookFromDBObject(dbObject);
+		}
+		
+		return books;
 	}
 }

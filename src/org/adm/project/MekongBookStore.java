@@ -12,6 +12,7 @@ import org.adm.project.rdf.BookProperty;
 import org.adm.project.rdf.BookSelector;
 import org.apache.jena.riot.RiotException;
 
+import com.hp.hpl.jena.graph.Node_URI;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
@@ -38,9 +39,8 @@ public class MekongBookStore {
 			e.printStackTrace();
 		}
 		DB db = mongoClient.getDB("bookstore");
-		DBCollection bookCollection = db.getCollection("books");
 
-		if (bookCollection.count() > 1) {
+		if (!db.collectionExists("books")) {
 			populateBooksColl(db);
 		}
 		
