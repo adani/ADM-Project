@@ -11,16 +11,24 @@ import javax.swing.GroupLayout.Alignment;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
+
 import java.awt.Color;
+
 import javax.swing.JButton;
+
 import com.jgoodies.forms.factories.DefaultComponentFactory;
+
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.ImageIcon;
 
-public class LoginFrame extends JFrame {
+public class LoginFrame extends JFrame implements ActionListener{
 
 	private JPanel contentPane;
 	private JTextField textField;
+	JButton btnLogin = new JButton("Login");
 
 	/**
 	 * Launch the application.
@@ -54,7 +62,8 @@ public class LoginFrame extends JFrame {
 		textField = new JTextField();
 		textField.setColumns(10);
 		
-		JButton btnLogin = new JButton("Login");
+		 btnLogin = new JButton("Login");
+		 btnLogin.addActionListener(this);
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setIcon(new ImageIcon("images/books.jpg"));
@@ -89,5 +98,14 @@ public class LoginFrame extends JFrame {
 					.addContainerGap(65, Short.MAX_VALUE))
 		);
 		contentPane.setLayout(gl_contentPane);
+		
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource().equals(btnLogin)){
+			SearchFrame frame = new SearchFrame();
+			frame.setVisible(true);
+		}
+		
 	}
 }
