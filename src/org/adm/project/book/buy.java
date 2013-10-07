@@ -15,7 +15,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class buy extends JFrame {
+public class buy extends JFrame implements ActionListener  {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -104,5 +104,12 @@ public class buy extends JFrame {
 					.addContainerGap(103, Short.MAX_VALUE))
 		);
 		contentPane.setLayout(gl_contentPane);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		
+		// TODO Auto-generated method stub
+		
 	}
 }
