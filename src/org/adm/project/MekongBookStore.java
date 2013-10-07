@@ -7,6 +7,7 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 
 import org.adm.project.dao.BookDao;
+import org.adm.project.gui.LoginFrame;
 import org.adm.project.model.Book;
 import org.adm.project.rdf.BookProperty;
 import org.adm.project.rdf.BookSelector;
@@ -44,7 +45,7 @@ public class MekongBookStore {
 			populateBooksColl(db);
 		}
 		
-		
+		new LoginFrame();
 	}
 
 	public static ArrayList<Book> readBooks() {

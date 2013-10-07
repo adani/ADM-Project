@@ -1,50 +1,27 @@
 package org.adm.project.gui;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.LayoutStyle.ComponentPlacement;
-
 import java.awt.Color;
-
-import javax.swing.JButton;
-
-import com.jgoodies.forms.factories.DefaultComponentFactory;
-
-import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.border.EmptyBorder;
+
+import org.adm.project.SessionData;
 
 public class LoginFrame extends JFrame implements ActionListener{
 
 	private JPanel contentPane;
 	private JTextField textField;
 	JButton btnLogin = new JButton("Login");
-
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					LoginFrame frame = new LoginFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	/**
 	 * Create the frame.
@@ -56,6 +33,7 @@ public class LoginFrame extends JFrame implements ActionListener{
 		contentPane.setBackground(Color.LIGHT_GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
+		setVisible(true);
 		
 		JLabel lblUserName = new JLabel("User Name");
 		
@@ -103,9 +81,18 @@ public class LoginFrame extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource().equals(btnLogin)){
-			SearchFrame frame = new SearchFrame();
-			frame.setVisible(true);
+			String userName = textField.getText();
+			if (doLogin(userName)) {
+				SearchFrame frame = new SearchFrame();
+				frame.setVisible(true);	
+			}
 		}
 		
+	}
+	
+	private boolean doLogin(String userName) {
+		boolean success = true;
+		SessionData.CURRENT_USER = userName;
+		return success;
 	}
 }

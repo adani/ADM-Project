@@ -1,26 +1,33 @@
 package org.adm.project.gui;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
-import javax.swing.JTextField;
-import javax.swing.JLabel;
-import javax.swing.JRadioButton;
-import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JButton;
-import java.awt.Font;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.border.EmptyBorder;
 
-public class SearchFrame extends JFrame {
+import org.adm.project.dao.BookDao;
+import org.adm.project.model.Book;
+
+public class SearchFrame extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
-
+	private JTextField titleField;
+	private JTextField isbnField;
+	private JRadioButton rdbtnTitle;
+	private JRadioButton rdbtnIsbn;
+	private BookDao dao;
+	
 	/**
 	 * Launch the application.
 	 */
@@ -50,17 +57,18 @@ public class SearchFrame extends JFrame {
 		JLabel lblSearchBy = new JLabel("Search By:");
 		lblSearchBy.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		
-		JRadioButton rdbtnTitle = new JRadioButton("Title");
+		rdbtnTitle = new JRadioButton("Title");
 		
-		textField = new JTextField();
-		textField.setColumns(10);
+		titleField = new JTextField();
+		titleField.setColumns(10);
 		
-		JRadioButton rdbtnIsbn = new JRadioButton("ISBN");
+		rdbtnIsbn = new JRadioButton("ISBN");
 		
 		JButton btnSearch = new JButton("Search");
+		btnSearch.addActionListener(this);
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
+		isbnField = new JTextField();
+		isbnField.setColumns(10);
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
@@ -72,11 +80,11 @@ public class SearchFrame extends JFrame {
 								.addGroup(gl_contentPane.createSequentialGroup()
 									.addComponent(rdbtnTitle)
 									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+									.addComponent(titleField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 									.addGap(43)
 									.addComponent(rdbtnIsbn)
 									.addPreferredGap(ComponentPlacement.UNRELATED)
-									.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+									.addComponent(isbnField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 								.addComponent(lblSearchBy)))
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addGap(136)
@@ -91,13 +99,26 @@ public class SearchFrame extends JFrame {
 					.addGap(18)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
 						.addComponent(rdbtnTitle)
-						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(titleField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addComponent(rdbtnIsbn)
-						.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addComponent(isbnField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 					.addGap(29)
 					.addComponent(btnSearch)
 					.addContainerGap(102, Short.MAX_VALUE))
 		);
 		contentPane.setLayout(gl_contentPane);
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		Book[] results;
+		if (rdbtnIsbn.isSelected()) {
+			Book result = dao.getBookByIsbn(isbnField.getText());
+			results = new Book[] {result};
+		} else {
+			results = dao.getBooksTitleContains(titleField.getText());
+		}
+		
+		
 	}
 }
