@@ -1,4 +1,4 @@
-package org.adm.project.book;
+package org.adm.project.gui;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -15,7 +15,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class buy extends JFrame implements ActionListener  {
+public class ViewBookFrame extends JFrame implements ActionListener  {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -30,7 +30,7 @@ public class buy extends JFrame implements ActionListener  {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					buy frame = new buy();
+					ViewBookFrame frame = new ViewBookFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -42,7 +42,7 @@ public class buy extends JFrame implements ActionListener  {
 	/**
 	 * Create the frame.
 	 */
-	public buy() {
+	public ViewBookFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

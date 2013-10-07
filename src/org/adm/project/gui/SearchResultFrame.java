@@ -1,4 +1,4 @@
-package org.adm.project.book;
+package org.adm.project.gui;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -14,7 +14,7 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JScrollBar;
 import java.awt.Font;
 
-public class view extends JFrame {
+public class SearchResultFrame extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -32,7 +32,7 @@ public class view extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					view frame = new view();
+					SearchResultFrame frame = new SearchResultFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -44,7 +44,7 @@ public class view extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public view() {
+	public SearchResultFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

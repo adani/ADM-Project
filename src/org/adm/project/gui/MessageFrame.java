@@ -1,4 +1,4 @@
-package org.adm.project.book;
+package org.adm.project.gui;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -16,7 +16,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class massege extends JFrame {
+public class MessageFrame extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -28,7 +28,7 @@ public class massege extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					massege frame = new massege();
+					MessageFrame frame = new MessageFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -40,7 +40,7 @@ public class massege extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public massege() {
+	public MessageFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

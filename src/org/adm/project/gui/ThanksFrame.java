@@ -1,4 +1,4 @@
-package org.adm.project.book;
+package org.adm.project.gui;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -12,7 +12,7 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JButton;
 
-public class thanks extends JFrame {
+public class ThanksFrame extends JFrame {
 
 	private JPanel contentPane;
 
@@ -23,7 +23,7 @@ public class thanks extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					thanks frame = new thanks();
+					ThanksFrame frame = new ThanksFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -35,7 +35,7 @@ public class thanks extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public thanks() {
+	public ThanksFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

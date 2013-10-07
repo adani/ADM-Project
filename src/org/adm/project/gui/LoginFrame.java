@@ -1,4 +1,4 @@
-package org.adm.project.book;
+package org.adm.project.gui;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -17,7 +17,7 @@ import com.jgoodies.forms.factories.DefaultComponentFactory;
 import java.awt.Font;
 import javax.swing.ImageIcon;
 
-public class login extends JFrame {
+public class LoginFrame extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -29,7 +29,7 @@ public class login extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					login frame = new login();
+					LoginFrame frame = new LoginFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -41,7 +41,7 @@ public class login extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public login() {
+	public LoginFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -57,7 +57,7 @@ public class login extends JFrame {
 		JButton btnLogin = new JButton("Login");
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(login.class.getResource("/bookstore/books.jpg")));
+		lblNewLabel.setIcon(new ImageIcon("images/books.jpg"));
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
