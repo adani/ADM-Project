@@ -40,7 +40,7 @@ public class MekongBookStore {
 			e.printStackTrace();
 		}
 		DB db = mongoClient.getDB("bookstore");
-
+		SessionData.ACTIVE_DB = db;
 		if (!db.collectionExists("books")) {
 			populateBooksColl(db);
 		}

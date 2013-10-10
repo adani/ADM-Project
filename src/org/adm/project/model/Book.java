@@ -3,7 +3,7 @@ package org.adm.project.model;
 public class Book {
 	private String title;
 	private String description;
-	private float price;
+	private double price;
 	private String isbn;
 	private String[] authors;
 	private String coverUrl;
@@ -24,11 +24,11 @@ public class Book {
 		this.description = description;
 	}
 
-	public float getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
-	public void setPrice(float price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 

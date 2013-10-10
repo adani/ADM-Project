@@ -16,6 +16,7 @@ import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
 
+import org.adm.project.SessionData;
 import org.adm.project.dao.BookDao;
 import org.adm.project.model.Book;
 
@@ -27,22 +28,6 @@ public class SearchFrame extends JFrame implements ActionListener {
 	private JRadioButton rdbtnTitle;
 	private JRadioButton rdbtnIsbn;
 	private BookDao dao;
-	
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					SearchFrame frame = new SearchFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	/**
 	 * Create the frame.
@@ -107,6 +92,7 @@ public class SearchFrame extends JFrame implements ActionListener {
 					.addContainerGap(102, Short.MAX_VALUE))
 		);
 		contentPane.setLayout(gl_contentPane);
+		dao = new BookDao(SessionData.ACTIVE_DB);
 	}
 	
 	@Override
@@ -119,6 +105,6 @@ public class SearchFrame extends JFrame implements ActionListener {
 			results = dao.getBooksTitleContains(titleField.getText());
 		}
 		
-		
+		new SearchResultFrame(results);
 	}
 }

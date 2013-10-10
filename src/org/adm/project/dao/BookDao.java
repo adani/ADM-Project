@@ -1,5 +1,7 @@
 package org.adm.project.dao;
 
+import java.util.regex.Pattern;
+
 import org.adm.project.model.Book;
 
 import com.mongodb.BasicDBList;
@@ -51,7 +53,7 @@ public class BookDao {
 		book.setCoverUrl((String)dbObject.get("cover_url"));
 		book.setIsbn((String)dbObject.get("isbn"));
 		book.setTitle((String)dbObject.get("title"));
-		book.setPrice((float)dbObject.get("price"));
+		book.setPrice((double)dbObject.get("price"));
 		book.setDescription((String)dbObject.get("desc"));
 		BasicDBList list = (BasicDBList) dbObject.get("authors");
 		String[] authors = new String[list.size()];
@@ -114,7 +116,7 @@ public class BookDao {
 	}
 	
 	public Book[] getBooksTitleContains(String text) {
-		BasicDBObject titleContains = new BasicDBObject("title", "/" + text + "/");
+		BasicDBObject titleContains = new BasicDBObject("title", Pattern.compile(text, Pattern.CASE_INSENSITIVE));
 		DBCursor booksCursor = booksCollection.find(titleContains);
 		
 		Book[] books = new Book[booksCursor.count()];
