@@ -9,9 +9,11 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JButton;
+
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -22,6 +24,7 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 	private JLabel lblPrice;
 	private JTextField textField_1;
 	private JButton btnCancel;
+	JButton btnBuyNow = new JButton("Buy Now");
 
 	/**
 	 * Launch the application.
@@ -54,7 +57,8 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 		textField = new JTextField();
 		textField.setColumns(10);
 		
-		JButton btnBuyNow = new JButton("Buy Now");
+		 btnBuyNow = new JButton("Buy Now");
+		 btnBuyNow.addActionListener(this);
 		btnBuyNow.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 			}
@@ -107,9 +111,15 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent arg0) {
+	public void actionPerformed(ActionEvent e) {
 		
-		// TODO Auto-generated method stub
+		if(e.getSource().equals(btnBuyNow)){
+			int n = 1;
+			JOptionPane.showConfirmDialog(this, "The number of books available is " + n, "Thank you", JOptionPane.YES_NO_OPTION);
+			
+			//MessageFrame frame = new MessageFrame();
+			//frame.setVisible(true);
+		}
 		
 	}
 }

@@ -112,12 +112,21 @@ public class SearchFrame extends JFrame implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		Book[] results;
-		if (rdbtnIsbn.isSelected()) {
-			Book result = dao.getBookByIsbn(isbnField.getText());
-			results = new Book[] {result};
-		} else {
-			results = dao.getBooksTitleContains(titleField.getText());
+		try {
+			if (rdbtnIsbn.isSelected()) {
+				Book result = dao.getBookByIsbn(isbnField.getText());
+				results = new Book[] {result};
+			} else {
+				results = dao.getBooksTitleContains(titleField.getText());
+			}
+		} catch (Exception e) {
+			
 		}
+			
+		SearchResultFrame f=new SearchResultFrame();
+		f.setVisible(true);
+		
+		
 		
 		
 	}
