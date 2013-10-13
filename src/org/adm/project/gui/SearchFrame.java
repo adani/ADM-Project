@@ -92,7 +92,7 @@ public class SearchFrame extends JFrame implements ActionListener {
 					.addContainerGap(102, Short.MAX_VALUE))
 		);
 		contentPane.setLayout(gl_contentPane);
-		dao = new BookDao(SessionData.ACTIVE_DB);
+		dao = new BookDao(SessionData.MONGO_DB);
 	}
 	
 	@Override

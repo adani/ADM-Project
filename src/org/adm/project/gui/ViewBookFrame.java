@@ -92,7 +92,7 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 				e.printStackTrace();
 			}	
 		}
-		final BookDao bookDao = new BookDao(SessionData.ACTIVE_DB);
+		final BookDao bookDao = new BookDao(SessionData.MONGO_DB);
 		stock = bookDao.getBookStock(book.getIsbn());
 		final JLabel stockLabel = new JLabel(stock + " in stock");
 		JButton buyButton = new JButton("Buy");
