@@ -45,6 +45,7 @@ public class MekongBookStore {
 		
 		GraphDatabaseService graphDB = new GraphDatabaseFactory().newEmbeddedDatabase("graphDB");
 		SessionData.GRAPH_DB = graphDB;
+		registerShutdownHook(graphDB);
 		
 		new LoginFrame();
 	}
