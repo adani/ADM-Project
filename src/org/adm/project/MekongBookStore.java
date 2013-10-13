@@ -12,8 +12,9 @@ import org.adm.project.model.Book;
 import org.adm.project.rdf.BookProperty;
 import org.adm.project.rdf.BookSelector;
 import org.apache.jena.riot.RiotException;
+import org.neo4j.graphdb.GraphDatabaseService;
+import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 
-import com.hp.hpl.jena.graph.Node_URI;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
@@ -21,10 +22,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
 import com.hp.hpl.jena.vocabulary.RDF;
-import com.mongodb.BasicDBList;
-import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
-import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
 
 public class MekongBookStore {
@@ -40,10 +38,14 @@ public class MekongBookStore {
 			e.printStackTrace();
 		}
 		DB db = mongoClient.getDB("bookstore");
-		SessionData.ACTIVE_DB = db;
+		SessionData.MONGO_DB = db;
 		if (!db.collectionExists("books")) {
 			populateBooksColl(db);
 		}
+		
+		GraphDatabaseService graphDB = new GraphDatabaseFactory().newEmbeddedDatabase("graphDB");
+		SessionData.GRAPH_DB = graphDB;
+		registerShutdownHook(graphDB);
 		
 		new LoginFrame();
 	}
@@ -139,5 +141,14 @@ public class MekongBookStore {
 		for (Book book : books) {
 			bookController.insertBook(book, 100);
 		}
+	}
+	
+	private static void registerShutdownHook(final GraphDatabaseService graphDB) {
+		Runtime.getRuntime().addShutdownHook(new Thread() {
+			@Override
+			public void run() {
+				graphDB.shutdown();
+			}
+		});
 	}
 }
