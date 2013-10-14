@@ -1,0 +1,216 @@
+diff a/src/org/adm/project/gui/ViewBookFrame.java b/src/org/adm/project/gui/ViewBookFrame.java	(rejected hunks)
+@@ -1,15 +1,21 @@
+ package org.adm.project.gui;
+ 
+ import java.awt.BorderLayout;
+-import java.awt.EventQueue;
++import java.awt.Component;
++import java.awt.Container;
++import java.awt.Dimension;
++import java.awt.event.ActionEvent;
++import java.awt.event.ActionListener;
++import java.net.MalformedURLException;
++import java.net.URL;
+ 
++import javax.swing.BoxLayout;
++import javax.swing.ImageIcon;
++import javax.swing.JButton;
+ import javax.swing.JFrame;
+-import javax.swing.JPanel;
+-import javax.swing.border.EmptyBorder;
+-import javax.swing.GroupLayout;
+-import javax.swing.GroupLayout.Alignment;
+ import javax.swing.JLabel;
+ import javax.swing.JOptionPane;
++<<<<<<< HEAD
+ import javax.swing.JTextField;
+ import javax.swing.LayoutStyle.ComponentPlacement;
+ import javax.swing.JButton;
+@@ -25,89 +31,114 @@
+ 	private JTextField textField_1;
+ 	private JButton btnCancel;
+ 	JButton btnBuyNow = new JButton("Buy Now");
++=======
++import javax.swing.JPanel;
++import javax.swing.JTextArea;
+ 
+-	/**
+-	 * Launch the application.
+-	 */
+-	public static void main(String[] args) {
+-		EventQueue.invokeLater(new Runnable() {
+-			public void run() {
+-				try {
+-					ViewBookFrame frame = new ViewBookFrame();
+-					frame.setVisible(true);
+-				} catch (Exception e) {
+-					e.printStackTrace();
+-				}
+-			}
+-		});
+-	}
++import org.adm.project.SessionData;
++import org.adm.project.dao.BookDao;
++import org.adm.project.model.Book;
++>>>>>>> 0e949a3ab01059fcd61b58f7021e5a6c12fae91c
+ 
++public class ViewBookFrame extends JFrame implements ActionListener  {
++
++	private int stock;
++	
+ 	/**
+ 	 * Create the frame.
+ 	 */
+-	public ViewBookFrame() {
++	public ViewBookFrame(final Book book) {
+ 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+-		setBounds(100, 100, 450, 300);
+-		contentPane = new JPanel();
+-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+-		setContentPane(contentPane);
++		Container contentPane = getContentPane();
++		contentPane.setLayout(new BorderLayout(10, 10));
++		JPanel attrPanel = new JPanel();
++		attrPanel.setLayout(new BoxLayout(attrPanel, BoxLayout.Y_AXIS));
++		JPanel valuePanel = new JPanel();
++		valuePanel.setLayout(new BoxLayout(valuePanel, BoxLayout.Y_AXIS));
++		JPanel rightPanel = new JPanel();
++		rightPanel.setLayout(new BoxLayout(rightPanel, BoxLayout.Y_AXIS));
++		contentPane.add(attrPanel, BorderLayout.WEST);
++		contentPane.add(valuePanel, BorderLayout.CENTER);
++		contentPane.add(rightPanel, BorderLayout.EAST);
+ 		
+-		JLabel lblBookTitle = new JLabel("Book Title");
++		JLabel titleLbl = new JLabel("Title");
++		JLabel isbnLbl = new JLabel("ISBN");
++		JLabel priceLbl = new JLabel("Price");
++		JLabel authorsLbl = new JLabel("Authors");
++		JLabel descLbl = new JLabel("Description");
+ 		
+-		textField = new JTextField();
+-		textField.setColumns(10);
++		attrPanel.add(titleLbl);
++		attrPanel.add(isbnLbl);
++		attrPanel.add(priceLbl);
++		attrPanel.add(authorsLbl);
++		attrPanel.add(descLbl);
+ 		
++<<<<<<< HEAD
+ 		 btnBuyNow = new JButton("Buy Now");
+ 		 btnBuyNow.addActionListener(this);
+ 		btnBuyNow.addActionListener(new ActionListener() {
+ 			public void actionPerformed(ActionEvent arg0) {
++=======
++		JLabel titleLbl2 = new JLabel(": " + book.getTitle());
++		titleLbl2.setAlignmentX(Component.LEFT_ALIGNMENT);
++		JLabel isbnLbl2 = new JLabel(": " + book.getIsbn());
++		isbnLbl2.setAlignmentX(Component.LEFT_ALIGNMENT);
++		JLabel priceLbl2 = new JLabel(": " + "USD " + book.getPrice());
++		priceLbl2.setAlignmentX(Component.LEFT_ALIGNMENT);
++		StringBuilder authors = new StringBuilder();
++		boolean first = true;
++		if (book.getAuthors() != null) {
++			for (String author : book.getAuthors()) {
++				if (!first) {
++					authors.append(", ");
++				}
++				authors.append(author);
++>>>>>>> 0e949a3ab01059fcd61b58f7021e5a6c12fae91c
+ 			}
+-		});
++		}
++		JLabel authorsLbl2 = new JLabel(": " + authors.toString());
++		authorsLbl2.setAlignmentX(Component.LEFT_ALIGNMENT);
++		JTextArea descArea = new JTextArea(book.getDescription());
++		descArea.setAlignmentX(Component.LEFT_ALIGNMENT);
++		descArea.setLineWrap(true);
+ 		
+-		lblPrice = new JLabel("Price");
++		valuePanel.add(titleLbl2);
++		valuePanel.add(isbnLbl2);
++		valuePanel.add(priceLbl2);
++		valuePanel.add(authorsLbl2);
++		valuePanel.add(descArea);
+ 		
+-		textField_1 = new JTextField();
+-		textField_1.setColumns(10);
++		JLabel coverImage = null;
++		if (book.getCoverUrl() != null) {
++			try {
++				coverImage = new JLabel(new ImageIcon(new URL(book.getCoverUrl())));
++			} catch (MalformedURLException e) {
++				// TODO Auto-generated catch block
++				e.printStackTrace();
++			}	
++		}
++		final BookDao bookDao = new BookDao(SessionData.ACTIVE_DB);
++		stock = bookDao.getBookStock(book.getIsbn());
++		final JLabel stockLabel = new JLabel(stock + " in stock");
++		JButton buyButton = new JButton("Buy");
++		buyButton.addActionListener(new ActionListener() {
++			
++			@Override
++			public void actionPerformed(ActionEvent e) {
++				int choice = JOptionPane.showConfirmDialog(ViewBookFrame.this, "Are you sure you want to buy this item?");
++				if (choice == JOptionPane.OK_OPTION) {
++					bookDao.setBookStock(book.getIsbn(), --stock);
++					stockLabel.setText(stock - 1 + " in stock");	
++				}
++			}
++		});
+ 		
+-		btnCancel = new JButton("Cancel");
+-		GroupLayout gl_contentPane = new GroupLayout(contentPane);
+-		gl_contentPane.setHorizontalGroup(
+-			gl_contentPane.createParallelGroup(Alignment.LEADING)
+-				.addGroup(gl_contentPane.createSequentialGroup()
+-					.addContainerGap()
+-					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
+-						.addComponent(lblBookTitle)
+-						.addComponent(lblPrice, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))
+-					.addGap(18)
+-					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
+-						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+-						.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+-					.addContainerGap(264, Short.MAX_VALUE))
+-				.addGroup(gl_contentPane.createSequentialGroup()
+-					.addContainerGap(232, Short.MAX_VALUE)
+-					.addComponent(btnBuyNow)
+-					.addPreferredGap(ComponentPlacement.UNRELATED)
+-					.addComponent(btnCancel)
+-					.addGap(18))
+-		);
+-		gl_contentPane.setVerticalGroup(
+-			gl_contentPane.createParallelGroup(Alignment.LEADING)
+-				.addGroup(gl_contentPane.createSequentialGroup()
+-					.addGap(52)
+-					.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
+-						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+-						.addComponent(lblBookTitle))
+-					.addGap(18)
+-					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+-						.addComponent(lblPrice)
+-						.addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+-					.addGap(16)
+-					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+-						.addComponent(btnBuyNow)
+-						.addComponent(btnCancel))
+-					.addContainerGap(103, Short.MAX_VALUE))
+-		);
+-		contentPane.setLayout(gl_contentPane);
++		rightPanel.add(coverImage);
++		rightPanel.add(stockLabel);
++		rightPanel.add(buyButton);
++		
++		setSize(new Dimension(800, 600));
++		setVisible(true);
+ 	}
+ 
+ 	@Override
+@@ -122,4 +153,5 @@
+ 		}
+ 		
+ 	}
+-}
++		}
++	

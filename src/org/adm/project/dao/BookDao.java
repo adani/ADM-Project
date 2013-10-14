@@ -147,7 +147,7 @@ public class BookDao {
 	public String[] getBestSellerIsbn(int limit) {
 		DBCursor stockCursor = stockCollection.find().sort(new BasicDBObject("num_of_stock", 1)).limit(limit);
 		
-		String[] isbns = new String[stockCursor.count()];
+		String[] isbns = new String[limit];
 		int i =0;
 		for (DBObject dbObject : stockCursor) {
 			isbns[i] = (String) dbObject.get("isbn");

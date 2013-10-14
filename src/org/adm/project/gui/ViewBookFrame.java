@@ -15,30 +15,16 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-import javax.swing.LayoutStyle.ComponentPlacement;
-import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 import org.adm.project.SessionData;
 import org.adm.project.dao.BookDao;
-import org.adm.project.dao.UserDao;
 import org.adm.project.model.Book;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
-public class ViewBookFrame extends JFrame  {
+public class ViewBookFrame extends JFrame {
 
-	private JPanel contentPane;
-	private JTextField textField;
-	private JLabel lblPrice;
-	private JTextField textField_1;
-	private JButton btnCancel;
-	JButton btnBuyNow = new JButton("Buy Now");
 	private int stock;
-	private UserDao userDao;
-	private BookDao bookDao;
 	
 	/**
 	 * Create the frame.
@@ -69,13 +55,6 @@ public class ViewBookFrame extends JFrame  {
 		attrPanel.add(authorsLbl);
 		attrPanel.add(descLbl);
 		
-		 btnBuyNow = new JButton("Buy Now");
-		 btnBuyNow.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-			}
-		}
-		
-
 		JLabel titleLbl2 = new JLabel(": " + book.getTitle());
 		titleLbl2.setAlignmentX(Component.LEFT_ALIGNMENT);
 		JLabel isbnLbl2 = new JLabel(": " + book.getIsbn());
@@ -90,6 +69,8 @@ public class ViewBookFrame extends JFrame  {
 					authors.append(", ");
 				}
 				authors.append(author);
+			}
+		}
 		JLabel authorsLbl2 = new JLabel(": " + authors.toString());
 		authorsLbl2.setAlignmentX(Component.LEFT_ALIGNMENT);
 		JTextArea descArea = new JTextArea(book.getDescription());
@@ -111,9 +92,7 @@ public class ViewBookFrame extends JFrame  {
 				e.printStackTrace();
 			}	
 		}
-		
-		userDao = new UserDao();
-		bookDao = new BookDao(SessionData.MONGO_DB);
+		final BookDao bookDao = new BookDao(SessionData.MONGO_DB);
 		stock = bookDao.getBookStock(book.getIsbn());
 		final JLabel stockLabel = new JLabel(stock + " in stock");
 		JButton buyButton = new JButton("Buy");
@@ -125,7 +104,6 @@ public class ViewBookFrame extends JFrame  {
 				if (choice == JOptionPane.OK_OPTION) {
 					bookDao.setBookStock(book.getIsbn(), --stock);
 					stockLabel.setText(stock - 1 + " in stock");	
-					userDao.assertUserBuyBook(SessionData.CURRENT_USER, book.getIsbn());
 				}
 			}
 		});

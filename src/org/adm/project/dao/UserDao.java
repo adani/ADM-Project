@@ -136,9 +136,9 @@ public class UserDao {
 		}
 		
 		//look at books other's buy (best seller)
-		String[] bestSellers = bookDao.getBestSellerIsbn(10);
+		String[] bestSellers = bookDao.getBestSellerIsbn(6);
 		recomBooks.addAll(Arrays.asList(bestSellers));
 		Collections.shuffle(recomBooks);
-		return recomBooks.subList(0, 9).toArray(new String[10]);
+		return recomBooks.subList(0, 6).toArray(new String[6]);
 	}
 }

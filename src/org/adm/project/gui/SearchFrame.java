@@ -1,12 +1,21 @@
 package org.adm.project.gui;
 
-import java.awt.EventQueue;
 import java.awt.Font;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 
+import javax.imageio.ImageIO;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -18,11 +27,8 @@ import javax.swing.border.EmptyBorder;
 
 import org.adm.project.SessionData;
 import org.adm.project.dao.BookDao;
+import org.adm.project.dao.UserDao;
 import org.adm.project.model.Book;
-
-import com.mongodb.DBCursor;
-import com.mongodb.DBObject;
-import java.awt.FlowLayout;
 
 public class SearchFrame extends JFrame implements ActionListener {
 
@@ -254,32 +260,68 @@ public class SearchFrame extends JFrame implements ActionListener {
 		panel_1.setLayout(gl_panel_1);
 		contentPane.setLayout(gl_contentPane);
 		dao = new BookDao(SessionData.MONGO_DB);
+		
+		JPanel[] picPanels = new JPanel[]{panel_1, panel_2, panel_3, panel_4, panel_5, panel_6};
+		JLabel[] titleLabels = new JLabel[]{lblTitle, lblTitle_1, lblTitle_2, lblTitle_3, lblTitle_4, lblTitle_5};
+		JLabel[] priceLabels = new JLabel[]{lblPrice, lblPrice_1, lblPrice_2, lblPrice_3, lblPrice_4, lblPrice_5};
+		
+		String[] recommmendedIsbn = new UserDao().recommendBooks(SessionData.CURRENT_USER);
+		int  i = 0;
+		for (String isbn : recommmendedIsbn) {
+			final Book recBook = dao.getBookByIsbn(isbn);
+			final MouseAdapter mouseAdapter = new MouseAdapter() {
+				@Override
+				public void mouseClicked(MouseEvent e) {
+					new ViewBookFrame(recBook);
+				}
+			};
+			
+			if (recBook.getCoverUrl() != null) {
+				final JPanel curPanel = picPanels[i];
+				new Thread() {
+					public void run() {
+						try {
+							BufferedImage bImage = ImageIO.read(new URL(recBook.getCoverUrl()));
+							ImageIcon icon = new ImageIcon(resize(bImage, 60, 90));
+							JLabel image = new JLabel(icon);
+							image.addMouseListener(mouseAdapter);
+							curPanel.add(image);
+						} catch (MalformedURLException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						} catch (IOException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+					};
+				}.start();
+			}
+			titleLabels[i].setText(recBook.getTitle());
+			titleLabels[i].addMouseListener(mouseAdapter);
+			priceLabels[i].setText("USD " + recBook.getPrice());
+			priceLabels[i].addMouseListener(mouseAdapter);
+			i++;
+		}
+	}
+	
+	public static BufferedImage resize(BufferedImage image, int width, int height) {
+	    BufferedImage bi = new BufferedImage(width, height, BufferedImage.TRANSLUCENT);
+	    Graphics2D g2d = (Graphics2D) bi.createGraphics();
+	    g2d.addRenderingHints(new RenderingHints(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY));
+	    g2d.drawImage(image, 0, 0, width, height, null);
+	    g2d.dispose();
+	    return bi;
 	}
 	
 	@Override
-	public  actionPerformed(ActionEvent arg0) {
+	public void actionPerformed(ActionEvent arg0) {
 		Book[] results;
-		try {
-			if (rdbtnIsbn.isSelected()) {
-				Book result = dao.getBookByIsbn(isbnField.getText());
-				results = new Book[] {result};
-				DBObject dbObject = cursor.next();
-				return createBookFromDBObject(dbObject);
-			} else {
-				results = dao.getBooksTitleContains(titleField.getText());
-				
-				
-				
-			}
-		} catch (Exception e) {
-			
+		if (rdbtnIsbn.isSelected()) {
+			Book result = dao.getBookByIsbn(textField.getText());
+			results = new Book[] {result};
+		} else {
+			results = dao.getBooksTitleContains(textField.getText());		
 		}
-			
-		SearchResultFrame f=new SearchResultFrame();
-		f.setVisible(true);
-		
-		
-		
 		new SearchResultFrame(results);
 	}
 }
