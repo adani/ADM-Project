@@ -1,161 +1,157 @@
 package org.adm.project.gui;
 
 import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.LayoutStyle.ComponentPlacement;
-import javax.swing.JScrollBar;
-import java.awt.Font;
-import javax.swing.JButton;
-import javax.swing.JTextPane;
-import javax.swing.JTextArea;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Graphics2D;
+import java.awt.GridLayout;
+import java.awt.RenderingHints;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.imageio.ImageIO;
+import javax.swing.BorderFactory;
+import javax.swing.Box;
 import javax.swing.BoxLayout;
-import java.awt.GridBagLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.SwingConstants;
+import javax.swing.border.Border;
+import javax.swing.border.TitledBorder;
+
+import org.adm.project.model.Book;
 
 public class SearchResultFrame extends JFrame {
-
-	private JPanel contentPane;
-	private JLabel lblAuthor;
-	private JLabel lblDescription;
-	private JLabel lblPossibleRequiredBooks;
-
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					SearchResultFrame frame = new SearchResultFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
+	
+	private Border lineBorder;
+	private Border panelEdge;
 	/**
 	 * Create the frame.
 	 */
-	public SearchResultFrame() {
+	public SearchResultFrame(Book[] books) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		setContentPane(contentPane);
+		Container contentPane = getContentPane();
+		JPanel scrolledPanel = new JPanel();
+		scrolledPanel.setLayout(new BoxLayout(scrolledPanel, BoxLayout.Y_AXIS));
+		JScrollPane scrollPane = new JScrollPane(scrolledPanel, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollPane.setPreferredSize(new Dimension(800, 600));
+		//scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		contentPane.add(scrollPane, BorderLayout.CENTER);
+		for (Book book : books) {
+			scrolledPanel.add(createEntryPanel(book));
+		}
+		setVisible(true);
+		panelEdge = BorderFactory.createEmptyBorder(10, 10, 10, 10);
+		lineBorder = BorderFactory.createLineBorder(Color.BLACK);
+		pack();
+	}
+	
+	public JPanel createEntryPanel(final Book book) {
+		JPanel container = new JPanel();
+		container.setPreferredSize(new Dimension(800, 100));
+		JPanel entryPanel = new JPanel();
+		Border titleBorder = BorderFactory.createTitledBorder(lineBorder, book.getTitle(), TitledBorder.CENTER, TitledBorder.DEFAULT_POSITION);
+		entryPanel.setBorder(titleBorder);
+		container.setBorder(panelEdge);
+		entryPanel.setLayout(new GridLayout(3, 1));
+		container.setLayout(new BoxLayout(container, BoxLayout.X_AXIS));
 		
-		JScrollBar scrollBar = new JScrollBar();
+
+		final JButton viewButton = new JButton();
+		container.add(viewButton);
+		Thread loadImage = new Thread() {
+			public void run() {
+
+				if (book.getCoverUrl() != null) {
+					try {
+						BufferedImage image = ImageIO.read(new URL(book.getCoverUrl()));
+						ImageIcon icon = new ImageIcon(resize(image, 60, 90));
+						viewButton.setIcon(icon);
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				}
+			};
+		};
+		loadImage.start();
 		
-		lblPossibleRequiredBooks = new JLabel("Recommended Books ");
-		lblPossibleRequiredBooks.setFont(new Font("Times New Roman", Font.PLAIN, 16));
+		viewButton.addActionListener(new ViewBookActionListener(book));
 		
-		JPanel panel = new JPanel();
+		container.add(entryPanel);
+		container.add(Box.createRigidArea(new Dimension(0, 10)));
 		
-		JPanel panel_2 = new JPanel();
-		GroupLayout gl_contentPane = new GroupLayout(contentPane);
-		gl_contentPane.setHorizontalGroup(
-			gl_contentPane.createParallelGroup(Alignment.LEADING)
-				.addGroup(gl_contentPane.createSequentialGroup()
-					.addGap(10)
-					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_contentPane.createSequentialGroup()
-							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-								.addGroup(gl_contentPane.createSequentialGroup()
-									.addGap(135)
-									.addComponent(lblPossibleRequiredBooks))
-								.addGroup(gl_contentPane.createSequentialGroup()
-									.addGap(21)
-									.addComponent(panel_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-							.addGap(130)
-							.addComponent(scrollBar, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-						.addComponent(panel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-		);
-		gl_contentPane.setVerticalGroup(
-			gl_contentPane.createParallelGroup(Alignment.LEADING)
-				.addGroup(gl_contentPane.createSequentialGroup()
-					.addGap(13)
-					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_contentPane.createSequentialGroup()
-							.addComponent(lblPossibleRequiredBooks)
-							.addGap(27)
-							.addComponent(panel_2, GroupLayout.PREFERRED_SIZE, 157, GroupLayout.PREFERRED_SIZE))
-						.addComponent(scrollBar, GroupLayout.PREFERRED_SIZE, 215, GroupLayout.PREFERRED_SIZE))
-					.addGap(122)
-					.addComponent(panel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-		);
+		JPanel authorPanel = new JPanel();
+		authorPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		JPanel additionalPanel = new JPanel();
+		additionalPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		JPanel descPanel = new JPanel();
+		descPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 		
-		JLabel lblBookTitle = new JLabel("Book Title");
+		entryPanel.add(authorPanel);
+		entryPanel.add(additionalPanel);
+		entryPanel.add(descPanel);
 		
-		JLabel lblThisIsBook = new JLabel("This is book");
+		JLabel lblAuthor = new JLabel("");
+		authorPanel.add(lblAuthor);
 		
-		JLabel lblIsbn = new JLabel("Price");
+		JLabel lblPrice = new JLabel("USD " + book.getPrice(), SwingConstants.LEFT);
+		lblPrice.setBackground(Color.RED);
+		lblPrice.setOpaque(true);
+		additionalPanel.setBackground(Color.BLUE);
+		additionalPanel.setOpaque(true);
+		additionalPanel.add(lblPrice);
+		additionalPanel.setAlignmentX(0);
 		
-		JLabel lblThisIsIsbn = new JLabel("This is price");
+		String[] authors = book.getAuthors();
+		if (authors != null && authors.length > 1) {
+			lblAuthor.setText(authors[0] + " et al.");
+		} else if (authors != null && authors.length == 1) {
+			lblAuthor.setText(authors[0]);
+		}
 		
-		lblAuthor = new JLabel("Author");
+		int subsLen = book.getDescription().length();
+		JLabel lblDescription = new JLabel("", SwingConstants.LEFT);
+		String description = new String(book.getDescription());
+		if (description.length() > 140) {
+			subsLen = 140;
+			lblDescription.setText(description.substring(0, subsLen) + "...");
+		} else {
+			lblDescription.setText(description.substring(0, subsLen));
+		}
+		descPanel.add(lblDescription);
 		
-		JLabel lblThisIsAuthor = new JLabel("This is author");
+		return container;
+	}
+	
+	public static BufferedImage resize(BufferedImage image, int width, int height) {
+	    BufferedImage bi = new BufferedImage(width, height, BufferedImage.TRANSLUCENT);
+	    Graphics2D g2d = (Graphics2D) bi.createGraphics();
+	    g2d.addRenderingHints(new RenderingHints(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY));
+	    g2d.drawImage(image, 0, 0, width, height, null);
+	    g2d.dispose();
+	    return bi;
+	}
+	
+	private class ViewBookActionListener implements ActionListener {
+		Book book;
 		
-		lblDescription = new JLabel("Description");
+		public ViewBookActionListener(Book book) {
+			this.book = book;
+		}
 		
-		JTextArea textArea = new JTextArea();
-		
-		JButton btnView = new JButton("View");
-		GroupLayout gl_panel_2 = new GroupLayout(panel_2);
-		gl_panel_2.setHorizontalGroup(
-			gl_panel_2.createParallelGroup(Alignment.LEADING)
-				.addGroup(gl_panel_2.createSequentialGroup()
-					.addGroup(gl_panel_2.createParallelGroup(Alignment.TRAILING, false)
-						.addGroup(Alignment.LEADING, gl_panel_2.createSequentialGroup()
-							.addContainerGap()
-							.addComponent(textArea))
-						.addGroup(Alignment.LEADING, gl_panel_2.createSequentialGroup()
-							.addComponent(lblBookTitle)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(lblThisIsBook)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(lblIsbn)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(lblThisIsIsbn)
-							.addGap(18)
-							.addComponent(lblAuthor)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(lblThisIsAuthor))
-						.addComponent(lblDescription, Alignment.LEADING))
-					.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-					.addComponent(btnView)
-					.addContainerGap())
-		);
-		gl_panel_2.setVerticalGroup(
-			gl_panel_2.createParallelGroup(Alignment.LEADING)
-				.addGroup(gl_panel_2.createSequentialGroup()
-					.addGroup(gl_panel_2.createParallelGroup(Alignment.BASELINE)
-						.addComponent(lblBookTitle)
-						.addComponent(lblThisIsBook)
-						.addComponent(lblIsbn)
-						.addComponent(lblAuthor)
-						.addComponent(lblThisIsAuthor)
-						.addComponent(lblThisIsIsbn))
-					.addGap(18)
-					.addComponent(lblDescription)
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addComponent(textArea, GroupLayout.PREFERRED_SIZE, 71, GroupLayout.PREFERRED_SIZE)
-					.addContainerGap(34, Short.MAX_VALUE))
-				.addGroup(Alignment.TRAILING, gl_panel_2.createSequentialGroup()
-					.addContainerGap(73, Short.MAX_VALUE)
-					.addComponent(btnView)
-					.addGap(61))
-		);
-		panel_2.setLayout(gl_panel_2);
-		contentPane.setLayout(gl_contentPane);
+		@Override
+		public void actionPerformed(ActionEvent arg0) {
+			new ViewBookFrame(book);
+		}
 	}
 }
