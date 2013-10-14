@@ -127,4 +127,32 @@ public class BookDao {
 		
 		return books;
 	}
+	
+	public Book[] getBooksAuthoredBy(String author) {
+		BasicDBList authors = new BasicDBList();
+		authors.add(author);
+		BasicDBObject bookWithAuthor = new BasicDBObject("authors",
+				new BasicDBObject("$all", authors));
+		DBCursor booksCursor = booksCollection.find(bookWithAuthor);
+		
+		Book[] books = new Book[booksCursor.count()];
+		int i = 0;
+		for (DBObject dbObject : booksCursor) {
+			books[i++] = createBookFromDBObject(dbObject);
+		}
+		
+		return books;
+	}
+	
+	public String[] getBestSellerIsbn(int limit) {
+		DBCursor stockCursor = stockCollection.find().sort(new BasicDBObject("num_of_stock", 1)).limit(limit);
+		
+		String[] isbns = new String[stockCursor.count()];
+		int i =0;
+		for (DBObject dbObject : stockCursor) {
+			isbns[i] = (String) dbObject.get("isbn");
+			i++;
+		}
+		return isbns;
+	}
 }

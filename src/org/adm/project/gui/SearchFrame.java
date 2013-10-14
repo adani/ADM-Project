@@ -253,7 +253,7 @@ public class SearchFrame extends JFrame implements ActionListener {
 		);
 		panel_1.setLayout(gl_panel_1);
 		contentPane.setLayout(gl_contentPane);
-		dao = new BookDao(SessionData.ACTIVE_DB);
+		dao = new BookDao(SessionData.MONGO_DB);
 	}
 	
 	@Override
