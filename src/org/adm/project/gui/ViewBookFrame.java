@@ -20,11 +20,14 @@ import javax.swing.JTextArea;
 
 import org.adm.project.SessionData;
 import org.adm.project.dao.BookDao;
+import org.adm.project.dao.UserDao;
 import org.adm.project.model.Book;
 
-public class ViewBookFrame extends JFrame implements ActionListener  {
+public class ViewBookFrame extends JFrame {
 
 	private int stock;
+	private UserDao userDao;
+	private BookDao bookDao;
 	
 	/**
 	 * Create the frame.
@@ -92,7 +95,9 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 				e.printStackTrace();
 			}	
 		}
-		final BookDao bookDao = new BookDao(SessionData.MONGO_DB);
+		
+		userDao = new UserDao();
+		bookDao = new BookDao(SessionData.MONGO_DB);
 		stock = bookDao.getBookStock(book.getIsbn());
 		final JLabel stockLabel = new JLabel(stock + " in stock");
 		JButton buyButton = new JButton("Buy");
@@ -104,6 +109,7 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 				if (choice == JOptionPane.OK_OPTION) {
 					bookDao.setBookStock(book.getIsbn(), --stock);
 					stockLabel.setText(stock - 1 + " in stock");	
+					userDao.assertUserBuyBook(SessionData.CURRENT_USER, book.getIsbn());
 				}
 			}
 		});
@@ -114,12 +120,5 @@ public class ViewBookFrame extends JFrame implements ActionListener  {
 		
 		setSize(new Dimension(800, 600));
 		setVisible(true);
-	}
-
-	@Override
-	public void actionPerformed(ActionEvent arg0) {
-		
-		// TODO Auto-generated method stub
-		
 	}
 }

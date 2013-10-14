@@ -16,12 +16,14 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
 
 import org.adm.project.SessionData;
+import org.adm.project.dao.UserDao;
 
 public class LoginFrame extends JFrame implements ActionListener{
 
 	private JPanel contentPane;
 	private JTextField textField;
 	JButton btnLogin = new JButton("Login");
+	private UserDao userDao;
 
 	/**
 	 * Create the frame.
@@ -77,6 +79,7 @@ public class LoginFrame extends JFrame implements ActionListener{
 		);
 		contentPane.setLayout(gl_contentPane);
 		
+		userDao = new UserDao();
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -93,6 +96,7 @@ public class LoginFrame extends JFrame implements ActionListener{
 	private boolean doLogin(String userName) {
 		boolean success = true;
 		SessionData.CURRENT_USER = userName;
+		userDao.addNewUser(userName);
 		return success;
 	}
 }

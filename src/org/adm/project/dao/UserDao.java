@@ -81,7 +81,7 @@ public class UserDao {
 		}
 	}
 	
-	public boolean addNewBook(String isbn) {
+	private boolean addNewBook(String isbn) {
 		boolean success = false;
 		if (getBookNode(isbn) == null) {
 			Transaction trans = graphDb.beginTx();
@@ -98,7 +98,7 @@ public class UserDao {
 		return success;
 	}
 	
-	public Node getBookNode(String isbn) {
+	private Node getBookNode(String isbn) {
 		return bookIndex.get(ISBN_KEY, isbn).getSingle();
 	}
 	
