@@ -12,7 +12,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.imageio.ImageIO;
@@ -105,10 +104,6 @@ public class SearchResultFrame extends JFrame {
 		authorPanel.add(lblAuthor);
 		
 		JLabel lblPrice = new JLabel("USD " + book.getPrice(), SwingConstants.LEFT);
-		lblPrice.setBackground(Color.RED);
-		lblPrice.setOpaque(true);
-		additionalPanel.setBackground(Color.BLUE);
-		additionalPanel.setOpaque(true);
 		additionalPanel.add(lblPrice);
 		additionalPanel.setAlignmentX(0);
 		
